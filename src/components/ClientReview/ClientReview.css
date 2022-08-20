@@ -1,0 +1,19 @@
+.circleImg {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+  border: 1px solid #3d405b;
+  border-radius: 50%;
+}
+
+.clientTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.clientPara {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}

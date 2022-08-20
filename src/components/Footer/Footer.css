@@ -1,0 +1,81 @@
+.footerSection {
+  margin-top: 5rem;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.4);
+}
+
+.footerTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.footerTextAlign {
+  text-align: left;
+}
+
+.socialLink {
+  text-decoration: none;
+  color: #595959;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.socialLink:hover {
+  text-decoration: none;
+  color: #000;
+  transition: 1s;
+}
+
+.socialFont {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.socialFontFacebook {
+  font-size: 18px;
+  margin-right: 5px;
+  color: rgb(66, 103, 178);
+}
+
+.socialFontYoutube {
+  font-size: 18px;
+  margin-right: 5px;
+  color: red;
+}
+
+.socialFontTwitter {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #00acee;
+}
+
+.socialFontTwitter {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #00acee;
+}
+.socialFontPhone {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #016773;
+}
+
+.copyrightSection {
+  padding: 20px;
+  background-color: #3d405b;
+}
+
+.copyrightText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyrightText:hover {
+  color: #b3b3b3;
+  transition: 0.5s;
+}
