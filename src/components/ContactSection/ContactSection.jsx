@@ -1,0 +1,69 @@
+import React, { Component } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { MdEmail } from "react-icons/md";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { AiFillHome } from "react-icons/ai";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import "./ContactSection.css";
+
+class ContactSection extends Component {
+  render() {
+    return (
+      <>
+        <Container className="mt-5">
+          <Row>
+            <Col sm={12} md={6} lg={6}>
+              <h1 className="footerTitle">Quick connect</h1>
+              <Form>
+                <Form.Group className="mb-3">
+                  <Form.Label className="contactFormHeader">Name</Form.Label>
+                  <Form.Control className="formControl" type="text" />
+                </Form.Group>
+
+                <Form.Group className="mb-3">
+                  <Form.Label className="contactFormHeader">Email </Form.Label>
+                  <Form.Control className="formControl" type="email" />
+                </Form.Group>
+
+                <Form.Group className="mb-3">
+                  <Form.Label className="contactFormHeader">Message</Form.Label>
+                  <Form.Control
+                    className="formControl"
+                    as="textarea"
+                    rows="5"
+                  />
+                </Form.Group>
+
+                <Button
+                  variant="primary"
+                  className="contactFormBtn"
+                  type="submit"
+                >
+                  Submit
+                </Button>
+              </Form>
+            </Col>
+
+            <Col sm={12} md={6} lg={6} className="rightContact">
+              <h1 className="footerTitle">Discuss Now</h1>
+
+              <AiFillHome className="socialFontPhone" />
+              <a className="socialLink"> Khan monjil, khilkhet,dhaka-1229</a>
+              <br />
+
+              <MdEmail className="socialFontPhone" />
+              <a className="socialLink">shifaturnovel@gmail.com</a>
+              <br />
+
+              <BsFillTelephoneFill className="socialFontPhone" />
+              <a className="socialLink"> 01921601608</a>
+            </Col>
+          </Row>
+        </Container>
+      </>
+    );
+  }
+}
+
+export default ContactSection;

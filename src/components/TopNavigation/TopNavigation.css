@@ -41,6 +41,13 @@
   color: #eaf4f4 !important;
 }
 
+/* .navItem:hover {
+  color: #eaf4f4;
+} */
+/* .active-link {
+  color: greenyellow ;
+} */
+
 .navItemScroll {
   text-decoration: none !important;
   font-family: "Montserrat", sans-serif;

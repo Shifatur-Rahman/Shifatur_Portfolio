@@ -16,7 +16,7 @@ class Services extends Component {
                   src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png"
                 />
                 <Card.Body className="text-center">
-                  <h2 className="servicesCardTitle">Web Development</h2>
+                  <h2 className="servicesCardTitle">Web Design</h2>
                   <p className="servicesCardPara">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -31,7 +31,7 @@ class Services extends Component {
                   src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png"
                 />
                 <Card.Body className="text-center">
-                  <h2 className="servicesCardTitle">Web Development</h2>
+                  <h2 className="servicesCardTitle">Coding</h2>
                   <p className="servicesCardPara">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -46,7 +46,7 @@ class Services extends Component {
                   src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png"
                 />
                 <Card.Body className="text-center">
-                  <h2 className="servicesCardTitle">Web Development</h2>
+                  <h2 className="servicesCardTitle">Clean Code</h2>
                   <p className="servicesCardPara">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.

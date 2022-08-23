@@ -45,15 +45,16 @@ class ClientReview extends Component {
     };
     return (
       <>
-        <Container className="text-center">
-          <h1 className="mainTitle"> Client Review</h1>
+        <Container fluid="true" className=" text-center">
+          <h1 className="mainTitle"> Client Review </h1>
           <Slider {...settings}>
-            <div className="clientCard">
+            <div>
               <Row className="text-center justify-content-center">
                 <Col sm={12} md={6} lg={6}>
                   <img
                     className="circleImg"
                     src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_167585366_20001372200092800_78813.jpg"
+                    alt="client_img"
                   />
                   <h1 className="clientTitle">Web Development</h1>
                   <p className="clientPara">
@@ -71,6 +72,7 @@ class ClientReview extends Component {
                   <img
                     className="circleImg"
                     src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_167585366_20001372200092800_78813.jpg"
+                    alt="client_img"
                   />
                   <h1 className="clientTitle">Web Development</h1>
                   <p className="clientPara">
@@ -88,6 +90,7 @@ class ClientReview extends Component {
                   <img
                     className="circleImg"
                     src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_167585366_20001372200092800_78813.jpg"
+                    alt="client_img"
                   />
                   <h1 className="clientTitle">Web Development</h1>
                   <p className="clientPara">

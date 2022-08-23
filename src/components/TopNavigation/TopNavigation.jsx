@@ -2,44 +2,17 @@ import React, { Component } from "react";
 import "./TopNavigation.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link, NavLink } from "react-router-dom";
 
 class TopNavigation extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     navTitle: "navbarTitle",
-  //     nav: "navigation",
-  //     navLi: "navList",
-  //   };
-  // }
-
-  // onScroll = () => {
-  //   if (window.scrollY > 100) {
-  //     this.setState({
-  //       navTitle: "navbarTitleScroll",
-  //       nav: "navigationScroll",
-  //       navLi: "navListScroll",
-  //     });
-  //   } else if (window.scrollY < 100) {
-  //     this.setState({
-  //       navTitle: "navbarTitle",
-  //       nav: "navigation",
-  //       navLi: "navList",
-  //     });
-  //   }
-  // };
-
-  // componentDidMount() {
-  //   window.addEventListener("scroll", this.onScroll);
-  // }
-
-  constructor() {
+  constructor(props) {
     super();
     this.state = {
       navTitle: "navbarTitle",
       navBackgroundColor: "navigation",
       navbarItem: "navItem",
       navVariant: "dark",
+      pageTitle: props.title,
     };
   }
 
@@ -68,6 +41,7 @@ class TopNavigation extends Component {
   render() {
     return (
       <>
+        <title>{this.state.pageTitle}</title>
         <Navbar
           className={this.state.navBackgroundColor}
           fixed="top"
@@ -82,53 +56,61 @@ class TopNavigation extends Component {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link className={this.state.navbarItem} href="#deets">
-                Home
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "red" }}
+                  className={this.state.navbarItem}
+                  to="/"
+                >
+                  {" "}
+                  Home
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={this.state.navbarItem} href="#deets">
-                Services
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "red" }}
+                  className={this.state.navbarItem}
+                  to="/services"
+                >
+                  Services
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={this.state.navbarItem} href="#deets">
-                Projects
+
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "red" }}
+                  className={this.state.navbarItem}
+                  to="/portfolio"
+                >
+                  Portfolio
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={this.state.navbarItem} href="#deets">
-                Portfolio
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "red" }}
+                  className={this.state.navbarItem}
+                  to="/contact"
+                >
+                  Contact
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={this.state.navbarItem} href="#deets">
-                Contact
-              </Nav.Link>
-              <Nav.Link className={this.state.navbarItem} href="#deets">
-                About
+              <Nav.Link>
+                <NavLink
+                  exact
+                  className={this.state.navbarItem}
+                  to="/about"
+                  activeStyle={{ color: "#000" }}
+                >
+                  About
+                </NavLink>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        {/* <Navbar fixed="top" className={this.state.nav} variant="dark">
-          <Container fluid={true}>
-            <Navbar.Brand href="#home" className={this.state.navTitle}>
-              S.R. Novel
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-
-            <Nav className="ml-auto">
-              <Nav.Link className={this.state.navLi} href="#">
-                Home
-              </Nav.Link>
-              <Nav.Link className={this.state.navLi} href="#">
-                Services
-              </Nav.Link>
-              <Nav.Link className={this.state.navLi} href="#">
-                Portfolio
-              </Nav.Link>
-              <Nav.Link className={this.state.navLi} href="#">
-                Contact
-              </Nav.Link>
-              <Nav.Link className={this.state.navLi} href="#">
-                About
-              </Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar> */}
       </>
     );
   }
