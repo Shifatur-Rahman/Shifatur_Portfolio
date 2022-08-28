@@ -11,17 +11,17 @@
 }
 
 .contactFormBtn {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  background-color: red;
+  background-color: #2f3e46;
   border: none;
 }
 
 .contactFormBtn:hover {
-  background-color: red;
-  box-shadow: none;
+  background-color: #2f3e46;
+  box-shadow: none !important;
 }
 
 .rightContact {

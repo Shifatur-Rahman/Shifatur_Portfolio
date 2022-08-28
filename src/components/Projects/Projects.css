@@ -26,8 +26,38 @@
 
 .projectCardBtn {
   background-color: #3d405b;
-  border: none;
+  font-size: 16px;
+  border: none !important;
 }
+
 .projectCardBtn:hover {
-  background-color: #3d405b;
+  background-color: #3d405b !important;
+  border: none !important;
+}
+.projectCardBtn:focus {
+  background-color: #3d405b !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 1000px) {
+  .projectCard {
+    margin-bottom: 1rem;
+  }
+  .projectCardTitle {
+    font-size: 18px;
+  }
+
+  .projectCardText {
+    font-size: 14px;
+  }
+
+  .projectCardBtn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectCard {
+    margin-bottom: 2rem;
+  }
 }

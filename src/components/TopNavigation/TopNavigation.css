@@ -76,3 +76,19 @@
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {
+  .navItem {
+    font-size: 14px;
+  }
+  .navItemScroll {
+    font-size: 14px;
+  }
+
+  .navbarTitle {
+    font-size: 25px;
+  }
+  .navbarTitleScroll {
+    font-size: 25px;
+  }
+}

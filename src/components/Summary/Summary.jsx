@@ -23,8 +23,11 @@ class Summary extends Component {
                           offset={{ bottom: 0 }}
                         >
                           {({ isVisible }) => (
-                            <div style={{ height: 40 }}>
-                              {isVisible ? <CountUp end={200} /> : null}
+                            <div
+                              className="chartsCountUp"
+                              style={{ height: 40 }}
+                            >
+                              {isVisible ? <CountUp end={20} /> : null}
                             </div>
                           )}
                         </VisibilitySensor>
@@ -41,8 +44,11 @@ class Summary extends Component {
                           offset={{ bottom: 0 }}
                         >
                           {({ isVisible }) => (
-                            <div style={{ height: 40 }}>
-                              {isVisible ? <CountUp end={100} /> : null}
+                            <div
+                              className="chartsCountUp"
+                              style={{ height: 40 }}
+                            >
+                              {isVisible ? <CountUp end={10} /> : null}
                             </div>
                           )}
                         </VisibilitySensor>

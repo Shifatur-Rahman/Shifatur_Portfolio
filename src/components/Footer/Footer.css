@@ -79,3 +79,17 @@
   color: #b3b3b3;
   transition: 0.5s;
 }
+
+@media (max-width: 768px) {
+  .footerTitle {
+    font-size: 18px;
+  }
+
+  .socialLink {
+    font-size: 14px;
+  }
+
+  .copyrightText {
+    font-size: 14px;
+  }
+}

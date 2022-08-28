@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "./Footer.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { BsFacebook } from "react-icons/bs";
 import { BsYoutube, BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
+import "./Footer.css";
 
 class Footer extends Component {
   render() {

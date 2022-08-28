@@ -38,3 +38,15 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 25px;
+  }
+  .servicesCardTitle {
+    font-size: 18px;
+  }
+  .servicesCardPara {
+    font-size: 14px;
+  }
+}

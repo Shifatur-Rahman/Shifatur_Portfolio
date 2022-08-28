@@ -75,6 +75,9 @@
   padding: 10px;
   border-radius: 5px;
 }
+.chartsCountUp {
+  font-size: 28px;
+}
 
 @media (max-width: 768px) {
   .SummarySection {
@@ -83,5 +86,14 @@
 
   .summaryOverlay {
     height: 600px;
+  }
+  .chartsCountUp {
+    font-size: 22px;
+  }
+  .summaryTitle {
+    font-size: 22px;
+  }
+  .summaryCardText {
+    font-size: 14px;
   }
 }

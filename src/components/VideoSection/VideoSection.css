@@ -8,7 +8,8 @@
 .videoTitle {
   font-family: "Raleway", sans-serif;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .videoPara {
@@ -44,4 +45,14 @@
 .modalInfo:hover {
   background-color: #3d405b;
   border: none;
+}
+
+@media (max-width: 768px) {
+  .videoTitle {
+    font-size: 25px;
+  }
+
+  .videoPara {
+    font-size: 14px;
+  }
 }

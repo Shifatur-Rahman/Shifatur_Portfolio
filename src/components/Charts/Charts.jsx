@@ -24,21 +24,21 @@ class Charts extends Component {
           total: 80,
         },
         {
-          name: "Javscript",
+          name: "JS",
           total: 70,
         },
         {
-          name: "React.js",
+          name: "REACT",
           total: 70,
         },
 
         {
-          name: "Material UI",
-          total: 80,
+          name: "ES6",
+          total: 70,
         },
         {
-          name: "C",
-          total: 60,
+          name: "XML",
+          total: 80,
         },
         {
           name: "C++",

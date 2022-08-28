@@ -41,10 +41,7 @@ class Services extends Component {
             </Col>
             <Col lg={4} md={6} sm={12}>
               <Card className="serviceCard">
-                <Card.Img
-                  variant="top"
-                  src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png"
-                />
+                <Card.Img variant="top" src="../../asset/images/code.jpg" />
                 <Card.Body className="text-center">
                   <h2 className="servicesCardTitle">Clean Code</h2>
                   <p className="servicesCardPara">
