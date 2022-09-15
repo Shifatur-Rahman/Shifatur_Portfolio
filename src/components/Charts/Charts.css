@@ -10,4 +10,7 @@
   .chartPara {
     font-size: 14px;
   }
+  .barChart {
+    margin-left: 0;
+  }
 }

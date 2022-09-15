@@ -17,3 +17,40 @@
   font-size: 15px;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .clientTitle {
+    font-size: 18px;
+  }
+  .clientPara {
+    font-size: 14px;
+  }
+  .circleImg {
+    width: 80px;
+    height: 80px;
+    margin: 0px auto;
+    border: 1px solid #3d405b;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .slider {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .slider {
+    width: 180px;
+    margin: auto;
+  }
+}

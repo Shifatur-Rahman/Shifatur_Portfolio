@@ -3,6 +3,10 @@
   box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.4);
 }
 
+a {
+  text-decoration: none;
+}
+
 .footerTitle {
   font-family: "Raleway", sans-serif;
   font-size: 22px;
@@ -81,6 +85,9 @@
 }
 
 @media (max-width: 768px) {
+  .footerTextAlign {
+    text-align: center;
+  }
   .footerTitle {
     font-size: 18px;
   }

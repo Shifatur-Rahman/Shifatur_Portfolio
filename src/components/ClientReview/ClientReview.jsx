@@ -39,16 +39,18 @@ class ClientReview extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            initialSlide: 1,
           },
         },
       ],
     };
+
     return (
       <>
-        <Container fluid="true" className=" text-center">
+        <Container className=" text-center">
           <h1 className="mainTitle"> Client Review </h1>
-          <Slider {...settings}>
-            <div>
+          <Slider className="slider" {...settings}>
+            <div className="clientCard">
               <Row className="text-center justify-content-center">
                 <Col sm={12} md={6} lg={6}>
                   <img

@@ -18,3 +18,12 @@
 .AboutMeHr {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 780px) {
+  .AboutPageTitle {
+    font-size: 22px;
+  }
+  .AboutPageDescription {
+    font-size: 14px;
+  }
+}

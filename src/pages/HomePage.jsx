@@ -8,11 +8,16 @@ import Projects from "../components/Projects/Projects";
 import VideoSection from "../components/VideoSection/VideoSection";
 import ClientReview from "../components/ClientReview/ClientReview";
 import Footer from "../components/Footer/Footer";
+import { motion } from "framer-motion";
 
 class HomePage extends Component {
   render() {
     return (
-      <>
+      <motion.div
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+        exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
+      >
         <TopNavigation title="Shifatur Rahman" />
         <TopBanner />
         <Services />
@@ -20,9 +25,9 @@ class HomePage extends Component {
         <Summary />
         <Projects />
         <VideoSection />
-        {/* <ClientReview /> */}
+        <ClientReview />
         <Footer />
-      </>
+      </motion.div>
     );
   }
 }

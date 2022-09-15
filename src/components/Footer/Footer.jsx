@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
 import "./Footer.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -16,19 +17,31 @@ class Footer extends Component {
             <Col sm={12} md={6} lg={3} className="p-5 footerTextAlign">
               <h1 className="footerTitle">Follow me</h1>
               <BsFacebook className="socialFontFacebook" />
-              <a className="socialLink" href="#">
+              <a
+                className="socialLink"
+                href="https://www.facebook.com/sehim.cse/"
+                target="_blank"
+              >
                 Facebook
               </a>
               <br />
 
               <BsTwitter className="socialFontTwitter" />
-              <a className="socialLink" href="#">
+              <a
+                className="socialLink"
+                href="https://twitter.com/SifaturNovel"
+                target="_blank"
+              >
                 Twitter
               </a>
               <br />
 
               <BsYoutube className="socialFontYoutube" />
-              <a className="socialLink" href="#">
+              <a
+                className="socialLink"
+                href="https://www.youtube.com/channel/UCkmAx8qp3AZAgdxE8h9YfVA"
+                target="_blank"
+              >
                 YouTube
               </a>
             </Col>
@@ -49,17 +62,26 @@ class Footer extends Component {
             <Col sm={12} md={6} lg={3} className="p-5 footerTextAlign">
               <h1 className="footerTitle">Information</h1>
 
-              <a href="#" className="socialLink">
-                About Me
-              </a>
+              {/* <Link to="/about">
+          <Button>My custom button</Button>
+        </Link> */}
+              <Link to="/about">
+                <a href="#" className="socialLink">
+                  About Me
+                </a>
+              </Link>
               <br />
-              <a href="#" className="socialLink">
-                My Resume
-              </a>
+              <Link to="/about">
+                <a href="#" className="socialLink">
+                  My Resume
+                </a>
+              </Link>
               <br />
-              <a href="#" className="socialLink">
-                Contact Me
-              </a>
+              <Link to="/about">
+                <a href="#" className="socialLink">
+                  Contact Me
+                </a>
+              </Link>
             </Col>
             <Col sm={12} md={6} lg={3} className="p-5 footerTextAlign">
               <h1 className="footerTitle">Legal</h1>
@@ -71,6 +93,7 @@ class Footer extends Component {
                 Terms and condition
               </a>
               <br />
+
               <a href="#" className="socialLink">
                 Privacy policy
               </a>

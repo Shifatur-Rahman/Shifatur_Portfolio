@@ -3,6 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "./AllProject.css";
+import project1 from "../../asset/images/project1.jpg";
+import project2 from "../../asset/images/project2.jpg";
+import project3 from "../../asset/images/project3.jpg";
+import project4 from "../../asset/images/project4.jpg";
 
 class AllProject extends Component {
   render() {
@@ -10,146 +14,128 @@ class AllProject extends Component {
       <>
         <Container className="text-center">
           <Row className="allProjectMargin">
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={4}>
               <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
+                <Card.Img variant="top" src={project1} />
                 <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
+                  <h2 className="projectCardTitle">Github API</h2>
 
                   <p className="projectCardText">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <Button className="projectCardBtn">Details</Button>
+                  <a
+                    href="https://github-fetch-api.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button className="projectCardBtn">Details</Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={4}>
               <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
+                <Card.Img variant="top" src={project2} />
                 <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
+                  <h2 className="projectCardTitle">Restaurent Website</h2>
                   <p className="projectCardText">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <Button className="projectCardBtn">Details</Button>
+                  <a
+                    href="https://task-manager-app.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button className="projectCardBtn">Details</Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={4}>
               <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
+                <Card.Img variant="top" src={project3} />
                 <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
+                  <h2 className="projectCardTitle">Loan Calculator</h2>
                   <p className="projectCardText">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <Button className="projectCardBtn">Details</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm={12} md={6} lg={3}>
-              <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
-                <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
-                  <p className="projectCardText">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <Button className="projectCardBtn">Details</Button>
+                  <a
+                    href="https://bank-loan-calculator.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button className="projectCardBtn">Details</Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
 
           <Row>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={4}>
               <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
+                <Card.Img variant="top" src={project4} />
                 <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
+                  <h2 className="projectCardTitle">Github API</h2>
 
                   <p className="projectCardText">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <Button className="projectCardBtn">Details</Button>
+                  <a
+                    href="https://github-fetch-api.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button className="projectCardBtn">Details</Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={4}>
               <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
+                <Card.Img variant="top" src={project2} />
                 <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
+                  <h2 className="projectCardTitle">Restaurent Website</h2>
                   <p className="projectCardText">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <Button className="projectCardBtn">Details</Button>
+                  <a
+                    href="https://task-manager-app.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button className="projectCardBtn">Details</Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={4}>
               <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
+                <Card.Img variant="top" src={project3} />
                 <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
+                  <h2 className="projectCardTitle">Loan Calculator</h2>
                   <p className="projectCardText">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <Button className="projectCardBtn">Details</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm={12} md={6} lg={3}>
-              <Card className="projectCard">
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
-                />
-                <Card.Body>
-                  <h2 className="projectCardTitle">Card title</h2>
-                  <p className="projectCardText">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <Button className="projectCardBtn">Details</Button>
+                  <a
+                    href="https://bank-loan-calculator.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button className="projectCardBtn">Details</Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>

@@ -28,12 +28,12 @@ class Charts extends Component {
           total: 70,
         },
         {
-          name: "REACT",
+          name: "ES6",
           total: 70,
         },
 
         {
-          name: "ES6",
+          name: "REACT",
           total: 70,
         },
         {
@@ -54,8 +54,8 @@ class Charts extends Component {
           <h1 className="mainTitle">Technology used</h1>
           <Row>
             <Col style={{ height: "300px" }} lg={6} md={12} sm={12}>
-              <ResponsiveContainer>
-                <BarChart width={100} height={200} data={this.state.data}>
+              <ResponsiveContainer className="barChart">
+                <BarChart data={this.state.data}>
                   <XAxis dataKey="name" />
                   <Tooltip />
                   <YAxis />

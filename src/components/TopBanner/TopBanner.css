@@ -6,6 +6,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .topBannerOverlay {
@@ -15,16 +18,19 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-.topContent {
-  /* background-color: red; */
+/* .topContent {
+  background-color: red;
   width: 700px;
   height: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
 
+} */
+.topContent {
+  margin-top: 25rem;
+}
 .topBannerTitle {
   font-family: "Oswald", sans-serif;
   font-weight: 800;
@@ -55,7 +61,47 @@
   background-color: #dad7cd;
   color: #2f3e46;
 }
-@media (max-width: 1000px) {
+/* landscape topContent */
+@media (orientation: landscape) {
+  @media (max-width: 1024px) {
+    .topContent {
+      margin-top: 15rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .topContent {
+      margin-top: 8rem;
+    }
+  }
+  @media (max-width: 667px) {
+    .topContent {
+      margin-top: 6rem;
+    }
+  }
+}
+/* Portrait topContent */
+@media (orientation: portrait) {
+  @media (max-width: 768px) {
+    .topContent {
+      margin-top: 22rem;
+    }
+  }
+
+  @media (max-width: 414px) {
+    .topContent {
+      margin-top: 15rem;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .topContent {
+      margin-top: 15rem;
+    }
+  }
+}
+/* Media Query */
+@media (max-width: 1024px) {
   .topBannerTitle {
     font-weight: 600;
     font-size: 40px;

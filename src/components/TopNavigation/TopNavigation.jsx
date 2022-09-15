@@ -49,62 +49,39 @@ class TopNavigation extends Component {
           expand="lg"
           variant={this.state.navVariant}
         >
-          <Navbar.Brand className={this.state.navTitle} href="#home">
-            S.R. Novel
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand className={this.state.navTitle} href="#home">
+              S.R. Novel
+            </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link>
-                <NavLink
-                  exact
-                  activeStyle={{ color: "red" }}
-                  className={this.state.navbarItem}
-                  to="/"
-                >
+                <NavLink className={this.state.navbarItem} to="/">
                   {" "}
                   Home
                 </NavLink>
               </Nav.Link>
               <Nav.Link>
-                <NavLink
-                  exact
-                  activeStyle={{ color: "red" }}
-                  className={this.state.navbarItem}
-                  to="/services"
-                >
+                <NavLink className={this.state.navbarItem} to="/services">
                   Services
                 </NavLink>
               </Nav.Link>
 
               <Nav.Link>
-                <NavLink
-                  exact
-                  activeStyle={{ color: "red" }}
-                  className={this.state.navbarItem}
-                  to="/portfolio"
-                >
+                <NavLink className={this.state.navbarItem} to="/portfolio">
                   Portfolio
                 </NavLink>
               </Nav.Link>
               <Nav.Link>
-                <NavLink
-                  exact
-                  activeStyle={{ color: "red" }}
-                  className={this.state.navbarItem}
-                  to="/contact"
-                >
+                <NavLink className={this.state.navbarItem} to="/contact">
                   Contact
                 </NavLink>
               </Nav.Link>
               <Nav.Link>
-                <NavLink
-                  exact
-                  className={this.state.navbarItem}
-                  to="/about"
-                  activeStyle={{ color: "#000" }}
-                >
+                <NavLink className={this.state.navbarItem} to="/about">
                   About
                 </NavLink>
               </Nav.Link>

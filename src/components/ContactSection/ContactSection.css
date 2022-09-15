@@ -27,3 +27,9 @@
 .rightContact {
   padding: 0 0 0 5rem;
 }
+
+@media (max-width: 768px) {
+  .rightContact {
+    margin-top: 2rem;
+  }
+}
