@@ -65,6 +65,7 @@ const ContactSection = () => {
               >
                 Submit
               </Button>
+              
             </Form>
           </Col>
 
@@ -72,15 +73,15 @@ const ContactSection = () => {
             <h1 className="footerTitle">Discuss Now</h1>
 
             <AiFillHome className="socialFontPhone" />
-            <a className="socialLink"> Khan monjil, khilkhet,dhaka-1229</a>
+            <a className="socialLink"> House #39, Lake Drive Road, Nikunja-1</a>
             <br />
 
             <MdEmail className="socialFontPhone" />
-            <a className="socialLink">shifaturnovel@gmail.com</a>
+            <a className="socialLink">info@talukder-group.com.bd</a>
             <br />
 
             <BsFillTelephoneFill className="socialFontPhone" />
-            <a className="socialLink"> 01921601608</a>
+            <a className="socialLink"> +88-01966-333355</a>
           </Col>
         </Row>
       </Container>

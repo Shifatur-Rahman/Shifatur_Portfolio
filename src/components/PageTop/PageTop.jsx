@@ -8,9 +8,9 @@ class PageTop extends Component {
       <>
         <Container fluid={true} className="topFixedPage p-0">
           <div className="topPageOverlay">
-            <Container className="text-center">
+            <Container>
               <Row>
-                <Col className="pageContent">
+                <Col className="pageContent text-center">
                   <h3 className="topPageSubTitle">{this.props.pageTitle}</h3>
                 </Col>
               </Row>

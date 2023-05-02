@@ -17,7 +17,7 @@ const VideoSection = () => {
       <Container className="text-center">
         <Row>
           <Col className="videoCard">
-            <h2 className="videoTitle">How i do</h2>
+            <h2 className="videoTitle">How We do</h2>
             <p className="videoPara">
               A vision statement describes where the company aspires to be upon
               achieving its mission. This statement reveals the where of
@@ -59,4 +59,3 @@ const VideoSection = () => {
 };
 
 export default VideoSection;
-// export default VideoSection;

@@ -6,11 +6,12 @@ import coding from "../../asset/images/code.jpg";
 import web_design from "../../asset/images/web_design.jpeg";
 import clean_code from "../../asset/images/clean_code.jpeg";
 class Services extends Component {
+  
   render() {
     return (
       <div>
         <Container>
-          <h2 className="mainTitle">My Services</h2>
+          <h2 className="mainTitle">Product and Services</h2>
           <Row>
             <Col lg={4} md={6} sm={12}>
               <Card className="serviceCard">

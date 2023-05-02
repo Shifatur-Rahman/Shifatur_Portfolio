@@ -1,5 +1,5 @@
 .topFixedBanner {
-  background-image: url(../../asset/images/topBanner.jpg);
+  background-image: url(../../asset/images/slider.jpg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -11,6 +11,26 @@
   align-items: center;
 }
 
+/* .topFixedBanner {
+  background-image: url(../../asset/images/slider.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .topBannerOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+} */
+
 .topBannerOverlay {
   position: absolute;
   width: 100%;
@@ -18,35 +38,32 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* .topContent {
-  background-color: red;
-  width: 700px;
-  height: 400px;
+.topContent {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-} */
-.topContent {
-  margin-top: 25rem;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
 }
+
 .topBannerTitle {
   font-family: "Oswald", sans-serif;
   font-weight: 800;
   font-size: 45px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6;
 }
 
 .topBannerSubTitle {
   font-family: "Oswald", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 600;
   font-size: 35px;
   color: #fff;
   margin: 1.5rem 0;
+  text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6;
 }
 
 .topBannerBtn {
@@ -57,50 +74,12 @@
   font-size: 20px;
   border-radius: none;
 }
+
 .topBannerBtn:hover {
   background-color: #dad7cd;
   color: #2f3e46;
 }
-/* landscape topContent */
-@media (orientation: landscape) {
-  @media (max-width: 1024px) {
-    .topContent {
-      margin-top: 15rem;
-    }
-  }
 
-  @media (max-width: 768px) {
-    .topContent {
-      margin-top: 8rem;
-    }
-  }
-  @media (max-width: 667px) {
-    .topContent {
-      margin-top: 6rem;
-    }
-  }
-}
-/* Portrait topContent */
-@media (orientation: portrait) {
-  @media (max-width: 768px) {
-    .topContent {
-      margin-top: 22rem;
-    }
-  }
-
-  @media (max-width: 414px) {
-    .topContent {
-      margin-top: 15rem;
-    }
-  }
-
-  @media (max-width: 375px) {
-    .topContent {
-      margin-top: 15rem;
-    }
-  }
-}
-/* Media Query */
 @media (max-width: 1024px) {
   .topBannerTitle {
     font-weight: 600;
@@ -110,6 +89,9 @@
   .topBannerSubTitle {
     font-weight: 500;
     font-size: 30px;
+  }
+  .topBannerBtn {
+    font-size: 18px;
   }
 }
 
@@ -122,5 +104,23 @@
   .topBannerSubTitle {
     font-weight: 400;
     font-size: 20px;
+  }
+  .topBannerBtn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 481px) {
+  .topBannerTitle {
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .topBannerSubTitle {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .topBannerBtn {
+    font-size: 12px;
   }
 }

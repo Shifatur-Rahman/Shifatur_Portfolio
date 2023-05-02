@@ -1,33 +1,32 @@
 import React, { Component } from "react";
 import TopNavigation from "../components/TopNavigation/TopNavigation";
 import TopBanner from "../components/TopBanner/TopBanner";
-import Services from "../components/Services/Services";
-import Charts from "../components/Charts/Charts";
 import Summary from "../components/Summary/Summary";
-import Projects from "../components/Projects/Projects";
-import VideoSection from "../components/VideoSection/VideoSection";
-import ClientReview from "../components/ClientReview/ClientReview";
 import Footer from "../components/Footer/Footer";
-import { motion } from "framer-motion";
+import { animateScroll } from "react-scroll";
+import KnowUs from "../components/KnowUs/KnowUs";
+import Slider from "../components/Slider/Slider";
+import NewsAndEvents from "../components/NewsAndEvents/NewsAndEvents";
 
 class HomePage extends Component {
+  componentDidMount() {
+    animateScroll.scrollToTop({
+      duration: 500,
+      smooth: "easeInOutQuart",
+    });
+  }
+
   render() {
     return (
-      <motion.div
-        initial={{ width: 0 }}
-        animate={{ width: "100%" }}
-        exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
-      >
-        <TopNavigation title="Shifatur Rahman" />
-        <TopBanner />
-        <Services />
-        <Charts />
+      <>
+        <TopNavigation title="Talukder Group" />
+        {/* <TopBanner /> */}
+        <Slider />
+        <KnowUs />
         <Summary />
-        <Projects />
-        <VideoSection />
-        <ClientReview />
+        <NewsAndEvents />
         <Footer />
-      </motion.div>
+      </>
     );
   }
 }

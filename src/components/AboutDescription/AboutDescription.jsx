@@ -9,51 +9,59 @@ class AboutDescription extends Component {
         <Container>
           <Row className="AboutMeMargin">
             <Col sm={12} md={12} lg={12}>
-              <h1 className="AboutPageTitle">Who i am</h1>
+              <h1 className="AboutPageTitle">Who we are</h1>
               <p className="AboutPageDescription">
-                Here's one way to write a first-person bio: “I’m a freelance
-                writer specializing in small business content. I’ve worked with
-                companies in a variety of industries, from home care services to
-                fine leather goods.” By speaking in the first person here, you
-                take a more personable approach to connecting with a client or
-                brand.
+              Talukder Group of Industries had started its journey since July, 1973. Founder chairman Mr. 
+Nurul Islam Talukder established Talukder foundry Ltd (TFL) with a vision of large-scale
+Industrialization. Now Talukder Group is a successful brand name as well as a flagship 
+corporate name in corporate world with great achievement with the dedicated service to all 
+her stakeholders and partners. Under the leadership of Managing Director Mr. Samsul Arafin
+Talukder Group of Industries becomes the largest partner of LGED, JICA and PEDP in 
+furnishing Primary Schools all over the Country.
               </p>
               <hr className="AboutMeHr" />
 
-              <h1 className="AboutPageTitle">My Mission</h1>
+              <h1 className="AboutPageTitle">Our Mission</h1>
               <p className="AboutPageDescription">
-                Here's one way to write a first-person bio: “I’m a freelance
-                writer specializing in small business content. I’ve worked with
-                companies in a variety of industries, from home care services to
-                fine leather goods.” By speaking in the first person here, you
-                take a more personable approach to connecting with a client or
-                brand. For instance, when you write a third-person bio you may
-                start with “Jasmine Montgomery is a Senior Hiring Manager at
-                L’Oreal based in New York. She recruits across several business
-                units to connect with the brightest talent from around the
-                globe.” By only using your name and pronouns to speak about
-                yourself here, you are letting your title and skill set speak
-                for themselves. So your decision to write your professional bio
-                in the first or third person depends on whether you’d like to
-                leave a more personable or assertive impression. Overall, both
-                approaches can be effective when you tailor them to your goals
-                and the audience you are writing for. The most important thing
-                is to be clear, concise, and tell your story in a way that
-                connects with your reader.
+              1. To ensure best suit product for our customer to meet their need without 
+having any issue of disatisfaction.
+<br />
+2. To create job opportunity for our people and provide right platform to 
+discover their potentiality.Profile of Talukder Group of Industries
+<br />
+3. To ensure highest level of satisfaction of our employees as we believe and 
+consider human resource is the most important of all the resources an 
+organization possesses. 
+<br />
+4. To contribute consistently to national Gross Domestic Product (GDP) 
+maintaining an exponential growth in productivity.
+<br />
+5. To ensure continuous development of products commensurate the 
+ongoing technological development worldwide.
+<br />
+6. To be cost effective using advance technology and modern machinery not 
+only to enhance profit margin, rather to provide quality product with 
+economy price.
+<br />
+7. To create a sustainable business environment in achieving long term
+organizational goals.
+<br />
+8. To expand manufacturing facility and distribution network parallelly to cater 
+to all regions in the country.
+<br />
+9. To be a socially responsible and sensible corporate house, addressing and 
+adhering to need of community and environment.
               </p>
+              
               <hr className="AboutMeHr" />
 
-              <h1 className="AboutPageTitle">My Vision</h1>
+              <h1 className="AboutPageTitle">Our Vision</h1>
               <p className="AboutPageDescription">
-                Here's one way to write a first-person bio: “I’m a freelance
-                writer specializing in small business content. I’ve worked with
-                companies in a variety of industries, from home care services to
-                fine leather goods.” By speaking in the first person here, you
-                take a more personable approach to connecting with a client or
-                brand.While first-person bios are quite common, third-person
-                bios can prove more effective in informal situations. If you’re
-                job searching, applying for grants, or trying to get published,
-                it’s generally best to stick to the third person.
+              Plastic industry is a fast-growing sector of Bangladesh in terms of employment and 
+production. The main objective of Talukder group is to serve the customers with 
+best quality of products and provide employment facility. The objective of Group is 
+to grow equally in accordance with market demand and always be viable 
+technically, financially and in environmental aspects.
               </p>
             </Col>
           </Row>

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+.managementTeamTitle {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3498db;
+}
+
+.managementTeamSubTitle {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3498db;
+}
+
+.managementTeamBio {
+  font-size: 13px;
+  text-align: justify;
+  color: #000;
+}
+
+.ManagementDiv {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  overflow: hidden;
+  border: none;
+}
+
+.ManagementDiv .card-img-top {
+  transition: transform 0.4s ease-in-out;
+}
+
+.ManagementDiv:hover .card-img-top {
+  transform: scale(1.2);
+}
+
+@media(max-width:1000px){
+  .ManagementCard{
+    margin-bottom: 1.5rem;
+  }
+
+  .managementTeamTitle{
+    margin-top: 1rem;
+    font-size: 16px;
+  }
+
+  .managementTeamSubTitle{
+    font-size: 14px;
+  }
+
+  .ManagementDiv{
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+
+@media(max-width:481px){
+.managementTeamTitle{
+font-size: 14px;
+}
+
+.managementTeamSubTitle{
+font-size: 12px;
+}
+
+.managementTeamBio{
+font-size: 11px;
+}
+}

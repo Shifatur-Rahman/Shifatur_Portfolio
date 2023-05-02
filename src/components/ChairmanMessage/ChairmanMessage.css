@@ -1,0 +1,32 @@
+/* .chairmanMsg {
+  background: linear-gradient(45deg, red, green);
+} */
+
+.chairmanHeading {
+    color: black;
+  }
+  
+  .chairmanImg img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .chairmanText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    color: #000;
+  }
+  
+  .ChairmanTitle{
+    font-size: 15px;
+    color: #2980b9;
+    font-weight: 600 !important;
+  }
+  
+  @media (max-width: 768PX) {
+    .chairmanText{
+      margin-top: 2rem;
+    }
+  }
+  

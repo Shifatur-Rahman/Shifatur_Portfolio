@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+.imageCard {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.imageCard {
+  overflow: hidden;
+}
+
+.imageCard .card-img-top {
+  transition: transform 0.2s ease-in-out;
+}
+
+.imageCard:hover .card-img-top {
+  transform: scale(1.2);
+}
+
+.managementName {
+  font-family: "Nunito", sans-serif;
+  color: #2e86de;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+
+.managementDesignation {
+  font-style: italic;
+  color: #95b4d2;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+
+@media(max-width: 1000px) {
+  .managementName{
+    font-size: 15px;
+  }
+  .managementDesignation{
+    font-size: 11px;
+  }
+}
+
+@media(max-width: 768px) {
+  .managementName{
+    font-size: 13px;
+  }
+  .ManagementCard{
+    margin-bottom: 1rem;
+  }
+  .imageCard{
+    margin-bottom: 1rem;
+  }
+}

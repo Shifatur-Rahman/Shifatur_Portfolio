@@ -12,6 +12,7 @@
   border-radius: 5px;
   box-shadow: 0 0 4px 0 rgba(40, 92, 141, 0.4);
   padding: 30px;
+  margin-bottom: 2rem;
 }
 
 .serviceCard:hover {

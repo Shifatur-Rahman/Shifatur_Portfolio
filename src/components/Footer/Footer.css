@@ -9,7 +9,7 @@ a {
 
 .footerTitle {
   font-family: "Raleway", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -17,13 +17,30 @@ a {
 .footerTextAlign {
   text-align: left;
 }
+.contactTitle {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #3d405b;
+  margin: 2rem 0;
+}
+
+#submitBtn {
+  text-align: center;
+}
+
+.contactHr {
+  width: 10%;
+}
 
 .socialLink {
   text-decoration: none;
   color: #595959;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .socialLink:hover {
@@ -66,6 +83,11 @@ a {
   color: #016773;
 }
 
+.socialFontInsta {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #016773;
+}
 .copyrightSection {
   padding: 20px;
   background-color: #001219;
@@ -73,8 +95,8 @@ a {
 
 .copyrightText {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
   color: #fff;
   text-decoration: none;
 }
@@ -84,7 +106,62 @@ a {
   transition: 0.5s;
 }
 
+.contactIcon {
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  color: #016773;
+}
+
+.contactIconName {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formControl:focus {
+  border-radius: 3px !important;
+  border-color: rgb(96, 92, 92) !important;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+}
+
+.contactFormHeader {
+  font-size: 15px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  text-align: left !important;
+}
+
+.contactFormBtn {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #016773 !important;
+  border: none;
+}
+
+.contactFormBtn:hover {
+  background-color: #01444c !important;
+}
+
+.contactFormBtn:hover {
+  background-color: #2f3e46;
+  box-shadow: none !important;
+}
+
+.rightContact {
+  padding: 0 0 0 5rem;
+}
+
 @media (max-width: 768px) {
+  .rightContact {
+    margin-top: 2rem;
+  }
+  .contactTitle {
+    font-size: 22px;
+  }
   .footerTextAlign {
     text-align: center;
   }

@@ -1,0 +1,111 @@
+/* .carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+} */
+
+/* .carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+} */
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #000;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #17a2b8;
+  color: #000;
+  border: 1px solid red;
+  transition: all ease 1s;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 80px;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2); /* Add your desired color and opacity */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption {
+  z-index: 1; /* Make sure the text is on top of the overlay */
+  color: #fff; /* Set the text color to white */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-container button {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border-radius: 30px;
+  /* transition: background-color 0.3s ease; */
+}
+
+.button-container button:hover {
+  background-color: red;
+  color: #fff;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-container button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* slider down key */
+
+.carousel-indicators .active {
+  background-color: #17a2b8;
+}
+
+@media screen and (max-width: 768px) {
+  .button-container button {
+    font-size: 14px;
+  }
+}
+
+.button-container button {
+  transition: all 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #17a2b8;
+  color: white;
+}

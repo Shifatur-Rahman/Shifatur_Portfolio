@@ -1,0 +1,106 @@
+.filter-buttons {
+    margin: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .filter-buttons button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    text-align: center;    
+}
+
+    .filter-buttons button {
+        margin-bottom: 10px;
+      }
+
+    .portfolio-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 5px;
+      }
+      
+      .portfolio-item img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .portfolio-item {
+        width: calc(20% - 10px);
+        margin-bottom: 20px;
+        box-sizing: border-box;
+      }
+
+      .portfolio-item img{
+        height: 150px;
+        width: 150px;
+      }
+
+      .itemTitle{
+        font-size: 12px !important;
+        font-weight: 600;
+        line-height: 0;
+      }
+
+      .filter-buttons button:hover {
+        background-color: #487eb0;
+        color: #fff;
+        }
+
+      .filter-buttons button.active {
+        background-color: #4CAF50;
+        color: white;
+       text-decoration: none;
+      }
+      
+      
+      @media screen and (max-width: 1000px) {
+        .filter-buttons {
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+
+        /* .portfolio-item {
+            width: calc(30% - 10px);
+          } */
+      }
+
+      @media screen and (max-width: 768px) {
+        .portfolio-item {
+            width: calc(45% - 10px);
+          }
+          .portfolio-item img{
+            height: 180px;
+            width: 180px;
+          }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .filter-buttons {
+            flex-direction: column;
+            align-items: center;
+          }
+        .portfolio-item {
+          width: 100%;
+          text-align: center;
+        }
+        .portfolio-item img{
+            height: 200px;
+            width: 200px;
+          }
+      }
+      
+   
+
+    
