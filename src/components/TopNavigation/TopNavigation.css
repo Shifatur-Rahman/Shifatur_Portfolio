@@ -166,15 +166,15 @@
 
 @media (max-width: 1000px) {
   .navigation {
-    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 2rem;
-    background-color: #bfbfbf;
+    /* background-color: #bfbfbf; */
   }
 
   .navItem {
     /* color: #fff !important; */
     /* text-align: center; */
-    color: #000 !important;
+    color: #fff !important;
   }
 
   .navItemScroll {

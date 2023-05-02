@@ -1,7 +1,6 @@
 import { Container } from '@mui/material'
 import React from 'react'
 import { Col, Row, Card } from 'react-bootstrap'
-import tcbImg from '../../asset/images/tcb.png'
 import NewZealand_Img from '../../asset/images/Client_logo/newzeland-dairy.png';
 import Olympic_Img from '../../asset/images/Client_logo/olympic-industries-ltd.png';
 import RSPL_Img from '../../asset/images/Client_logo/RSPL-Health-BD-Ltd.jpg';
@@ -31,7 +30,7 @@ import "./CorporateClient.css"
 const CorporateClient = () => {
   return (
     <>
-    <h1 className='mainTitle'>Our Clients</h1>
+    {/* <h1 className='mainTitle'>Our Clients</h1> */}
     <Container>
      
          <div className='CorporateClientLogo'>

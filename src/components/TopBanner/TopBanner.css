@@ -47,17 +47,15 @@
 }
 
 .topBannerTitle {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 45px;
-  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
   color: #fff;
   text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6;
 }
 
 .topBannerSubTitle {
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 35px;
   color: #fff;

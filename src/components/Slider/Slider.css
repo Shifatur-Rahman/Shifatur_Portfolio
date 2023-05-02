@@ -27,15 +27,13 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   color: #000;
-  border: 1px solid red;
   border-radius: 50%;
+  background-color: #17a2b8;
 }
+
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
-  background-color: #17a2b8;
-  color: #000;
-  border: 1px solid red;
   transition: all ease 1s;
 }
 
@@ -50,7 +48,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.2); /* Add your desired color and opacity */
+  background-color: rgba(0, 0, 0, 0.3); /* Add your desired color and opacity */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,7 +72,6 @@
   text-transform: uppercase;
   padding: 12px 20px;
   border-radius: 30px;
-  /* transition: background-color 0.3s ease; */
 }
 
 .button-container button:hover {
@@ -87,6 +84,11 @@
 .button-container button:focus {
   outline: none;
   box-shadow: none;
+}
+
+.serviceBtn{
+  color: #fff;
+  background-color: #17a2b8;
 }
 
 /* slider down key */
@@ -109,3 +111,28 @@
   background-color: #17a2b8;
   color: white;
 }
+
+
+
+
+
+
+
+
+/* .fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
+} */
