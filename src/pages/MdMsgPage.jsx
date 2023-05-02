@@ -17,7 +17,7 @@ const MdMsgPage = () => {
     <>
 
     <TopNavigation title="Talukder Group" />
-    <PageTop pageTitle="Message from MD" />
+    <PageTop pageTitle="Message from MANAGING DIRECTOR" />
     <MdMessage />
     <Footer />
     

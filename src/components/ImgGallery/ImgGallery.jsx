@@ -8,6 +8,25 @@ import DialogTitle from "@mui/material/DialogTitle";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import "./ImgGallery.css"
+import gallery1 from "../../asset/images/gallery/gallery1.jpg"
+// import gallery2 from "../../asset/images/gallery/gallery2.jpg"
+// import gallery3 from "../../asset/images/gallery/gallery3.jpg"
+import gallery4 from "../../asset/images/gallery/gallery4.jpg"
+import gallery5 from "../../asset/images/gallery/gallery5.jpg"
+import gallery6 from "../../asset/images/gallery/gallery6.jpg"
+import gallery7 from "../../asset/images/gallery/gallery7.jpg"
+import gallery8 from "../../asset/images/gallery/gallery8.jpg"
+import gallery9 from "../../asset/images/gallery/gallery9.jpg"
+import gallery10 from "../../asset/images/gallery/gallery10.jpg"
+import gallery11 from "../../asset/images/gallery/gallery11.jpg"
+import gallery12 from "../../asset/images/gallery/gallery12.jpg"
+import gallery13 from "../../asset/images/gallery/gallery13.jpg"
+import gallery14 from "../../asset/images/gallery/gallery14.jpg"
+import gallery15 from "../../asset/images/gallery/gallery15.jpg"
+import gallery16 from "../../asset/images/gallery/gallery16.jpg"
+import gallery17 from "../../asset/images/gallery/gallery17.jpg"
+import gallery18 from "../../asset/images/gallery/gallery18.jpg"
+
 
 const ImgGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -27,7 +46,7 @@ const ImgGallery = () => {
         <ImageList
           // sx={{ width: "100%", height: "auto" }}
           variant="woven"
-          cols={5}
+          cols={4}
           gap={8}
         >
           {itemData.map((item) => (
@@ -74,63 +93,70 @@ export default ImgGallery;
 
 const itemData = [
   {
-    img: "https://images.unsplash.com/photo-1549388604-817d15aa0110",
-    title: "Bed",
+    img: gallery1,
+    title: "Dhaka International Trade Fair",
+  },
+ 
+  {
+    img: gallery4,
+    title: "Customers Visit Our Showroom ",
   },
   {
-    img: "https://images.unsplash.com/photo-1563298723-dcfebaa392e3",
-    title: "Kitchen",
+    img: gallery14,
+    title: "Customer Satisfiction",
   },
   {
-    img: "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6",
-    title: "Sink",
+    img: gallery9,
+    title: "Our Products",
   },
   {
-    img: "https://images.unsplash.com/photo-1525097487452-6278ff080c31",
-    title: "Books",
+    img: gallery5,
+    title: "uPVC Factory",
   },
   {
-    img: "https://images.unsplash.com/photo-1574180045827-681f8a1a9622",
-    title: "Chairs",
+    img: gallery6,
+    title: "Factory",
   },
   {
-    img: "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62",
-    title: "Candle",
+    img: gallery7,
+    title: "Our Production",
   },
   {
-    img: "https://images.unsplash.com/photo-1530731141654-5993c3016c77",
-    title: "Laptop",
+    img: gallery8,
+    title: "Goods are ready",
   },
+
   {
-    img: "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
-    title: "Doors",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7",
-    title: "Coffee",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee",
+    img: gallery10,
     title: "Storage",
   },
   {
-    img: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
-    title: "Coffee table",
+    img: gallery17,
+    title: "Machine",
   },
   {
-    img: "https://images.unsplash.com/photo-1588436706487-9d55d73a39e3",
-    title: "Blinds",
+    img: gallery11,
+    title: "uPVC Machine",
   },
   {
-    img: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
-    title: "Coffee table",
+    img: gallery12,
+    title: "uPVC Factory",
   },
   {
-    img: "https://images.unsplash.com/photo-1588436706487-9d55d73a39e3",
-    title: "Blinds",
+    img: gallery13,
+    title: "Raw Materials",
   },
   {
-    img: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7",
-    title: "Coffee",
+    img: gallery16,
+    title: "Jashore Depot",
   },
+  {
+    img: gallery15,
+    title: "Our Goods",
+  },
+  {
+    img: gallery18,
+    title: "Our Benches",
+  },
+
 ];

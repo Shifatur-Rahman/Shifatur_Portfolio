@@ -2,12 +2,9 @@ import React, { Component } from "react";
 import "./TopNavigation.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
-// import logo1 from "../../asset/images/talukder-group01.png";
-// import logo2 from "../../asset/images/talukder-group02.png";
 import talukderLogo from "../../asset/images/talukderLogo.png";
 import Card from "react-bootstrap/Card";
 import { AiOutlineCaretDown } from "react-icons/ai";
-// import { Scrollbars } from 'react-custom-scrollbars';
 
 class TopNavigation extends Component {
   constructor(props) {
@@ -99,8 +96,8 @@ class TopNavigation extends Component {
                     <AiOutlineCaretDown />
                   </a>
                   <div className="dropdown-content">
-                    <NavLink to="/portfolio/gallery">Gallery</NavLink>
-                    <NavLink to="/portfolio/achievement">Achivement</NavLink>
+                    <NavLink className="navDropdown" to="/portfolio/gallery">Gallery</NavLink>
+                    <NavLink className="navDropdown" to="/portfolio/achievement">Achivement</NavLink>
                   </div>
                 </div>
               </Nav.Link>
@@ -118,10 +115,10 @@ class TopNavigation extends Component {
                     <AiOutlineCaretDown />
                   </a>
                   <div className="dropdown-content">
-                    <NavLink to="/product&services/advertisement">
+                    <NavLink className="navDropdown" to="/product&services/advertisement">
                       Advertisement
                     </NavLink>
-                    <NavLink to="/portfolio">Product Gallery</NavLink>
+                    <NavLink className="navDropdown" to="/portfolio">Product Gallery</NavLink>
                   </div>
                 </div>
               </Nav.Link>
@@ -144,7 +141,7 @@ class TopNavigation extends Component {
                     <AiOutlineCaretDown />
                   </a>
                   <div className="dropdown-content">
-                    <NavLink to="/client/corporateClient">
+                    <NavLink className="navDropdown" to="/client/corporateClient">
                       Corporate client
                     </NavLink>
                     {/* <NavLink to="/client/localClient">Local client</NavLink> */}
@@ -172,19 +169,19 @@ class TopNavigation extends Component {
                   <div className="dropdown-content">
                     <NavLink to="/concern/plastic">Talukder Plastic</NavLink>
 
-                    <NavLink to="/concern/foundry">Talukder Foundry</NavLink>
+                    <NavLink className="navDropdown" to="/concern/foundry">Talukder Foundry</NavLink>
 
-                    <NavLink to="/concern/upvc">Talukder uPVC</NavLink>
+                    <NavLink className="navDropdown" to="/concern/upvc">Talukder uPVC</NavLink>
 
-                    <NavLink to="/concern/distribution">
+                    <NavLink className="navDropdown" to="/concern/distribution">
                       Talukder Distribution
                     </NavLink>
 
-                    <NavLink to="/concern/furniture">
+                    <NavLink className="navDropdown" to="/concern/furniture">
                       Talukder Furniture
                     </NavLink>
 
-                    <NavLink to="/concern/j&jenterprise">
+                    <NavLink className="navDropdown" to="/concern/j&jenterprise">
                       J & J Enterprise
                     </NavLink>
                   </div>
@@ -217,16 +214,16 @@ class TopNavigation extends Component {
                     <AiOutlineCaretDown />
                   </a>
                   <div className="dropdown-content">
-                    <NavLink to="/about/director"> Board of director</NavLink>
-                    <NavLink to="/about/managementTeam">
+                    <NavLink className="navDropdown" to="/about/director"> Board of director</NavLink>
+                    <NavLink className="navDropdown" to="/about/managementTeam">
                       {" "}
                       Management Team
                     </NavLink>
-                    <NavLink to="/about/chairman-message">
+                    <NavLink className="navDropdown" to="/about/chairman-message">
                       {" "}
                       Message from chairman
                     </NavLink>
-                    <NavLink to="/about/md-message"> Message from md</NavLink>
+                    <NavLink className="navDropdown" to="/about/md-message"> Message from md</NavLink>
                   </div>
                 </div>
               </Nav.Link>

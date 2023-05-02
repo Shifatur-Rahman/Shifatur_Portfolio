@@ -11,7 +11,7 @@ class PageTop extends Component {
             <Container>
               <Row>
                 <Col className="pageContent text-center">
-                  <h3 className="topPageSubTitle">{this.props.pageTitle}</h3>
+                  <h3 className="mainTitle">{this.props.pageTitle}</h3>
                 </Col>
               </Row>
             </Container>

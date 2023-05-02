@@ -105,11 +105,6 @@ const Summary = () =>  {
                         <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                          LGED
-                        </p>
-                        <p className="summaryCardText">
-                          {" "}
-                          <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
                           PLASTIC
                         </p>
                         <p className="summaryCardText">
@@ -120,13 +115,24 @@ const Summary = () =>  {
                         <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
+                            HOUSEHOLD PLASTIC
+                        </p>
+                        <p className="summaryCardText">
+                          {" "}
+                          <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
                         UPVC
                         </p>
                        
                         <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                          OFFICE FURNITURE
+                          FURNITURE
+                        </p>
+
+                        <p className="summaryCardText">
+                          {" "}
+                          <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
+                          INTERIOR DESIGN
                         </p>
                       </Card.Text>
                     </Card.Body>

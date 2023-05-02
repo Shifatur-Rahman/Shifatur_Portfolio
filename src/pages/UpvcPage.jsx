@@ -9,7 +9,7 @@ const UpvcPage = () => {
   return (
     <>
       <TopNavigation title="Talukder Group" />
-      <PageTop pageTitle="Talukder Plastic Co. Ltd" />
+      <PageTop pageTitle="Talukder uPVC Fittings Ind. Ltd." />
       <Upvc />
       <Footer />
     </>
