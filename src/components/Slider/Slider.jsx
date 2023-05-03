@@ -8,7 +8,6 @@ import slider2 from "../../asset/images/Slider_Img/slider2.jpg";
 import slider3 from "../../asset/images/Slider_Img/slider3.jpg";
 import Button from "react-bootstrap/Button";
 
-
 const Slider = () => {
   const images = [
     {
@@ -54,17 +53,21 @@ const Slider = () => {
             <img className="d-block w-100" src={image.src} alt={image.alt} />
           </CSSTransition>
 
-
-
           <div className="carousel-overlay">
             <Carousel.Caption>
               <h3 className="topBannerTitle">{image.alt}</h3>
               <p className="topBannerSubTitle">{image.para}</p>
               <div class="button-container">
-                <Button className="serviceBtn" style={{ marginRight: "20px" }} variant="info">
+                <Button
+                  className="serviceBtn"
+                  style={{ marginRight: "20px" }}
+                  variant="info"
+                >
                   Our Services
                 </Button>
-                <Button className="learnBtn" variant="outline-light">Learn More</Button>
+                <Button className="learnBtn" variant="outline-light">
+                  Learn More
+                </Button>
               </div>
             </Carousel.Caption>
           </div>

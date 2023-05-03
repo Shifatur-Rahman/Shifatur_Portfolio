@@ -1,5 +1,5 @@
 .SummarySection {
-  background-image: url("../../asset/images/Banner.jpg");
+  background-image: url("../../asset/images/Summary/summary4.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,28 +80,24 @@
 }
 
 @media (max-width: 1000px) {
-
   .summaryTitle {
     font-size: 16px;
     font-weight: 800;
   }
-  .chartsCountUp{
+  .chartsCountUp {
     font-size: 25px;
   }
 
-  .summaryCardText{
+  .summaryCardText {
     font-size: 12px;
   }
-
 }
 
 @media (max-width: 991px) {
-  .chartsCountUp{
+  .chartsCountUp {
     margin-top: 3rem;
   }
- }
-
-
+}
 
 @media (max-width: 768px) {
   .SummarySection {
@@ -119,7 +115,7 @@
   .summaryCardText {
     font-size: 11px;
   }
-  .chartsCountUp{
+  .chartsCountUp {
     margin-top: 1rem;
   }
 }
@@ -135,14 +131,13 @@
     font-size: 13px;
     font-weight: 600;
   }
-  .chartsCountUp{
+  .chartsCountUp {
     font-size: 20px;
   }
-  .summaryCardTitle{
+  .summaryCardTitle {
     font-size: 15px;
   }
 }
-
 
 @media (max-width: 220px) {
   .SummarySection {
@@ -151,7 +146,6 @@
   .summaryOverlay {
     height: 750px;
   }
-
 }
 
 /* summaryCardTitle, summaryCardText */

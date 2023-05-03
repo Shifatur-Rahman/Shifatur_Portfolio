@@ -7,26 +7,25 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import "./ImgGallery.css"
-import gallery1 from "../../asset/images/gallery/gallery1.jpg"
+import "./ImgGallery.css";
+import gallery1 from "../../asset/images/gallery/gallery1.jpg";
 // import gallery2 from "../../asset/images/gallery/gallery2.jpg"
 // import gallery3 from "../../asset/images/gallery/gallery3.jpg"
-import gallery4 from "../../asset/images/gallery/gallery4.jpg"
-import gallery5 from "../../asset/images/gallery/gallery5.jpg"
-import gallery6 from "../../asset/images/gallery/gallery6.jpg"
-import gallery7 from "../../asset/images/gallery/gallery7.jpg"
-import gallery8 from "../../asset/images/gallery/gallery8.jpg"
-import gallery9 from "../../asset/images/gallery/gallery9.jpg"
-import gallery10 from "../../asset/images/gallery/gallery10.jpg"
-import gallery11 from "../../asset/images/gallery/gallery11.jpg"
-import gallery12 from "../../asset/images/gallery/gallery12.jpg"
-import gallery13 from "../../asset/images/gallery/gallery13.jpg"
-import gallery14 from "../../asset/images/gallery/gallery14.jpg"
-import gallery15 from "../../asset/images/gallery/gallery15.jpg"
-import gallery16 from "../../asset/images/gallery/gallery16.jpg"
-import gallery17 from "../../asset/images/gallery/gallery17.jpg"
-import gallery18 from "../../asset/images/gallery/gallery18.jpg"
-
+import gallery4 from "../../asset/images/gallery/gallery4.jpg";
+import gallery5 from "../../asset/images/gallery/gallery5.jpg";
+import gallery6 from "../../asset/images/gallery/gallery6.jpg";
+import gallery7 from "../../asset/images/gallery/gallery7.jpg";
+import gallery8 from "../../asset/images/gallery/gallery8.jpg";
+import gallery9 from "../../asset/images/gallery/gallery9.jpg";
+import gallery10 from "../../asset/images/gallery/gallery10.jpg";
+import gallery11 from "../../asset/images/gallery/gallery11.jpg";
+import gallery12 from "../../asset/images/gallery/gallery12.jpg";
+import gallery13 from "../../asset/images/gallery/gallery13.jpg";
+import gallery14 from "../../asset/images/gallery/gallery14.jpg";
+import gallery15 from "../../asset/images/gallery/gallery15.jpg";
+import gallery16 from "../../asset/images/gallery/gallery16.jpg";
+import gallery17 from "../../asset/images/gallery/gallery17.jpg";
+import gallery18 from "../../asset/images/gallery/gallery18.jpg";
 
 const ImgGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -37,11 +36,10 @@ const ImgGallery = () => {
     setSelectedImage(null);
   };
 
-
   return (
     <>
       <Container style={{ marginTop: "5rem" }}>
-        <h2 className="mainTitle">Recent and Upcoming Events</h2>
+        {/* <h2 className="mainTitle">Recent and Upcoming Events</h2> */}
 
         <ImageList
           // sx={{ width: "100%", height: "auto" }}
@@ -50,9 +48,7 @@ const ImgGallery = () => {
           gap={8}
         >
           {itemData.map((item) => (
-            <ImageListItem
-              onClick={() => handleImageClick(item)}
-            >
+            <ImageListItem onClick={() => handleImageClick(item)}>
               <div className="galleryImg">
                 <img
                   src={`${item.img}?w=161&fit=crop&auto=format`}
@@ -75,7 +71,8 @@ const ImgGallery = () => {
             >
               <CloseIcon />
             </IconButton>
-            <img className="zoomImage"
+            <img
+              className="zoomImage"
               src={`${selectedImage?.img}?w=500&fit=crop&auto=format`}
               srcSet={`${selectedImage?.img}?w=500&fit=crop&auto=format&dpr=2 2x`}
               alt={selectedImage?.title}
@@ -83,7 +80,6 @@ const ImgGallery = () => {
             />
           </DialogContent>
         </Dialog>
-
       </Container>
     </>
   );
@@ -96,7 +92,7 @@ const itemData = [
     img: gallery1,
     title: "Dhaka International Trade Fair",
   },
- 
+
   {
     img: gallery4,
     title: "Customers Visit Our Showroom ",
@@ -158,5 +154,4 @@ const itemData = [
     img: gallery18,
     title: "Our Benches",
   },
-
 ];

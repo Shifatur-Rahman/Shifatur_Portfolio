@@ -27,10 +27,9 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   color: #000;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   background-color: #17a2b8;
 }
-
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
@@ -86,7 +85,7 @@
   box-shadow: none;
 }
 
-.serviceBtn{
+.serviceBtn {
   color: #fff;
   background-color: #17a2b8;
 }
@@ -96,6 +95,14 @@
 .carousel-indicators .active {
   background-color: #17a2b8;
 }
+
+/* @media (max-width: 1000px) {
+  .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+  }
+} */
 
 @media screen and (max-width: 768px) {
   .button-container button {
@@ -111,28 +118,3 @@
   background-color: #17a2b8;
   color: white;
 }
-
-
-
-
-
-
-
-
-/* .fade-enter {
-  opacity: 0;
-}
-
-.fade-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-in;
-}
-
-.fade-exit {
-  opacity: 1;
-}
-
-.fade-exit-active {
-  opacity: 0;
-  transition: opacity 1000ms ease-out;
-} */
