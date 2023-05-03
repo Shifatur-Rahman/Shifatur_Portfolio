@@ -5,6 +5,7 @@ import PageTop from '../components/PageTop/PageTop'
 import Footer from '../components/Footer/Footer'
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 
 const NewsDetailsPgae = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const NewsDetailsPgae = () => {
    <PageTop pageTitle="News & Events" />
    <NewsDetails />
    <Footer />
+   <BackToTopButton />
     </>
   )
 }

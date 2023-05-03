@@ -89,18 +89,18 @@ import plastic5 from "../../asset/images/plastic/plastic5.png"
 import plastic6 from "../../asset/images/plastic/plastic6.png"
 import plastic7 from "../../asset/images/plastic/plastic7.png"
 import plastic8 from "../../asset/images/plastic/plastic8.png"
-import plastic9 from "../../asset/images/Corporate plastic/plastic9.png"
+//import plastic9 from "../../asset/images/Corporate plastic/plastic9.png"
 import plastic10 from "../../asset/images/Corporate plastic/plastic10.png"
 import plastic11 from "../../asset/images/plastic/plastic11.png"
 import plastic12 from "../../asset/images/Corporate plastic/plastic12.png"
 import plastic13 from "../../asset/images/plastic/plastic13.png"
 import plastic14 from "../../asset/images/plastic/plastic14.png"
 import plastic15 from "../../asset/images/plastic/plastic15.png"
-import plastic16 from "../../asset/images/plastic/plastic16.jpg"
+//import plastic16 from "../../asset/images/plastic/plastic16.jpg"
 import plastic17 from "../../asset/images/plastic/plastic17.png"
 import plastic18 from "../../asset/images/plastic/plastic18.png"
 import plastic19 from "../../asset/images/plastic/plastic19.png"
-import plastic20 from "../../asset/images/plastic/plastic20.png"
+// import plastic20 from "../../asset/images/plastic/plastic20.png"
 import plastic21 from "../../asset/images/plastic/plastic21.png"
 import plastic22 from "../../asset/images/plastic/plastic22.png"
 import plastic23 from "../../asset/images/Corporate plastic/plastic23.png"
@@ -904,11 +904,11 @@ const portfolioItems = [
   category: "plastic",
   imgSrc: plastic8,
 },
-{
-  id: 109,
-  category: "corporate plastic",
-  imgSrc: plastic9,
-},
+// {
+//   id: 109,
+//   category: "corporate plastic",
+//   imgSrc: plastic9,
+// },
 {
   id: 110,
   category: "corporate plastic",
@@ -939,11 +939,11 @@ const portfolioItems = [
   category: "plastic",
   imgSrc: plastic15,
 },
-{
-  id: 116,
-  category: "plastic",
-  imgSrc: plastic16,
-},
+// {
+//   id: 116,
+//   category: "plastic",
+//   imgSrc: plastic16,
+// },
 {
   id: 117,
   category: "plastic",
@@ -959,11 +959,11 @@ const portfolioItems = [
   category: "plastic",
   imgSrc: plastic19,
 },
-{
-  id: 120,
-  category: "plastic",
-  imgSrc: plastic20,
-},
+// {
+//   id: 120,
+//   category: "plastic",
+//   imgSrc: plastic20,
+// },
 {
   id: 121,
   category: "plastic",
@@ -1129,11 +1129,11 @@ const portfolioItems = [
   category: "plastic",
   imgSrc: plastic53,
 },
-{
-  id: 154,
-  category: "plastic",
-  imgSrc: plastic54,
-},
+// {
+//   id: 154,
+//   category: "plastic",
+//   imgSrc: plastic54,
+// },
 {
   id: 155,
   category: "corporate plastic",
@@ -1149,11 +1149,11 @@ const portfolioItems = [
   category: "plastic",
   imgSrc: plastic57,
 },
-{
-  id: 158,
-  category: "plastic",
-  imgSrc: plastic58,
-},
+// {
+//   id: 158,
+//   category: "plastic",
+//   imgSrc: plastic58,
+// },
 {
   id: 159,
   category: "corporate plastic",
@@ -1169,11 +1169,11 @@ const portfolioItems = [
   category: "plastic",
   imgSrc: plastic61,
 },
-{
-  id: 162,
-  category: "plastic",
-  imgSrc: plastic62,
-},
+// {
+//   id: 162,
+//   category: "plastic",
+//   imgSrc: plastic62,
+// },
 
       //                               --------   lged(200- )  --------
   

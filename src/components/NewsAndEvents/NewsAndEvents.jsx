@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./NewsAndEvents.css";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import news1 from "../../asset/images/news/news2.png";
-import news2 from "../../asset/images/news/news6.jpg";
+import news2 from "../../asset/images/news/news1.jpg";
 import news5 from "../../asset/images/news/news5.jpg";
 import { AiOutlineCalendar } from "react-icons/ai";
 import AOS from "aos";
@@ -81,6 +81,31 @@ const NewsAndEvents = () => {
 
           <Col sm={12} md={6} lg={4}>
             <Card className="newsCard">
+              <Card.Img variant="top" src={news5} />
+              <Card.Body>
+                <h2 className="newsCardTitle">
+                  Talukder Group of Industries recently held a meeting to
+                  encourage collaboration and open communication with our
+                  employees.{" "}
+                </h2>
+                <p className="newsHeader" style={{ fontSize: "14px",  }}>
+                  {" "}
+                  <AiOutlineCalendar style={{ fontSize: "20px", color:"#17a2b8" }} />{" "}
+                  <span className="newsHeader">April 05, 2021</span>{" "}
+                </p>
+                <p
+                  className="newsPara"
+                  style={{ textAlign: "justify", fontSize: "14px" }}
+                >
+                  Throughout the meeting, we encouraged open and honest
+                  communication among all participants.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col sm={12} md={6} lg={4}>
+            <Card className="newsCard">
               <Card.Img variant="top" src={news1} />
               <Card.Body>
                 <h2 className="newsCardTitle">
@@ -104,30 +129,7 @@ const NewsAndEvents = () => {
             </Card>
           </Col>
 
-          <Col sm={12} md={6} lg={4}>
-            <Card className="newsCard">
-              <Card.Img variant="top" src={news5} />
-              <Card.Body>
-                <h2 className="newsCardTitle">
-                  Talukder Group of Industries recently held a meeting to
-                  encourage collaboration and open communication with our
-                  employees.{" "}
-                </h2>
-                <p className="newsHeader" style={{ fontSize: "14px",  }}>
-                  {" "}
-                  <AiOutlineCalendar style={{ fontSize: "20px", color:"#17a2b8" }} />{" "}
-                  <span className="newsHeader">April 05, 2021</span>{" "}
-                </p>
-                <p
-                  className="newsPara"
-                  style={{ textAlign: "justify", fontSize: "14px" }}
-                >
-                  Throughout the meeting, we encouraged open and honest
-                  communication among all participants.
-                </p>
-              </Card.Body>
-            </Card>
-          </Col>
+          
         </Row>
       </Container>
     </>

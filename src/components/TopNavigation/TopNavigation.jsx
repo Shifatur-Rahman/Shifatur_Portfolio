@@ -142,7 +142,7 @@ class TopNavigation extends Component {
                   </a>
                   <div className="dropdown-content">
                     <NavLink className="navDropdown" to="/client/corporateClient">
-                      Corporate client
+                      Corporate Client
                     </NavLink>
                     {/* <NavLink to="/client/localClient">Local client</NavLink> */}
                   </div>
@@ -214,16 +214,16 @@ class TopNavigation extends Component {
                     <AiOutlineCaretDown />
                   </a>
                   <div className="dropdown-content">
-                    <NavLink className="navDropdown" to="/about/director"> Board of director</NavLink>
+                    <NavLink className="navDropdown" to="/about/director"> Board of Director</NavLink>
                     <NavLink className="navDropdown" to="/about/managementTeam">
                       {" "}
                       Management Team
                     </NavLink>
                     <NavLink className="navDropdown" to="/about/chairman-message">
                       {" "}
-                      Message from chairman
+                      Message from Chairman
                     </NavLink>
-                    <NavLink className="navDropdown" to="/about/md-message"> Message from md</NavLink>
+                    <NavLink className="navDropdown" to="/about/md-message"> Message from Md</NavLink>
                   </div>
                 </div>
               </Nav.Link>

@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer";
 import CorporateClient from '../components/CorporateClient/CorporateClient';
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton';
 
 
 
@@ -22,6 +23,7 @@ const CorporateClientPage = () => {
        <PageTop pageTitle="Corporate Client" />
        <CorporateClient />
        <Footer />
+       <BackToTopButton />
     
     </>
   )

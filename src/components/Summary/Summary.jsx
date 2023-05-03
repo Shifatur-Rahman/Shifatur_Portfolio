@@ -63,7 +63,7 @@ const Summary = () =>  {
                               className="chartsCountUp"
                               style={{ height: 40 }}
                             >
-                              {isVisible ? <CountUp end={20} /> : null} K+
+                              {isVisible ? <CountUp end={500} /> : null}+
                             </div>
                           )}
                         </VisibilitySensor>
@@ -100,14 +100,14 @@ const Summary = () =>  {
                 <Col lg={3} md={4} sm={12}>
                   <Card className="summaryCard">
                     <Card.Body>
-                      <h2 className="summaryCardTitle">Our Services</h2>
+                      <h2 className="summaryCardTitle">OUR SERVICES</h2>
                       <Card.Text>
                         <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                          PLASTIC
+                          Plastic
                         </p>
-                        <p className="summaryCardText">
+                        {/* <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
                           CORPORATE PLASTIC
@@ -116,23 +116,28 @@ const Summary = () =>  {
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
                             HOUSEHOLD PLASTIC
-                        </p>
+                        </p> */}
                         <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        UPVC
+                        uPVC
                         </p>
                        
                         <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                          FURNITURE
+                          Office Furniture
                         </p>
 
                         <p className="summaryCardText">
                           {" "}
                           <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                          INTERIOR DESIGN
+                          Interior Design
+                        </p>
+                        <p className="summaryCardText">
+                          {" "}
+                          <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
+                          Trading
                         </p>
                       </Card.Text>
                     </Card.Body>

@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 import TeamManagement from '../components/TeamManagement/TeamManagement'
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 
 const ManagementTeamPage = () => {
   useEffect(() => {
@@ -17,8 +18,9 @@ const ManagementTeamPage = () => {
     <>
     <TopNavigation title="Talukder Group" />
     <PageTop pageTitle="Management Team" />
-     <TeamManagement />
+    <TeamManagement />
     <Footer />
+    <BackToTopButton />
     </>
   )
 }

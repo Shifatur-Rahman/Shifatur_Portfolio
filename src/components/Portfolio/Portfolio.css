@@ -12,9 +12,9 @@
     border: none;
     border-radius: 0.25rem;
     font-family: "Raleway", sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 700;
-    background-color: #eee;
+    background-color: #fff;
     color: #444;
     cursor: pointer;
     text-align: center;    
@@ -40,6 +40,12 @@
         width: calc(20% - 10px);
         margin-bottom: 20px;
         box-sizing: border-box;
+        /* border-radius: 5px !important;
+        border: 1px solid red; */
+      }
+
+      .portfolio-item-img{
+        border-radius: 5px;
       }
 
       .portfolio-item img{
@@ -48,8 +54,14 @@
       }
 
       .itemTitle{
-        font-size: 12px !important;
+        font-size: 10px !important;
         font-weight: 600;
+        line-height: 0;
+      }
+
+      .itemSize{
+        font-size: 10px !important;
+        font-weight: 400;
         line-height: 0;
       }
 
@@ -61,7 +73,16 @@
       .filter-buttons button.active {
         background-color: #4CAF50;
         color: white;
-       text-decoration: none;
+        text-decoration: none;
+      }
+
+      @media only screen and (max-width: 1020px) and (min-width: 768px)  {
+      .itemSize{
+        font-size: 8px !important;
+      }
+      .itemTitle{
+        font-size: 8px !important;
+      }
       }
       
       
@@ -71,9 +92,10 @@
           flex-wrap: wrap;
         }
 
-        /* .portfolio-item {
-            width: calc(30% - 10px);
-          } */
+        .portfolio-grid {
+          gap: 0px;
+        }
+        
       }
 
       @media screen and (max-width: 768px) {
@@ -83,6 +105,9 @@
           .portfolio-item img{
             height: 180px;
             width: 180px;
+          }
+          .filter-buttons button{
+            font-size: 11px;
           }
       }
       

@@ -5,6 +5,7 @@ import TeamMemberMessage from "../components/TeamMemberMessage/TeamMemberMessage
 import TopNavigation from "../components/TopNavigation/TopNavigation";
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 const TeamMemberMessagePage = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const TeamMemberMessagePage = () => {
       <PageTop pageTitle="Message from Management" />
       <TeamMemberMessage />
       <Footer />
+      <BackToTopButton />
     </>
   );
 };

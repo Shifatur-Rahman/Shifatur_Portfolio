@@ -103,7 +103,7 @@ const itemData = [
   },
   {
     img: gallery9,
-    title: "Our Products",
+    title: "Talukder Plastic",
   },
   {
     img: gallery5,

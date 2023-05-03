@@ -122,12 +122,13 @@ const Portfolio = () => {
                 <div
                   className="portfolio-item"
                   key={item.id}
-                  onClick={() => handleImageClick(item.imgSrc)}
+                 
                 >
-                  <img
+                  <img className="portfolio-item-img"
                     src={item.imgSrc}
                     alt={item.title}
                     style={{ cursor: "pointer" }}
+                    onClick={() => handleImageClick(item.imgSrc)}
                   />
                   <div style={{ marginTop: "12px" }}>
                     {item.title && (
@@ -145,7 +146,7 @@ const Portfolio = () => {
                     {item.size && (
                       <p className="itemTitle">
                         <strong>Size : </strong>
-                        {item.size}
+                       <span className="itemSize"> {item.size} </span>
                       </p>
                     )}
                   </div>

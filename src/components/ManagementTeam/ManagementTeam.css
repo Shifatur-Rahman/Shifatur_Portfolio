@@ -3,10 +3,9 @@
 .imageCard {
   background-color: #f2f2f2;
   border: none;
-}
-
-.imageCard {
   overflow: hidden;
+  /* height: 650px; */
+  border: 1px solid #92CCE9;
 }
 
 .imageCard .card-img-top {
@@ -25,6 +24,11 @@
   font-size: 18px;
   margin-top: 1.5rem;
 }
+
+/* .managementTeamBio{
+  height: 200px;
+} */
+
 
 .managementDesignation {
   font-style: italic;

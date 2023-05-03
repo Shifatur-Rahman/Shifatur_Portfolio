@@ -6,6 +6,7 @@ import TopNavigation from "../components/TopNavigation/TopNavigation";
 // import { motion } from "framer-motion";
 import Portfolio from "../components/Portfolio/Portfolio";
 import { animateScroll } from "react-scroll";
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 class PortfolioPage extends Component {
   componentDidMount() {
@@ -28,6 +29,7 @@ class PortfolioPage extends Component {
         {/* <AllProject /> */}
         <Portfolio />
         <Footer />
+        <BackToTopButton />
         </>
       // </motion.div>
     );

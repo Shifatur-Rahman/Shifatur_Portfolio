@@ -4,6 +4,7 @@ import PageTop from "../components/PageTop/PageTop";
 import Footer from "../components/Footer/Footer";
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton';
 
 const CorporateClient = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const CorporateClient = () => {
        <TopNavigation title="Talukder Group" />
         <PageTop pageTitle="Corporate Client" />
         <Footer />
+        <BackToTopButton />
     </>
   )
 }

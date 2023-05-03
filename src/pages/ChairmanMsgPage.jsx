@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 import ChairmanMessage from '../components/ChairmanMessage/ChairmanMessage'
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 
 const ChairmanMsgPage = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const ChairmanMsgPage = () => {
     <PageTop pageTitle="Message from Chairman" />
     <ChairmanMessage />
     <Footer />
+    <BackToTopButton />
     
     </>
   )

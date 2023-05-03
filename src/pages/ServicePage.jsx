@@ -6,6 +6,7 @@ import Services from "../components/Services/Services";
 import TopNavigation from "../components/TopNavigation/TopNavigation";
 // import { motion } from "framer-motion";
 import { animateScroll } from "react-scroll";
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 class ServicePage extends Component {
   componentDidMount() {
@@ -29,6 +30,7 @@ class ServicePage extends Component {
         <Services />
         <ContactSection />
         <Footer />
+        <BackToTopButton />
         </>
       // </motion.div>
     );

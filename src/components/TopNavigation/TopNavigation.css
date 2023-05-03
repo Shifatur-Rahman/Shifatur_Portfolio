@@ -40,8 +40,8 @@
 .navItem {
   text-decoration: none !important;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   margin-right: 1rem;
   /* color: #273c75; */
   color: #fff;
@@ -50,8 +50,8 @@
 .navItemScroll {
   text-decoration: none !important;
   font-family: "Raleway", sans-serif;
-  font-size: 15px !important;
-  font-weight: 400;
+  font-size: 18px !important;
+  font-weight: 500;
   margin-right: 1rem;
   color: #2f3e46;
 }
@@ -62,7 +62,7 @@
 }
 
 .navItem:hover {
-  color: #3958ac !important;
+  color: #cccccc !important;
   transition: all ease 1s;
 }
 
@@ -94,7 +94,7 @@
 
 .navDropdown {
   transition-property: background-color;
-  transition-duration: 1s;
+  transition-duration: 2s;
 }
 
 .navDropdown:hover {

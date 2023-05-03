@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 import MdMessage from '../components/MdMessage/MdMessage'
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 
 const MdMsgPage = () => {
   useEffect(() => {
@@ -17,9 +18,10 @@ const MdMsgPage = () => {
     <>
 
     <TopNavigation title="Talukder Group" />
-    <PageTop pageTitle="Message from MANAGING DIRECTOR" />
+    <PageTop pageTitle="Message from Managing Director" />
     <MdMessage />
     <Footer />
+    <BackToTopButton />
     
     </>
   )

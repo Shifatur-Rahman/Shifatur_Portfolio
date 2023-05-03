@@ -7,6 +7,7 @@ import { animateScroll } from "react-scroll";
 import KnowUs from "../components/KnowUs/KnowUs";
 import Slider from "../components/Slider/Slider";
 import NewsAndEvents from "../components/NewsAndEvents/NewsAndEvents";
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 class HomePage extends Component {
   componentDidMount() {
@@ -26,6 +27,7 @@ class HomePage extends Component {
         <Summary />
         <NewsAndEvents />
         <Footer />
+        <BackToTopButton />
       </>
     );
   }

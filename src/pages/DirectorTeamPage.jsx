@@ -5,6 +5,7 @@ import PageTop from '../components/PageTop/PageTop'
 import TopNavigation from '../components/TopNavigation/TopNavigation'
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 
 const DirectorTeamPage = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const DirectorTeamPage = () => {
     <PageTop pageTitle="Board of Directors" />
     <ManagementTeam />
     <Footer />
+    <BackToTopButton />
     </>
   )
 }
