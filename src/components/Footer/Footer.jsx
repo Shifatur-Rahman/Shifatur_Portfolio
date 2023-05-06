@@ -109,18 +109,15 @@ const Footer = () => {
         {/* Second footer section */}
 
         <Row style={{ margin: "3rem" }}>
-          <Col sm={12} md={6} lg={6}>
+          <Col className="footerLocation" sm={12} md={5} lg={5}>
             <h1 style={{ textAlign: "center" }} className="footerTitle">
               Our Location
             </h1>
             <GoogleMap />
           </Col>
-
-          <Col sm={12} md={6} lg={6}>
-            <h1
-              style={{ textAlign: "center", marginTop: "1rem" }}
-              className="footerTitle"
-            >
+          <Col sm={12} lg={2} md={2}></Col>
+          <Col sm={12} md={5} lg={5}>
+            <h1 style={{ textAlign: "center" }} className="footerTitle">
               Quick connect
             </h1>
             {/* data-aos='fade-left' */}

@@ -1,24 +1,20 @@
-.backToTopBtn{
-position: fixed;
-bottom: 30px;
-right: 30px;
-color: #17a2b8;
-font-size: 20px;
-border: none;
-/* background-color: red; */
+.backToTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #17a2b8;
+  font-size: 25px;
+  border: none;
 }
 
-
 @media (max-width: 1000px) {
-    .backToTopBtn{
-        right: 25px !important;
-        }
+  .backToTopBtn {
+    right: 25px !important;
   }
+}
 
-  @media (max-width: 768px) {
-    .backToTopBtn{
-        right: 20px !important;
-
-        }
+@media (max-width: 768px) {
+  .backToTopBtn {
+    right: 20px !important;
   }
-  
+}

@@ -42,7 +42,8 @@ const ImgGallery = () => {
         {/* <h2 className="mainTitle">Recent and Upcoming Events</h2> */}
 
         <ImageList
-          // sx={{ width: "100%", height: "auto" }}
+          className="ImageGallery"
+          sx={{ width: "100%", height: "auto" }}
           variant="woven"
           cols={4}
           gap={8}

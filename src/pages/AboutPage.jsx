@@ -3,6 +3,7 @@ import AboutDescription from "../components/AboutDescription/AboutDescription";
 import Footer from "../components/Footer/Footer";
 import PageTop from "../components/PageTop/PageTop";
 import TopNavigation from "../components/TopNavigation/TopNavigation";
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 import { animateScroll } from "react-scroll";
 // import { motion } from "framer-motion";
 
@@ -13,9 +14,8 @@ class AboutPage extends Component {
       smooth: "easeInOutQuart",
     });
   }
-  
-  render() {
 
+  render() {
     return (
       // <motion.div
       //   initial={{ width: 0 }}
@@ -27,7 +27,8 @@ class AboutPage extends Component {
         <PageTop pageTitle="About Us" />
         <AboutDescription />
         <Footer />
-        </>
+        <BackToTopButton />
+      </>
       // </motion.div>
     );
   }

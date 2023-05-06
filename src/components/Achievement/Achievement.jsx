@@ -31,9 +31,9 @@ import { Col, Container, Row } from "react-bootstrap";
 const Achievement = () => {
   return (
     <>
-      <h2 className="mainTitle">Awards and Achievements</h2>
+      {/* <h2 className="mainTitle">Awards and Achievements</h2> */}
       <Container>
-        <Row>
+        <Row style={{ marginTop: "5rem" }}>
           <div className="award">
             <h2 className="awardTitle">National Awards</h2>
             <ul className="awardList">

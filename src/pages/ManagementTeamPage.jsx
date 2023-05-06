@@ -1,11 +1,12 @@
-import React from 'react'
-import TopNavigation from '../components/TopNavigation/TopNavigation'
-import PageTop from '../components/PageTop/PageTop'
-import Footer from '../components/Footer/Footer'
-import TeamManagement from '../components/TeamManagement/TeamManagement'
+import React from "react";
+import TopNavigation from "../components/TopNavigation/TopNavigation";
+import PageTop from "../components/PageTop/PageTop";
+import Footer from "../components/Footer/Footer";
+import BoardOfDirector from "../components/BoardOfDirector/BoardOfDirector";
+import TeamManagement from "../components/TeamManagement/TeamManagement";
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
-import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 const ManagementTeamPage = () => {
   useEffect(() => {
@@ -16,13 +17,14 @@ const ManagementTeamPage = () => {
   }, []);
   return (
     <>
-    <TopNavigation title="Talukder Group" />
-    <PageTop pageTitle="Management Team" />
-    <TeamManagement />
-    <Footer />
-    <BackToTopButton />
+      <TopNavigation title="Talukder Group" />
+      <PageTop pageTitle="Management Team" />
+      {/* <TeamManagement /> */}
+      <BoardOfDirector />
+      <Footer />
+      <BackToTopButton />
     </>
-  )
-}
+  );
+};
 
-export default ManagementTeamPage
+export default ManagementTeamPage;

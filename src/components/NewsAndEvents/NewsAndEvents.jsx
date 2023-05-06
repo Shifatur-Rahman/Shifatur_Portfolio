@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./NewsAndEvents.css";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import news1 from "../../asset/images/news/news2.png";
@@ -7,52 +7,34 @@ import news5 from "../../asset/images/news/news5.jpg";
 import { AiOutlineCalendar } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import Carousel from "react-multi-carousel";
-// import "react-multi-carousel/lib/styles.css";
+
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
+// import MagicSliderDots from "react-magic-slider-dots";
 
 const NewsAndEvents = () => {
   useEffect(() => {
     AOS.init({
-      offset: 120, // offset (in px) from the original trigger point
-      delay: 0, // values from 0 to 3000, with step 50ms
-      easing: "ease", // default easing for AOS animations
-      duration: 2000, // values from 0 to 3000, with step 50ms
-      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-      once: false, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
-      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-      animatedClassName: "aos-animate", // class applied on animation
-      initClassName: "aos-init", // class applied after initialization
-      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      offset: 120,
+      delay: 0,
+      easing: "ease",
+      duration: 2000,
+      disable: false,
+      once: false,
+      mirror: false,
+      startEvent: "DOMContentLoaded",
+      animatedClassName: "aos-animate",
+      initClassName: "aos-init",
+      useClassNames: false,
     });
   }, []);
-
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
 
   return (
     <>
       <Container>
-        {/* data-aos='fade-up' */}
         <h1 className="knowusTitle">News And Events</h1>
-        {/* data-aos='slide-right' */}
 
         <Row>
           <Col sm={12} md={6} lg={4}>
@@ -65,7 +47,9 @@ const NewsAndEvents = () => {
                   year.{" "}
                 </h2>
                 <p style={{ fontSize: "14px" }}>
-                  <AiOutlineCalendar style={{ fontSize: "20px", color:"#17a2b8" }} />{" "}
+                  <AiOutlineCalendar
+                    style={{ fontSize: "20px", color: "#17a2b8" }}
+                  />{" "}
                   <span className="newsHeader">January 26, 2020</span>{" "}
                 </p>
                 <p
@@ -88,9 +72,11 @@ const NewsAndEvents = () => {
                   encourage collaboration and open communication with our
                   employees.{" "}
                 </h2>
-                <p className="newsHeader" style={{ fontSize: "14px",  }}>
+                <p className="newsHeader" style={{ fontSize: "14px" }}>
                   {" "}
-                  <AiOutlineCalendar style={{ fontSize: "20px", color:"#17a2b8" }} />{" "}
+                  <AiOutlineCalendar
+                    style={{ fontSize: "20px", color: "#17a2b8" }}
+                  />{" "}
                   <span className="newsHeader">April 05, 2021</span>{" "}
                 </p>
                 <p
@@ -114,7 +100,9 @@ const NewsAndEvents = () => {
                 </h2>
                 <p className="newsHeader" style={{ fontSize: "14px" }}>
                   {" "}
-                  <AiOutlineCalendar style={{ fontSize: "20px", color:"#17a2b8" }} />{" "}
+                  <AiOutlineCalendar
+                    style={{ fontSize: "20px", color: "#17a2b8" }}
+                  />{" "}
                   <span className="newsHeader">December 26, 2022</span>{" "}
                 </p>
                 <p
@@ -124,12 +112,9 @@ const NewsAndEvents = () => {
                   The event was held at a prestigious venue and was attended by
                   senior executives, department heads, and representatives.
                 </p>
-                {/* <Button variant="info">More Info</Button> */}
               </Card.Body>
             </Card>
           </Col>
-
-          
         </Row>
       </Container>
     </>
@@ -137,3 +122,37 @@ const NewsAndEvents = () => {
 };
 
 export default NewsAndEvents;
+
+// const newsItems = [
+//   {
+//     id: 1,
+//     imageSrc: news2,
+//     title:
+//       "Talukder Group of Industries recently held a meeting to discuss strategies for achieving our targets for the upcoming year.",
+//     date: "January 26, 2020",
+//     description:
+//       "During the meeting, we reviewed our current performance and identified areas where improvements could be made.",
+//   },
+//   {
+//     id: 2,
+//     imageSrc: news5,
+//     title:
+//       "Talukder Group of Industries recently held a meeting to encourage collaboration and open communication with our employees.",
+//     date: "April 05, 2021",
+//     description:
+//       "Throughout the meeting, we encouraged open and honest communication among all participants.",
+//   },
+//   {
+//     id: 3,
+//     imageSrc: news1,
+//     title:
+//       "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
+//     date: "December 26, 2022",
+//     description:
+//       "The event was held at a prestigious venue and was attended by senior executives, department heads, and representatives.",
+//   },
+// ];
+
+{
+  /* data-aos='slide-right' */
+}

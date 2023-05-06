@@ -1,52 +1,124 @@
-import React from 'react'
-import "./BoardOfDirector.css"
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import awards2Img from "../../asset/images/achievements/awards2.png";
+import React from "react";
+import "./BoardOfDirector.css";
+import { Container, Row, Col } from "react-bootstrap";
+import { BsFacebook } from "react-icons/bs";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { GrPinterest } from "react-icons/gr";
+import { AiFillGooglePlusCircle } from "react-icons/ai";
+import "./BoardOfDirector.css";
+import profile1Img from "../../asset/images/About us/profile.jpg";
+import profile2Img from "../../asset/images/About us/avatar.jpg";
+import profile3Img from "../../asset/images/About us/avatarFemale.png";
 
 const BoardOfDirector = () => {
   return (
     <>
-    <h1>Board of director</h1>
+      <div className="profile-area">
+        <Container>
+          <Row>
+            <Col lg={3} md={6} sm={12}>
+              <div className="card">
+                <div className="img1">
+                  <img src={profile1Img} alt="one img" />
+                </div>
 
-    <CardGroup>
-      <Card>
-        <Card.Img variant="top" src={awards2Img} />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-       
-      </Card>
-      <Card>
-        <Card.Img variant="top" src={awards2Img} />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
-          </Card.Text>
-        </Card.Body>
-       
-      </Card>
-      <Card>
-        <Card.Img style={{padding: "40px"}} variant="top" src={awards2Img} />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
-       
-      </Card>
-    </CardGroup>
+                <div className="img2">
+                  <img src={profile2Img} alt="two img" />
+                </div>
+
+                <div className="main-text">
+                  <h2>Mr. Md Samsul Arifin</h2>
+                  <p className="main-text-p">Managing Director</p>
+                </div>
+
+                <div className="socials" style={{ fontSize: "25px" }}>
+                  <BsFacebook style={{ marginRight: "5px" }} />
+                  <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                  <GrPinterest style={{ marginRight: "5px" }} />
+                  <AiFillGooglePlusCircle />
+                </div>
+              </div>
+            </Col>
+
+            <Col lg={3} md={6} sm={12}>
+              <div className="card">
+                <div className="img1">
+                  <img src={profile1Img} alt="one img" />
+                </div>
+
+                <div className="img2">
+                  <img src={profile3Img} alt="two img" />
+                </div>
+
+                <div className="main-text">
+                  <h2>Mrs. Ferdausi Akter</h2>
+                  <p className="main-text-p">Deputy Managing Director</p>
+                  <p></p>
+                </div>
+
+                <div className="socials" style={{ fontSize: "25px" }}>
+                  <BsFacebook style={{ marginRight: "5px" }} />
+                  <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                  <GrPinterest style={{ marginRight: "5px" }} />
+                  <AiFillGooglePlusCircle />
+                </div>
+              </div>
+            </Col>
+
+            <Col lg={3} md={6} sm={12}>
+              <div className="card">
+                <div className="img1">
+                  <img src={profile1Img} alt="one img" />
+                </div>
+
+                <div className="img2">
+                  <img src={profile2Img} alt="two img" />
+                </div>
+
+                <div className="main-text">
+                  <h2>Al Amin Masud Alam</h2>
+                  <p className="main-text-p">General Manager</p>
+                  <p></p>
+                </div>
+
+                <div className="socials" style={{ fontSize: "25px" }}>
+                  <BsFacebook style={{ marginRight: "5px" }} />
+                  <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                  <GrPinterest style={{ marginRight: "5px" }} />
+                  <AiFillGooglePlusCircle />
+                </div>
+              </div>
+            </Col>
+
+            <Col lg={3} md={6} sm={12}>
+              <div className="card">
+                <div className="img1">
+                  <img src={profile1Img} alt="one img" />
+                </div>
+
+                <div className="img2">
+                  <img src={profile2Img} alt="two img" />
+                </div>
+
+                <div className="main-text">
+                  <h2>Md. Akram Hossain</h2>
+                  <p className="main-text-p">General Manager</p>
+                  <p></p>
+                </div>
+
+                <div className="socials" style={{ fontSize: "25px" }}>
+                  <BsFacebook style={{ marginRight: "5px" }} />
+                  <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                  <GrPinterest style={{ marginRight: "5px" }} />
+                  <AiFillGooglePlusCircle />
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default BoardOfDirector
+export default BoardOfDirector;

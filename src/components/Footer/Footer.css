@@ -38,7 +38,7 @@ a {
 .socialLink {
   text-decoration: none;
   color: #595959;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -171,6 +171,9 @@ a {
 
   .socialLink {
     font-size: 14px;
+  }
+  .footerLocation {
+    margin-bottom: 3rem;
   }
 
   .copyrightText {

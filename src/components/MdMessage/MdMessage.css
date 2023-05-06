@@ -1,0 +1,8 @@
+.chairmanImg {
+  /* background-color: darkcyan; */
+  border-radius: 20px;
+}
+
+.chairmanImg img {
+  padding: 0 10% 10% 10%;
+}

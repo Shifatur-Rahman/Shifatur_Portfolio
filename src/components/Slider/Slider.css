@@ -1,22 +1,3 @@
-/* .carousel-item {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
-} */
-
-/* .carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  width: 100%;
-} */
-
 .carousel-caption {
   display: flex;
   flex-direction: column;
@@ -24,11 +5,15 @@
   height: 100%;
 }
 
+.carousel-item.active {
+  border-bottom: none;
+}
+
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   color: #000;
-  /* border-radius: 50%; */
-  background-color: #17a2b8;
+  /* background-color: #17a2b8; */
 }
 
 .carousel-control-prev-icon:hover,
@@ -47,16 +32,18 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3); /* Add your desired color and opacity */
+  /* background-color: rgba(255, 255, 255, 0.3);  */
+  background-color: rgba(0, 0, 0, 0.3); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4px;
 }
 
 .carousel-caption {
-  z-index: 1; /* Make sure the text is on top of the overlay */
-  color: #fff; /* Set the text color to white */
+  z-index: 1; 
+  color: #fff; 
 }
 
 .button-container {
@@ -74,7 +61,7 @@
 }
 
 .button-container button:hover {
-  background-color: red;
+  /* background-color: red; */
   color: #fff;
   border: none;
   transition: all 0.2s ease-in-out;
@@ -91,10 +78,22 @@
 }
 
 /* slider down key */
-
 .carousel-indicators .active {
-  background-color: #17a2b8;
+  background-color:  #60d9eb;
+  height: 4px !important;
+  transform: rotateY(360deg);
+  transition: transform 1.5s ease-in-out;
+  /* animation-name: indicator-bounce;
+  animation-duration: 1s;
+  animation-fill-mode: both; */
 }
+
+/* @keyframes indicator-bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+} */
+
 
 /* @media (max-width: 1000px) {
   .carousel-item img {
@@ -103,18 +102,50 @@
     width: 100%;
   }
 } */
-
-@media screen and (max-width: 768px) {
-  .button-container button {
-    font-size: 14px;
-  }
-}
-
 .button-container button {
   transition: all 0.3s ease;
 }
 
 .button-container button:hover {
-  background-color: #17a2b8;
-  color: white;
+  background-color: #c4e3ed;
+  color: #000;
+  transition: all ease 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .button-container button {
+    font-size: 14px;
+  }
+  .serviceBtn,
+  .learnBtn {
+    width: 130px;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button-container button {
+    font-size: 12px;
+  }
+  .serviceBtn,
+  .learnBtn {
+    width: 130px;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .button-container button {
+    font-size: 10px;
+  }
+  .serviceBtn,
+  .learnBtn {
+    width: 130px;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    width: 90px;
+    padding: 6px !important;
+  }
 }

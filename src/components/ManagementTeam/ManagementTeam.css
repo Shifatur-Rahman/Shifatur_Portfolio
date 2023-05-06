@@ -5,7 +5,7 @@
   border: none;
   overflow: hidden;
   /* height: 650px; */
-  border: 1px solid #92CCE9;
+  border: 1px solid #92cce9;
 }
 
 .imageCard .card-img-top {
@@ -29,7 +29,6 @@
   height: 200px;
 } */
 
-
 .managementDesignation {
   font-style: italic;
   color: #95b4d2;
@@ -38,24 +37,66 @@
   font-size: 13px;
 }
 
+.profileBtn {
+  /* border: 1px solid darkcyan; */
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #cccccc;
+  border: none;
+}
 
-@media(max-width: 1000px) {
-  .managementName{
+.profileBtn:hover {
+  background-color: darkcyan;
+  color: #f2f2f2;
+  border: 2px solid darkcyan;
+  transition: all ease 1s;
+}
+
+@media (max-width: 1000px) {
+  .managementName {
     font-size: 15px;
   }
-  .managementDesignation{
+  .managementDesignation {
     font-size: 11px;
   }
 }
 
-@media(max-width: 768px) {
-  .managementName{
+@media (max-width: 768px) {
+  .managementName {
     font-size: 13px;
   }
-  .ManagementCard{
+  .ManagementCard {
     margin-bottom: 1rem;
   }
-  .imageCard{
+  .imageCard {
     margin-bottom: 1rem;
   }
+}
+
+.img11 img {
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+
+.img12 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-top: -80px;
+  background-color: darkcyan;
+}
+
+.card:hover .img12 img {
+  border-color: darkcyan;
+  transition: 0.7s;
 }

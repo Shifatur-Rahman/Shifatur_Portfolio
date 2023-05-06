@@ -24,7 +24,7 @@
   color: #fff;
   width: 30%;
   margin: auto;
-  height: 2px;
+  border: 1px solid #fff;
 }
 
 .summaryTitle {
@@ -49,34 +49,36 @@
 
 .summaryCardTitle {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   text-align: left;
   margin: 1rem 0;
-  color: #000;
+  /* color: #3d405b; */
+  color: #2E4F4F;
 }
 
 .summaryCardText {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-align: left;
-  color: #000;
+  color: #999999;
 }
 
 .summaryIcon {
-  color: #3d405b;
+  color: #17a2b8;
   margin-right: 5px;
 }
 
 .summaryCard {
-  margin-top: 15%;
+  margin-top: 20%;
   padding: 10px;
   border-radius: 5px;
 }
+
 .chartsCountUp {
-  font-size: 35px;
-  text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6;
+  font-size: 32px;
+  color: #fff;
 }
 
 @media (max-width: 1000px) {
@@ -101,10 +103,10 @@
 
 @media (max-width: 768px) {
   .SummarySection {
-    min-height: 700px;
+    min-height: 600px;
   }
   .summaryOverlay {
-    height: 700px;
+    height: 600px;
   }
   .chartsCountUp {
     font-size: 22px;
@@ -118,21 +120,24 @@
   .chartsCountUp {
     margin-top: 1rem;
   }
+  .summaryCard{
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 492px) {
   .SummarySection {
-    min-height: 650px;
+    min-height: 600px;
   }
   .summaryOverlay {
-    height: 650px;
+    height: 600px;
   }
   .summaryTitle {
     font-size: 13px;
     font-weight: 600;
   }
   .chartsCountUp {
-    font-size: 20px;
+    font-size: 18px;
   }
   .summaryCardTitle {
     font-size: 15px;

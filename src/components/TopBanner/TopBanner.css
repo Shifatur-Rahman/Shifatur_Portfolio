@@ -51,7 +51,7 @@
   font-weight: 700;
   font-size: 42px;
   color: #fff;
-  text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6;
+  /* text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6; */
 }
 
 .topBannerSubTitle {
@@ -59,7 +59,7 @@
   font-weight: 600;
   font-size: 35px;
   color: #fff;
-  text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6;
+  /* text-shadow: -1px 0 #0097e6, 0 1px #0097e6, 1px 0 #0097e6, 0 -1px #0097e6; */
 }
 
 .topBannerBtn {
@@ -76,10 +76,24 @@
   color: #2f3e46;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1400px) {
   .topBannerTitle {
+    font-size: 50px;
+  }
+
+  .topBannerSubTitle {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navigation {
+    height: 70px;
+  }
+  .topBannerTitle {
+    margin-top: 2rem;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .topBannerSubTitle {
@@ -93,6 +107,7 @@
 
 @media (max-width: 768px) {
   .topBannerTitle {
+    margin-top: 3rem;
     font-weight: 500;
     font-size: 30px;
   }
@@ -106,15 +121,32 @@
   }
 }
 
-@media (max-width: 481px) {
+@media (max-width: 600px) {
   .topBannerTitle {
+    margin-top: 2rem;
     font-weight: 400;
     font-size: 22px;
   }
 
   .topBannerSubTitle {
     font-weight: 400;
+    font-size: 18px;
+  }
+  .topBannerBtn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 481px) {
+  .topBannerTitle {
+    margin-top: 3rem;
+    font-weight: 400;
     font-size: 15px;
+  }
+
+  .topBannerSubTitle {
+    font-weight: 400;
+    font-size: 13px;
   }
   .topBannerBtn {
     font-size: 12px;
