@@ -43,10 +43,10 @@ const ImgGallery = () => {
 
         <ImageList
           className="ImageGallery"
-          sx={{ width: "100%", height: "auto" }}
+          sx={{ width: "100%", height: "auto", overflow:"hidden" }}
           variant="woven"
           cols={4}
-          gap={8}
+          gap={6}
         >
           {itemData.map((item) => (
             <ImageListItem onClick={() => handleImageClick(item)}>
@@ -77,7 +77,6 @@ const ImgGallery = () => {
               src={`${selectedImage?.img}?w=500&fit=crop&auto=format`}
               srcSet={`${selectedImage?.img}?w=500&fit=crop&auto=format&dpr=2 2x`}
               alt={selectedImage?.title}
-              // style={{ width: "500px", height: "400px" }}
             />
           </DialogContent>
         </Dialog>

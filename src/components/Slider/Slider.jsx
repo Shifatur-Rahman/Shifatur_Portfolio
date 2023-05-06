@@ -52,13 +52,13 @@ const Slider = () => {
 
   let handleClick = () => {
     if (Summaryref.current) {
-      Summaryref.current.scrollIntoView({ behavior: "smooth" });
+      Summaryref.current.scrollIntoView({ behavior: "smooth"});
     }
   };
 
   let handleKnowClick = () => {
     if (LearnMoreref.current) {
-      LearnMoreref.current.scrollIntoView({ behavior: "smooth" });
+        LearnMoreref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 

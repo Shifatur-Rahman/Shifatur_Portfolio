@@ -14,7 +14,7 @@ const BoardOfDirector = () => {
   return (
     <>
       <div className="profile-area">
-        <Container>
+        <Container style={{marginTop:"3rem"}}>
           <Row>
             <Col lg={3} md={6} sm={12}>
               <div className="card">
@@ -28,7 +28,7 @@ const BoardOfDirector = () => {
 
                 <div className="main-text">
                   <h2>Mr. Md Samsul Arifin</h2>
-                  <p className="main-text-p">Managing Director</p>
+                  <p style={{ fontSize: "12px" }} className="main-text-p">Managing Director</p>
                 </div>
 
                 <div className="socials" style={{ fontSize: "25px" }}>
@@ -52,7 +52,7 @@ const BoardOfDirector = () => {
 
                 <div className="main-text">
                   <h2>Mrs. Ferdausi Akter</h2>
-                  <p className="main-text-p">Deputy Managing Director</p>
+                  <p style={{ fontSize: "12px" }} className="main-text-p">Deputy Managing Director</p>
                   <p></p>
                 </div>
 
@@ -77,7 +77,7 @@ const BoardOfDirector = () => {
 
                 <div className="main-text">
                   <h2>Al Amin Masud Alam</h2>
-                  <p className="main-text-p">General Manager</p>
+                  <p style={{ fontSize: "12px" }} className="main-text-p">General Manager</p>
                   <p></p>
                 </div>
 
@@ -102,7 +102,7 @@ const BoardOfDirector = () => {
 
                 <div className="main-text">
                   <h2>Md. Akram Hossain</h2>
-                  <p className="main-text-p">General Manager</p>
+                  <p style={{ fontSize: "12px" }} className="main-text-p">General Manager</p>
                   <p></p>
                 </div>
 

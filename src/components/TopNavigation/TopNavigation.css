@@ -21,19 +21,19 @@
 .navItem {
   text-decoration: none !important;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 12px !important;
   font-weight: 500;
   margin-right: 1rem;
-  color: #000;
+  color: #2E4F4F;
 }
 
 .navItemScroll {
   text-decoration: none !important;
   font-family: "Raleway", sans-serif;
-  font-size: 15px !important;
+  font-size: 20px !important;
   font-weight: 500;
   margin-right: 1rem;
-  color: #000;
+  color: #2E4F4F;
 }
 
 .navItemScroll:hover {
@@ -42,8 +42,10 @@
 }
 
 .navItem:hover {
-  color: #cccccc !important;
+  color: #5ea1a1 !important;
   transition: all ease 1s;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .logo {
@@ -136,16 +138,15 @@
   }
 }
 
-@media (max-width: 1000px) {
-  .navigation {
-    height: 80px !important;
-  }
-  
+@media (max-width: 992px) {
+
   button.navbar-toggler {
     background-color: #17a2b8;
     border: none;
-    color: #17a2b8;
+    margin-top: -10px;
   }
+
+    /* button.navbar-toggler,   span.navbar-toggler-icon */
 
   span.navbar-toggler-icon {
     width: 22px;
@@ -169,11 +170,14 @@
   #one {
     display: inline-block;
   }
+  .logo{
+    margin-top: -10px;
+  }
 }
 
 @media (max-width: 768px) {
   .navigation {
-    height: 60px;
+    height: 55px !important;
   }
   .navItem {
     font-size: 12px;
@@ -195,11 +199,14 @@
     width: 90px;
     height: 40px;
   }
+  /* span.navbar-toggler-icon, button.navbar-toggler */
+  
+
 }
 
 @media (max-width: 600px) {
   .navigation {
-    background: rgba(0, 0, 0, 0);
+   
   }
   /* button.navbar-toggler {
     margin-top: -20px;
@@ -214,11 +221,9 @@
   .logo {
     width: 70px;
     height: 35px;
-    margin-top: -2rem;
   }
   /* button.navbar-toggler,   span.navbar-toggler-icon */
   button.navbar-toggler {
-    margin-top: -1rem !important;
     font-size: 6px !important;
   }
 }

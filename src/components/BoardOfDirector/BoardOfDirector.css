@@ -26,7 +26,6 @@
   border-radius: 50%;
   border: 7px solid #fff;
   margin-top: -80px;
-  /* background-color: darkcyan; */
   background-color: #d9d9d9;
 }
 
@@ -43,9 +42,10 @@
 .main-text h2 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 0 20px;
   color: #2E4F4F;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-text p {

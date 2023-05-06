@@ -34,7 +34,7 @@ const ManagementTeam = () => {
 
                 <div className="main-text">
                   <h2> ALHAJ MD NURUL ISLAM TALUKDER</h2>
-                  <p className="main-text-p">CHAIRMAN</p>
+                  <p style={{ fontSize: "14px" }}  className="main-text-p">CHAIRMAN</p>
                   <Link to={`/about/chairman-message`}>
                     <Button className="profileBtn" variant="outline-info">
                       Details
@@ -63,7 +63,7 @@ const ManagementTeam = () => {
 
                 <div className="main-text">
                   <h2>MR MD SAMSUL ARIFIN</h2>
-                  <p className="main-text-p">MANAGING DIRECTOR</p>
+                  <p style={{ fontSize: "14px" }}  className="main-text-p">MANAGING DIRECTOR</p>
                   <Link to={`/about/md-message`}>
                     <Button className="profileBtn" variant="outline-info">
                       Details
@@ -100,7 +100,7 @@ const ManagementTeam = () => {
 
                 <div className="main-text">
                   <h2>MR MD SAMSUL ABEDIN</h2>
-                  <p className="main-text-p">Director</p>
+                  <p style={{ fontSize: "12px" }}  className="main-text-p">Director</p>
                   <Link
                     to={`/about/Message/Details?title=${"MR MD SAMSUL ABEDIN"}&subTitle=${"Director"}`}
                   >
@@ -131,7 +131,7 @@ const ManagementTeam = () => {
 
                 <div className="main-text">
                   <h2>MR MD SAMSUL SALEHIN</h2>
-                  <p className="main-text-p">Director</p>
+                  <p style={{ fontSize: "12px" }}  className="main-text-p">Director</p>
                   <Link
                     to={`/about/Message/Details?title=${"MR MD SAMSUL SALEHIN"}&subTitle=${"Director"}`}
                   >

@@ -10,11 +10,11 @@
 }
 
 
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
   color: #000;
-  /* background-color: #17a2b8; */
-}
+  background-color: #17a2b8;
+} */
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
@@ -77,6 +77,7 @@
   background-color: #17a2b8;
 }
 
+
 /* slider down key */
 .carousel-indicators .active {
   background-color:  #60d9eb;
@@ -94,14 +95,6 @@
   100% { transform: translateY(0); }
 } */
 
-
-/* @media (max-width: 1000px) {
-  .carousel-item img {
-    height: 100vh;
-    object-fit: cover;
-    width: 100%;
-  }
-} */
 .button-container button {
   transition: all 0.3s ease;
 }
@@ -134,6 +127,10 @@
     font-size: 11px !important;
     font-weight: 400 !important;
   }
+
+  .sliderImg{
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 481px) {
@@ -147,5 +144,8 @@
     font-weight: 400 !important;
     width: 90px;
     padding: 6px !important;
+  }
+  .sliderImg{
+    height: 300px;
   }
 }

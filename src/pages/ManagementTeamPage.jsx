@@ -3,7 +3,6 @@ import TopNavigation from "../components/TopNavigation/TopNavigation";
 import PageTop from "../components/PageTop/PageTop";
 import Footer from "../components/Footer/Footer";
 import BoardOfDirector from "../components/BoardOfDirector/BoardOfDirector";
-import TeamManagement from "../components/TeamManagement/TeamManagement";
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
