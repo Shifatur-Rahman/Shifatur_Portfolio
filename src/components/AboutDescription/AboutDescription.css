@@ -1,7 +1,8 @@
 .AboutPageTitle {
   font-family: "Raleway", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
+  color: #17a2b8;
 }
 
 .AboutPageDescription {
@@ -12,7 +13,7 @@
 }
 
 .AboutMeMargin {
-  margin: 6rem 0;
+  margin: 4rem 0;
 }
 
 .AboutMeHr {
@@ -21,9 +22,18 @@
 
 @media (max-width: 780px) {
   .AboutPageTitle {
-    font-size: 22px;
+    font-size: 20px;
   }
   .AboutPageDescription {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .AboutPageTitle {
+    font-size: 16px;
+  }
+  .AboutPageDescription {
+    font-size: 12px;
   }
 }

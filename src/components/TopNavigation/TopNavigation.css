@@ -21,38 +21,40 @@
 .navItem {
   text-decoration: none !important;
   /* font-family: "Raleway", sans-serif; */
-  font-size: 15px !important;
-  /* line-height: 40px; */
+  font-size: 14px !important;
   font-weight: 500;
   margin-right: 1rem;
   color: #2e4f4f;
   font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.3px;
 }
 
 .navItemScroll {
   text-decoration: none !important;
   /* font-family: "Raleway", sans-serif; */
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 15px !important;
+  font-size: 14px !important;
   font-weight: 500;
   margin-right: 1rem;
   line-height: 30px;
   /* color: #2e4f4f; */
   color: #17a2b8;
-}
-
-.navItemScroll:hover {
-  color: #148c9f;
-  transition: all ease 1s !important;
-  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 .navItem:hover {
   color: #5ea1a1 !important;
   transition: all ease 1s;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600; 
 }
+
+.navItemScroll:hover {
+  color: #148c9f;
+  transition: all ease 1s !important;
+  font-weight: 600;
+}
+
 
 .logo {
   width: 100px;
@@ -70,13 +72,15 @@
   position: absolute;
   top: 80%;
   background-color: #f1f1f1;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.3px;
   font-weight: 500;
   min-width: 180px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px !important;
   width: 100% !important;
 }
 
@@ -85,9 +89,9 @@
   transition-duration: 2s;
 }
 
-.navDropdown:hover {
-  background-color: #f8f9fa;
-}
+/* .navDropdown:hover {
+  background-color: red;
+} */
 
 .navDropdown:hover {
   background-color: transparent;
@@ -134,7 +138,6 @@
   }
   .navItemScroll {
     margin-right: 5px !important;
-    /* font-size: 12px !important; */
   }
 }
 
@@ -205,14 +208,6 @@
     height: 40px;
   }
   /* span.navbar-toggler-icon, button.navbar-toggler */
-}
-
-@media (max-width: 600px) {
-  .navigation {
-  }
-  /* button.navbar-toggler {
-    margin-top: -20px;
-  } */
 }
 
 @media (max-width: 450px) {
