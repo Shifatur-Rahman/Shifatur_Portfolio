@@ -1,11 +1,11 @@
 .navigation {
-  /* transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
   -o-transition: background-color 400ms linear;
   -moz-transition: background-color 400ms linear;
-  -webkit-transition: background-color 400ms linear; */
+  -webkit-transition: background-color 400ms linear;
   /* background-color: rgba(0, 0, 0, 0.1); */
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 1rem 5rem;
+  /* padding: 1rem 5rem; */
 }
 
 .navigationScroll {
@@ -15,7 +15,7 @@
   -webkit-transition: background-color 400ms linear;
   /* background-color: #f6fff8; */
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 1rem 5rem;
+  /* padding: 1rem 5rem; */
 }
 
 .navItem {
@@ -36,8 +36,6 @@
   font-size: 14px !important;
   font-weight: 500;
   margin-right: 1rem;
-  line-height: 30px;
-  /* color: #2e4f4f; */
   color: #17a2b8;
   letter-spacing: 0.3px;
 }
@@ -72,8 +70,8 @@
   position: absolute;
   top: 80%;
   background-color: #f1f1f1;
-  /* font-family: "Montserrat", sans-serif; */
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
   letter-spacing: 0.3px;
   font-weight: 500;
   min-width: 180px;
@@ -88,10 +86,6 @@
   transition-property: background-color;
   transition-duration: 2s;
 }
-
-/* .navDropdown:hover {
-  background-color: red;
-} */
 
 .navDropdown:hover {
   background-color: transparent;
@@ -124,28 +118,35 @@
 .dropdown-content {
   font-size: 12px;
 }
+/* padding add */
+.navigationScroll {
+  padding: 8px 3rem !important;
+}
+.navItemScroll {
+  margin-right: 5px !important;
+}
 
 @media (max-width: 1300px) {
   .navigation {
-    padding: 1rem 2rem !important;
+    padding: 10px 2rem !important;
   }
   .navItem {
     margin-right: 5px;
     font-size: 12px;
   }
-  .navigationScroll {
-    padding: 1rem 2rem;
+  /* .navigationScroll {
+    padding: 8px 3rem !important;
   }
   .navItemScroll {
     margin-right: 5px !important;
-  }
+  } */
 }
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .navigationScroll {
     padding: 1rem 2rem;
   }
-}
+} */
 
 @media (max-width: 992px) {
   button.navbar-toggler {
@@ -162,7 +163,7 @@
   }
 
   #responsive-navbar-nav {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     text-align: center;
   }
@@ -171,10 +172,20 @@
     color: #fff !important;
   }
 
+  .navItem:hover {
+    color: #49d3e9 !important;
+  }
+
   .navItemScroll {
-    color: #fff !important;
+    color:  #fff !important;
     text-align: center;
   }
+
+  .navItemScroll:hover {
+    color: #49d3e9 !important;
+  }
+
+
   #one {
     display: inline-block;
   }
