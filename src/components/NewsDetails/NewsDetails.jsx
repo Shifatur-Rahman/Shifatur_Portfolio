@@ -24,6 +24,29 @@ const NewsDetails = () => {
     autoplaySpeed: 3000, 
     pauseOnHover: false, 
     cssEase: "ease-in-out", 
+    responsive: [
+      {
+        breakpoint: 1000, // for tablets and smaller devices
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 992, // for tablets and smaller devices
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 576, // for phones and smaller devices
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   
   return (

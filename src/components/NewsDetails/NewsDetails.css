@@ -1,3 +1,22 @@
 .newsCardNew{
     width: 350px;
+    overflow: hidden;
+    /* margin-right: 15px; */
 }
+
+.slick-arrow.slick-prev::before{
+color: #2e4f4f;
+}
+
+.slick-arrow.slick-next::before{
+/* color: #17a2b8; */
+color: #2e4f4f;
+}
+
+@media (min-width: 1200px) {
+     .newsCardNew{
+        width: 280px;
+     }
+}
+
+
