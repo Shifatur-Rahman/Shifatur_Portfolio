@@ -75,8 +75,26 @@
 .serviceBtn {
   color: #fff;
   background-color: #17a2b8;
+  font-weight: 700 !important;
 }
 
+.learnBtn{
+  font-weight: 700 !important;
+}
+
+.serviceBtn:hover, .learnBtn:hover{
+color: #17a2b8 !important;
+font-weight: 700 !important;
+}
+
+.serviceBtn:focus{
+  background-color: #17a2b8;
+  color: #fff !important;
+  }
+
+  .learnBtn:focus{
+    color: #17a2b8;
+  }
 
 /* slider down key */
 .carousel-indicators .active {

@@ -7,16 +7,28 @@ a {
   text-decoration: none;
 }
 
+/* .summaryCardTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  margin: 1rem 0;
+  color: #2E4F4F;
+} */
+
 .footerTitle {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  color: #2E4F4F;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
+
 .footerTextAlign {
   text-align: left;
 }
+
 .contactTitle {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
