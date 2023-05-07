@@ -30,8 +30,10 @@ const Slider = () => {
     },
     {
       src: slider3,
-      alt: "House Hold Products",
-      para: "Better Design & Right Choice For Kitchen",
+      // alt: "House Hold Products",
+      alt: "Talukder Furniture",
+      para: "Better Design & Right Choice For Residence",
+      // para: "Better Design & Right Choice For Kitchen",
     },
   ];
 
