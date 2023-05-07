@@ -121,9 +121,11 @@
 /* padding add */
 .navigationScroll {
   padding: 8px 3rem !important;
+  transition: all ease 700ms;
 }
 .navItemScroll {
   margin-right: 5px !important;
+  transition: all ease 700ms;
 }
 
 @media (max-width: 1300px) {
@@ -152,7 +154,6 @@
   button.navbar-toggler {
     background-color: #17a2b8;
     border: none;
-    margin-top: -10px;
   }
 
   /* button.navbar-toggler,   span.navbar-toggler-icon */
@@ -188,9 +189,6 @@
 
   #one {
     display: inline-block;
-  }
-  .logo {
-    margin-top: -10px;
   }
 }
 
