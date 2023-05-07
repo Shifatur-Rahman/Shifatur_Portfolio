@@ -5,9 +5,8 @@ html {
 .knowusTitle {
   font-size: 35px;
   color: #17a2b8;
-  /* text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px red; */
   text-align: center;
-  margin: 2rem 0;
+  margin: 3rem 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
@@ -34,21 +33,29 @@ html {
   transition: all ease 1.5s;
 }
 
+
 @media only screen and (min-width: 1000px) {
   .knowusText {
     margin: 0 10rem;
   }
 }
 
-@media (max-width: 768px) {
-  .knowMoreBtn {
-    font-size: 15px;
-  }
-}
+@media (max-width: 1300px) {
+  .knowusTitle {
+    font-size: 28px;
+   }
+ }
+
+
+ @media (max-width: 1000px) {
+  .knowusTitle {
+    font-size: 26px;
+   }
+ }
 
 @media (max-width: 768px) {
   .knowusTitle {
-    font-size: 25px;
+    font-size: 22px;
   }
   .knowusText {
     font-size: 13px;
@@ -61,5 +68,8 @@ html {
 @media (max-width: 481px) {
   .knowMoreBtn {
     font-size: 12px;
+  }
+  .knowusTitle {
+    font-size: 20px;
   }
 }
