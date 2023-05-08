@@ -163,7 +163,7 @@ const newsItems = [
       "The recent visit of the Managing Director of Talukder Group of Industries to our new furniture factory was an exciting and memorable event. ",
     date: "May 07, 2023",
     description:
-      "The event was held at a prestigious venue and was attended by senior executives, department heads, and representatives.",
+      "Overall, the visit was an eye-opening experience, and we came away with a greater appreciation for the complexity and sophistication of modern manufacturing.",
   },
   {
     id: 4,
@@ -178,9 +178,9 @@ const newsItems = [
     id: 5,
     imageSrc: news5,
     title:
-      "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
+      "The meeting was aimed at improving communication and collaboration between management and employees.",
     date: "December 26, 2022",
     description:
-      "The event was held at a prestigious venue and was attended by senior executives, department heads, and representatives.",
+      "The employees were given the opportunity to ask questions and provide feedback on various aspects of their work, including working conditions, benefits, and opportunities for career growth and development.",
   },
 ];
