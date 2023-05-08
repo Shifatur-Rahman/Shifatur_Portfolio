@@ -5,7 +5,7 @@
   -webkit-transition: background-color 400ms linear;
   /* background-color: rgba(0, 0, 0, 0.1); */
   background-color: rgba(255, 255, 255, 0.7);
-  /* padding: 1rem 5rem; */
+  padding: 1.5rem 3rem;
 }
 
 .navigationScroll {
@@ -15,24 +15,24 @@
   -webkit-transition: background-color 400ms linear;
   /* background-color: #f6fff8; */
   background-color: rgba(255, 255, 255, 0.9);
-  /* padding: 1rem 5rem; */
+  padding: 1rem 3rem;
 }
 
 .navItem {
   text-decoration: none !important;
   /* font-family: "Raleway", sans-serif; */
-  font-size: 14px !important;
+  font-size: 15px !important;
   font-weight: 500;
   margin-right: 1rem;
   color: #2e4f4f;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 0.3px;
 }
 
 .navItemScroll {
   text-decoration: none !important;
   /* font-family: "Raleway", sans-serif; */
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 14px !important;
   font-weight: 500;
   margin-right: 1rem;
@@ -44,7 +44,7 @@
   color: #5ea1a1 !important;
   transition: all ease 1s;
   font-size: 16px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .navItemScroll:hover {
@@ -52,7 +52,6 @@
   transition: all ease 1s !important;
   font-weight: 600;
 }
-
 
 .logo {
   width: 100px;
@@ -178,14 +177,13 @@
   }
 
   .navItemScroll {
-    color:  #fff !important;
+    color: #fff !important;
     text-align: center;
   }
 
   .navItemScroll:hover {
     color: #49d3e9 !important;
   }
-
 
   #one {
     display: inline-block;
@@ -239,4 +237,3 @@
     position: static;
   }
 }
-

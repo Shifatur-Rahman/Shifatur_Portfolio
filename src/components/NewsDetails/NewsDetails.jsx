@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import "./NewsDetails.css"
+import React, { useEffect, useState } from "react";
+import "./NewsDetails.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -12,8 +12,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const NewsDetails = () => {
-
-
   const settings = {
     dots: true,
     infinite: true,
@@ -21,26 +19,46 @@ const NewsDetails = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 3000, 
-    pauseOnHover: false, 
-    cssEase: "ease-in-out", 
+    autoplaySpeed: 4000,
+    pauseOnHover: false,
+    cssEase: "ease-in-out",
     responsive: [
       {
-        breakpoint: 1000, // for tablets and smaller devices
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
+          swipeToSlide: true,
+          infinite: true,
+          dots: true,
         },
       },
       {
-        breakpoint: 992, // for tablets and smaller devices
+        breakpoint: 1100,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          swipeToSlide: true,
+          infinite: true,
+          dots: true,
         },
       },
       {
-        breakpoint: 576, // for phones and smaller devices
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 320,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -48,40 +66,72 @@ const NewsDetails = () => {
       },
     ],
   };
-  
+
   return (
     <>
-    
-      <Container>
-      <Slider {...settings}>
-      {newsItems.map((item) => (
-          <Col sm={12} md={6} lg={4} key={item.id}>
-            <Card className="newsCardNew">
-              <Card.Img variant="top" src={item.imageSrc} />
-              <Card.Body>
+      <Container style={{ marginTop: "5rem" }}>
+        <Slider {...settings}>
+          {newsItems.map((item, index) => (
+            <Col sm={12} md={6} lg={4} key={item.id}>
+              <Card
+                className={`newsCard ${
+                  index === newsItems.length - 1 ? "lastCard" : ""
+                }`}
+              >
+                <Card.Img className="newsCardImg" variant="top" src={item.imageSrc} />
+                <Card.Body>
                 <h2 className="newsCardTitle">{item.title}</h2>
-                <p className="newsHeader" style={{ fontSize: "14px" }}>
-                  {" "}
-                  <AiOutlineCalendar
-                    style={{ fontSize: "20px", color: "#17a2b8" }}
-                  />{" "}
-                  <span className="newsHeader">{item.date}</span>{" "}
-                </p>
-                <p
-                  className="newsPara"
-                  style={{ textAlign: "justify", fontSize: "14px" }}
-                >
-                  {item.description}
-                </p>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Slider>
+                  <p className="newsHeader" style={{ fontSize: "14px" }}>
+                    {" "}
+                    <AiOutlineCalendar
+                      style={{ fontSize: "20px", color: "#17a2b8" }}
+                    />{" "}
+                    <span className="newsHeader">{item.date}</span>{" "}
+                  </p>
+                  
+                  <p
+                    className="newsPara"
+                    style={{ textAlign: "justify", fontSize: "14px" }}
+                  >
+                    {item.description}
+                  </p>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Slider>
       </Container>
+
+      {/* <Container style={{ marginTop: "5rem" }}>
+        <Slider {...settings}>
+          {newsItems.map((item) => (
+            <Col sm={12} md={6} lg={4} key={item.id}>
+              <Card className="newsCard">
+                <Card.Img variant="top" src={item.imageSrc} />
+                <Card.Body>
+                  <h2 className="newsCardTitle">{item.title}</h2>
+                  <p className="newsHeader" style={{ fontSize: "14px" }}>
+                    {" "}
+                    <AiOutlineCalendar
+                      style={{ fontSize: "20px", color: "#17a2b8" }}
+                    />{" "}
+                    <span className="newsHeader">{item.date}</span>{" "}
+                  </p>
+                  <p
+                    className="newsPara"
+                    style={{ textAlign: "justify", fontSize: "14px" }}
+                  >
+                    {item.description}
+                  </p>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Slider>
+      </Container> */}
     </>
-  )
-}
+  );
+};
 
 export default NewsDetails;
 
@@ -115,7 +165,7 @@ const newsItems = [
   },
   {
     id: 4,
-    imageSrc: news1,
+    imageSrc: news5,
     title:
       "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
     date: "December 26, 2022",

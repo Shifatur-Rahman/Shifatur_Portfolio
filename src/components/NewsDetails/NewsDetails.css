@@ -1,22 +1,63 @@
-.newsCardNew{
-    width: 350px;
-    overflow: hidden;
-    /* margin-right: 15px; */
+
+.slick-arrow.slick-prev::before {
+  color: #2e4f4f;
 }
 
-.slick-arrow.slick-prev::before{
-color: #2e4f4f;
+.slick-arrow.slick-next::before {
+  /* color: #17a2b8; */
+  color: #2e4f4f;
 }
 
-.slick-arrow.slick-next::before{
-/* color: #17a2b8; */
-color: #2e4f4f;
+/* @media (min-width: 1200px) {
+  .newsCardNew {
+    width: 280px;
+  }
+} */
+
+/* .newsCard {
+  margin-right: 20px;
+  border: 1px solid #92cce9;
+} */
+
+/* .newsCard:not(:last-child) {
+  margin-right: 20px !important;
+  border: 1px solid #92cce9;
+} */
+
+.newsCard {
+  margin-right: 20px;
+  border: 1px solid #92cce9;
+  height: 420px;
+  /* border: 1px solid red; */
+  margin-left: 10px;
 }
 
-@media (min-width: 1200px) {
-     .newsCardNew{
-        width: 280px;
-     }
+
+.lastCard {
+  margin-right: 0;
+}
+
+.slick-track {
+  border: none !important;
+}
+
+.newsCardImg{
+  height: 200px;
 }
 
 
+.newsCardTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+  .newsCard{
+    width: 200px;
+    display: flex;
+    align-items: center;
+  }
+}
