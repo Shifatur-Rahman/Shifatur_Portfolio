@@ -6,6 +6,7 @@ import CorporateClient from '../components/CorporateClient/CorporateClient';
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
 import BackToTopButton from '../components/BackToTopButton/BackToTopButton';
+import ClientReview from '../components/ClientReview/ClientReview';
 
 
 
@@ -21,7 +22,8 @@ const CorporateClientPage = () => {
     <>
        <TopNavigation title="Talukder Group" />
        <PageTop pageTitle="Corporate Client" />
-       <CorporateClient />
+       {/* <CorporateClient /> */}
+       <ClientReview />
        <Footer />
        <BackToTopButton />
     

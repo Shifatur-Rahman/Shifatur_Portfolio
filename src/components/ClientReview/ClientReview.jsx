@@ -1,45 +1,123 @@
 import React, { Component } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Card } from "react-bootstrap";
 import Slider from "react-slick";
 import "./ClientReview.css";
+import client1 from '../../asset/images/Client_logo/newzeland-dairy.png';
+import client2 from '../../asset/images/Client_logo/olympic-industries-ltd.png';
+import client3 from '../../asset/images/Client_logo/RSPL-Health-BD-Ltd.jpg';
+import client4 from '../../asset/images/Client_logo/protik.png';
+import client5 from '../../asset/images/Client_logo/globe.png';
+import client6 from '../../asset/images/Client_logo/icp.png';
+import client7 from '../../asset/images/Client_logo/mamtaj.png';
+import client8 from '../../asset/images/Client_logo/kallol.png';
+import client9 from '../../asset/images/Client_logo/opsnion.png';
+import client10 from '../../asset/images/Client_logo/finis.png';
+import client11 from '../../asset/images/Client_logo/ifad.jpg';
+import client12 from '../../asset/images/Client_logo/danish.jpg';
+import client13 from '../../asset/images/Client_logo/bashundhara.png';
+import client14 from '../../asset/images/Client_logo/quazi.jpg';
+import client15 from '../../asset/images/Client_logo/keya.jpg';
+import client16 from '../../asset/images/Client_logo/bengal_biscuits.png';
+import client17 from '../../asset/images/Client_logo/fuWang.png';
+import client18 from '../../asset/images/Client_logo/lged.jpg';
+import client19 from '../../asset/images/Client_logo/public_health.png';
+import client20 from '../../asset/images/Client_logo/unicef.png';
+import client21 from '../../asset/images/Client_logo/hysawa.jpg';
+import client22 from '../../asset/images/Client_logo/dphe.png';
 
 class ClientReview extends Component {
   render() {
-    var settings = {
-      autoplay: true,
-      autoplaySpeed: 3000,
-      dots: true,
-      infinite: true,
-      vertical: true,
-      verticalSwiping: true,
-      speed: 3000,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+    // var settings = {
+    //   autoplay: true,
+    //   autoplaySpeed: 3000,
+    //   dots: true,
+    //   infinite: true,
+    //   vertical: true,
+    //   verticalSwiping: true,
+    //   speed: 3000,
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1,
 
+    //   responsive: [
+    //     {
+    //       breakpoint: 1024,
+    //       settings: {
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1,
+    //         infinite: true,
+    //         dots: true,
+    //       },
+    //     },
+    //     {
+    //       breakpoint: 600,
+    //       settings: {
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1,
+    //         initialSlide: 1,
+    //       },
+    //     },
+    //     {
+    //       breakpoint: 480,
+    //       settings: {
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1,
+    //         initialSlide: 1,
+    //       },
+    //     },
+    //   ],
+    // };
+
+    const settings = {
+      // dots: true,
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      pauseOnHover: false,
+      cssEase: "ease-in-out",
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1200,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 5,
             slidesToScroll: 1,
+            swipeToSlide: true,
             infinite: true,
             dots: true,
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 1100,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 4,
             slidesToScroll: 1,
-            initialSlide: 1,
+            swipeToSlide: true,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
           },
         },
         {
           breakpoint: 480,
           settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 320,
+          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            initialSlide: 1,
           },
         },
       ],
@@ -47,68 +125,93 @@ class ClientReview extends Component {
 
     return (
       <>
-        <Container className=" text-center">
-          <h1 className="mainTitle"> Client Review </h1>
-          <Slider className="slider" {...settings}>
-            <div className="clientCard">
-              <Row className="text-center justify-content-center">
-                <Col sm={12} md={6} lg={6}>
-                  <img
-                    className="circleImg"
-                    src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_167585366_20001372200092800_78813.jpg"
-                    alt="client_img"
-                  />
-                  <h1 className="clientTitle">Web Development</h1>
-                  <p className="clientPara">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam optio, totam magni quam deserunt deleniti maxime
-                    ipsa voluptates laudantium recusandae consequatur, corporis,
-                    rem distinctio ipsam?
-                  </p>
-                </Col>
-              </Row>
-            </div>
-            <div className="clientCard">
-              <Row className="text-center justify-content-center">
-                <Col sm={12} md={6} lg={6}>
-                  <img
-                    className="circleImg"
-                    src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_167585366_20001372200092800_78813.jpg"
-                    alt="client_img"
-                  />
-                  <h1 className="clientTitle">Web Development</h1>
-                  <p className="clientPara">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam optio, totam magni quam deserunt deleniti maxime
-                    ipsa voluptates laudantium recusandae consequatur, corporis,
-                    rem distinctio ipsam?
-                  </p>
-                </Col>
-              </Row>
-            </div>
-            <div className="clientCard">
-              <Row className="text-center justify-content-center">
-                <Col sm={12} md={6} lg={6}>
-                  <img
-                    className="circleImg"
-                    src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_167585366_20001372200092800_78813.jpg"
-                    alt="client_img"
-                  />
-                  <h1 className="clientTitle">Web Development</h1>
-                  <p className="clientPara">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam optio, totam magni quam deserunt deleniti maxime
-                    ipsa voluptates laudantium recusandae consequatur, corporis,
-                    rem distinctio ipsam?
-                  </p>
-                </Col>
-              </Row>
-            </div>
-          </Slider>
-        </Container>
+
+<Container style={{ marginTop: "5rem" }}>
+        <Slider {...settings}>
+          {clientData.map((item, index) => (
+            <Col sm={12} md={6} lg={4} key={item.id}>
+              <Card style={{height: "160px", width:"140px", display:"flex", justifyContent:"center", alignItems:"center", border: "1px solid #92CCE9", boxShadow:"1px 1px 5px #92CCE9", marginRight:"10px", marginBottom:"10px"}} className="clientReviewImgCard">
+                <Card.Img style={{width:"80%", height:"80%", padding:"20px 10px"}} className="newsCardImg" variant="top" src={item.img} />
+              </Card>
+            </Col>
+          ))}
+        </Slider>
+ </Container>
+
       </>
     );
   }
 }
 
 export default ClientReview;
+
+
+const clientData = [
+{
+  img: client1
+},
+{
+  img: client2
+},
+{
+  img: client3
+},
+{
+  img: client4
+},
+{
+  img: client5
+},
+{
+  img: client6
+},
+{
+  img: client7
+},
+{
+  img: client8
+},
+{
+  img: client9
+},
+{
+  img: client10
+},
+{
+  img: client11
+},
+{
+  img: client12
+},
+{
+  img: client13
+},
+{
+  img: client14
+},
+{
+  img: client15
+},
+{
+  img: client16
+},
+{
+  img: client17
+},
+{
+  img: client18
+},
+{
+  img: client19
+},
+{
+  img: client20
+},
+{
+  img: client21
+},
+{
+  img: client22
+},
+
+]

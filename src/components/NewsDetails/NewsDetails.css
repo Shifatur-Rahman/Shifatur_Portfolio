@@ -51,3 +51,23 @@
   display: none !important;
 }
 }
+
+
+@media (max-width: 1250px) {
+  .newsCard {
+     height: 500px;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .newsCard {
+     height: 450px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .newsCard {
+     height: 500px;
+  }
+}
