@@ -4,8 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
-import news1 from "../../asset/images/news/news2.png";
-import news2 from "../../asset/images/news/news1.jpg";
+import news1 from "../../asset/images/news/news1.jpg";
+import news2 from "../../asset/images/news/news2.jpg";
+import news3 from "../../asset/images/news/news3.jpg";
+import news4 from "../../asset/images/news/news4.jpg";
 import news5 from "../../asset/images/news/news5.jpg";
 import { AiOutlineCalendar } from "react-icons/ai";
 import AOS from "aos";
@@ -17,7 +19,7 @@ const NewsDetails = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: false,
@@ -138,7 +140,7 @@ export default NewsDetails;
 const newsItems = [
   {
     id: 1,
-    imageSrc: news2,
+    imageSrc: news1,
     title:
       "Talukder Group of Industries recently held a meeting to discuss strategies for achieving our targets for the upcoming year.",
     date: "January 26, 2020",
@@ -147,7 +149,7 @@ const newsItems = [
   },
   {
     id: 2,
-    imageSrc: news5,
+    imageSrc: news2,
     title:
       "Talukder Group of Industries recently held a meeting to encourage collaboration and open communication with our employees.",
     date: "April 05, 2021",
@@ -156,16 +158,16 @@ const newsItems = [
   },
   {
     id: 3,
-    imageSrc: news1,
+    imageSrc: news3,
     title:
-      "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
-    date: "December 26, 2022",
+      "The recent visit of the Managing Director of Talukder Group of Industries to our new furniture factory was an exciting and memorable event. ",
+    date: "May 07, 2023",
     description:
       "The event was held at a prestigious venue and was attended by senior executives, department heads, and representatives.",
   },
   {
     id: 4,
-    imageSrc: news5,
+    imageSrc: news4,
     title:
       "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
     date: "December 26, 2022",
@@ -174,7 +176,7 @@ const newsItems = [
   },
   {
     id: 5,
-    imageSrc: news1,
+    imageSrc: news5,
     title:
       "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
     date: "December 26, 2022",
