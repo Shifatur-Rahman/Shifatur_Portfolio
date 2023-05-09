@@ -10,10 +10,33 @@ import Button from "react-bootstrap/Button";
 import { useRef } from "react";
 import KnowUs from "../../components/KnowUs/KnowUs";
 import Summary from "../../components/Summary/Summary";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Slider = () => {
   const Summaryref = useRef(null);
   const LearnMoreref = useRef(null);
+
+  useEffect(() => {
+    AOS.init({
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      duration: 1000, // values from 0 to 3000, with step 50ms
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      animatedClassName: 'aos-animate', // class applied on animation
+      initClassName: 'aos-init', // class applied after initialization
+      useClassNames: false // if true, will add content of `data-aos` as classes on scroll
+     
+    });
+  }, []);
+
+
+
+
 
   const images = [
     {
@@ -89,6 +112,7 @@ const Slider = () => {
                     className="serviceBtn btn-block btn-lg mt-3"
                     style={{ marginRight: "20px" }}
                     variant="info"
+                    data-aos="fade-right"
                   >
                     Our Services
                   </Button>
@@ -97,6 +121,7 @@ const Slider = () => {
                     onClick={handleKnowClick}
                     className="learnBtn btn-block btn-lg mt-3"
                     variant="outline-light"
+                    data-aos="fade-left"
                   >
                     Learn More
                   </Button>
