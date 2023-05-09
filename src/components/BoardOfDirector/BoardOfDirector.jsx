@@ -106,7 +106,7 @@ const BoardOfDirector = () => {
                   <p></p>
                 </div>
 
-                <div className="socials" style={{ fontSize: "25px" }}>
+                <div className="socials">
                   <BsFacebook style={{ marginRight: "5px" }} />
                   <AiFillTwitterCircle style={{ marginRight: "5px" }} />
                   <GrPinterest style={{ marginRight: "5px" }} />

@@ -17,7 +17,7 @@ const AchievementPage = () => {
   return (
     <>
       <TopNavigation title="Talukder Group" />
-      <PageTop pageTitle="Awards and Achievements" />
+      <PageTop pageTitle="Awards and Certification" />
       <Achievement />
       <Footer />
       <BackToTopButton />

@@ -156,7 +156,6 @@ class TopNavigation extends Component {
                     >
                       Corporate Client
                     </NavLink>
-                    {/* <NavLink to="/client/localClient">Local client</NavLink> */}
                   </div>
                 </div>
               </Nav.Link>

@@ -25,8 +25,7 @@ class PortfolioPage extends Component {
       // >
         <>
         <TopNavigation title="Talukder Group of Industries" />
-        <PageTop pageTitle="Our Portfolio" />
-        {/* <AllProject /> */}
+        <PageTop pageTitle="Our Product" />
         <Portfolio />
         <Footer />
         <BackToTopButton />

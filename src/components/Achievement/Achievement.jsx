@@ -35,7 +35,7 @@ const Achievement = () => {
       <Container>
         <Row style={{ marginTop: "5rem" }}>
           <div className="award">
-            <h2 className="awardTitle">National Awards</h2>
+            <h2 className="awardTitle">Our Awards & Certification</h2>
             <ul className="awardList">
               <li>
                 Talukder Group of Industries has won numerous awards for its

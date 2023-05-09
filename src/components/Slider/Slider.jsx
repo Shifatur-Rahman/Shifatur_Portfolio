@@ -8,8 +8,6 @@ import slider2 from "../../asset/images/Slider_Img/slider2.jpg";
 import slider3 from "../../asset/images/Slider_Img/slider3.jpg";
 import Button from "react-bootstrap/Button";
 import { useRef } from "react";
-// import { Link } from "react-scroll";
-// import { scroller } from "react-scroll";
 import KnowUs from "../../components/KnowUs/KnowUs";
 import Summary from "../../components/Summary/Summary";
 

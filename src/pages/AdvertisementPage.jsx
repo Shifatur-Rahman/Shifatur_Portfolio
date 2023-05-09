@@ -17,7 +17,7 @@ const AdvertisementPage = () => {
   return (
     <>
     <TopNavigation title="Talukder Group" />
-    <PageTop pageTitle="Our Advertisement" />
+    <PageTop pageTitle="Commercial Ads" />
     <Advertisement />
     <Footer />
     <BackToTopButton />

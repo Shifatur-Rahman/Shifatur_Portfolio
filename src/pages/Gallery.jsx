@@ -17,7 +17,7 @@ const Gallery = () => {
   return (
     <>
       <TopNavigation title="Talukder Group" />
-      <PageTop pageTitle="Recent & Upcoming Product" />
+      <PageTop pageTitle="Our Recent Events" />
       <ImgGallery />
       <Footer />
       <BackToTopButton />

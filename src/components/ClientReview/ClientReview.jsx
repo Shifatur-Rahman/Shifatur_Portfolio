@@ -69,13 +69,13 @@ class ClientReview extends Component {
 
     const settings = {
       // dots: true,
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 1500,
+      autoplaySpeed: 900,
       pauseOnHover: false,
       cssEase: "ease-in-out",
       responsive: [
@@ -104,6 +104,7 @@ class ClientReview extends Component {
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
+            dots: false,
           },
         },
         {
@@ -111,6 +112,7 @@ class ClientReview extends Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
+            dots: false,
           },
         },
         {
@@ -118,6 +120,7 @@ class ClientReview extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            dots: false,
           },
         },
       ],

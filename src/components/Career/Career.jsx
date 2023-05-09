@@ -7,12 +7,19 @@ const Career = () => {
   return (
     <>
     <Container>
-        <Row style={{marginTop:"3rem"}}>
+
+
+
+
+
+
+
+         <Row style={{marginTop:"3rem"}}>
             <Col sm={12} md={6} lg={8}>
             <div className='opportunity'>
-            <h2 style={{fontSize:"28px", fontFamily:"monospace"}}>Find Your <strong>Opportunity</strong></h2>
-            <p> Whatever your career goals may be, Talukder group provides the opportunity to work with advanced technologies, global customers, and the most innovative, talented minds in the industry.</p>
-            <p>Your career path with us can encompass diverse, challenging assignments that span product lines, job types, and businesses.</p>
+            <p className='careerHeader'>Find Your <strong>Opportunity</strong></p>
+            <p className='careerText'> Whatever your career goals may be, Talukder group provides the opportunity to work with advanced technologies, global customers, and the most innovative, talented minds in the industry. Your career path with us can encompass diverse, challenging assignments that span product lines, job types, and businesses.</p>
+        
             </div>
             </Col>
           
@@ -24,7 +31,21 @@ const Career = () => {
             </Col>
         </Row>
 
-         <Row style={{marginTop:"2rem"}}>
+        <hr />
+        <br />
+
+        <Row>
+         <Col>
+         <p className='careerText'>At Talukder group of industries, we believe in providing our employees with a fulfilling and rewarding career path. We understand that each individual has unique career aspirations, and we strive to provide opportunities that align with those aspirations. With a focus on advanced technologies and global customers, our employees are exposed to some of the most innovative and challenging projects in the industry. </p>
+        {/* <br /> */}
+        <p className='careerText'>We believe in nurturing and developing talent, and provide our employees with diverse and challenging assignments that span different product lines, job types, and businesses. We encourage our employees to take ownership of their career path and provide them with the resources and support to achieve their career goals. </p>
+        
+         </Col> 
+         </Row>
+
+
+
+        {/* <Row style={{marginTop:"2rem"}}>
             <Col>
             <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
@@ -185,7 +206,7 @@ const Career = () => {
             
             </Col>
          </Row>
-
+ */}
 
 
     </Container>
