@@ -9,8 +9,6 @@ import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import "./ImgGallery.css";
 import gallery1 from "../../asset/images/gallery/gallery1.jpg";
-// import gallery2 from "../../asset/images/gallery/gallery2.jpg"
-// import gallery3 from "../../asset/images/gallery/gallery3.jpg"
 import gallery4 from "../../asset/images/gallery/gallery4.jpg";
 import gallery5 from "../../asset/images/gallery/gallery5.jpg";
 import gallery6 from "../../asset/images/gallery/gallery6.jpg";

@@ -1,23 +1,37 @@
 import React from 'react'
+import {useState, useEffect} from 'react'
 import "./Career.css"
 import { Container, Row, Col } from 'react-bootstrap'
-import Accordion from 'react-bootstrap/Accordion';
+// import Accordion from 'react-bootstrap/Accordion';
+import AOS from "aos";
 
 const Career = () => {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      duration: 1500, // values from 0 to 3000, with step 50ms
+       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+       once: false, // whether animation should happen only once - while scrolling down
+       mirror: false, // whether elements should animate out while scrolling past them
+       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+       animatedClassName: 'aos-animate', // class applied on animation
+       initClassName: 'aos-init', // class applied after initialization
+       useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+    });
+  }, []);
+  
+
   return (
     <>
     <Container>
 
-
-
-
-
-
-
          <Row style={{marginTop:"3rem"}}>
             <Col sm={12} md={6} lg={8}>
             <div className='opportunity'>
-            <p className='careerHeader'>Find Your <strong>Opportunity</strong></p>
+            <p data-aos="fade-down" className='careerHeader'>Find Your <strong>Opportunity</strong></p>
             <p className='careerText'> Whatever your career goals may be, Talukder group provides the opportunity to work with advanced technologies, global customers, and the most innovative, talented minds in the industry. Your career path with us can encompass diverse, challenging assignments that span product lines, job types, and businesses.</p>
         
             </div>
@@ -42,6 +56,14 @@ const Career = () => {
         
          </Col> 
          </Row>
+
+    </Container>
+    </>
+  )
+}
+
+export default Career
+
 
 
 
@@ -207,11 +229,3 @@ const Career = () => {
             </Col>
          </Row>
  */}
-
-
-    </Container>
-    </>
-  )
-}
-
-export default Career

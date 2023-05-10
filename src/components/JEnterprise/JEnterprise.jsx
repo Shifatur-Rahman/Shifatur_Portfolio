@@ -2,7 +2,7 @@ import React from "react";
 import "./JEnterprise.css";
 
 const JEnterprise = () => {
-  return <div>JEnterpris</div>;
+  return <div>JEnterprise</div>;
 };
 
 export default JEnterprise;

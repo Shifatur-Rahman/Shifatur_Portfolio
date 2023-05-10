@@ -14,13 +14,13 @@ const TopBanner =() =>{
       delay: 0, // values from 0 to 3000, with step 50ms
       easing: 'ease', // default easing for AOS animations
       duration: 1000, // values from 0 to 3000, with step 50ms
-      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-      once: false, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
-      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-      animatedClassName: 'aos-animate', // class applied on animation
-      initClassName: 'aos-init', // class applied after initialization
-      useClassNames: false // if true, will add content of `data-aos` as classes on scroll
+      // disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      // once: false, // whether animation should happen only once - while scrolling down
+      // mirror: false, // whether elements should animate out while scrolling past them
+      // startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      // animatedClassName: 'aos-animate', // class applied on animation
+      // initClassName: 'aos-init', // class applied after initialization
+      // useClassNames: false // if true, will add content of `data-aos` as classes on scroll
      
     });
   }, []);

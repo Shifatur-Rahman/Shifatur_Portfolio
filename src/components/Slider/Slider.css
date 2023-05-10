@@ -97,6 +97,7 @@ font-weight: 700 !important;
   }
 
 /* slider down key */
+
 .carousel-indicators .active {
   background-color:  #60d9eb;
   height: 4px !important;
