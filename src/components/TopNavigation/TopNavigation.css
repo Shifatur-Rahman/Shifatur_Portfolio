@@ -43,14 +43,14 @@
 .navItem:hover {
   color: #5ea1a1 !important;
   transition: all ease 1s;
-  font-size: 16px;
-  font-weight: 600;
+   /* font-size: 16px; */
+  /* font-weight: 600; */
 }
 
 .navItemScroll:hover {
-  color: #148c9f;
+  color: #148c9f !important;
   transition: all ease 1s !important;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .logo {
