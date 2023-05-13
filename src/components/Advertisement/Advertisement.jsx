@@ -56,7 +56,10 @@ const Advertisement = () => {
   return (
     <>
       <Container>
-        <Row style={{ marginTop: "5rem" }}>
+        <Row data-aos="fade-down"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1000" style={{ marginTop: "5rem" }}>
           {/* data-aos='fade-up' */}
           <Col lg={4} md={6} sm={12}>
             <Card className="serviceCard">

@@ -7,7 +7,6 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import "./ImgGallery.css";
 import gallery1 from "../../asset/images/gallery/gallery1.jpg";
 import gallery4 from "../../asset/images/gallery/gallery4.jpg";
 import gallery5 from "../../asset/images/gallery/gallery5.jpg";
@@ -24,6 +23,7 @@ import gallery15 from "../../asset/images/gallery/gallery15.jpg";
 import gallery16 from "../../asset/images/gallery/gallery16.jpg";
 import gallery17 from "../../asset/images/gallery/gallery17.jpg";
 import gallery18 from "../../asset/images/gallery/gallery18.jpg";
+import "./ImgGallery.css";
 
 const ImgGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -48,7 +48,10 @@ const ImgGallery = () => {
         >
           {itemData.map((item) => (
             <ImageListItem onClick={() => handleImageClick(item)}>
-              <div className="galleryImg">
+              <div data-aos="fade-down"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="2000" className="galleryImg">
                 <img
                   src={`${item.img}?w=161&fit=crop&auto=format`}
                   srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
