@@ -23,10 +23,41 @@
     color: #2980b9;
     font-weight: 600 !important;
   }
-  
-  @media (max-width: 768PX) {
+
+  .msgMargin{
+    margin-top: 5rem;
+  }
+ 
+  @media (max-width: 990px) {
+    .chairmanText {
+      font-size: 12px;
+    }
+
+    .chairmanImg img {
+      margin-top: 3rem !important;
+    }
+
+  }
+
+  @media (max-width:768px){
+    .msgMargin{
+      margin-top: 0;
+    }
+  }
+
+
+  @media (max-width: 350px) {  
+    .chairmanImg img {
+     height: 280px;
+     margin-top: 2rem !important;
+    }
+
+  }
+
+
+  /* @media (max-width: 768PX) {
     .chairmanText{
       margin-top: 2rem;
     }
-  }
+  } */
   

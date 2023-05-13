@@ -1264,11 +1264,11 @@ const portfolioItems = [
         category: "upvc",
         imgSrc: upvc5,
       },
-      {
-        id: 306,
-        category: "upvc",
-        imgSrc: upvc6,
-      },
+      // {
+      //   id: 306,
+      //   category: "upvc",
+      //   imgSrc: upvc6,
+      // },
       {
         id: 307,
         category: "upvc",

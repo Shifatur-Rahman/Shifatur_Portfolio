@@ -34,27 +34,30 @@ const Portfolio = () => {
     setSelectedImage(null);
   };
 
-  useEffect(() => {
-    AOS.init({
-      offset: 120, // offset (in px) from the original trigger point
-      delay: 0, // values from 0 to 3000, with step 50ms
-      easing: "ease", // default easing for AOS animations
-      duration: 1500, // values from 0 to 3000, with step 50ms
-      // disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-      // once: false, // whether animation should happen only once - while scrolling down
-      // mirror: false, // whether elements should animate out while scrolling past them
-      // startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-      // animatedClassName: 'aos-animate', // class applied on animation
-      // initClassName: 'aos-init', // class applied after initialization
-      // useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     offset: 120, // offset (in px) from the original trigger point
+  //     delay: 0, // values from 0 to 3000, with step 50ms
+  //     easing: "ease", // default easing for AOS animations
+  //     duration: 1500, // values from 0 to 3000, with step 50ms
+  //     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  //     once: false, // whether animation should happen only once - while scrolling down
+  //     mirror: false, // whether elements should animate out while scrolling past them
+  //     startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  //     animatedClassName: 'aos-animate', // class applied on animation
+  //     initClassName: 'aos-init', // class applied after initialization
+  //     useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  //   });
+  // }, []);
 
   return (
     <>
       <Container>
         <Row>
-          <Col xs={12} md={12} lg={12}>
+          <Col data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1500" xs={12} md={12} lg={12}>
             {/* <div data-aos='fade-right' className="filter-buttons"> */}
             <div className="filter-buttons">
               <button
@@ -122,7 +125,10 @@ const Portfolio = () => {
                 <div
                   className="portfolio-item"
                   key={item.id}
-                 
+                  data-aos="fade-up"
+                  // data-aos-anchor="#example-anchor"
+                  // data-aos-offset="500"
+                  // data-aos-duration="1500"
                 >
                   <img className="portfolio-item-img"
                     src={item.imgSrc}

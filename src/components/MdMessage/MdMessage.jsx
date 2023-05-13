@@ -8,7 +8,7 @@ const MdMessage = () => {
   return (
     <>
       <Container>
-        <Row style={{ marginTop: "5rem" }}>
+        <Row className="msgMargin">
           <Col sm={12} md={6} lg={6}>
             <div className="chairmanImg">
               <img src={avatarImg} alt="chairmanImg" />
