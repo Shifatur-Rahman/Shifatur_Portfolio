@@ -27,53 +27,14 @@ import client22 from '../../asset/images/Client_logo/dphe.png';
 
 class ClientReview extends Component {
   render() {
-    // var settings = {
-    //   autoplay: true,
-    //   autoplaySpeed: 3000,
-    //   dots: true,
-    //   infinite: true,
-    //   vertical: true,
-    //   verticalSwiping: true,
-    //   speed: 3000,
-    //   slidesToShow: 1,
-    //   slidesToScroll: 1,
-
-    //   responsive: [
-    //     {
-    //       breakpoint: 1024,
-    //       settings: {
-    //         slidesToShow: 1,
-    //         slidesToScroll: 1,
-    //         infinite: true,
-    //         dots: true,
-    //       },
-    //     },
-    //     {
-    //       breakpoint: 600,
-    //       settings: {
-    //         slidesToShow: 1,
-    //         slidesToScroll: 1,
-    //         initialSlide: 1,
-    //       },
-    //     },
-    //     {
-    //       breakpoint: 480,
-    //       settings: {
-    //         slidesToShow: 1,
-    //         slidesToScroll: 1,
-    //         initialSlide: 1,
-    //       },
-    //     },
-    //   ],
-    // };
 
     const settings = {
       // dots: true,
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 1000,
       slidesToShow: 6,
-      slidesToScroll: 1,
+      slidesToScroll: 2,
       autoplay: true,
       autoplaySpeed: 900,
       pauseOnHover: false,
@@ -133,7 +94,10 @@ class ClientReview extends Component {
         <Slider {...settings}>
           {clientData.map((item, index) => (
             <Col sm={12} md={6} lg={4} key={item.id}>
-              <Card style={{height: "160px", width:"140px", display:"flex", justifyContent:"center", alignItems:"center", border: "1px solid #92CCE9", boxShadow:"1px 1px 5px #92CCE9", marginRight:"10px", marginBottom:"10px"}} className="clientReviewImgCard">
+              <Card data-aos="fade-down"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1500" style={{height: "160px", width:"140px", display:"flex", justifyContent:"center", alignItems:"center", border: "1px solid #92CCE9", boxShadow:"1px 1px 5px #92CCE9", marginRight:"10px", marginBottom:"10px"}} className="clientReviewImgCard">
                 <Card.Img style={{width:"80%", height:"80%", padding:"20px 10px"}} className="newsCardImg" variant="top" src={item.img} />
               </Card>
             </Col>
