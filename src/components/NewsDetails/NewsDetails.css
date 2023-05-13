@@ -50,7 +50,11 @@
     height: 550px;
   }
 }
-
+@media (max-width: 768px) {
+  .newsCard img{
+    height: 300px !important;
+  }
+  }
 @media (max-width: 600px) {
   .newsCard{
     width: 350px;

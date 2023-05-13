@@ -104,34 +104,6 @@ const NewsDetails = () => {
           ))}
         </Slider>
       </Container>
-
-      {/* <Container style={{ marginTop: "5rem" }}>
-        <Slider {...settings}>
-          {newsItems.map((item) => (
-            <Col sm={12} md={6} lg={4} key={item.id}>
-              <Card className="newsCard">
-                <Card.Img variant="top" src={item.imageSrc} />
-                <Card.Body>
-                  <h2 className="newsCardTitle">{item.title}</h2>
-                  <p className="newsHeader" style={{ fontSize: "14px" }}>
-                    {" "}
-                    <AiOutlineCalendar
-                      style={{ fontSize: "20px", color: "#17a2b8" }}
-                    />{" "}
-                    <span className="newsHeader">{item.date}</span>{" "}
-                  </p>
-                  <p
-                    className="newsPara"
-                    style={{ textAlign: "justify", fontSize: "14px" }}
-                  >
-                    {item.description}
-                  </p>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Slider>
-      </Container> */}
     </>
   );
 };
