@@ -7,15 +7,6 @@ a {
   text-decoration: none;
 }
 
-/* .summaryCardTitle {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  text-align: left;
-  margin: 1rem 0;
-  color: #2E4F4F;
-} */
-
 .footerTitle {
   color: #2E4F4F;
   font-family: "Montserrat", sans-serif;
@@ -37,6 +28,10 @@ a {
   text-align: center;
   color: #3d405b;
   margin: 2rem 0;
+}
+
+.footerTextAlign{
+margin-bottom: 3rem;
 }
 
 #submitBtn {
@@ -175,7 +170,7 @@ a {
     font-size: 22px;
   }
   .footerTextAlign {
-    text-align: center;
+    text-align: left;
   }
   .footerTitle {
     font-size: 18px;
@@ -191,4 +186,13 @@ a {
   .copyrightText {
     font-size: 14px;
   }
+  .footerTextAlign{
+    padding-left: 2rem;
+  }
 }
+
+@media (max-width: 992px) {
+  .footerSection{
+    margin-top: 2rem;
+  }
+   }

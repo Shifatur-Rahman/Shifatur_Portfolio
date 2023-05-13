@@ -68,7 +68,6 @@ const Footer = () => {
     <>
       <Container className="footerSection">
         {/* First footer section */}
-        {/* data-aos='fade-right' */}
         <Row style={{ marginBottom: "2rem", textAlign: "center" }}>
           {/* data-aos='fade-up' */}
           <h2 className="knowusTitle">Contact us</h2>
@@ -206,7 +205,7 @@ const Footer = () => {
             textAlign: "center",
           }}
         >
-          <Col sm={12} md={6} lg={4} className="p-5 footerTextAlign">
+          <Col sm={12} md={4} lg={4} className="footerTextAlign">
             <h1 className="footerTitle">Head Office</h1>
 
             <AiFillHome className="socialFontPhone" />
@@ -229,7 +228,7 @@ const Footer = () => {
             <a className="socialLink"> +88-02-48955604</a>
           </Col>
 
-          <Col sm={12} md={6} lg={4} className="p-5 footerTextAlign">
+          <Col sm={12} md={4} lg={4} className="footerTextAlign">
             <h1 className="footerTitle">Get to touch</h1>
             <BsFacebook className="socialFontFacebook" />
             <a
@@ -271,7 +270,7 @@ const Footer = () => {
             </a>
           </Col>
 
-          <Col sm={12} md={6} lg={4} className="p-5 footerTextAlign">
+          <Col sm={12} md={4} lg={4} className="footerTextAlign">
             <h1 className="footerTitle">Our Factory</h1>
 
             <AiFillHome className="socialFontPhone" />
