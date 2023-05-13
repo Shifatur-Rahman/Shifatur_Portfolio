@@ -71,7 +71,8 @@ const NewsDetails = () => {
 
   return (
     <>
-      <Container style={{ marginTop: "5rem" }}>
+      <Container style={{ marginTop: "3rem" }}>
+        <h1 className="knowusTitle">Recent News & Events</h1>
         <Slider {...settings}>
           {newsItems.map((item, index) => (
             <Col sm={12} md={6} lg={4} key={item.id}>

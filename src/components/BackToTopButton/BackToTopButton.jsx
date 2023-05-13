@@ -19,7 +19,7 @@ useEffect(()=>{
 const scrollUp = () =>{
     window.scrollTo({
         top: 0,
-        behavior: "smooth"
+        behavior: "smooth",
     })
 }
   return (
@@ -28,7 +28,7 @@ const scrollUp = () =>{
     backToTopBtn && (
         <button
         className='backToTopBtn'
-        onClick={scrollUp}>  <BsFillArrowUpSquareFill />    </button>
+        onClick={scrollUp}>  <BsFillArrowUpSquareFill />  </button>
     )
 }
     </div>

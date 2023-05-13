@@ -4,8 +4,16 @@
   right: 30px;
   color: #17a2b8;
   font-size: 25px;
-  border: none;
+  border: none !important;
 }
+
+/* .backToTopBtn svg {
+  stroke: none !important;
+}
+
+.arrowIcon {
+  stroke: none !important;
+} */
 
 @media (max-width: 1000px) {
   .backToTopBtn {
