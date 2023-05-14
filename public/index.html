@@ -42,6 +42,36 @@
       html, body {
         scroll-behavior: smooth;
       }
+
+      .loading {
+        -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+        animation: sk-scaleout 1s infinite ease-in-out;
+        background-color: #124c62;
+        border-radius: 100%;
+        height: 6em;
+        width: 6em;
+      }
+
+      .index-container {
+        align-items: center;
+        background-color: white;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100%; 
+      }
+
+      /* @keyframes sk-scaleout {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        100% {
+          -webkit-transform: scale(1);
+          opacity: 0.5;
+          transform: scale(1);
+        }
+      } */
     </style>
     
     <!-- <title>Shifatur Home</title> -->
@@ -67,11 +97,13 @@
 
   </head>
   <body>
-    <div style="width: 100%" id="root">
-      <div id="spinner" class="container">
-        <!-- <div class="loading"></div> -->
-        <img src="../src/asset/images/Reload/loading.svg" alt="reloader" />
+    <div id="spinner" class="index-container">
+      <div class="loading">
+        <img src="./loading.svg" alt="reloader" />
       </div>
+    </div>
+    <div style="width: 100%" id="root">
+      
     </div>
   </body>
 </html>
