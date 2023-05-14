@@ -71,6 +71,10 @@ li {
   font-size: 30px;
 }
 
+.awardList{
+  font-size: 13px;
+}
+
 .achievementCardImg {
   overflow: hidden;
   cursor: pointer;

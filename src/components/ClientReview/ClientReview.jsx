@@ -95,9 +95,7 @@ class ClientReview extends Component {
           {clientData.map((item, index) => (
             <Col sm={12} md={6} lg={4} key={item.id}>
               <Card data-aos="fade-down"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1500" style={{height: "160px", width:"140px", display:"flex", justifyContent:"center", alignItems:"center", border: "1px solid #92CCE9", boxShadow:"1px 1px 5px #92CCE9", marginRight:"10px", marginBottom:"10px"}} className="clientReviewImgCard">
+      style={{height: "160px", width:"140px", display:"flex", justifyContent:"center", alignItems:"center", border: "1px solid #92CCE9", boxShadow:"1px 1px 5px #92CCE9", marginRight:"10px", marginBottom:"10px"}} className="clientReviewImgCard">
                 <Card.Img style={{width:"80%", height:"80%", padding:"20px 10px"}} className="newsCardImg" variant="top" src={item.img} />
               </Card>
             </Col>
