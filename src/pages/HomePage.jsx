@@ -18,15 +18,14 @@ const HomePage = () => {
 
   return (
     <>
+
+      {/* <PageLoader /> */}
       <TopNavigation title="Talukder Group" />
       <Slider />
       <NewsDetails />
       {/* <NewsAndEvents /> */}
       <Footer />
-      <BackToTopButton />
-      <PageLoader />
-
-         
+      <BackToTopButton /> 
 
     </>
   );
