@@ -1,39 +1,27 @@
 import React, {useState, useEffect} from 'react'
 import ReloaderImg from "../../asset/images/Reload/loading.svg"
-import { Circles } from  'react-loader-spinner'
+import { Blocks, InfinitySpin } from  'react-loader-spinner'
 import "./PageLoader.css"
 
 const PageLoader = () => {
 
-const [loading,setLoading] = useState(false);
-
-useEffect(() => {
-  const handleBeforeUnload = () => {
-    setLoading(true);
-  };
-
-  window.addEventListener('beforeunload', handleBeforeUnload);
-
-  return () => {
-    window.removeEventListener('beforeunload', handleBeforeUnload);
-  };
-}, []);
-
   return (
     <>
     
-    <div className='page-loader'>
-    {loading ? (
-        <Circles
-          height='80'
-          width='80'
-          color='#4fa94d'
-          ariaLabel='circles-loading'
-          wrapperStyle={{}}
-          wrapperClass=''
-          visible={true}
-        />
-      ) : null}
+  <div className='page-loader'>
+  {/* <Blocks
+  visible={true}
+  height="80"
+  width="80"
+  ariaLabel="blocks-loading"
+  wrapperStyle={{}}
+  wrapperClass="blocks-wrapper"
+  /> */}
+
+<InfinitySpin 
+  width='200'
+  color="#17a2b8"
+/>
     </div>     
     
     </>

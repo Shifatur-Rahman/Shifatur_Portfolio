@@ -61,6 +61,7 @@ class TopNavigation extends Component {
                     data-aos-duration="1000" className="logo" src={talukderLogo} />
             </Navbar.Brand>
           </Link>
+          
           <Navbar.Toggle   data-aos="fade-down"
           data-aos-anchor="#example-anchor"
           data-aos-offset="500"
@@ -173,6 +174,12 @@ class TopNavigation extends Component {
               {/* Our Concern */}
 
               <Nav.Link>
+                <NavLink className={this.state.navbarItem} to="/concern">
+                Our Concern
+                </NavLink>
+              </Nav.Link>
+
+              {/* <Nav.Link>
                 <div className="dropdown">
                   <a
                     className={this.state.navbarItem}
@@ -214,7 +221,7 @@ class TopNavigation extends Component {
                     </NavLink>
                   </div>
                 </div>
-              </Nav.Link>
+              </Nav.Link> */}
 
               {/* career */}
 

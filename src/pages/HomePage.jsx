@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import TopNavigation from "../components/TopNavigation/TopNavigation";
 import Footer from "../components/Footer/Footer";
 import { animateScroll } from "react-scroll";
@@ -19,11 +19,10 @@ const HomePage = () => {
   return (
     <>
 
-      {/* <PageLoader /> */}
+      
       <TopNavigation title="Talukder Group" />
       <Slider />
       <NewsDetails />
-      {/* <NewsAndEvents /> */}
       <Footer />
       <BackToTopButton /> 
 
