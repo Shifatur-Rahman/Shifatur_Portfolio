@@ -9,7 +9,7 @@ const PageLoader = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 2000);
   }, []);
   return (
     <>
@@ -23,7 +23,7 @@ const PageLoader = () => {
   wrapperClass="blocks-wrapper"
   /> */}
 
-        <InfinitySpin width="200" color="#17a2b8" />
+<InfinitySpin width="200" color="#17a2b8" />
       </div>
     </>
   );

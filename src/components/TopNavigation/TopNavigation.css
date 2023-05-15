@@ -85,13 +85,19 @@
 }
 
 
-svg{
+/* svg{
   stroke: currentcolor;
   fill: currentcolor;
   stroke-width: 0;
   height: 1em;
   width: 1em;
 }
+
+.navItem:hover svg {
+  transform: rotate(180deg);
+  transition: all ease 500ms;
+} */
+
 
 /* .navItem:hover svg {
   transform: rotate(180deg);
@@ -103,10 +109,7 @@ svg{
   transition: all ease 1s;
 } */
 
-.navItem:hover svg {
-  transform: rotate(180deg);
-  transition: all ease 500ms;
-}
+
 
 
 .navDropdown:hover {

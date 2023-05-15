@@ -84,7 +84,7 @@
 
 .serviceBtn:hover, .learnBtn:hover{
 color: #17a2b8 !important;
-font-weight: 700 !important;
+/* font-weight: 700 !important; */
 }
 
 .serviceBtn:focus{

@@ -19,13 +19,11 @@ const HomePage = () => {
   return (
     <>
 
-      
       <TopNavigation title="Talukder Group" />
       <Slider />
       <NewsDetails />
       <Footer />
       <BackToTopButton /> 
-      <PageLoader />
 
     </>
   );
