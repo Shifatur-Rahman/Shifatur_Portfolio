@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Achievement.css";
 import Card from "react-bootstrap/Card";
 import achievement1Img from "../../asset/images/achievements/01.jpg";
@@ -27,11 +27,21 @@ import awards18Img from "../../asset/images/achievements/awards18.png";
 import awards19Img from "../../asset/images/achievements/awards19.png";
 import awards20Img from "../../asset/images/achievements/awards20.png";
 import { Col, Container, Row } from "react-bootstrap";
+import Spinner from "../Spinner/Spinner";
 
 const Achievement = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
   return (
     <>
-      {/* <h2 className="mainTitle">Awards and Achievements</h2> */}
+        {loading ? (
+        <Spinner />
+      ) :
       <Container>
         <Row style={{ marginTop: "5rem" }}>
           <div className="award">
@@ -327,6 +337,7 @@ const Achievement = () => {
           </Col>
         </Row>
       </Container>
+}
     </>
   );
 };

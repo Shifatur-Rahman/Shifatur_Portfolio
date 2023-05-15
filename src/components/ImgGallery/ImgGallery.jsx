@@ -25,6 +25,7 @@ import gallery17 from "../../asset/images/gallery/gallery17.jpg";
 import gallery18 from "../../asset/images/gallery/gallery18.jpg";
 import "./ImgGallery.css";
 import PageLoader from "../PageLoader/PageLoader";
+import Spinner from "../Spinner/Spinner.jsx";
 
 const ImgGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -40,13 +41,13 @@ const ImgGallery = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 2000);
   }, []);
 
   return (
     <>
       {loading ? (
-        <PageLoader />
+        <Spinner />
       ) : (
         <Container style={{ marginTop: "5rem" }}>
           {/* <h2 className="mainTitle">Recent and Upcoming Events</h2> */}

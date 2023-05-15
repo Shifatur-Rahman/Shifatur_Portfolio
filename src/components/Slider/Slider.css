@@ -75,11 +75,11 @@
 .serviceBtn {
   color: #fff;
   background-color: #17a2b8;
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .learnBtn{
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .serviceBtn:hover, .learnBtn:hover{
@@ -103,16 +103,8 @@ color: #17a2b8 !important;
   height: 4px !important;
   transform: rotateY(360deg);
   transition: transform 1.5s ease-in-out;
-  /* animation-name: indicator-bounce;
-  animation-duration: 1s;
-  animation-fill-mode: both; */
 }
 
-/* @keyframes indicator-bounce {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-} */
 
 .button-container button {
   transition: all 0.3s ease;

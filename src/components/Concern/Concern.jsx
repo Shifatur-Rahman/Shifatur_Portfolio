@@ -16,22 +16,9 @@ const Concern = () => {
 <Container>
   <Row className="concern" style={{marginTop:"3rem"}}>
 
-    <Col sm={12} md={6} lg={6}>
-      
-      <div className="concernInfo">
-        <p>
-      Talukder Group of Industries had started its journey since July, 1973. Founder chairman Mr. Nurul Islam Talukder established Talukder foundry Ltd (TFL) with a vision of large-scale Industrialization. Now Talukder Group is a successful brand name as well as a flagship corporate name in corporate world with great achievement with the dedicated service to all her stakeholders and partners. Under the leadership of Managing Director Mr. Samsul Arafin Talukder Group of Industries becomes the largest partner of LGED, JICA and PEDP in furnishing Primary Schools all over the Country.
-      </p>
-      </div>
-    </Col>
+    <Col>
+    <div className="concernName center">
 
-    <Col sm={12} md={6} lg={6}>
-    <div className="concernName">
-    {/* <p> Talukder Foundry</p>
-    <p>Talukder uPVC</p>
-    <p>Talukder Distribution</p>
-    <p>Talukder Furniture</p>
-    <p>J & J Enterprise</p> */}
     <ul>
     <ul>
           <li>

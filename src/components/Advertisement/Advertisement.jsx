@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import "./Advertisement.css";
 import Dining_Table from "../../asset/videos/Dining_Table_Advertise.mp4";
 import AllBucket from "../../asset/videos/All_Bucket_Advertise.mp4";
@@ -28,33 +28,42 @@ import threadPipeImg from "../../asset/images/advertisement/threadPipe.jpg";
 import bucketImg from "../../asset/images/advertisement/bucketposter.png";
 import tableImg from "../../asset/images/advertisement/04.jpg";
 import AOS from "aos";
+import Spinner from "../Spinner/Spinner";
 // import { Link } from 'react-scroll';
 
 const Advertisement = () => {
   useEffect(() => {
     AOS.init({
-      offset: 120, // offset (in px) from the original trigger point
-      delay: 0, // values from 0 to 3000, with step 50ms
-      easing: "ease", // default easing for AOS animations
-      duration: 2000, // values from 0 to 3000, with step 50ms
-      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-      once: false, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
-      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-      animatedClassName: "aos-animate", // class applied on animation
-      initClassName: "aos-init", // class applied after initialization
-      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      offset: 120, 
+      delay: 0, 
+      easing: "ease", 
+      duration: 2000, 
+      disable: false, 
+      once: false, 
+      mirror: false,
+      startEvent: "DOMContentLoaded",
+      animatedClassName: "aos-animate", 
+      initClassName: "aos-init", 
+      useClassNames: false, 
     });
   }, []);
 
-  // const videos = [
-  //   { url: Dining_Table, title: "Video 1" },
-  //   { url: AllBucket, title: "Video 2" },
-  //   { url: Fittings_Advertise, title: "Video 3" },
-  // ];
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
 
   return (
     <>
+  {loading ? (
+        <Spinner />
+      ) : 
+
+
       <Container>
         <Row data-aos="fade-down"
      data-aos-anchor="#example-anchor"
@@ -303,22 +312,7 @@ const Advertisement = () => {
         </Row>
       </Container>
 
-      {/* new video player */}
-      {/* 
-      <div className="VideoGallery">
-        {videos.map((video, index) => (
-          <div key={index} className="VideoGallery__video">
-            <ReactPlayer
-              url={video.url}
-              width="100%"
-              height="100%"
-              controls={true}
-              style={{ backgroundColor: "#fff" }}
-            />
-            <h3 className="VideoGallery__title">{video.title}</h3>
-          </div>
-        ))}
-      </div> */}
+              }
     </>
   );
 };

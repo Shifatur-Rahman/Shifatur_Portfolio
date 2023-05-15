@@ -10,6 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
+import Spinner from "../Spinner/Spinner";
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
@@ -61,6 +62,9 @@ const Portfolio = () => {
 
   return (
     <>
+      {loading ? (
+        <Spinner />
+      ) :
       <Container>
         <Row>
           <Col
@@ -199,6 +203,7 @@ const Portfolio = () => {
           </Dialog>
         </Row>
       </Container>
+}
     </>
   );
 };
