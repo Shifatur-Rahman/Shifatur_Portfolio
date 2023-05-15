@@ -55,24 +55,32 @@ class TopNavigation extends Component {
         >
           <Link to="/">
             <Navbar.Brand className={this.state.navTitle} href="#home">
-              <img data-aos="fade-down"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1000" className="logo" src={talukderLogo} />
+              <img
+                data-aos="fade-down"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="100"
+                data-aos-duration="1000"
+                className="logo"
+                src={talukderLogo}
+              />
             </Navbar.Brand>
           </Link>
-          
-          <Navbar.Toggle   data-aos="fade-down"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="1000"
-          aria-controls="responsive-navbar-nav" />
+
+          <Navbar.Toggle
+            data-aos="fade-down"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+            aria-controls="responsive-navbar-nav"
+          />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
-            <Nav data-aos="fade-right"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1500">
+            <Nav
+              data-aos="fade-right"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="1500"
+            >
               {/* Home */}
 
               <Nav.Link>
@@ -175,7 +183,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <NavLink className={this.state.navbarItem} to="/concern">
-                Our Concern
+                  Our Concern
                 </NavLink>
               </Nav.Link>
 

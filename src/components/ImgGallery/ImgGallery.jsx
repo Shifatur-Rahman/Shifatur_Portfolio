@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { Container } from "react-bootstrap";
@@ -24,6 +24,7 @@ import gallery16 from "../../asset/images/gallery/gallery16.jpg";
 import gallery17 from "../../asset/images/gallery/gallery17.jpg";
 import gallery18 from "../../asset/images/gallery/gallery18.jpg";
 import "./ImgGallery.css";
+import PageLoader from "../PageLoader/PageLoader";
 
 const ImgGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -34,54 +35,69 @@ const ImgGallery = () => {
     setSelectedImage(null);
   };
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
+
   return (
     <>
-      <Container style={{ marginTop: "5rem" }}>
-        {/* <h2 className="mainTitle">Recent and Upcoming Events</h2> */}
+      {loading ? (
+        <PageLoader />
+      ) : (
+        <Container style={{ marginTop: "5rem" }}>
+          {/* <h2 className="mainTitle">Recent and Upcoming Events</h2> */}
 
-        <ImageList
-          className="ImageGallery"
-          sx={{ width: "100%", height: "auto", overflow:"hidden" }}
-          variant="woven"
-          cols={4}
-          gap={6}
-        >
-          {itemData.map((item) => (
-            <ImageListItem onClick={() => handleImageClick(item)}>
-              <div data-aos="fade-down"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="500"
-        data-aos-duration="2000" className="galleryImg">
-                <img
-                  src={`${item.img}?w=161&fit=crop&auto=format`}
-                  srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
-                  alt={item.title}
-                  loading="lazy"
-                  style={{ cursor: "pointer" }}
-                />
-              </div>
-            </ImageListItem>
-          ))}
-        </ImageList>
+          <ImageList
+            className="ImageGallery"
+            sx={{ width: "100%", height: "auto", overflow: "hidden" }}
+            variant="woven"
+            cols={4}
+            gap={6}
+          >
+            {itemData.map((item) => (
+              <ImageListItem onClick={() => handleImageClick(item)}>
+                <div
+                  data-aos="fade-down"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="2000"
+                  className="galleryImg"
+                >
+                  <img
+                    src={`${item.img}?w=161&fit=crop&auto=format`}
+                    srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
+                    alt={item.title}
+                    loading="lazy"
+                    style={{ cursor: "pointer" }}
+                  />
+                </div>
+              </ImageListItem>
+            ))}
+          </ImageList>
 
-        <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
-          <DialogTitle>{selectedImage?.title}</DialogTitle>
-          <DialogContent>
-            <IconButton
-              sx={{ position: "absolute", top: 0, right: 0 }}
-              onClick={handleDialogClose}
-            >
-              <CloseIcon />
-            </IconButton>
-            <img
-              className="zoomImage"
-              src={`${selectedImage?.img}?w=500&fit=crop&auto=format`}
-              srcSet={`${selectedImage?.img}?w=500&fit=crop&auto=format&dpr=2 2x`}
-              alt={selectedImage?.title}
-            />
-          </DialogContent>
-        </Dialog>
-      </Container>
+          <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
+            <DialogTitle>{selectedImage?.title}</DialogTitle>
+            <DialogContent>
+              <IconButton
+                sx={{ position: "absolute", top: 0, right: 0 }}
+                onClick={handleDialogClose}
+              >
+                <CloseIcon />
+              </IconButton>
+              <img
+                className="zoomImage"
+                src={`${selectedImage?.img}?w=500&fit=crop&auto=format`}
+                srcSet={`${selectedImage?.img}?w=500&fit=crop&auto=format&dpr=2 2x`}
+                alt={selectedImage?.title}
+              />
+            </DialogContent>
+          </Dialog>
+        </Container>
+      )}
     </>
   );
 };

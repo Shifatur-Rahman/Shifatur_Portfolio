@@ -1,26 +1,27 @@
 import AppRoute from "./router/AppRoute";
 import "./App.css";
-import React, {useState, useEffect} from "react"
+import React, { useState, useEffect } from "react";
 import PageLoader from "./components/PageLoader/PageLoader";
 
 function App() {
-
   const [loading, setLoading] = useState(true);
 
-  useEffect(()=>{
-    setTimeout(()=>{
+  useEffect(() => {
+    setTimeout(() => {
       setLoading(false);
-    },2000)
-  },[])
+    }, 2000);
+  }, []);
 
   return (
     <>
-    
-
-      {
-        loading ? <PageLoader /> : <div> <AppRoute /></div>
-      }
-
+      {loading ? (
+        <PageLoader />
+      ) : (
+        <div>
+          {" "}
+          <AppRoute />
+        </div>
+      )}
     </>
   );
 }

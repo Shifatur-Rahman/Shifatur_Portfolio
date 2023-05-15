@@ -9,6 +9,7 @@ import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PageLoader from "../PageLoader/PageLoader";
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
@@ -50,14 +51,27 @@ const Portfolio = () => {
   //   });
   // }, []);
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <>
       <Container>
         <Row>
-          <Col data-aos="fade-right"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1500" xs={12} md={12} lg={12}>
+          <Col
+            data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1500"
+            xs={12}
+            md={12}
+            lg={12}
+          >
             {/* <div data-aos='fade-right' className="filter-buttons"> */}
             <div className="filter-buttons">
               <button
@@ -110,55 +124,60 @@ const Portfolio = () => {
             </div>
           </Col>
 
-          <div className="portfolio-grid">
-            {portfolioItems
-              .filter((item) => {
-                if (category === "all") {
-                  return true;
-                } else {
-                  return item.category === category;
-                }
-              })
+          {loading ? (
+            <PageLoader />
+          ) : (
+            <div className="portfolio-grid">
+              {portfolioItems
+                .filter((item) => {
+                  if (category === "all") {
+                    return true;
+                  } else {
+                    return item.category === category;
+                  }
+                })
 
-              .map((item) => (
-                // data-aos='zoom-in'
-                <div
-                  className="portfolio-item"
-                  key={item.id}
-                  data-aos="fade-up"
-                  // data-aos-anchor="#example-anchor"
-                  // data-aos-offset="500"
-                  // data-aos-duration="1500"
-                >
-                  <img className="portfolio-item-img"
-                    src={item.imgSrc}
-                    alt={item.title}
-                    style={{ cursor: "pointer" }}
-                    onClick={() => handleImageClick(item.imgSrc)}
-                  />
-                  <div style={{ marginTop: "12px" }}>
-                    {item.title && (
-                      <p className="itemTitle">
-                        <strong>Name : </strong>
-                        {item.title}
-                      </p>
-                    )}
-                    {item.code && (
-                      <p className="itemTitle">
-                        <strong>Code : </strong>
-                        {item.code}
-                      </p>
-                    )}
-                    {item.size && (
-                      <p className="itemTitle">
-                        <strong>Size : </strong>
-                       <span className="itemSize"> {item.size} </span>
-                      </p>
-                    )}
+                .map((item) => (
+                  // data-aos='zoom-in'
+                  <div
+                    className="portfolio-item"
+                    key={item.id}
+                    data-aos="fade-up"
+                    // data-aos-anchor="#example-anchor"
+                    // data-aos-offset="500"
+                    // data-aos-duration="1500"
+                  >
+                    <img
+                      className="portfolio-item-img"
+                      src={item.imgSrc}
+                      alt={item.title}
+                      style={{ cursor: "pointer" }}
+                      onClick={() => handleImageClick(item.imgSrc)}
+                    />
+                    <div style={{ marginTop: "12px" }}>
+                      {item.title && (
+                        <p className="itemTitle">
+                          <strong>Name : </strong>
+                          {item.title}
+                        </p>
+                      )}
+                      {item.code && (
+                        <p className="itemTitle">
+                          <strong>Code : </strong>
+                          {item.code}
+                        </p>
+                      )}
+                      {item.size && (
+                        <p className="itemTitle">
+                          <strong>Size : </strong>
+                          <span className="itemSize"> {item.size} </span>
+                        </p>
+                      )}
+                    </div>
                   </div>
-                </div>
-              ))}
-          </div>
+                ))}
+            </div>
+          )}
 
           <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
             <DialogContent>
