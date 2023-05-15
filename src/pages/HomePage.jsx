@@ -25,6 +25,7 @@ const HomePage = () => {
       <NewsDetails />
       <Footer />
       <BackToTopButton /> 
+      <PageLoader />
 
     </>
   );

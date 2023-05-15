@@ -4,6 +4,13 @@ import { Blocks, InfinitySpin } from "react-loader-spinner";
 import "./PageLoader.css";
 
 const PageLoader = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
   return (
     <>
       <div className="page-loader">

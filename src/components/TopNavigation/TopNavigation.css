@@ -43,8 +43,6 @@
 .navItem:hover {
   color: #5ea1a1 !important;
   transition: all ease 1s;
-   /* font-size: 16px; */
-  /* font-weight: 600; */
 }
 
 .navItemScroll:hover {
@@ -86,6 +84,31 @@
   transition-duration: 2s;
 }
 
+
+svg{
+  stroke: currentcolor;
+  fill: currentcolor;
+  stroke-width: 0;
+  height: 1em;
+  width: 1em;
+}
+
+/* .navItem:hover svg {
+  transform: rotate(180deg);
+  transition: all ease 1s;
+}
+
+.dropdown-content:hover svg{
+  transform: rotate(180deg);
+  transition: all ease 1s;
+} */
+
+.navItem:hover svg {
+  transform: rotate(180deg);
+  transition: all ease 500ms;
+}
+
+
 .navDropdown:hover {
   background-color: transparent;
 }
@@ -117,6 +140,7 @@
 .dropdown-content {
   font-size: 12px;
 }
+
 /* padding add */
 .navigationScroll {
   padding: 8px 3rem !important;
@@ -135,19 +159,7 @@
     margin-right: 5px;
     font-size: 12px;
   }
-  /* .navigationScroll {
-    padding: 8px 3rem !important;
-  }
-  .navItemScroll {
-    margin-right: 5px !important;
-  } */
 }
-
-/* @media (max-width: 1100px) {
-  .navigationScroll {
-    padding: 1rem 2rem;
-  }
-} */
 
 @media (max-width: 992px) {
   button.navbar-toggler {

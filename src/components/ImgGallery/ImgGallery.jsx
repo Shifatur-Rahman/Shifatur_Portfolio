@@ -61,10 +61,10 @@ const ImgGallery = () => {
             {itemData.map((item) => (
               <ImageListItem onClick={() => handleImageClick(item)}>
                 <div
-                  data-aos="fade-down"
+                  data-aos="fade-up"
                   data-aos-anchor="#example-anchor"
                   data-aos-offset="500"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                   className="galleryImg"
                 >
                   <img

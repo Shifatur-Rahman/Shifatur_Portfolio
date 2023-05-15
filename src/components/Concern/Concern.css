@@ -13,7 +13,7 @@
 .concernName ul li a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: #2e4f4f !important;
 }
@@ -41,8 +41,37 @@ padding: 20px;
   font-family: "Montserrat",sans-serif;
   font-size: 14px;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 .concernName p{
   padding: 20px;
+}
+
+@media(max-width: 768px){
+  .concernName ul li a{
+    font-size: 14px;
+  }
+ 
+}
+
+@media(max-width: 992px){
+  .concernName{
+    margin-top: 5rem;
+  }
+}
+
+@media(max-width: 768px){
+  .concernName{
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 420px){
+  .concernName ul li a{
+    font-size: 12px;
+  }
+  .concernInfo{
+    font-size: 12px;
+  }
 }
