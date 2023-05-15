@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import ReloaderImg from "../../asset/images/Reload/loading.svg"
 import {InfinitySpin } from "react-loader-spinner";
 import "./PageLoader.css";
 import pageLoaderImg from "../../asset/images/Reload/loading.svg"
