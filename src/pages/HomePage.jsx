@@ -7,6 +7,7 @@ import NewsAndEvents from "../components/NewsAndEvents/NewsAndEvents";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 import NewsDetails from "../components/NewsDetails/NewsDetails";
 import PageLoader from "../components/PageLoader/PageLoader";
+import Spinner from "../components/Spinner/Spinner";
 
 const HomePage = () => {
   useEffect(() => {
@@ -14,6 +15,14 @@ const HomePage = () => {
       duration: 500,
       smooth: "easeInOutQuart",
     });
+  }, []);
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2600);
   }, []);
 
   return (
@@ -24,6 +33,7 @@ const HomePage = () => {
       <NewsDetails />
       <Footer />
       <BackToTopButton /> 
+     
 
     </>
   );
