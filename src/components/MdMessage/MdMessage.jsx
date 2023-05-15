@@ -1,12 +1,24 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./MdMessage.css";
 import avatarImg from "../../asset/images/About us/avatar.jpg";
 import mdImg from "../../asset/images/management_img/facee.png";
+import Spinner from "../Spinner/Spinner";
 
 const MdMessage = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2600);
+  }, []);
   return (
     <>
+
+{loading ? (
+        <Spinner />
+      ) :
       <Container>
         <Row className="msgMargin">
           <Col sm={12} md={6} lg={6}>
@@ -49,6 +61,7 @@ const MdMessage = () => {
           </Col>
         </Row>
       </Container>
+}
     </>
   );
 };

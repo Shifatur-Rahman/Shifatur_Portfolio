@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./BoardOfDirector.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { BsFacebook } from "react-icons/bs";
@@ -9,10 +9,21 @@ import "./BoardOfDirector.css";
 import profile1Img from "../../asset/images/About us/profile.jpg";
 import profile2Img from "../../asset/images/About us/avatar.jpg";
 import profile3Img from "../../asset/images/About us/avatarFemale.png";
+import Spinner from "../Spinner/Spinner";
 
 const BoardOfDirector = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2600);
+  }, []);
   return (
     <>
+         {loading ? (
+        <Spinner />
+      ) :
       <div className="profile-area">
         <Container style={{marginTop:"3rem"}}>
           <Row>
@@ -117,6 +128,7 @@ const BoardOfDirector = () => {
           </Row>
         </Container>
       </div>
+}
     </>
   );
 };

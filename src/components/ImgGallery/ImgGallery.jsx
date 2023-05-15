@@ -24,7 +24,6 @@ import gallery16 from "../../asset/images/gallery/gallery16.jpg";
 import gallery17 from "../../asset/images/gallery/gallery17.jpg";
 import gallery18 from "../../asset/images/gallery/gallery18.jpg";
 import "./ImgGallery.css";
-import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner.jsx";
 
 const ImgGallery = () => {
@@ -41,7 +40,7 @@ const ImgGallery = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 2600);
   }, []);
 
   return (

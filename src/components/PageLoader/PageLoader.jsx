@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 // import ReloaderImg from "../../asset/images/Reload/loading.svg"
 import {InfinitySpin } from "react-loader-spinner";
 import "./PageLoader.css";
+import pageLoaderImg from "../../asset/images/Reload/loading.svg"
 
 const PageLoader = () => {
   const [loading, setLoading] = useState(true);
@@ -14,7 +15,8 @@ const PageLoader = () => {
   return (
     <>
       <div className="page-loader">
-<InfinitySpin width="200" color="#17a2b8" />
+{/* <InfinitySpin width="200" color="#17a2b8" /> */}
+<img src={pageLoaderImg} alt ="pre-loader" />
       </div>
     </>
   );

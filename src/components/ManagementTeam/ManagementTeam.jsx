@@ -1,11 +1,7 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./ManagementTeam.css";
 import { Col, Container, Row, Button } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import faceMaskImg from "../../asset/images/management_img/facee.png";
-
 import { Link } from "react-router-dom";
-import BoardOfDirector from "../BoardOfDirector/BoardOfDirector";
 import profile1Img from "../../asset/images/About us/profile.jpg";
 import profile2Img from "../../asset/images/About us/avatar.jpg";
 import profile3Img from "../../asset/images/About us/avatarFemale.png";
@@ -13,12 +9,24 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { GrPinterest } from "react-icons/gr";
 import { AiFillGooglePlusCircle } from "react-icons/ai";
+import Spinner from "../Spinner/Spinner";
 
 const ManagementTeam = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2600);
+  }, []);
   return (
     <>
       {/* <h2 className="mainTitle">Board of Directors</h2> */}
 
+      {loading ? (
+        <Spinner />
+      ) :
+<section>
       <div style={{ marginTop: "2rem" }} className="profile-area">
         <Container>
           <Row>
@@ -83,7 +91,6 @@ const ManagementTeam = () => {
         </Container>
       </div>
 
-      {/* 4 col */}
 
       <div className="profile-area">
         <Container>
@@ -216,6 +223,8 @@ const ManagementTeam = () => {
           </Row>
         </Container>
       </div>
+      </section>
+}
     </>
   );
 };

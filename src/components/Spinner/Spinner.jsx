@@ -2,6 +2,7 @@ import React from 'react'
 import "./Spinner.css"
 import { useState, useEffect } from "react";
 import { ThreeDots } from "react-loader-spinner";
+import TalukderSpinnerImg from "../../asset/images/Reload/loading.svg" 
 
 const Spinner = () => {
     const [loading, setLoading] = useState(true);
@@ -9,13 +10,13 @@ const Spinner = () => {
     useEffect(() => {
         setTimeout(() => {
           setLoading(false);
-        }, 1000);
+        }, 500);
       }, []);
 
   return (
     <>
     <div className="preLoader">
-    <ThreeDots 
+    {/* <ThreeDots 
 height="80" 
 width="80" 
 radius="9"
@@ -24,7 +25,8 @@ ariaLabel="three-dots-loading"
 wrapperStyle={{}}
 wrapperClassName=""
 visible={true}
- />
+ /> */}
+ <img src={TalukderSpinnerImg} alt="spinner" />
     </div>
     
     </>

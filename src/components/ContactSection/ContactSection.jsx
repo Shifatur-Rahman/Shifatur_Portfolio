@@ -6,7 +6,8 @@ import { AiFillHome } from "react-icons/ai";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./ContactSection.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Spinner from "../Spinner/Spinner";
 
 const ContactSection = () => {
   let [name, setName] = useState("");
@@ -17,8 +18,21 @@ const ContactSection = () => {
   let changeHandle = (e) => {
     setName(e.target.value);
   };
+
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2600);
+  }, []);
+
+
   return (
     <>
+    {
+  loading ? <Spinner /> : 
       <Container className="mt-5">
         <Row>
           <Col sm={12} md={6} lg={6}>
@@ -85,6 +99,7 @@ const ContactSection = () => {
           </Col>
         </Row>
       </Container>
+}
     </>
   );
 };

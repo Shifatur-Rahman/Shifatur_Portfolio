@@ -4,6 +4,7 @@ import "./Career.css"
 import { Container, Row, Col } from 'react-bootstrap'
 // import Accordion from 'react-bootstrap/Accordion';
 import AOS from "aos";
+import Spinner from '../Spinner/Spinner';
 
 const Career = () => {
 
@@ -22,9 +23,24 @@ const Career = () => {
        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
     });
   }, []);
+
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2600);
+  }, []);
+
+  
   
   return (
     <>
+
+{loading ? (
+        <Spinner />
+      ) :
     <Container>
 
          <Row style={{marginTop:"3rem"}}>
@@ -64,6 +80,8 @@ const Career = () => {
          </Row>
 
     </Container>
+
+}
     </>
   )
 }

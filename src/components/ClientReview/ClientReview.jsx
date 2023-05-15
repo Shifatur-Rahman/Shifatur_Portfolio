@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Col, Container, Row, Card } from "react-bootstrap";
+import { useState, useEffect } from "react";
+import { Col, Container, Card } from "react-bootstrap";
 import Slider from "react-slick";
 import "./ClientReview.css";
 import client1 from '../../asset/images/Client_logo/newzeland-dairy.png';
@@ -24,9 +25,19 @@ import client19 from '../../asset/images/Client_logo/public_health.png';
 import client20 from '../../asset/images/Client_logo/unicef.png';
 import client21 from '../../asset/images/Client_logo/hysawa.jpg';
 import client22 from '../../asset/images/Client_logo/dphe.png';
+import Spinner from "../Spinner/Spinner.jsx";
 
-class ClientReview extends Component {
-  render() {
+// class ClientReview extends Component {
+  const ClientReview = () => {
+  // render() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2700);
+  }, []);
 
     const settings = {
       // dots: true,
@@ -90,6 +101,10 @@ class ClientReview extends Component {
     return (
       <>
 
+{loading ? (
+        <Spinner />
+      ) : (
+
 <Container style={{ marginTop: "5rem" }}>
         <Slider {...settings}>
           {clientData.map((item, index) => (
@@ -103,10 +118,13 @@ class ClientReview extends Component {
         </Slider>
  </Container>
 
+      )
+          }
+
       </>
     );
   }
-}
+// }
 
 export default ClientReview;
 
