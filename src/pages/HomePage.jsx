@@ -3,11 +3,9 @@ import TopNavigation from "../components/TopNavigation/TopNavigation";
 import Footer from "../components/Footer/Footer";
 import { animateScroll } from "react-scroll";
 import Slider from "../components/Slider/Slider";
-import NewsAndEvents from "../components/NewsAndEvents/NewsAndEvents";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 import NewsDetails from "../components/NewsDetails/NewsDetails";
-import PageLoader from "../components/PageLoader/PageLoader";
-import Spinner from "../components/Spinner/Spinner";
+// import Spinner from "../components/Spinner/Spinner";
 
 const HomePage = () => {
   useEffect(() => {
@@ -17,13 +15,13 @@ const HomePage = () => {
     });
   }, []);
 
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2600);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2600);
+  // }, []);
 
   return (
     <>
@@ -33,7 +31,6 @@ const HomePage = () => {
       <NewsDetails />
       <Footer />
       <BackToTopButton /> 
-     
 
     </>
   );

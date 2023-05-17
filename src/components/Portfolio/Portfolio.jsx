@@ -147,9 +147,9 @@ const Portfolio = () => {
                     className="portfolio-item"
                     key={item.id}
                     data-aos="fade-up"
-                    // data-aos-anchor="#example-anchor"
-                    // data-aos-offset="500"
-                    // data-aos-duration="1500"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="1000"
                   >
                     <img
                       className="portfolio-item-img"
@@ -193,6 +193,7 @@ const Portfolio = () => {
               </IconButton>
               <img
                 className="zoomImage"
+                alt="product-img"
                 src={selectedImage}
                 srcSet={
                   selectedImage &&
