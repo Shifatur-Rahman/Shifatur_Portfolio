@@ -46,7 +46,7 @@ import tbl45 from "../../asset/images/office furniture/tbl45.jpg"
 import tbl46 from "../../asset/images/office furniture/tbl46.png"
 import tbl47 from "../../asset/images/office furniture/tbl47.jpg"
 import tbl48 from "../../asset/images/office furniture/tbl48.jpg"
-import tbl49 from "../../asset/images/office furniture/tbl48.jpg"
+// import tbl49 from "../../asset/images/office furniture/tbl48.jpg"
 import tbl50 from "../../asset/images/office furniture/tbl50.jpg"
 import tbl51 from "../../asset/images/office furniture/tbl51.jpeg"
 import tbl52 from "../../asset/images/office furniture/tbl52.jpg"
@@ -134,15 +134,15 @@ import plastic50 from "../../asset/images/Corporate plastic/plastic50.png"
 import plastic51 from "../../asset/images/plastic/plastic51.png"
 import plastic52 from "../../asset/images/plastic/plastic52.png"
 import plastic53 from "../../asset/images/plastic/plastic53.png"
-import plastic54 from "../../asset/images/plastic/plastic54.png"
+// import plastic54 from "../../asset/images/plastic/plastic54.png"
 import plastic55 from "../../asset/images/Corporate plastic/plastic55.png"
 import plastic56 from "../../asset/images/Corporate plastic/plastic56.png"
 import plastic57 from "../../asset/images/plastic/plastic57.png"
-import plastic58 from "../../asset/images/plastic/plastic58.png"
+// import plastic58 from "../../asset/images/plastic/plastic58.png"
 import plastic59 from "../../asset/images/Corporate plastic/plastic59.png"
 import plastic60 from "../../asset/images/plastic/plastic60.png"
 import plastic61 from "../../asset/images/plastic/plastic61.png"
-import plastic62 from "../../asset/images/plastic/plastic62.png"
+// import plastic62 from "../../asset/images/plastic/plastic62.png"
 
 //          lged
 
@@ -164,7 +164,7 @@ import upvc2 from "../../asset/images/upvc/upvc2.JPG"
 import upvc3 from "../../asset/images/upvc/upvc3.JPG"
 import upvc4 from "../../asset/images/upvc/upvc4.JPG"
 import upvc5 from "../../asset/images/upvc/upvc5.JPG"
-import upvc6 from "../../asset/images/upvc/upvc6.JPG"
+// import upvc6 from "../../asset/images/upvc/upvc6.JPG"
 import upvc7 from "../../asset/images/upvc/upvc7.JPG"
 import upvc8 from "../../asset/images/upvc/upvc8.JPG"
 import upvc9 from "../../asset/images/upvc/upvc9.JPG"
@@ -1290,9 +1290,6 @@ const portfolioItems = [
         imgSrc: upvc10,
       },
 
-  
-  
-  
     ];
   
 

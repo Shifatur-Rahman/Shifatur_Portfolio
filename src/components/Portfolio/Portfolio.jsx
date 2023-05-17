@@ -7,7 +7,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import AOS from "aos";
+// import AOS from "aos";
 import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner";
@@ -146,10 +146,10 @@ const Portfolio = () => {
                   <div
                     className="portfolio-item"
                     key={item.id}
-                    data-aos="fade-up"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1000"
+                    // data-aos="fade-up"
+                    // data-aos-anchor="#example-anchor"
+                    // data-aos-offset="500"
+                    // data-aos-duration="1000"
                   >
                     <img
                       className="portfolio-item-img"
