@@ -71,7 +71,7 @@ const Portfolio = () => {
             data-aos="fade-right"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
-            data-aos-duration="1500"
+            data-aos-duration="2000"
             xs={12}
             md={12}
             lg={12}
