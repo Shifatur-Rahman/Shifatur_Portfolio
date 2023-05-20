@@ -10,7 +10,7 @@ import news3 from "../../asset/images/news/news3.jpg";
 import news4 from "../../asset/images/news/news4.jpg";
 import news5 from "../../asset/images/news/news5.jpg";
 import { AiOutlineCalendar } from "react-icons/ai";
-import AOS from "aos";
+// import AOS from "aos";
 import "aos/dist/aos.css";
 
 const NewsDetails = () => {
@@ -19,9 +19,9 @@ const NewsDetails = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     pauseOnHover: false,
     cssEase: "ease-in-out",
     responsive: [
