@@ -9,7 +9,6 @@ import AboutPage from "../pages/AboutPage";
 import Gallery from "../pages/Gallery";
 import AchievementPage from "../pages/AchievementPage";
 import AdvertisementPage from "../pages/AdvertisementPage";
-import ClientPage from "../pages/ClientPage";
 import CareerPage from "../pages/CareerPage";
 import DirectorTeamPage from "../pages/DirectorTeamPage";
 import ManagementTeamPage from "../pages/ManagementTeamPage";
@@ -17,7 +16,6 @@ import ChairmanMsgPage from "../pages/ChairmanMsgPage";
 import MdMsgPage from "../pages/MdMsgPage";
 import TeamMemberMessagePage from "../pages/TeamMemberMessagePage";
 import CorporateClientPage from "../pages/CorporateClientPage";
-// import LocalClientPage from "../pages/LocalClientPage";
 import NewsDetailsPage from "../pages/NewsDetailsPgae";
 import PlasticPage from "../pages/PlasticPage";
 import FoundryPage from "../pages/FoundryPage";
@@ -25,8 +23,8 @@ import UpvcPage from "../pages/UpvcPage";
 import DistriibutionPage from "../pages/DistriibutionPage";
 import FurniturePage from "../pages/FurniturePage";
 import JEnterprisePage from "../pages/JEnterprisePage";
-import spinnerImg from "../asset/images/Reload/loading.svg"
 import ConcernPage from "../pages/ConcernPage";
+import GovtClientPage from "../pages/GovtClientPage";
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -54,6 +52,12 @@ function AnimatedRoute() {
           path="/client/corporateClient"
           element={<CorporateClientPage />}
         />
+         <Route
+          path="/client/govtClient"
+          element={<GovtClientPage />}
+        />
+
+
         <Route path="/about/director" element={<DirectorTeamPage />} />
         <Route
           path="/about/managementTeam"

@@ -169,12 +169,22 @@ class TopNavigation extends Component {
                     <AiOutlineCaretDown />
                   </a>
                   <div className="dropdown-content">
+
+                  <NavLink
+                      className="navDropdown"
+                      to="/client/govtClient"
+                    >
+                      Govt. Client
+                    </NavLink>
+                    
                     <NavLink
                       className="navDropdown"
                       to="/client/corporateClient"
                     >
                       Corporate Client
                     </NavLink>
+
+                    
                   </div>
                 </div>
               </Nav.Link>
