@@ -16,6 +16,7 @@ const Portfolio = () => {
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const [isDropdown, setDropdown] = useState(false);
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -50,6 +51,10 @@ const Portfolio = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
   };
+
+  const toggleDropdownPlastic = () =>{
+    setDropdown(!isDropdownOpen);
+  }
 
 
   return (
@@ -112,14 +117,14 @@ const Portfolio = () => {
 <div className="dropdown">
           <button
             className={isActive("plastic")}
-            onClick={toggleDropdown}
+            onClick={toggleDropdownPlastic}
           >
             PLASTIC
             <span className="dropdown-arrow">
-              {isDropdownOpen ? '▲' : '▼'}
+              {isDropdown ? '▲' : '▼'}
             </span>
           </button>
-          {isDropdownOpen && (
+          {isDropdown && (
             <div className="dropdown-content">
 
              <button
@@ -152,13 +157,57 @@ const Portfolio = () => {
           )}
         </div>
 
+
+        <div className="dropdown">
+          <button
+            className={isActive("WOODfURNITURE")}
+            onClick={toggleDropdown}
+          >
+            WOOD AND METAL FURNITURE
+            <span className="dropdown-arrow">
+              {isDropdownOpen ? '▲' : '▼'}
+            </span>
+          </button>
+          {isDropdownOpen && (
+            <div className="dropdown-content">
+
+             <button
+                value="HOME FURNITURE"
+                onClick={handleCategory}
+                className={isActive("HOME FURNITURE")}
+                style={{fontSize:"10px"}}
+              >
+                HOME FURNITURE
+              </button>
               <button
+                value="office furniture"
+                onClick={handleCategory}
+                className={isActive("OFFICE FURNITURE")}
+                style={{fontSize:"10px"}}
+              >
+                OFFICE FURNITURE
+              </button>
+
+              <button
+                value="INDUSTRIAL FURNITURE"
+                onClick={handleCategory}
+                className={isActive("INDUSTRIAL FURNITURE")}
+                style={{fontSize:"10px"}}
+              >
+                INDUSTRIAL FURNITURES
+              </button>
+              {/* Add more buttons as needed */}
+            </div>
+          )}
+        </div>
+
+              {/* <button
                 value="corporate plastic"
                 onClick={handleCategory}
                 className={isActive("corporate plastic")}
               >
-                CORPORATE PLASTIC
-              </button>
+                  WOOD AND METAL FURNITURE
+              </button> */}
 
               <button
                 value="office furniture"

@@ -1226,6 +1226,50 @@ const portfolioItems = [
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic69,
 },
+{
+  id: 170,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic70,
+},
+{
+  id: 171,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic71,
+},
+{
+  id: 172,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic72,
+},
+{
+  id: 173,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic73,
+},
+
+{
+  id: 174,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic74,
+},
+
+{
+  id: 175,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic75,
+},
+
+{
+  id: 176,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic76,
+},
+
+{
+  id: 177,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic77,
+},
 
 //                                 --------   lged(200- )  --------
   
