@@ -15,14 +15,17 @@ import Spinner from "../Spinner/Spinner";
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const isActive = (category) => {
+    return category === activeCategory ? "active" : "";
+  };
 
   const handleCategory = (e) => {
     setCategory(e.target.value);
     setActiveCategory(e.target.value);
-  };
-
-  const isActive = (category) => {
-    return category === activeCategory ? "active" : "";
+    // setActiveCategory(value);
+    setDropdownOpen(false);
   };
 
   const [selectedImage, setSelectedImage] = React.useState("");
@@ -44,6 +47,11 @@ const Portfolio = () => {
     }, 2600);
   }, []);
 
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
+
   return (
     <>
       {loading ? (
@@ -62,6 +70,8 @@ const Portfolio = () => {
           >
             {/* <div data-aos='fade-right' className="filter-buttons"> */}
             <div className="filter-buttons">
+
+            <div className="dropdown">
               <button
                 value="all"
                 onClick={handleCategory}
@@ -69,7 +79,9 @@ const Portfolio = () => {
               >
                 ALL
               </button>
-
+              </div>
+              
+              <div className="dropdown">
               <button
                 value="upvc"
                 onClick={handleCategory}
@@ -77,22 +89,68 @@ const Portfolio = () => {
               >
                 UPVC
               </button>
+              </div>
 
+              <div className="dropdown">
               <button
                 value="lged"
                 onClick={handleCategory}
                 className={isActive("lged")}
               >
-                LGED
+                SCHOOL FURNITURE
               </button>
+              </div>
 
-              <button
+              {/* <button
                 value="plastic"
                 onClick={handleCategory}
                 className={isActive("plastic")}
               >
                 PLASTIC
+              </button> */}
+
+<div className="dropdown">
+          <button
+            className={isActive("plastic")}
+            onClick={toggleDropdown}
+          >
+            PLASTIC
+            <span className="dropdown-arrow">
+              {isDropdownOpen ? '▲' : '▼'}
+            </span>
+          </button>
+          {isDropdownOpen && (
+            <div className="dropdown-content">
+
+             <button
+                value="PLASTIC FURNITURE"
+                onClick={handleCategory}
+                className={isActive("PLASTIC FURNITURE")}
+                style={{fontSize:"10px"}}
+              >
+                PLASTIC FURNITURE
               </button>
+              <button
+                value="PLASTIC HOUSEHOLD"
+                onClick={handleCategory}
+                className={isActive("PLASTIC HOUSEHOLD")}
+                style={{fontSize:"10px"}}
+              >
+                PLASTIC HOUSEHOLD
+              </button>
+
+              <button
+                value="PLASTIC TOY"
+                onClick={handleCategory}
+                className={isActive("TOY")}
+                style={{fontSize:"10px"}}
+              >
+                TOY
+              </button>
+              {/* Add more buttons as needed */}
+            </div>
+          )}
+        </div>
 
               <button
                 value="corporate plastic"
@@ -155,7 +213,13 @@ const Portfolio = () => {
                           {item.code}
                         </p>
                       )}
-                      {item.size && (
+                      {item.color && (
+                        <p className="itemTitle">
+                          <strong>Color : </strong>
+                          <span className="itemSize"> {item.color} </span>
+                        </p>
+                      )}
+                       {item.size && (
                         <p className="itemTitle">
                           <strong>Size : </strong>
                           <span className="itemSize"> {item.size} </span>

@@ -13,7 +13,6 @@ import client29 from '../../asset/images/Client_logo/cda.png';
 import client30 from '../../asset/images/Client_logo/EED.png';
 import client24 from '../../asset/images/Client_logo/jica.png';
 import client31 from '../../asset/images/Client_logo/bmda.png';
-
 import Spinner from "../Spinner/Spinner.jsx";
 
 const GovtClient = () => {

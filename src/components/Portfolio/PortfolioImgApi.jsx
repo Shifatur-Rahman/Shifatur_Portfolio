@@ -142,7 +142,22 @@ import plastic57 from "../../asset/images/plastic/plastic57.png"
 import plastic59 from "../../asset/images/Corporate plastic/plastic59.png"
 import plastic60 from "../../asset/images/plastic/plastic60.png"
 import plastic61 from "../../asset/images/plastic/plastic61.png"
-// import plastic62 from "../../asset/images/plastic/plastic62.png"
+import plastic62 from "../../asset/images/plastic/plastic62.png"
+import plastic63 from "../../asset/images/plastic/plastic63.png"
+import plastic64 from "../../asset/images/plastic/plastic64.png"
+import plastic65 from "../../asset/images/plastic/plastic65.png"
+import plastic66 from "../../asset/images/plastic/plastic66.png"
+import plastic67 from "../../asset/images/plastic/plastic67.png"
+import plastic68 from "../../asset/images/plastic/plastic68.png"
+import plastic69 from "../../asset/images/plastic/plastic69.png"
+import plastic70 from "../../asset/images/plastic/plastic70.png"
+import plastic71 from "../../asset/images/plastic/plastic71.png"
+import plastic72 from "../../asset/images/plastic/plastic72.png"
+import plastic73 from "../../asset/images/plastic/plastic73.png"
+import plastic74 from "../../asset/images/plastic/plastic74.png"
+import plastic75 from "../../asset/images/plastic/plastic75.png"
+import plastic76 from "../../asset/images/plastic/plastic76.png"
+import plastic77 from "../../asset/images/plastic/plastic77.png"
 
 //          lged
 
@@ -156,6 +171,7 @@ import lged7 from "../../asset/images/lged/lged7.jpg"
 import lged8 from "../../asset/images/lged/lged8.jpg"
 import lged9 from "../../asset/images/lged/lged9.jpg"
 import lged10 from "../../asset/images/lged/lged10.jpg"
+import lged11 from "../../asset/images/lged/lged11.jpg"
 
 
 //           upvc
@@ -864,44 +880,44 @@ const portfolioItems = [
 {
   id: 101,
   // title: "HEAVY DUTY RACK",
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   // code : "TFHDR-070",
   // size: "L2400 X W600 X H2400mm",
   imgSrc: plastic1,
 },
 {
   id: 102,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic2,
 },
 {
   id: 103,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic3,
 },
 {
   id: 104,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic4,
 },
 {
   id: 105,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic5,
 },
 {
   id: 106,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic6,
 },
 {
   id: 107,
-  category: "plastic",
+  category: "PLASTIC TOY",
   imgSrc: plastic7,
 },
 {
   id: 108,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic8,
 },
 // {
@@ -911,52 +927,48 @@ const portfolioItems = [
 // },
 {
   id: 110,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic10,
 },
 {
   id: 111,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic11,
 },
 {
   id: 112,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic12,
 },
 {
   id: 113,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic13,
 },
 {
   id: 114,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic14,
 },
 {
-  id: 115,
-  category: "plastic",
-  imgSrc: plastic15,
-},
-// {
-//   id: 116,
-//   category: "plastic",
-//   imgSrc: plastic16,
-// },
-{
   id: 117,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic17,
+},
+// CHAIR
+{
+  id: 115,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic15,
 },
 {
   id: 118,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic18,
 },
 {
   id: 119,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic19,
 },
 // {
@@ -966,167 +978,168 @@ const portfolioItems = [
 // },
 {
   id: 121,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic21,
 },
 {
   id: 122,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic22,
 },
 {
   id: 123,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic23,
 },
 {
   id: 124,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic24,
 },
 {
   id: 125,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic25,
 },
 {
   id: 126,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic26,
 },
 {
   id: 127,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic27,
 },
-{
-  id: 128,
-  category: "plastic",
-  imgSrc: plastic28,
-},
-{
-  id: 129,
-  category: "plastic",
-  imgSrc: plastic29,
-},
+
 {
   id: 130,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic30,
 },
 {
   id: 131,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic31,
 },
 {
   id: 132,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic32,
 },
 {
+  id: 128,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic28,
+},
+{
   id: 133,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic33,
 },
 {
   id: 134,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic34,
 },
 {
   id: 135,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic35,
 },
 {
   id: 136,
-  category: "plastic",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic36,
 },
 {
   id: 137,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic37,
 },
 {
   id: 138,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic38,
 },
 {
   id: 139,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic39,
 },
 {
   id: 140,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic40,
 },
 {
   id: 141,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic41,
 },
 {
   id: 142,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic42,
 },
 {
   id: 143,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic43,
 },
 {
   id: 144,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic44,
 },
 {
   id: 145,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic45,
 },
 {
   id: 146,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic46,
 },
 {
   id: 147,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic47,
 },
 {
   id: 148,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic48,
 },
 {
   id: 149,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic49,
 },
 {
   id: 150,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic50,
 },
 {
   id: 151,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic51,
 },
 {
   id: 152,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic52,
 },
 {
+  id: 163,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic63,
+},
+{
   id: 153,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic53,
 },
 // {
@@ -1136,17 +1149,17 @@ const portfolioItems = [
 // },
 {
   id: 155,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic55,
 },
 {
   id: 156,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic56,
 },
 {
   id: 157,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic57,
 },
 // {
@@ -1156,86 +1169,159 @@ const portfolioItems = [
 // },
 {
   id: 159,
-  category: "corporate plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic59,
 },
 {
   id: 160,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic60,
 },
 {
   id: 161,
-  category: "plastic",
+  category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic61,
 },
-// {
-//   id: 162,
-//   category: "plastic",
-//   imgSrc: plastic62,
-// },
+{
+  id: 129,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic29,
+},
+{
+  id: 162,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic62,
+},
 
-      //                               --------   lged(200- )  --------
+{
+  id: 164,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic64,
+},
+
+{
+  id: 165,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic65,
+},
+
+{
+  id: 166,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic66,
+},
+
+{
+  id: 167,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic67,
+},
+{
+  id: 168,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic68,
+},
+{
+  id: 169,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic69,
+},
+
+//                                 --------   lged(200- )  --------
   
       {
+        id: 208,
+        title:"Low Bench",
+        code : "TFETO-031",
+        color :  "Brick Red/ Deep Blue/ Deep Green",
+        size: "Normal/ Extra Hieght/ Special Extra Height",
+        category: "lged",
+        imgSrc: lged8,
+      },
+
+      {
+        id: 207,
+        title:"High Bench",
+        code : "TFETO-032",
+        color :  "Brick Red/ Deep Blue/ Deep Green",
+        size: "Normal/ Extra Hieght/ Special Extra Height",
+        category: "lged",
+        imgSrc: lged7,
+      },
+
+      {
         id: 201,
+        title:"Bench Set",
+        code : "TFETO-031",
+        color :  "Brick Red/ Deep Blue/ Deep Green",
+        size: "Normal/ Extra Hieght/ Special Extra Height",
         category: "lged",
         imgSrc: lged1,
       },
   
-      {
-        id: 202,
-        category: "lged",
-        imgSrc: lged2,
-      },
+      // {
+      //   id: 202,
+      //   category: "lged",
+      //   imgSrc: lged2,
+      // },
       
-      {
-        id: 203,
-        category: "lged",
-        imgSrc: lged3,
-      },
+      // {
+      //   id: 203,
+      //   category: "lged",
+      //   imgSrc: lged3,
+      // },
       
-      {
-        id: 204,
-        category: "lged",
-        imgSrc: lged4,
-      },
+      // {
+      //   id: 204,
+      //   category: "lged",
+      //   imgSrc: lged4,
+      // },
       
-      {
-        id: 205,
-        category: "lged",
-        imgSrc: lged5,
-      },
+      // {
+      //   id: 205,
+      //   category: "lged",
+      //   imgSrc: lged5,
+      // },
       
-      {
-        id: 206,
-        category: "lged",
-        imgSrc: lged6,
-      },
+      // {
+      //   id: 206,
+      //   category: "lged",
+      //   imgSrc: lged6,
+      // },
       
-      {
-        id: 207,
-        category: "lged",
-        imgSrc: lged7,
-      },
+      // {
+      //   id: 31,
+      //   title: "EXECUTIVE TABLE",
+      //   category: "office furniture",
+      //   code : "TFETO-031",
+      //   size: "L1350 X W600 X H750mm",
+      //   imgSrc: tbl31,
+      // },
       
-      {
-        id: 208,
-        category: "lged",
-        imgSrc: lged8,
-      },
-      
-      {
-        id: 209,
-        category: "lged",
-        imgSrc: lged9,
-      },
+   
+    
       
       {
         id: 210,
+        title:"Teacher Table",
+        code : "TFETO-031",
+        color :  "Brick Red/Deep Blue/Orange/Black",
+        size: "Normal/ Extra Hieght/ Special Extra Height",
         category: "lged",
         imgSrc: lged10,
       },
+
+        {
+        id: 211,
+        title:"Teacher Chair",
+        code : "TFETO-031",
+        color :  "Brick Red/Deep Blue/Orange/Black",
+        size: "550mm(L)X515mm(W)XH850mm(H)",
+        category: "lged",
+        imgSrc: lged11,
+      },
+
+
       
       //             upvc
       {
