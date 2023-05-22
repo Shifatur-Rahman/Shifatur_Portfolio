@@ -955,7 +955,7 @@ const portfolioItems = [
 {
   id: 108,
   category: "PLASTIC FURNITURE",
-  imgSrc: plastic8,
+  imgSrc: plastic36 ,
   title: "RELAX CHAIR(BATON)",
   code : "21161/21162/21163/21164/21165/21166/21167",
   color : "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
@@ -1011,6 +1011,9 @@ const portfolioItems = [
   id: 118,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic18,
+  title: "READING TABLE  ",
+  code : "24161/24162/24163/24164",
+  color : "#ba5645/#336699/#ba5645/#336699",
 },
 {
   id: 119,
@@ -1105,7 +1108,10 @@ const portfolioItems = [
 {
   id: 136,
   category: "PLASTIC FURNITURE",
-  imgSrc: plastic36,
+  imgSrc: plastic8 ,
+  title: "BABY CHAIR(DESIGN)",
+  code : "22101/22102",
+  color : "#ba5645/#336699",
 },
 {
   id: 137,
