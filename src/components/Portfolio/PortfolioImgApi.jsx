@@ -904,7 +904,7 @@ const portfolioItems = [
   title: "RECTANGULAR TABLE PLASTIC",
   category: "PLASTIC FURNITURE",
   code : "24106/24107/24108/24109",
-  color : "#8e4235/#2e3e60/#4e2d26/#213631",
+  color : "#ba5645/#336699/#4e2d26/#004d4d",
   imgSrc: plastic1,
 },
 {
@@ -913,7 +913,7 @@ const portfolioItems = [
   imgSrc: plastic2,
   title: "RECTANGULAR TABLE STEEL",
   code : "24111/24112/24113/24114/24115",
-  color : "#8e4235/#2e3e60/#324e52/#563933/#76644c",
+  color : "#ba5645/#336699/#009999/#563933/#8c765a",
 },
 {
   id: 103,
@@ -921,7 +921,7 @@ const portfolioItems = [
   imgSrc: plastic3,
   title: "OVAL TABLE STEEL",
   code : "24153/24154/24155",
-  color : "#563933/#76644c/#425247",
+  color : "#563933/#8c765a/#425247",
 },
 {
   id: 104,
@@ -929,7 +929,7 @@ const portfolioItems = [
   imgSrc: plastic4,
   title: "OVAL TABLE PLASTIC",
   code : "24143/24144/24145",
-  color : "#563933/#76644c/#425247",
+  color : "#563933/#8c765a/#425247",
 },
 {
   id: 105,
@@ -937,7 +937,7 @@ const portfolioItems = [
   imgSrc: plastic5,
   title: "SQUARE DECO TABLE PLASTIC",
   code : "24116/24117/24118",
-  color : "#8e4235/#2e3e60/#213631",
+  color : "#ba5645/#336699/#004d4d",
 },
 {
   id: 106,
@@ -945,7 +945,7 @@ const portfolioItems = [
   imgSrc: plastic6,
   title: "SQUARE DECO TABLE STEEL",
   code : "24121/24122/24123/24124/24125",
-  color : "#8e4235/#2e3e60/#4e2d26/#a6976f/#5e7e79",
+  color : "#ba5645/#336699/#4e2d26/#a6976f/#004d4d",
 },
 {
   id: 107,
@@ -956,6 +956,9 @@ const portfolioItems = [
   id: 108,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic8,
+  title: "RELAX CHAIR(BATON)",
+  code : "21161/21162/21163/21164/21165/21166/21167",
+  color : "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
 },
 // {
 //   id: 109,
@@ -991,12 +994,18 @@ const portfolioItems = [
   id: 117,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic17,
+  title: "PRESIDENT CHAIR",
+  code : "21151/21152/21154/21155/21157",
+  color : "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
 },
 // CHAIR
 {
   id: 115,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic15,
+  title: "T CLASSIC",
+  code : "24101/24102/24103",
+  color : "#ba5645/#336699/#9c8363",
 },
 {
   id: 118,
@@ -1007,6 +1016,9 @@ const portfolioItems = [
   id: 119,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic19,
+  title: "ROUND TABLE",
+  code : "24126/24127/24128/24129/24130",
+  color : "#ba5645/#336699/#4e2d26/#a6976f/#004d4d",
 },
 // {
 //   id: 120,
@@ -1058,11 +1070,17 @@ const portfolioItems = [
   id: 131,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic31,
+  title: "DECO(E-MAT)",
+  code : "21431/21432/21433/21434/21435",
+  color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
 {
   id: 132,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic32,
+  title: "DECO(RING)",
+  code : "21411/21412/21413/21414/21415",
+  color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
 {
   id: 128,
