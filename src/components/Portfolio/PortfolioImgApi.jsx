@@ -79,6 +79,29 @@ import tbl78 from "../../asset/images/office furniture/tbl78.jpg"
 import tbl79 from "../../asset/images/office furniture/tbl79.jpg"
 import tbl80 from "../../asset/images/office furniture/tbl80.jpg"
 
+// Chair Image
+import chair3 from "../../asset/images/Chair/chair3.jpg"
+import chair4 from "../../asset/images/Chair/chair4.jpg"
+import chair5 from "../../asset/images/Chair/chair5.jpg"
+import chair7 from "../../asset/images/Chair/chair7.jpg"
+import chair10 from "../../asset/images/Chair/chair10.jpg"
+import chair16 from "../../asset/images/Chair/chair16.jpg"
+import chair18 from "../../asset/images/Chair/chair18.jpg"
+import chair19 from "../../asset/images/Chair/chair19.jpg"
+import chair20 from "../../asset/images/Chair/chair20.jpg"
+import chair27 from "../../asset/images/Chair/chair27.jpg"
+import chair31 from "../../asset/images/Chair/chair31.jpg"
+import chair33 from "../../asset/images/Chair/chair33.jpg"
+import chair42 from "../../asset/images/Chair/chair42.jpg"
+import chair50 from "../../asset/images/Chair/chair50.jpg"
+import chair51 from "../../asset/images/Chair/chair51.jpg"
+import chair53 from "../../asset/images/Chair/chair53.jpg"
+import chair54 from "../../asset/images/Chair/chair54.jpg"
+import chair55 from "../../asset/images/Chair/chair55.jpg"
+import chair61 from "../../asset/images/Chair/chair61.jpg"
+import chair62 from "../../asset/images/Chair/chair62.jpg"
+import chair65 from "../../asset/images/Chair/chair65.jpg"
+
 // Plastic image
 
 import plastic1 from "../../asset/images/plastic/plastic1.png"
@@ -162,14 +185,14 @@ import plastic77 from "../../asset/images/plastic/plastic77.png"
 //          lged
 
 import lged1 from "../../asset/images/lged/lged1.jpg"
-import lged2 from "../../asset/images/lged/lged2.jpg"
-import lged3 from "../../asset/images/lged/lged3.jpg"
-import lged4 from "../../asset/images/lged/lged4.jpg"
-import lged5 from "../../asset/images/lged/lged5.jpg"
-import lged6 from "../../asset/images/lged/lged6.jpg"
+// import lged2 from "../../asset/images/lged/lged2.jpg"
+// import lged3 from "../../asset/images/lged/lged3.jpg"
+// import lged4 from "../../asset/images/lged/lged4.jpg"
+// import lged5 from "../../asset/images/lged/lged5.jpg"
+// import lged6 from "../../asset/images/lged/lged6.jpg"
 import lged7 from "../../asset/images/lged/lged7.jpg"
 import lged8 from "../../asset/images/lged/lged8.jpg"
-import lged9 from "../../asset/images/lged/lged9.jpg"
+// import lged9 from "../../asset/images/lged/lged9.jpg"
 import lged10 from "../../asset/images/lged/lged10.jpg"
 import lged11 from "../../asset/images/lged/lged11.jpg"
 
@@ -640,7 +663,6 @@ const portfolioItems = [
       code : "TFBST-055",
       imgSrc: tbl55,
     },
-
     // BAR CABINET
     {
       id: 56,
@@ -879,36 +901,51 @@ const portfolioItems = [
 ////                              ------------      PLASTIC  (101- )           --------------
 {
   id: 101,
-  // title: "HEAVY DUTY RACK",
+  title: "RECTANGULAR TABLE PLASTIC",
   category: "PLASTIC FURNITURE",
-  // code : "TFHDR-070",
-  // size: "L2400 X W600 X H2400mm",
+  code : "24106/24107/24108/24109",
+  color : "#8e4235/#2e3e60/#4e2d26/#213631",
   imgSrc: plastic1,
 },
 {
   id: 102,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic2,
+  title: "RECTANGULAR TABLE STEEL",
+  code : "24111/24112/24113/24114/24115",
+  color : "#8e4235/#2e3e60/#324e52/#563933/#76644c",
 },
 {
   id: 103,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic3,
+  title: "OVAL TABLE STEEL",
+  code : "24153/24154/24155",
+  color : "#563933/#76644c/#425247",
 },
 {
   id: 104,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic4,
+  title: "OVAL TABLE PLASTIC",
+  code : "24143/24144/24145",
+  color : "#563933/#76644c/#425247",
 },
 {
   id: 105,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic5,
+  title: "SQUARE DECO TABLE PLASTIC",
+  code : "24116/24117/24118",
+  color : "#8e4235/#2e3e60/#213631",
 },
 {
   id: 106,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic6,
+  title: "SQUARE DECO TABLE STEEL",
+  code : "24121/24122/24123/24124/24125",
+  color : "#8e4235/#2e3e60/#4e2d26/#a6976f/#5e7e79",
 },
 {
   id: 107,

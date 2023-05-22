@@ -53,7 +53,7 @@ const Portfolio = () => {
   };
 
   const toggleDropdownPlastic = () =>{
-    setDropdown(!isDropdownOpen);
+    setDropdown(!isDropdown);
   }
 
 
@@ -131,7 +131,7 @@ const Portfolio = () => {
                 value="PLASTIC FURNITURE"
                 onClick={handleCategory}
                 className={isActive("PLASTIC FURNITURE")}
-                style={{fontSize:"10px"}}
+                style={{fontSize:"10px", marginTop:"10px"}}
               >
                 PLASTIC FURNITURE
               </button>
@@ -175,14 +175,14 @@ const Portfolio = () => {
                 value="HOME FURNITURE"
                 onClick={handleCategory}
                 className={isActive("HOME FURNITURE")}
-                style={{fontSize:"10px"}}
+                style={{fontSize:"10px", marginTop:"10px"}}
               >
                 HOME FURNITURE
               </button>
               <button
                 value="office furniture"
                 onClick={handleCategory}
-                className={isActive("OFFICE FURNITURE")}
+                className={isActive("office furniture")}
                 style={{fontSize:"10px"}}
               >
                 OFFICE FURNITURE
@@ -201,21 +201,16 @@ const Portfolio = () => {
           )}
         </div>
 
-              {/* <button
-                value="corporate plastic"
-                onClick={handleCategory}
-                className={isActive("corporate plastic")}
-              >
-                  WOOD AND METAL FURNITURE
-              </button> */}
-
+             
+        <div className="dropdown">
               <button
-                value="office furniture"
+                // value="office furniture"
                 onClick={handleCategory}
-                className={isActive("office furniture")}
+                className={isActive("office")}
               >
-                OFFICE FURNITURE
+                OFFICE
               </button>
+            </div>
             </div>
           </Col>
 
@@ -256,24 +251,56 @@ const Portfolio = () => {
                           {item.title}
                         </p>
                       )}
-                      {item.code && (
+                      {/* {item.code && (
                         <p className="itemTitle">
                           <strong>Code : </strong>
                           {item.code}
                         </p>
-                      )}
-                      {item.color && (
+                      )} */}
+                      {/* {item.color && (
                         <p className="itemTitle">
                           <strong>Color : </strong>
                           <span className="itemSize"> {item.color} </span>
                         </p>
-                      )}
+                      )} */}
                        {item.size && (
                         <p className="itemTitle">
                           <strong>Size : </strong>
                           <span className="itemSize"> {item.size} </span>
                         </p>
                       )}
+
+                      
+{item.color && item.code ? (
+  <div className="table-responsive">
+    <table className="table table-bordered table-sm custom-table">
+      <tbody>
+        <tr>
+          <th style={{ fontSize: "10px", fontWeight: "800" }} scope="row">
+            Code
+          </th>
+          {item.code.split('/').map((code, index) => (
+            <td style={{fontSize:"8px"}} key={index}>{code}</td>
+          ))}
+        </tr>
+        <tr>
+          <th style={{ fontSize: "10px", fontWeight: "800" }} scope="row">
+            Color
+          </th>
+          {item.color.split('/').map((color, index) => (
+            <td style={{fontSize:"8px",backgroundColor: color}} key={index}></td>
+          ))}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+)  :  <p className="itemTitle">
+<strong>Code : </strong>
+{item.code}
+</p>
+
+
+}
                     </div>
                   </div>
                 ))}
