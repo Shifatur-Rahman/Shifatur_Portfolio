@@ -188,6 +188,14 @@ import plastic81 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair4.pn
 import plastic82 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair5.png"
 import plastic83 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair6.png"
 import plastic84 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair7.png"
+import plastic85 from "../../asset/images/plastic/plastic item/plastic1.png"
+import plastic86 from "../../asset/images/plastic/plastic item/plastic2.png"
+import plastic87 from "../../asset/images/plastic/plastic item/plastic3.png"
+import plastic88 from "../../asset/images/plastic/plastic item/plastic4.png"
+import plastic89 from "../../asset/images/plastic/plastic item/plastic5.png"
+import plastic90 from "../../asset/images/plastic/plastic item/plastic6.png"
+import plastic91 from "../../asset/images/plastic/plastic item/plastic7.png"
+import plastic92 from "../../asset/images/plastic/plastic item/plastic8.png"
 
 
 
@@ -1559,6 +1567,77 @@ const portfolioItems = [
   title: "CROWN CHAIR(BATON)",
   code : "21251/21252/21254/21255/21256/21257",
   color : "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+},
+
+{
+  id: 185,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic85,
+  title: "LAUNDRY BASKET",
+  code : "15206/15207/15208",
+  color : "RED/BLUE/YELLOW",
+},
+{
+  id: 186,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic86,
+  title: "RECTANGULAR CONTAINER SET",
+  code : "17124",
+  color : "RGBA(0,0,0,0.3)",
+  size : "1000,2000,3000 ml"
+},
+{
+  id: 187,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic87,
+  title: "ROUND CONTAINER",
+  code : "17144",
+  color : "RGBA(0,0,0,0.3)",
+  size : "1000,2000,3000 ml"
+},
+{
+  id: 187,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic88,
+  title: "MEDIUM STOOL",
+  code : "23101/23102",
+  color : "red/blue",
+  size : "short"
+},
+{
+  id: 188,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic89,
+  title: "DELUX JUG(Close Handle)",
+  code : "13115/13116",
+  color : "red/blue",
+  size : "3Ltr."
+},
+{
+  id: 189,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic90,
+  title: "DESIGN JUG(Close Handle)",
+  code : "13108/13109/13111/13112",
+  color : "red/blue/pink/ #4d4dff",
+  size : "3Ltr."
+},
+{
+  id: 190,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic91,
+  title: "DESIGN JUG(Open Handle)",
+  code : "13101/13102/13105/13106",
+  color : "red/blue/red/blue",
+  size : "2.5, 2.5, 3 ,3Ltr."
+},
+{
+  id: 191,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic92,
+  title: "DRINKING GLASS",
+  code : "14222/14223",
+  color : "#00cc00/PINK",
 },
 
 //                                 --------   lged(200- )  --------
