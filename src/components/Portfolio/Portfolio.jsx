@@ -280,7 +280,7 @@ const Portfolio = () => {
             Code
           </th>
           {item.code.split('/').map((code, index) => (
-            <td style={{fontSize:"8px"}} key={index}>{code}</td>
+            <td style={{fontSize:"8px", textAlign:"center"}} key={index}>{code}</td>
           ))}
         </tr>
         <tr>

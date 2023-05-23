@@ -181,6 +181,13 @@ import plastic74 from "../../asset/images/plastic/plastic74.png"
 import plastic75 from "../../asset/images/plastic/plastic75.png"
 import plastic76 from "../../asset/images/plastic/plastic76.png"
 import plastic77 from "../../asset/images/plastic/plastic77.png"
+import plastic78 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair1.png"
+import plastic79 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair2.png"
+import plastic80 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair3.png"
+import plastic81 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair4.png"
+import plastic82 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair5.png"
+
+
 
 //          lged
 
@@ -1291,33 +1298,51 @@ const portfolioItems = [
   id: 170,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic70,
+  title: "RELAX CHAIR(DESIGN)",
+  code : "21171/21172/21174/21175/21176/21177",
+  color : "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
 },
 {
   id: 171,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic71,
+  title: "DECO(FLOWER)",
+  code : "21401/21402/21403/21404/21405",
+  color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
 {
   id: 172,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic72,
+  title: "DECO(STICK)",
+  code : "21421/21422/21423/21424/21425",
+  color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
 {
   id: 173,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic73,
+  title: "DINNING CHAIR(E-MAT)",
+  code : "21221/21222/21223/21224/21225",
+  color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
 
 {
   id: 174,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic74,
+  title: "GARDEN CHAIR(FLOWER)",
+  code : "21161/21162/21163/21164/21165/21166",
+  color : "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d",
 },
 
 {
   id: 175,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic75,
+  title: "GOLDEN CHAIR(STICK)",
+  code : "21321/21322/21323/21324/21325",
+  color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
 
 {
@@ -1330,6 +1355,54 @@ const portfolioItems = [
   id: 177,
   category: "PLASTIC FURNITURE",
   imgSrc: plastic77,
+  title: "COFFEE TABLE",
+  code : "24172/24173/24174/24175",
+  color : "#336699/#4e2d26/#a6976f/#004d4d",
+},
+
+{
+  id: 178,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic78,
+  title: "  GARDEN CHAIR(E-MAT)",
+  code : "21331/21332/21333/21334/21335",
+  color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+},
+
+{
+  id: 179,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic79,
+  title: "KING SUPER CHAIR(DESIGN)",
+  code : "21141/21142/21143/21144/21145/21146/21147",
+  color : "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
+},
+
+{
+  id: 180,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic80,
+  title: "PRESIDENT CHAIR",
+  code : "",
+  color : "#336699/#4e2d26/#a6976f/#004d4d",
+},
+
+{
+  id: 181,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic81,
+  title: "DINNING CHAIR(DESIGN)",
+  code : "21201/21202/21203/21204/21205",
+  color : "#ba5645/#336699/#009999/#563933/#8c765a",
+},
+
+{
+  id: 182,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic82,
+  title: "DINNING CHAIR(4 STICK)",
+  code : "21211/21212/21213/21214/21215",
+  color : "#ba5645/#336699/#009999/#563933/#8c765a",
 },
 
 //                                 --------   lged(200- )  --------
