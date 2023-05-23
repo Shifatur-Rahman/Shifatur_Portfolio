@@ -186,6 +186,8 @@ import plastic79 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair2.pn
 import plastic80 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair3.png"
 import plastic81 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair4.png"
 import plastic82 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair5.png"
+import plastic83 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair6.png"
+import plastic84 from "../../asset/images/plastic/PLASTIC CHAIR/plasticChair7.png"
 
 
 
@@ -1403,6 +1405,24 @@ const portfolioItems = [
   title: "DINNING CHAIR(4 STICK)",
   code : "21211/21212/21213/21214/21215",
   color : "#ba5645/#336699/#009999/#563933/#8c765a",
+},
+
+{
+  id: 183,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic83,
+  title: "CROWN CHAIR(DESIGN)",
+  code : "21231/21232/21234/21235/21236/21237",
+  color : "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+},
+
+{
+  id: 184,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic84,
+  title: "CROWN CHAIR(BATON)",
+  code : "21251/21252/21254/21255/21256/21257",
+  color : "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
 },
 
 //                                 --------   lged(200- )  --------
