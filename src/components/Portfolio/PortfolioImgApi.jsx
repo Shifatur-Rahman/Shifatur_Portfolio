@@ -978,26 +978,42 @@ const portfolioItems = [
   id: 110,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic10,
+  title: "SOAP CASE(BEAUTY)",
+  code : "17165/17166",
+  color : "PINK/YELLOW",
 },
 {
   id: 111,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic11,
+  title: "OVAL SOAP CASE",
+  code : "17155/17156",
+  color : "PINK/YELLOW",
+  // size : "OVEL"
 },
 {
   id: 112,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic12,
+  title: "LID BOWL",
+  code : "12100/12101",
+  color : "pink/white",
 },
 {
   id: 113,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic13,
+  title: "CHOPPING BOARD",
+  code : "17061",
+  color : "white",
 },
 {
   id: 114,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic14,
+  title: "CLASSIC DUST PAN",
+  code : "17044/17045",
+  color : "#006600/blue",
 },
 {
   id: 117,
@@ -1041,42 +1057,68 @@ const portfolioItems = [
   id: 121,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic21,
+  title: "SPOUT BUCKET",
+  size: "16.20 Ltr."
+
 },
 {
   id: 122,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic22,
+  title: "SPOUT BUCKET",
+  size: "16.20 Ltr."
 },
 {
   id: 123,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic23,
+  title: "SQUARE CONTAINER SET",
+  code : "17134",
+  color : "rgba(0,0,0,0.3)",
+  size: "700, 1500, 2200ml"
 },
 {
   id: 124,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic24,
+  title: "STORAGE CONTAINER",
+  code : "17181/17182",
+  color : "#8080ff/#ffe6f1",
+  size: "3,5,7,10 Ltr"
 },
 {
   id: 125,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic25,
+  title: "TIFFIN BOX",
+  code : "17011/17012",
+  color : "#8080ff/#ffe6f1",
 },
 {
   id: 126,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic26,
+  title: "TRANSPARENT DESIGN BATI",
+  code : "12103/12104",
+  color : "PINK/#4682b4",
 },
 {
   id: 127,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic27,
+  title: "TRANSPARENT DESIGN BATI",
+  code : "12114/12115",
+  color : "#ffe6f1/#8080ff",
+  size: "1500ml"
 },
 
 {
   id: 130,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic30,
+  title: "COFFEE MUG",
+  code : "12114/12115",
+  color : "#006600/#6F4E37",
 },
 {
   id: 131,
@@ -1098,21 +1140,34 @@ const portfolioItems = [
   id: 128,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic28,
+  title: "TWIST BUCKET(steel handle)",
 },
 {
   id: 133,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic33,
+  title: "DESIGN BUCKET(PLASTIC HANDLE)",
+  code : "11305/11307/11310/11316/11320/11325/11330",
+  color : "RED/RED/RED/RED/RED/RED/RED",
+  size: " 5/8/10/16/20/25/30 Ltr."
 },
+
 {
   id: 134,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic34,
+  title: "DELUX BUCKET(PLASTIC HANDLE)",
+  code : "11141/11147/11150/11153/11157/11162/11170",
+  color : "blue/blue/blue/blue/blue/blue/blue",
+  size: " 8/12/15/20/22/25/30 Ltr."
+  
 },
 {
   id: 135,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic35,
+  title: "DRUM BUCKET WITH LID",
+  size: " 75 Ltr."
 },
 {
   id: 136,
