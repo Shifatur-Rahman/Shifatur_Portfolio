@@ -960,6 +960,9 @@ const portfolioItems = [
   id: 107,
   category: "PLASTIC TOY",
   imgSrc: plastic7,
+  title: "BABY POTI",
+  code : "17001",
+  color : "RED",
 },
 {
   id: 108,
@@ -986,9 +989,9 @@ const portfolioItems = [
   id: 111,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic11,
-  title: "OVAL SOAP CASE",
-  code : "17155/17156",
-  color : "PINK/YELLOW",
+  title: "BEVERAGE MUG",
+  code : "14214/14215/14216",
+  color : "#006600/PINK/YELLOW",
   // size : "OVEL"
 },
 {
@@ -1058,7 +1061,8 @@ const portfolioItems = [
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic21,
   title: "SPOUT BUCKET",
-  size: "16.20 Ltr."
+  size: "16/20 Ltr.",
+  code: "11350/11351/11356/11357"
 
 },
 {
@@ -1066,7 +1070,8 @@ const portfolioItems = [
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic22,
   title: "SPOUT BUCKET",
-  size: "16.20 Ltr."
+  size: "16/20 Ltr.",
+  code: "11350/11351/11356/11357"
 },
 {
   id: 123,
@@ -1136,12 +1141,12 @@ const portfolioItems = [
   code : "21411/21412/21413/21414/21415",
   color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
-{
-  id: 128,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: plastic28,
-  title: "TWIST BUCKET(steel handle)",
-},
+// {
+//   id: 128,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: plastic28,
+//   title: "TWIST BUCKET(steel handle)",
+// },
 {
   id: 133,
   category: "PLASTIC HOUSEHOLD",
@@ -1167,7 +1172,8 @@ const portfolioItems = [
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic35,
   title: "DRUM BUCKET WITH LID",
-  size: " 75 Ltr."
+  size: "75 Ltr.",
+  code : " 11465/11466 "
 },
 {
   id: 136,
@@ -1181,91 +1187,145 @@ const portfolioItems = [
   id: 137,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic37,
+  title: "OVAL RACK",
+  code : "16212/16213/16214",
+  color : "red/blue/orange",
+  size: "OVAL/ OVAL/ OVAL"
 },
 {
   id: 138,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic38,
+  title: "PAPER TRAY",
+  code : "15210/15211",
+  color : "#7B3F00/gray",
 },
 {
   id: 139,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic39,
+  title: "DISH COVER",
+  code : "17081/17082/17084/17085/17087/17088",
+  color : "red/blue/RED/BLUE/RED/BLUE",
+  size: "26/26/32/32/36/36 CM"
 },
 {
   id: 140,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic40,
+  title: "DISH RACK",
+  code : "16209/16210/16211",
+  color : "red/blue/ORANGE",
 },
 {
   id: 141,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic41,
+  title: "GROCERY PAN",
+  code : "14218/14219",
+  color : " #006600/blue",
 },
 {
   id: 142,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic42,
+  title: "HIGH STOOL",
+  code : "23101/23102",
+  color : "RED/BLUE",
+  size: "Medium"
 },
 {
   id: 143,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic43,
+  title: "MAGIC STOOL",
+  code : "23213/23313",
+  color : "teal/yellow",
+  size: "HIGH/MEDIUM"
 },
 {
   id: 144,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic44,
+  title: "MEDIUM STOOL",
+  code : "23201/23202",
+  color : "RED/BLUE",
+  size: "MEDIUM"
 },
 {
   id: 145,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic45,
+  title: "MUG",
+  code : "24201/24204/24207/24202/24205/24208",
+  color : "RED/RED/RED/BLUE/BLUE/BLUE",
+  size: "500ML,1.5Ltr,2Ltr,500ML,1.5Ltr,2Ltr"
 },
 {
   id: 146,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic46,
+  title: "MUG WITH HANDLE",
+  code : "24226/24227/24228",
+  color : "RED/BLUE/#006600",
+  size: "500ML,1.5Ltr,2Ltr,500ML,1.5Ltr,2Ltr"
 },
 {
   id: 147,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic47,
-},
-{
-  id: 148,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: plastic48,
+  title: "NOODLES NET",
+  code : "12106/12107/12108",
+  color : "#006600/YELLOW/RED",
 },
 {
   id: 149,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic49,
+  title: "OVAL SOAP CASE",
+  code : "17155/17156",
+  color : "PINK/YELLOW",
 },
+
 {
   id: 150,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic50,
+  title: "DISPOSIBLE PLATE",
+  code : "17150/17151",
+  color : "	#00FFFF/#006600",
 },
 {
   id: 151,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic51,
+  title: "PAPER WASTAGE",
+  code : "15201/15202",
+  color : "red/blue",
 },
 {
   id: 152,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic52,
+  title: "SHIRT HANGER",
+  code : "17023/17024/17025",
+  color : "red/blue/#00b300",
 },
 {
   id: 163,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic63,
+  title: "COAT HANGER",
+  code : "17020/17021/17022",
+  color : "red/blue/#00b300",
 },
 {
   id: 153,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic53,
+  title: "SHOE RACK",
+  code : "16204/16205/16206",
+  color : "red/brown/blue",
 },
 // {
 //   id: 154,
@@ -1276,80 +1336,97 @@ const portfolioItems = [
   id: 155,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic55,
+  title: "SMILE TRAY",
+  size: "SMALL"
 },
 {
   id: 156,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic56,
+  title: "SPICE TRAY(MULTI)",
+  code : "17034/17035/17036/17037/17038/17039",
+  color : "red/blue/PINK/yellow/white/#006600",
 },
 {
   id: 157,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic57,
+  title: "SPICE TRAY",
+  code : "17031",
+  color : "red",
 },
 // {
 //   id: 158,
 //   category: "plastic",
 //   imgSrc: plastic58,
 // },
-{
-  id: 159,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: plastic59,
-},
-{
-  id: 160,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: plastic60,
-},
-{
-  id: 161,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: plastic61,
-},
+
 {
   id: 129,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic29,
+  title: "BATHROOM POT",
+  code : "17065/17070",
+  color : "BLUE/BLUE",
+  size: "2Ltr., 2.25Ltr."
 },
 {
   id: 162,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic62,
+  title: "WALL HANGER",
+  code : "17003/17004",
+  color : "#80ff80/#006600",
 },
 
 {
   id: 164,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic64,
+  title: "DESIGN BOWL",
+  code : "12118/12131/12141/12151/12161",
+  color : "RED/RED/RED/RED/RED",
+  size : "3,8,15,20,25 Ltr"
 },
 
 {
   id: 165,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic65,
+  title: "DESIGN BATI",
+  code : "12110/12111",
+  color : "RED/BLUE",
+  size : "700ml"
 },
 
 {
   id: 166,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic66,
+  title: "DELUX BOWL",
+  // code : "17051/17052",
+  // color : "RED/WHITE",
+  product : "12165,12168,12171,12175,12180,12185,12188,12191",
+  product2nd: "12195,12166,12169,12172,12176,12181,12186,12189,12192,12196"
 },
 
 {
   id: 167,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic67,
+  title: "BATH TAB",
+  code : "17051/17052",
+  color : "RED/WHITE",
 },
-{
-  id: 168,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: plastic68,
-},
+
 {
   id: 169,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic69,
+  title: "RECTANGULAR SOAP CASE",
+  code : "17160/17161",
+  color : "PINK/YELLOW",
+  size : "RECTANGULAR"
 },
 {
   id: 170,
@@ -1404,8 +1481,12 @@ const portfolioItems = [
 
 {
   id: 176,
-  category: "PLASTIC HOUSEHOLD",
+  category: "PLASTIC FURNITURE",
   imgSrc: plastic76,
+  title: "FISH CRATE",
+  code : "15250/15251/15252",
+  color : "#ba5645/#336699/#e68a00",
+  size : "RECTANGULAR"
 },
 
 {
@@ -1440,8 +1521,8 @@ const portfolioItems = [
   category: "PLASTIC FURNITURE",
   imgSrc: plastic80,
   title: "PRESIDENT CHAIR",
-  code : "",
-  color : "#336699/#4e2d26/#a6976f/#004d4d",
+  code : "21181/21182/21183/21184/21185",
+  color : "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
 },
 
 {

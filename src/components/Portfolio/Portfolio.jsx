@@ -22,6 +22,7 @@ const Portfolio = () => {
     return category === activeCategory ? "active" : "";
   };
 
+
   const handleCategory = (e) => {
     setCategory(e.target.value);
     setActiveCategory(e.target.value);
@@ -254,7 +255,7 @@ const Portfolio = () => {
                       {/* {item.code && (
                         <p className="itemTitle">
                           <strong>Code : </strong>
-                          {item.code}
+                          {item.code}  
                         </p>
                       )} */}
                       {/* {item.color && (
@@ -267,6 +268,15 @@ const Portfolio = () => {
                         <p className="itemTitle">
                           <strong>Size : </strong>
                           <span className="itemSize"> {item.size} </span>
+                        </p>
+                      )}
+
+                  {item.product && (
+                        <p className="itemTitle">
+                          
+                          <span style={{fontSize:"8px"}}> {item.product} </span>
+                         
+                          
                         </p>
                       )}
 
@@ -288,7 +298,7 @@ const Portfolio = () => {
             Color
           </th>
           {item.color.split('/').map((color, index) => (
-            <td style={{fontSize:"8px",backgroundColor: color}} key={index}></td>
+            <td style={{fontSize:"8px",backgroundColor: color, cursor:"pointer"}} key={index}></td>
           ))}
         </tr>
       </tbody>
