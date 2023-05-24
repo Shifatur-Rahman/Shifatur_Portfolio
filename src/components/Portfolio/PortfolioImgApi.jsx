@@ -1807,7 +1807,7 @@ const portfolioItems = [
 //                                 --------   lged(200)  --------
   
       {
-        id: 208,
+        id: 251,
         title:"Low Bench",
         code : "TFETO-031",
         color :  "Brick Red/ Deep Blue/ Deep Green",
@@ -1817,7 +1817,7 @@ const portfolioItems = [
       },
 
       {
-        id: 207,
+        id: 252,
         title:"High Bench",
         code : "TFETO-032",
         color :  "Brick Red/ Deep Blue/ Deep Green",
@@ -1827,7 +1827,7 @@ const portfolioItems = [
       },
 
       {
-        id: 201,
+        id: 253,
         title:"Bench Set",
         code : "TFETO-031",
         color :  "Brick Red/ Deep Blue/ Deep Green",
@@ -1879,7 +1879,7 @@ const portfolioItems = [
     
       
       {
-        id: 210,
+        id: 254,
         title:"Teacher Table",
         code : "TFETO-031",
         color :  "Brick Red/Deep Blue/Orange/Black",
@@ -1889,7 +1889,7 @@ const portfolioItems = [
       },
 
         {
-        id: 211,
+        id: 255,
         title:"Teacher Chair",
         code : "TFETO-031",
         color :  "Brick Red/Deep Blue/Orange/Black",
