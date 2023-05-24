@@ -931,6 +931,7 @@ const portfolioItems = [
 },
 
 
+
 ////                              ------------      PLASTIC  (101- )           --------------
 {
   id: 101,
@@ -1874,9 +1875,6 @@ const portfolioItems = [
       //   size: "L1350 X W600 X H750mm",
       //   imgSrc: tbl31,
       // },
-      
-   
-    
       
       {
         id: 254,
