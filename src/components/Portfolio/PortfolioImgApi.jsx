@@ -131,7 +131,7 @@ import plastic24 from "../../asset/images/plastic/plastic24.png"
 import plastic25 from "../../asset/images/Corporate plastic/plastic25.png"
 import plastic26 from "../../asset/images/plastic/plastic26.png"
 import plastic27 from "../../asset/images/plastic/plastic27.png"
-import plastic28 from "../../asset/images/plastic/plastic28.png"
+// import plastic28 from "../../asset/images/plastic/plastic28.png"
 import plastic29 from "../../asset/images/plastic/plastic29.png"
 import plastic30 from "../../asset/images/plastic/plastic30.png"
 import plastic31 from "../../asset/images/plastic/plastic31.png"
@@ -151,7 +151,7 @@ import plastic44 from "../../asset/images/plastic/plastic44.png"
 import plastic45 from "../../asset/images/plastic/plastic45.png"
 import plastic46 from "../../asset/images/plastic/plastic46.png"
 import plastic47 from "../../asset/images/plastic/plastic47.png"
-import plastic48 from "../../asset/images/plastic/plastic48.png"
+// import plastic48 from "../../asset/images/plastic/plastic48.png"
 import plastic49 from "../../asset/images/Corporate plastic/plastic49.png"
 import plastic50 from "../../asset/images/Corporate plastic/plastic50.png"
 import plastic51 from "../../asset/images/plastic/plastic51.png"
@@ -196,6 +196,22 @@ import plastic89 from "../../asset/images/plastic/plastic item/plastic5.png"
 import plastic90 from "../../asset/images/plastic/plastic item/plastic6.png"
 import plastic91 from "../../asset/images/plastic/plastic item/plastic7.png"
 import plastic92 from "../../asset/images/plastic/plastic item/plastic8.png"
+import plastic93 from "../../asset/images/plastic/plastic item/plastic9.png"
+import plastic94 from "../../asset/images/plastic/PLASTIC BUCKET/Delux Bucket (Plastic Handle).jpg"
+import plastic95 from "../../asset/images/plastic/PLASTIC BUCKET/Delux Bucket (Steel Handle).jpg"
+import plastic96 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (With Lid).jpg"
+// import plastic97 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (Without Lid Plastic Handle).jpg"
+import plastic98 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (Without Lid Steel Handle).jpg"
+import plastic99 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket(Without Lid Plastic Handle).jpg"
+import plastic100 from "../../asset/images/plastic/PLASTIC BUCKET/Spice Pot.jpg"
+import plastic101 from "../../asset/images/plastic/PLASTIC BUCKET/Square Rack.jpg"
+import plastic102 from "../../asset/images/plastic/PLASTIC BUCKET/Square Rak Deluxe.jpg"
+import plastic103 from "../../asset/images/plastic/PLASTIC BUCKET/Vegetable Washing Net.jpg"
+import plastic104 from "../../asset/images/plastic/PLASTIC BUCKET/Delux Bucket.jpg"
+import plastic105 from "../../asset/images/plastic/PLASTIC BUCKET/Druam Bucket.jpg"
+import plastic106 from "../../asset/images/plastic/PLASTIC BUCKET/Storage Container.jpg"
+import plastic107 from "../../asset/images/plastic/PLASTIC BUCKET/Egg Box.jpg"
+
 
 
 
@@ -972,14 +988,7 @@ const portfolioItems = [
   code : "17001",
   color : "RED",
 },
-{
-  id: 108,
-  category: "PLASTIC FURNITURE",
-  imgSrc: plastic36 ,
-  title: "RELAX CHAIR(BATON)",
-  code : "21161/21162/21163/21164/21165/21166/21167",
-  color : "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
-},
+
 // {
 //   id: 109,
 //   category: "corporate plastic",
@@ -1026,14 +1035,7 @@ const portfolioItems = [
   code : "17044/17045",
   color : "#006600/blue",
 },
-{
-  id: 117,
-  category: "PLASTIC FURNITURE",
-  imgSrc: plastic17,
-  title: "PRESIDENT CHAIR",
-  code : "21151/21152/21154/21155/21157",
-  color : "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
-},
+
 // CHAIR
 {
   id: 115,
@@ -1059,11 +1061,24 @@ const portfolioItems = [
   code : "24126/24127/24128/24129/24130",
   color : "#ba5645/#336699/#4e2d26/#a6976f/#004d4d",
 },
-// {
-//   id: 120,
-//   category: "plastic",
-//   imgSrc: plastic20,
-// },
+{
+  id: 177,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic77,
+  title: "COFFEE TABLE",
+  code : "24172/24173/24174/24175",
+  color : "#336699/#4e2d26/#a6976f/#004d4d",
+},
+
+{
+  id: 108,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic36 ,
+  title: "RELAX CHAIR(BATON)",
+  code : "21161/21162/21163/21164/21165/21166/21167",
+  color : "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
+},
+
 {
   id: 121,
   category: "PLASTIC HOUSEHOLD",
@@ -1182,6 +1197,14 @@ const portfolioItems = [
   title: "DRUM BUCKET WITH LID",
   size: "75 Ltr.",
   code : " 11465/11466 "
+},
+{
+  id: 117,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic17,
+  title: "PRESIDENT CHAIR",
+  code : "21151/21152/21154/21155/21157",
+  color : "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
 },
 {
   id: 136,
@@ -1413,9 +1436,10 @@ const portfolioItems = [
   imgSrc: plastic66,
   title: "DELUX BOWL",
   // code : "17051/17052",
-  // color : "RED/WHITE",
+  color : "RED/Blue",
   product : "12165,12168,12171,12175,12180,12185,12188,12191",
-  product2nd: "12195,12166,12169,12172,12176,12181,12186,12189,12192,12196"
+  product2nd: "12195,12166,12169,12172,12176,12181,12186,12189,12192,12196",
+  size : "3,5,8,10,15,20,25,30,35 Ltr."
 },
 
 {
@@ -1487,24 +1511,6 @@ const portfolioItems = [
   color : "#ba5645/#336699/#009999/#4e2d26/#a6976f",
 },
 
-{
-  id: 176,
-  category: "PLASTIC FURNITURE",
-  imgSrc: plastic76,
-  title: "FISH CRATE",
-  code : "15250/15251/15252",
-  color : "#ba5645/#336699/#e68a00",
-  size : "RECTANGULAR"
-},
-
-{
-  id: 177,
-  category: "PLASTIC FURNITURE",
-  imgSrc: plastic77,
-  title: "COFFEE TABLE",
-  code : "24172/24173/24174/24175",
-  color : "#336699/#4e2d26/#a6976f/#004d4d",
-},
 
 {
   id: 178,
@@ -1570,6 +1576,16 @@ const portfolioItems = [
 },
 
 {
+  id: 176,
+  category: "PLASTIC FURNITURE",
+  imgSrc: plastic76,
+  title: "FISH CRATE",
+  code : "15250/15251/15252",
+  color : "#ba5645/#336699/#e68a00",
+  size : "RECTANGULAR"
+},
+
+{
   id: 185,
   category: "PLASTIC HOUSEHOLD",
   imgSrc: plastic85,
@@ -1586,15 +1602,7 @@ const portfolioItems = [
   color : "RGBA(0,0,0,0.3)",
   size : "1000,2000,3000 ml"
 },
-{
-  id: 187,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: plastic87,
-  title: "ROUND CONTAINER",
-  code : "17144",
-  color : "RGBA(0,0,0,0.3)",
-  size : "1000,2000,3000 ml"
-},
+
 {
   id: 187,
   category: "PLASTIC HOUSEHOLD",
@@ -1639,8 +1647,163 @@ const portfolioItems = [
   code : "14222/14223",
   color : "#00cc00/PINK",
 },
+{
+  id: 192,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic87,
+  title: "ROUND CONTAINER",
+  code : "17144",
+  color : "RGBA(0,0,0,0.3)",
+  size : "1000,2000,3000 ml"
+},
+{
+  id: 196,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic93,
+  title: "DUST PAN",
+  code : "17041/17042",
+  color : "RED/BLUE",
+},
+// again bucket start
+{
+  id: 193,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic94,
+  title: "DELUX BUCKET (Plastic Handle) ",
+  code : "11140/11146/11149/11152/11156/11161/11169",
+  color : "RED/RED/RED/RED/RED/RED/RED",
+  size : "8,12,15,20,22,25,30 Ltr."
+},
+{
+  id: 194,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic95,
+  title: "Delux Bucket (Steel Handle) ",
+  code : "11240/11245/11251/11255/11258/11261/11264/11267/11270",
+  color : "RED/RED/RED/RED/RED/RED/RED/RED/RED",
+  // longCode : "11240,11245,11251,11255,11258,11261,11264,11267,11270",
+  sameColor : "RED",
+  size : "4,8,12,15,18,20,22,25,30 Ltr."
+},
+{
+  id: 195,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic96,
+  title: "Design Bucket (With Lid)",
+  code : "11105/11106/11107/11108/11110/11111/11116/11117/11120/11121/11125/11126/11130/11131",
+  color : "RED/blue",
+  size : "5,8,10,16,20,25,30 Ltr."
+},
+// {
+//   id: 196,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: plastic97,
+//   title: "Design Bucket (Without Lid Plastic Handle)",
+//   code : "11105/11106/11107/11108/11110/11111/11116/11117/11120/11121/11125/11126/11130/11131",
+//   color : "RED/blue",
+//   // longCode : "11240,11245,11251,11255,11258,11261,11264,11267,11270",
+//   size : "5,8,10,16,20,25,30 Ltr."
+// },
 
-//                                 --------   lged(200- )  --------
+{
+  id: 197,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic98,
+  title: "Design Bucket(Plastic Handle)",
+  code : "11205/11207/11210/11216/11220/11225/11230",
+  color : "RED/RED/RED/RED/RED/RED/RED",
+  size : "5,8,10,16,20,25,30 Ltr."
+},
+
+{
+  id: 198,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic99,
+  title: "Design Bucket(Plastic Handle)",
+  code : "11306/11308/11311/11317/11321/11326/11331",
+  color : "blue/blue/blue/blue/blue/blue/blue",
+  size : "5,8,10,16,20,25,30 Ltr."
+},
+
+{
+  id: 199,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic100,
+  title: "SPICE POT",
+  code : "17028/17029",
+  color : "#ffb3b3/#b3b3ff",
+  size : "5,8,10,16,20,25,30 Ltr."
+},
+
+{
+  id: 200,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic101,
+  title: "SQUARE RACK",
+  code : "16201/16202/16203",
+  color : "RED/BLUE/ORANGE",
+  size : "SQUARE"
+},
+
+{
+  id: 201,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic102,
+  title: "SQUARE RACK(DELUX)",
+  code : "16216/16217",
+  color : "RED/BLUE",
+  size : "SQUARE"
+},
+
+{
+  id: 202,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic103,
+  title: "VEGETABLE WASHING NET",
+  code : "17095/17096/17101/17102",
+  color : "RED/BLUE/RED/BLUE",
+  size : "32, 36 Cm"
+},
+
+// {
+//   id: 208,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: plastic104,
+//   title: "DESIGN BUCKET(STEEL HANDLE)",
+//   code : "11206/11208/11211/11217/11221/11226/11231",
+//   color : "BLUE/BLUE/BLUE/BLUE/BLUE/BLUE/BLUE",
+//   size : "5,8,10,16,20,25,30 Ltr."
+// },
+{
+  id: 204,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic105,
+  title: "DRUAM BUCKET",
+  code : "11445/11446/11460/11461",
+  color : "RED/BLUE/RED/BLUE",
+  size : "45,60 Ltr."
+},
+
+{
+  id: 205,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic106,
+  title: "STORAGE CONTAINER",
+  code : "17185/17186",
+  color : "BLUE/PINK",
+  size : "15 Ltr."
+},
+
+{
+  id: 206,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plastic107,
+  title: "EGG BOX",
+  code : "17013/17014",
+  color : "YELLOW/PINK",
+},
+
+//                                 --------   lged(200)  --------
   
       {
         id: 208,

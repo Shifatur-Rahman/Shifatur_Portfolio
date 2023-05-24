@@ -280,6 +280,16 @@ const Portfolio = () => {
                         </p>
                       )}
 
+{item.longCode && (
+                        <div className="itemTitle">
+                           <strong>Code : </strong>
+                          <p style={{fontSize:"8px"}}> 11240,11245,11251,11255,11258,11261 </p>
+                         <br />
+                         <p>1455, 4645</p>
+                          
+                        </div>
+                      )}
+
                       
 {item.color && item.code ? (
   <div className="table-responsive">
@@ -305,8 +315,8 @@ const Portfolio = () => {
     </table>
   </div>
 )  :  <p className="itemTitle">
-<strong>Code : </strong>
-{item.code}
+{/* <strong>Code : </strong> */}
+{item.code ? "Code: " + item.code :" "}
 </p>
 
 
