@@ -1196,7 +1196,8 @@ const portfolioItems = [
   imgSrc: plastic35,
   title: "DRUM BUCKET WITH LID",
   size: "75 Ltr.",
-  code : " 11465/11466 "
+  code : "11465/11466",
+  color: "#2db300/#2db300"
 },
 {
   id: 117,
@@ -1654,7 +1655,7 @@ const portfolioItems = [
   title: "ROUND CONTAINER",
   code : "17144",
   color : "RGBA(0,0,0,0.3)",
-  size : "1000,2000,3000 ml"
+  size : "1800,2800,4200 ml"
 },
 {
   id: 196,
