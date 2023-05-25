@@ -247,7 +247,7 @@ const Portfolio = () => {
                     />
                     <div style={{ marginTop: "12px" }}>
                       {item.title && (
-                        <p className="itemTitle">
+                        <p className="itemTitle" style={{textTransform:"uppercase"}}>
                           <strong>Name : </strong>
                           {item.title}
                         </p>
@@ -315,8 +315,8 @@ const Portfolio = () => {
     </table>
   </div>
 )  :  <p className="itemTitle">
-{/* <strong>Code : </strong> */}
-{item.code ? "Code: " + item.code :" "}
+<strong>Code : </strong>
+{item.code}
 </p>
 
 
