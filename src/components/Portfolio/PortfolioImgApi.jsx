@@ -90,6 +90,7 @@ import chair18 from "../../asset/images/Chair/chair18.jpg"
 import chair19 from "../../asset/images/Chair/chair19.jpg"
 import chair20 from "../../asset/images/Chair/chair20.jpg"
 import chair27 from "../../asset/images/Chair/chair27.jpg"
+import chair30 from "../../asset/images/Chair/chair30.jpg"
 import chair31 from "../../asset/images/Chair/chair31.jpg"
 import chair33 from "../../asset/images/Chair/chair33.jpg"
 import chair42 from "../../asset/images/Chair/chair42.jpg"
@@ -803,11 +804,11 @@ const portfolioItems = [
   imgSrc: tbl67,
 },
 
-// SLOTTED ANGLE RACK
+// INDUSTRIAL FURNITURE
 {
   id: 68,
   title: "SLOTTED ANGLE RACK",
-  category: "office furniture",
+  category: "INDUSTRIAL FURNITURE",
   code : "TFSAR-068",
   size: "L1200 X W400 X H1800mm",
   imgSrc: tbl68,
@@ -816,7 +817,7 @@ const portfolioItems = [
 {
   id: 69,
   title: "SLOTTED ANGLE RACK",
-  category: "office furniture",
+  category: "INDUSTRIAL FURNITURE",
   code : "TFSAR-069",
   size: "L900 X W300 X H1800mm",
   imgSrc: tbl69,
@@ -827,7 +828,7 @@ const portfolioItems = [
 {
   id: 70,
   title: "HEAVY DUTY RACK",
-  category: "office furniture",
+  category: "INDUSTRIAL FURNITURE",
   code : "TFHDR-070",
   size: "L2400 X W600 X H2400mm",
   imgSrc: tbl70,
@@ -930,7 +931,833 @@ const portfolioItems = [
   imgSrc: tbl80,
 },
 
+///                             OFFICE FURNITURE CHAIR -> (501 - )
 
+
+///                         conference table(401-408)
+
+{
+  id: 401,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-001",
+  size: "L3600 X W1200 X H750mm",
+  imgSrc: chair4,
+},
+{
+  id: 402,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-002",
+  size: "L3600 X W1200 X H750mm",
+  imgSrc: chair4,
+},
+{
+  id: 403,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-003",
+  size: "L6000 X W1500 X H750mm",
+  imgSrc: chair4,
+},
+{
+  id: 404,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-004",
+  size: "L2400 X W1200 X H750mm",
+  imgSrc: chair4,
+},
+{
+  id: 405,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-005",
+  size: "L2400 X W1200 X H750mm",
+  imgSrc: chair4,
+},
+{
+  id: 406,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-006",
+  size: "L3000 X W1200 X H750mm",
+  imgSrc: chair4,
+},
+{
+  id: 407,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-007",
+  size: "L2400 X W1200 X H750mm",
+  imgSrc: chair4,
+},
+{
+  id: 408,
+  title: "conference table",
+  category: "office furniture",
+  code : "TFCON-008",
+  size: "L1200 X W1200 X H750mm",
+  imgSrc: chair4,
+},
+
+///                         SWIVEL CHAIR(501 - )
+
+{
+  id: 501,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-001",
+  imgSrc: chair4,
+},
+{
+  id: 502,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-002",
+  imgSrc: chair4,
+},{
+  id: 503,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-003",
+  imgSrc: chair4,
+},{
+  id: 504,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-004",
+  imgSrc: chair4,
+},{
+  id: 505,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-005",
+  imgSrc: chair5,
+},{
+  id: 506,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-006",
+  imgSrc: chair4,
+},{
+  id: 507,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-007",
+  imgSrc: chair7,
+},{
+  id: 508,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-008",
+  imgSrc: chair4,
+},{
+  id: 509,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-009",
+  imgSrc: chair4,
+},{
+  id: 510,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-010",
+  imgSrc: chair10,
+},{
+  id: 511,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-011",
+  imgSrc: chair4,
+},{
+  id: 512,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-012",
+  imgSrc: chair4,
+},
+{
+  id: 513,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFMCO-013",
+  imgSrc: chair4,
+},
+{
+  id: 514,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-014",
+  imgSrc: chair4,
+},
+{
+  id: 515,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-015",
+  imgSrc: chair4,
+},
+{
+  id: 516,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-016",
+  imgSrc: chair16,
+},
+{
+  id: 517,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-017",
+  imgSrc: chair4,
+},
+{
+  id: 518,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-018",
+  imgSrc: chair18,
+},
+{
+  id: 519,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-019",
+  imgSrc: chair19,
+},
+{
+  id: 520,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-020",
+  imgSrc: chair20,
+},
+{
+  id: 521,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-021",
+  imgSrc: chair4,
+},
+{
+  id: 522,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-022",
+  imgSrc: chair4,
+},
+{
+  id: 523,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-023",
+  imgSrc: chair4,
+},
+{
+  id: 524,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFECO-024",
+  imgSrc: chair4,
+},
+{
+  id: 525,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TF0CO-025",
+  imgSrc: chair4,
+},
+{
+  id: 526,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TF0CO-026",
+  imgSrc: chair4,
+},
+{
+  id: 527,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TF0CO-027",
+  imgSrc: chair27,
+},
+{
+  id: 528,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TF0CO-028",
+  imgSrc: chair4,
+},
+{
+  id: 529,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TF0CO-029",
+  imgSrc: chair4,
+},
+{
+  id: 530,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TF0CO-030",
+  imgSrc: chair30,
+},
+{
+  id: 531,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFOCO-031",
+  imgSrc: chair31,
+},
+{
+  id: 532,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFOCO-032",
+  imgSrc: chair4,
+},
+{
+  id: 533,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFOCO-033",
+  imgSrc: chair33,
+},
+{
+  id: 534,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFCCO-034",
+  imgSrc: chair4,
+},
+{
+  id: 535,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFCCO-035",
+  imgSrc: chair4,
+},
+{
+  id: 536,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFCCO-036",
+  imgSrc: chair4,
+},
+{
+  id: 537,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFCCO-037",
+  imgSrc: chair4,
+},
+{
+  id: 538,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFCCO-038",
+  imgSrc: chair4,
+},
+{
+  id: 539,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFCCO-039",
+  imgSrc: chair4,
+},
+{
+  id: 540,
+  title: "SWIVEL CHAIR",
+  category: "office furniture",
+  code : "TFCCO-040",
+  imgSrc: chair4,
+},
+
+{
+  id: 541,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-041",
+  imgSrc: chair4,
+},
+{
+  id: 542,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-042",
+  imgSrc: chair42,
+},
+{
+  id: 543,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-043",
+  imgSrc: chair4,
+},
+{
+  id: 544,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-044",
+  imgSrc: chair4,
+},
+{
+  id: 545,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-045",
+  imgSrc: chair4,
+},
+{
+  id: 546,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-046",
+  imgSrc: chair4,
+},
+{
+  id: 547,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-047",
+  imgSrc: chair4,
+},
+{
+  id: 548,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-048",
+  imgSrc: chair4,
+},
+{
+  id: 549,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-049",
+  imgSrc: chair4,
+},
+{
+  id: 550,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-050",
+  imgSrc: chair50,
+},
+{
+  id: 551,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-051",
+  imgSrc: chair51,
+},
+{
+  id: 552,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-052",
+  imgSrc: chair51,
+},
+{
+  id: 553,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-053",
+  imgSrc: chair53,
+},
+{
+  id: 554,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-054",
+  imgSrc: chair54,
+},
+{
+  id: 555,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-055",
+  imgSrc: chair55,
+},
+{
+  id: 556,
+  title: "FIXED CHAIR",
+  category: "office furniture",
+  code : "TFVCO-056",
+  imgSrc: chair4,
+},
+{
+  id: 557,
+  title: "AUDITORIUM CHAIR",
+  category: "office furniture",
+  code : "TFACO-057",
+  imgSrc: chair4,
+},
+{
+  id: 558,
+  title: "AUDITORIUM CHAIR",
+  category: "office furniture",
+  code : "TFACO-058",
+  imgSrc: chair4,
+},
+{
+  id: 559,
+  title: "GROUP CHAIR",
+  category: "office furniture",
+  code : "TFGCO-059",
+  imgSrc: chair4,
+},
+{
+  id: 560,
+  title: "GROUP CHAIR",
+  category: "office furniture",
+  code : "TFGCO-060",
+  imgSrc: chair4,
+},
+{
+  id: 561,
+  title: "CLASSROOM CHAIR",
+  category: "lged",
+  code : "TFCRC-061",
+  imgSrc: chair61,
+},
+{
+  id: 562,
+  title: "CLASSROOM CHAIR",
+  category: "lged",
+  code : "TFCRC-062",
+  imgSrc: chair62,
+},
+{
+  id: 563,
+  title: "CLASSROOM CHAIR",
+  category: "lged",
+  code : "TFCRC-063",
+  imgSrc: chair61,
+},
+{
+  id: 564,
+  title: "CLASSROOM CHAIR",
+  category: "lged",
+  code : "TFCRC-064",
+  imgSrc: chair62,
+},
+{
+  id: 565,
+  title: "CLASSROOM CHAIR",
+  category: "lged",
+  code : "TFCRC-065",
+  imgSrc: chair65,
+},
+{
+  id: 566,
+  title: "CLASSROOM TABLE WITH BENCH",
+  category: "lged",
+  code : "TFHLB-066",
+  imgSrc: chair61,
+  size: "L1800 X W400 X H730MM(HIGH BENCH)",
+  size2: "L1800 X W400 X H430MM(LOW BENCH)",
+},
+{
+  id: 567,
+  title: "CLASSROOM TABLE WITH BENCH",
+  category: "lged",
+  code : "TFHLB-067",
+  imgSrc: chair61,
+  size: "L1500 X W450 X H730MM(HIGH BENCH)",
+  size2: "L1500 X W300 X H400MM(LOW BENCH)",
+},
+// {
+//   //68 already done
+// }
+{
+  id: 569,
+  title: "TEACHERS TABLE",
+  category: "lged",
+  code : "TFTTS-069",
+  imgSrc: chair61,
+  size: "L900 X W500 X H750MM",
+},
+{
+  id: 570,
+  title: "PODIUM",
+  category: "lged",
+  code : "TFPOD-070",
+  imgSrc: chair61,
+  size: "L750 X W550 X H1250MM",
+},
+{
+  id: 571,
+  title: "PODIUM",
+  category: "lged",
+  code : "TFPOD-071",
+  imgSrc: chair61,
+  size: "L850 X W600 X H1250MM",
+},
+
+////      FILE CABINET
+
+{
+  id: 572,
+  title: "FILE CABINET",
+  category: "lged",
+  code : "TFSFC-072",
+  imgSrc: chair61,
+  size: "L482 X W550 X H720MM",
+},
+{
+  id: 573,
+  title: "FILE CABINET",
+  category: "lged",
+  code : "TFSFC-073",
+  imgSrc: chair61,
+  size: "L482 X W550 X H1040MM",
+},
+// 573 & 574 CODE ARE SAME COZ I FOLLOW THE BUSHIER & SIR SUGGEST ME
+{
+  id: 574,
+  title: "FILE CABINET",
+  category: "lged",
+  // code : "TFSFC-073",
+  
+  imgSrc: chair61,
+  size: "L482 X W550 X H1370MM",
+},
+
+///         COMBINED CABINET
+
+{
+  id: 575,
+  title: "COMBINED CABINET",
+  category: "lged",
+  code : "TFSCC-074",
+  imgSrc: chair61,
+  size: "L900 X W550 X H1200MM",
+},
+
+/// OFFICE ALMIRAH
+{
+  id: 576,
+  title: "STEEL ALMIRAH",
+  category: "lged",
+  code : "TFSOA-075",
+  imgSrc: chair61,
+  size: "L900 X W500 X H1850MM",
+},
+{
+  id: 577,
+  title: "STEEL ALMIRAH",
+  category: "lged",
+  code : "TFSOA-076",
+  imgSrc: chair61,
+  size: "L910 X W480 X H1930MM",
+},
+{
+  id: 578,
+  title: "STEEL ALMIRAH",
+  category: "lged",
+  code : "TFSOA-077",
+  imgSrc: chair61,
+  size: "L910 X W480 X H1930MM",
+},
+{
+  id: 579,
+  title: "OFFICE ALMIRAH",
+  category: "office furniture",
+  code : "TFSOA-078",
+  imgSrc: chair61,
+  size: "L900 X W450 X H1800MM",
+},
+
+{
+  id: 580,
+  title: "OFFICE ALMIRAH",
+  category: "office furniture",
+  code : "TFSOA-079",
+  imgSrc: chair61,
+  size: "L900 X W450 X H1800MM",
+},
+{
+  id: 581,
+  title: "OFFICE ALMIRAH",
+  category: "office furniture",
+  code : "TFSOA-080",
+  imgSrc: chair61,
+  size: "L1000 X W450 X H1800MM",
+},
+
+//               OFFICE LOCKER
+{
+  id: 582,
+  title: "OFFICE LOCKER",
+  category: "office furniture",
+  code : "TFSOl-077",
+  imgSrc: chair61,
+  size: "L900 X W500 X H1850MM",
+},
+{
+  id: 583,
+  title: "OFFICE LOCKER",
+  category: "office furniture",
+  code : "TFSOl-078",
+  imgSrc: chair61,
+  size: "L350 X W500 X H1930MM",
+},
+
+// office sofa
+{
+  id: 584,
+  title: "OFFICE SOFA",
+  category: "office furniture",
+  code : "TFOSF-079",
+  imgSrc: chair61,
+  size: "L1650 X W700 X H750MM",
+},
+{
+  id: 585,
+  title: "OFFICE SOFA",
+  category: "office furniture",
+  code : "TFOSF-080",
+  imgSrc: chair61,
+  size: "L1800 X W700 X H720MM",
+},
+{
+  id: 586,
+  title: "OFFICE SOFA",
+  category: "office furniture",
+  code : "TFOSF-081",
+  imgSrc: chair61,
+  size: "L685 X W750 X H635MM(SINGLE SEAT)",
+  size2: "L1335 X W750 X H635MM(DOUBLE SEAT)",
+},
+{
+  id: 587,
+  title: "OFFICE SOFA",
+  category: "office furniture",
+  code : "TFOSF-082",
+  imgSrc: chair61,
+  size: "L1135 X W750 X H635MM",
+},
+{
+  id: 588,
+  title: "OFFICE SOFA",
+  category: "office furniture",
+  code : "TFOSF-083",
+  imgSrc: chair61,
+  size: "L1800 X W750 X H700MM(3 SEATER)",
+},
+{
+  id: 589,
+  title: "OFFICE SOFA",
+  category: "office furniture",
+  code : "TFOSF-084",
+  imgSrc: chair61,
+  size: "L600 X W700 X H750MM(SINGLE SEATER)",
+  size2: "L1350 X W700 X H750MM(DOUBLE SEATER)",
+},
+
+/////                        WORK STATION
+{
+  id: 588,
+  title: "WORK STATION",
+  category: "office furniture",
+  code : "TFWSO-085",
+  imgSrc: chair61,
+  size: "L2500 X W650 X H1200MM",
+},
+{
+  id: 589,
+  title: "WORK STATION",
+  category: "office furniture",
+  code : "TFWSO-086",
+  imgSrc: chair61,
+  size: "L1200 X W1200 X H1050MM",
+},
+{
+  id: 590,
+  title: "WORK STATION",
+  category: "office furniture",
+  code : "TFWSO-087",
+  imgSrc: chair61,
+  size: "L3000 X W1650 X H1500MM",
+},
+{
+  id: 591,
+  title: "WORK STATION",
+  category: "office furniture",
+  code : "TFWSO-088",
+  imgSrc: chair61,
+  size: "L3000 X W3000 X H1050MM",
+},
+{
+  id: 592,
+  title: "WORK STATION",
+  category: "office furniture",
+  code : "TFWSO-089",
+  imgSrc: chair61,
+  size: "L3000 X W3000 X H1050MM",
+},
+{
+  id: 593,
+  title: "WORK STATION",
+  category: "office furniture",
+  code : "TFWSO-090",
+  imgSrc: chair61,
+  size: "L2400 X W1200 X H1050MM",
+},
+
+
+///        FLUSH DOOR
+{
+  id: 594,
+  title: "FLUSH DOOR",
+  category: "office furniture",
+  code : "TFFDD-091",
+  imgSrc: chair61,
+  size: "L600~900 X H2080MM",
+},
+{
+  id: 595,
+  title: "FLUSH DOOR",
+  category: "office furniture",
+  code : "TFFDD-092",
+  imgSrc: chair61,
+  size: "L600~900 X H2080MM",
+},
+{
+  id: 596,
+  title: "FLUSH DOOR",
+  category: "office furniture",
+  code : "TFFDD-093",
+  imgSrc: chair61,
+  size: "L600~900 X H2080MM",
+},
+
+///       SOLID WOODEN DOOR
+{
+  id: 597,
+  title: "SOLID WOODEN DOOR",
+  category: "office furniture",
+  code : "TFFDD-094",
+  imgSrc: chair61,
+  size: "L600~1050 X H2080MM",
+},
+{
+  id: 598,
+  title: "SOLID WOODEN DOOR",
+  category: "office furniture",
+  code : "TFFDD-095",
+  imgSrc: chair61,
+  size: "L600~1050 X H2080MM",
+},
+{
+  id: 599,
+  title: "SOLID WOODEN DOOR",
+  category: "office furniture",
+  code : "TFFDD-096",
+  imgSrc: chair61,
+  size: "L600~1050 X H2080MM",
+},
 
 ////                              ------------      PLASTIC  (101- )           --------------
 {
@@ -1208,7 +2035,7 @@ const portfolioItems = [
 },
 
 
-///                                bUCKET END
+///                                BUCKET END
 
 {
   id: 123,
@@ -1842,6 +2669,10 @@ const portfolioItems = [
   code : "17013/17014",
   color : "YELLOW/PINK",
 },
+
+
+///                                         OFFICE FURNITURE(CHAIR)
+
 
 //                                 --------   lged(200)  --------
   

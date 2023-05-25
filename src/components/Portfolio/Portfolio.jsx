@@ -247,9 +247,9 @@ const Portfolio = () => {
                     />
                     <div style={{ marginTop: "12px" }}>
                       {item.title && (
-                        <p className="itemTitle" style={{textTransform:"uppercase"}}>
+                        <p className="itemTitle">
                           <strong>Name : </strong>
-                          {item.title}
+                         <span style={{textTransform:"uppercase"}}> {item.title} </span>
                         </p>
                       )}
                       {/* {item.code && (
@@ -271,16 +271,20 @@ const Portfolio = () => {
                         </p>
                       )}
 
-                  {item.product && (
+                  {item.size2 && (
                         <p className="itemTitle">
-                          
-                          <span style={{fontSize:"8px"}}> {item.product} </span>
-                         
-                          
+                          <strong>Size : </strong>
+                          <span className="itemSize"> {item.size2} </span>
                         </p>
                       )}
 
-{item.longCode && (
+                  {item.product && (
+                        <p className="itemTitle">
+                          <span style={{fontSize:"8px"}}> {item.product} </span>
+                        </p>
+                      )}
+
+                  {item.longCode && (
                         <div className="itemTitle">
                            <strong>Code : </strong>
                           <p style={{fontSize:"8px"}}> 11240,11245,11251,11255,11258,11261 </p>
