@@ -1514,15 +1514,14 @@ const portfolioItems = [
   size: "L482 X W550 X H1040MM",
 },
 // 573 & 574 CODE ARE SAME COZ I FOLLOW THE BUSHIER & SIR SUGGEST ME
-{
-  id: 574,
-  title: "FILE CABINET",
-  category: "lged",
-  // code : "TFSFC-073",
-  
-  imgSrc: chair61,
-  size: "L482 X W550 X H1370MM",
-},
+// {
+//   id: 574,
+//   title: "FILE CABINET",
+//   category: "lged",
+//   code : "TFSFC-073",
+//   imgSrc: chair61,
+//   size: "L482 X W550 X H1370MM",
+// },
 
 ///         COMBINED CABINET
 
@@ -1535,7 +1534,7 @@ const portfolioItems = [
   size: "L900 X W550 X H1200MM",
 },
 
-/// OFFICE ALMIRAH
+/// OFFICE ALMIRAhh
 {
   id: 576,
   title: "STEEL ALMIRAH",
