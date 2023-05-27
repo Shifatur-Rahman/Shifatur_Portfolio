@@ -234,11 +234,17 @@ import upvc2 from "../../asset/images/upvc/upvc2.JPG";
 import upvc3 from "../../asset/images/upvc/upvc3.JPG";
 import upvc4 from "../../asset/images/upvc/upvc4.JPG";
 import upvc5 from "../../asset/images/upvc/upvc5.JPG";
-// import upvc6 from "../../asset/images/upvc/upvc6.JPG"
+import upvc6 from "../../asset/images/upvc/upvc6.JPG"
 import upvc7 from "../../asset/images/upvc/upvc7.JPG";
 import upvc8 from "../../asset/images/upvc/upvc8.JPG";
 import upvc9 from "../../asset/images/upvc/upvc9.JPG";
 import upvc10 from "../../asset/images/upvc/upvc10.JPG";
+import upvc11 from "../../asset/images/upvc/upvc11.JPG";
+import upvc12 from "../../asset/images/upvc/upvc12.JPG";
+import upvc13 from "../../asset/images/upvc/upvc13.JPG";
+import upvc14 from "../../asset/images/upvc/upvc14.JPG";
+import upvc15 from "../../asset/images/upvc/upvc15.JPG";
+import upvc16 from "../../asset/images/upvc/upvc16.JPG";
 
 const portfolioItems = [
   {
@@ -2762,34 +2768,42 @@ const portfolioItems = [
   {
     id: 301,
     category: "upvc",
+    title: "110mm Fittings",
     imgSrc: upvc1,
+    code2: "33490,33450,33451,33491,33492,33493,33400,33401,33402,33403,33405,33406,33408,33409,33411,33412,33413,33414"
   },
-
   {
     id: 302,
     category: "upvc",
     imgSrc: upvc2,
+    code: "34280,34281",
+    title: "Soap case"
   },
   {
     id: 303,
     category: "upvc",
     imgSrc: upvc3,
+    code2: "31019,31020,31022,31023,31025,31026,31028,31029,31031,31032,31034,31035",
+    title: "Thread Pipe9"
   },
   {
     id: 304,
     category: "upvc",
     imgSrc: upvc4,
+    title: "Tubewell",
+    code2: "83101,83102,83103,83105,83107,83109,83110,83141,83112,83114,83115,83117,83124,83125"
   },
   {
     id: 305,
     category: "upvc",
     imgSrc: upvc5,
+    title: "Class pipe(continue)"
   },
-  // {
-  //   id: 306,
-  //   category: "upvc",
-  //   imgSrc: upvc6,
-  // },
+  {
+    id: 306,
+    category: "upvc",
+    imgSrc: upvc6,
+  },
   {
     id: 307,
     category: "upvc",
@@ -2809,6 +2823,36 @@ const portfolioItems = [
     id: 310,
     category: "upvc",
     imgSrc: upvc10,
+  },
+  {
+    id: 311,
+    category: "upvc",
+    imgSrc: upvc11,
+  },
+  {
+    id: 312,
+    category: "upvc",
+    imgSrc: upvc12,
+  },
+  {
+    id: 313,
+    category: "upvc",
+    imgSrc: upvc13,
+  },
+  {
+    id: 314,
+    category: "upvc",
+    imgSrc: upvc14,
+  },
+  {
+    id: 315,
+    category: "upvc",
+    imgSrc: upvc15,
+  },
+  {
+    id: 316,
+    category: "upvc",
+    imgSrc: upvc16,
   },
 ];
 
