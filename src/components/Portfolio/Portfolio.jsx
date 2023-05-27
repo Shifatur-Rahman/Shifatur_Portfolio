@@ -232,7 +232,7 @@ const Portfolio = () => {
                         style={{ cursor: "pointer" }}
                         onClick={() => handleImageClick(item.imgSrc)}
                       />
-                      <div style={{ marginTop: "12px" }}>
+                      <div style={{ marginTop: "12px", width:"100%" }}>
                         {item.title && (
                           <p className="itemTitle">
                             <strong>Name : </strong>
@@ -267,13 +267,14 @@ const Portfolio = () => {
                         )}
 
                         {item.code2 && (
-                          <p style={{width: "100%", fontSize:"10px", fontWeight:"700"}} className="">
+                          <p style={{width: "100px", fontSize:"10px",overflow:""}}>
                              <strong>Code : </strong>
-                             <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}>
+                             {/*  <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}> */}
                               {item.code2}{" "}
-                            </span>
+                            {/* </span> */}
                           </p>
                         )}
+                          
 
                         {/* 
                         {item.longCode && (
