@@ -22,11 +22,9 @@ const Portfolio = () => {
     return category === activeCategory ? "active" : "";
   };
 
-
   const handleCategory = (e) => {
     setCategory(e.target.value);
     setActiveCategory(e.target.value);
-    // setActiveCategory(value);
     setDropdownOpen(false);
   };
 
@@ -53,61 +51,59 @@ const Portfolio = () => {
     setDropdownOpen(!isDropdownOpen);
   };
 
-  const toggleDropdownPlastic = () =>{
+  const toggleDropdownPlastic = () => {
     setDropdown(!isDropdown);
-  }
-
+  };
 
   return (
     <>
       {loading ? (
         <Spinner />
-      ) :
-      <Container>
-        <Row>
-          <Col
-            data-aos="fade-right"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="2000"
-            xs={12}
-            md={12}
-            lg={12}
-          >
-            {/* <div data-aos='fade-right' className="filter-buttons"> */}
-            <div className="filter-buttons">
+      ) : (
+        <Container>
+          <Row>
+            <Col
+              data-aos="fade-right"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="2000"
+              xs={12}
+              md={12}
+              lg={12}
+            >
+              {/* <div data-aos='fade-right' className="filter-buttons"> */}
+              <div className="filter-buttons">
+                <div className="dropdown">
+                  <button
+                    value="all"
+                    onClick={handleCategory}
+                    className={isActive("all")}
+                  >
+                    ALL
+                  </button>
+                </div>
 
-            <div className="dropdown">
-              <button
-                value="all"
-                onClick={handleCategory}
-                className={isActive("all")}
-              >
-                ALL
-              </button>
-              </div>
-              
-              <div className="dropdown">
-              <button
-                value="upvc"
-                onClick={handleCategory}
-                className={isActive("upvc")}
-              >
-                UPVC
-              </button>
-              </div>
+                <div className="dropdown">
+                  <button
+                    value="upvc"
+                    onClick={handleCategory}
+                    className={isActive("upvc")}
+                  >
+                    UPVC
+                  </button>
+                </div>
 
-              <div className="dropdown">
-              <button
-                value="lged"
-                onClick={handleCategory}
-                className={isActive("lged")}
-              >
-                SCHOOL FURNITURE
-              </button>
-              </div>
+                <div className="dropdown">
+                  <button
+                    value="lged"
+                    onClick={handleCategory}
+                    className={isActive("lged")}
+                  >
+                    SCHOOL FURNITURE
+                  </button>
+                </div>
 
-              {/* <button
+                {/* <button
                 value="plastic"
                 onClick={handleCategory}
                 className={isActive("plastic")}
@@ -115,244 +111,273 @@ const Portfolio = () => {
                 PLASTIC
               </button> */}
 
-<div className="dropdown">
-          <button
-            className={isActive("plastic")}
-            onClick={toggleDropdownPlastic}
-          >
-            PLASTIC
-            <span className="dropdown-arrow">
-              {isDropdown ? '▲' : '▼'}
-            </span>
-          </button>
-          {isDropdown && (
-            <div className="dropdown-content">
-
-             <button
-                value="PLASTIC FURNITURE"
-                onClick={handleCategory}
-                className={isActive("PLASTIC FURNITURE")}
-                style={{fontSize:"10px", marginTop:"10px"}}
-              >
-                PLASTIC FURNITURE
-              </button>
-              <button
-                value="PLASTIC HOUSEHOLD"
-                onClick={handleCategory}
-                className={isActive("PLASTIC HOUSEHOLD")}
-                style={{fontSize:"10px"}}
-              >
-                PLASTIC HOUSEHOLD
-              </button>
-
-              <button
-                value="PLASTIC TOY"
-                onClick={handleCategory}
-                className={isActive("TOY")}
-                style={{fontSize:"10px"}}
-              >
-                TOY
-              </button>
-              {/* Add more buttons as needed */}
-            </div>
-          )}
-        </div>
-
-
-        <div className="dropdown">
-          <button
-            className={isActive("WOODfURNITURE")}
-            onClick={toggleDropdown}
-          >
-            WOOD AND METAL FURNITURE
-            <span className="dropdown-arrow">
-              {isDropdownOpen ? '▲' : '▼'}
-            </span>
-          </button>
-          {isDropdownOpen && (
-            <div className="dropdown-content">
-
-             <button
-                value="HOME FURNITURE"
-                onClick={handleCategory}
-                className={isActive("HOME FURNITURE")}
-                style={{fontSize:"10px", marginTop:"10px"}}
-              >
-                HOME FURNITURE
-              </button>
-              <button
-                value="office furniture"
-                onClick={handleCategory}
-                className={isActive("office furniture")}
-                style={{fontSize:"10px"}}
-              >
-                OFFICE FURNITURE
-              </button>
-
-              <button
-                value="INDUSTRIAL FURNITURE"
-                onClick={handleCategory}
-                className={isActive("INDUSTRIAL FURNITURE")}
-                style={{fontSize:"10px"}}
-              >
-                INDUSTRIAL FURNITURES
-              </button>
-              {/* Add more buttons as needed */}
-            </div>
-          )}
-        </div>
-
-             
-        <div className="dropdown">
-              <button
-                // value="office furniture"
-                onClick={handleCategory}
-                className={isActive("office")}
-              >
-                OFFICE
-              </button>
-            </div>
-            </div>
-          </Col>
-
-          {loading ? (
-            <PageLoader />
-          ) : (
-            <div className="portfolio-grid">
-              {portfolioItems
-                .filter((item) => {
-                  if (category === "all") {
-                    return true;
-                  } else {
-                    return item.category === category;
-                  }
-                })
-
-                .map((item) => (
-                  // data-aos='zoom-in'
-                  <div
-                    className="portfolio-item"
-                    key={item.id}
-                    // data-aos="fade-up"
-                    // data-aos-anchor="#example-anchor"
-                    // data-aos-offset="500"
-                    // data-aos-duration="1000"
+                <div className="dropdown">
+                  <button
+                    className={isActive("plastic")}
+                    onClick={toggleDropdownPlastic}
                   >
-                    <img
-                      className="portfolio-item-img"
-                      src={item.imgSrc}
-                      alt={item.title}
-                      style={{ cursor: "pointer" }}
-                      onClick={() => handleImageClick(item.imgSrc)}
-                    />
-                    <div style={{ marginTop: "12px" }}>
-                      {item.title && (
-                        <p className="itemTitle">
-                          <strong>Name : </strong>
-                         <span style={{textTransform:"uppercase"}}> {item.title} </span>
-                        </p>
-                      )}
-                      {/* {item.code && (
+                    PLASTIC
+                    <span className="dropdown-arrow">
+                      {isDropdown ? "▲" : "▼"}
+                    </span>
+                  </button>
+                  {isDropdown && (
+                    <div className="dropdown-content">
+                      <button
+                        value="PLASTIC FURNITURE"
+                        onClick={handleCategory}
+                        className={isActive("PLASTIC FURNITURE")}
+                        style={{ fontSize: "10px", marginTop: "10px" }}
+                      >
+                        PLASTIC FURNITURE
+                      </button>
+                      <button
+                        value="PLASTIC HOUSEHOLD"
+                        onClick={handleCategory}
+                        className={isActive("PLASTIC HOUSEHOLD")}
+                        style={{ fontSize: "10px" }}
+                      >
+                        PLASTIC HOUSEHOLD
+                      </button>
+
+                      <button
+                        value="PLASTIC TOY"
+                        onClick={handleCategory}
+                        className={isActive("TOY")}
+                        style={{ fontSize: "10px" }}
+                      >
+                        TOY
+                      </button>
+                      {/* Add more buttons as needed */}
+                    </div>
+                  )}
+                </div>
+
+                <div className="dropdown">
+                  <button
+                    className={isActive("WOODfURNITURE")}
+                    onClick={toggleDropdown}
+                  >
+                    WOOD AND METAL FURNITURE
+                    <span className="dropdown-arrow">
+                      {isDropdownOpen ? "▲" : "▼"}
+                    </span>
+                  </button>
+                  {isDropdownOpen && (
+                    <div className="dropdown-content">
+                      <button
+                        value="HOME FURNITURE"
+                        onClick={handleCategory}
+                        className={isActive("HOME FURNITURE")}
+                        style={{ fontSize: "10px", marginTop: "10px" }}
+                      >
+                        HOME FURNITURE
+                      </button>
+                      <button
+                        value="office furniture"
+                        onClick={handleCategory}
+                        className={isActive("office furniture")}
+                        style={{ fontSize: "10px" }}
+                      >
+                        OFFICE FURNITURE
+                      </button>
+
+                      <button
+                        value="INDUSTRIAL FURNITURE"
+                        onClick={handleCategory}
+                        className={isActive("INDUSTRIAL FURNITURE")}
+                        style={{ fontSize: "10px" }}
+                      >
+                        INDUSTRIAL FURNITURES
+                      </button>
+                      {/* Add more buttons as needed */}
+                    </div>
+                  )}
+                </div>
+
+                <div className="dropdown">
+                  <button
+                    // value="office furniture"
+                    onClick={handleCategory}
+                    className={isActive("office")}
+                  >
+                    OFFICE
+                  </button>
+                </div>
+              </div>
+            </Col>
+
+            {loading ? (
+              <PageLoader />
+            ) : (
+              <div className="portfolio-grid">
+                {portfolioItems
+                  .filter((item) => {
+                    if (category === "all") {
+                      return true;
+                    } else {
+                      return item.category === category;
+                    }
+                  })
+
+                  .map((item) => (
+                    // data-aos='zoom-in'
+                    <div
+                      className="portfolio-item"
+                      key={item.id}
+                      // data-aos="fade-up"
+                      // data-aos-anchor="#example-anchor"
+                      // data-aos-offset="500"
+                      // data-aos-duration="1000"
+                    >
+                      <img
+                        className="portfolio-item-img"
+                        src={item.imgSrc}
+                        alt={item.title}
+                        style={{ cursor: "pointer" }}
+                        onClick={() => handleImageClick(item.imgSrc)}
+                      />
+                      <div style={{ marginTop: "12px" }}>
+                        {item.title && (
+                          <p className="itemTitle">
+                            <strong>Name : </strong>
+                            <span style={{ textTransform: "uppercase" }}>
+                              {" "}
+                              {item.title}{" "}
+                            </span>
+                          </p>
+                        )}
+                        {/* {item.code && (
                         <p className="itemTitle">
                           <strong>Code : </strong>
                           {item.code}  
                         </p>
                       )} */}
-                      {/* {item.color && (
+                        {/* {item.color && (
                         <p className="itemTitle">
                           <strong>Color : </strong>
                           <span className="itemSize"> {item.color} </span>
                         </p>
                       )} */}
-                       {item.size && (
-                        <p className="itemTitle">
-                          <strong>Size : </strong>
-                          <span className="itemSize"> {item.size} </span>
-                        </p>
-                      )}
+                        {item.size && (
+                          <p className="itemTitle">
+                            <strong>Size : </strong>
+                            <span className="itemSize"> {item.size} </span>
+                          </p>
+                        )}
 
-                  {item.size2 && (
-                        <p className="itemTitle">
-                          <strong>Size : </strong>
-                          <span className="itemSize"> {item.size2} </span>
-                        </p>
-                      )}
+                        {item.size2 && (
+                          <p className="itemTitle">
+                            <strong>Size : </strong>
+                            <span className="itemSize"> {item.size2} </span>
+                          </p>
+                        )}
 
-                  {item.product && (
-                        <p className="itemTitle">
-                          <span style={{fontSize:"8px"}}> {item.product} </span>
-                        </p>
-                      )}
+                        {item.product && (
+                          <p className="itemTitle">
+                            <span style={{ fontSize: "8px" }}>
+                              {" "}
+                              {item.product}{" "}
+                            </span>
+                          </p>
+                        )}
 
-                  {item.longCode && (
-                        <div className="itemTitle">
-                           <strong>Code : </strong>
-                          <p style={{fontSize:"8px"}}> 11240,11245,11251,11255,11258,11261 </p>
-                         <br />
-                         <p>1455, 4645</p>
-                          
-                        </div>
-                      )}
+                        {item.longCode && (
+                          <div className="itemTitle">
+                            <strong>Code : </strong>
+                            <p style={{ fontSize: "8px" }}>
+                              {" "}
+                              11240,11245,11251,11255,11258,11261{" "}
+                            </p>
+                            <br />
+                            <p>1455, 4645</p>
+                          </div>
+                        )}
 
-                      
-{item.color && item.code ? (
-  <div className="table-responsive">
-    <table className="table table-bordered table-sm custom-table">
-      <tbody>
-        <tr>
-          <th style={{ fontSize: "10px", fontWeight: "800" }} scope="row">
-            Code
-          </th>
-          {item.code.split('/').map((code, index) => (
-            <td style={{fontSize:"8px", textAlign:"center"}} key={index}>{code}</td>
-          ))}
-        </tr>
-        <tr>
-          <th style={{ fontSize: "10px", fontWeight: "800" }} scope="row">
-            Color
-          </th>
-          {item.color.split('/').map((color, index) => (
-            <td style={{fontSize:"8px",backgroundColor: color, cursor:"pointer"}} key={index}></td>
-          ))}
-        </tr>
-      </tbody>
-    </table>
-  </div>
-)  :  <p className="itemTitle">
-<strong>Code : </strong>
-{item.code}
-</p>
-
-
-}
+                        {item.color && item.code ? (
+                          <div className="table-responsive">
+                            <table className="table table-bordered table-sm custom-table">
+                              <tbody>
+                                <tr>
+                                  <th
+                                    style={{
+                                      fontSize: "10px",
+                                      fontWeight: "800",
+                                    }}
+                                    scope="row"
+                                  >
+                                    Code
+                                  </th>
+                                  {item.code.split("/").map((code, index) => (
+                                    <td
+                                      style={{
+                                        fontSize: "8px",
+                                        textAlign: "center",
+                                      }}
+                                      key={index}
+                                    >
+                                      {code}
+                                    </td>
+                                  ))}
+                                </tr>
+                                <tr>
+                                  <th
+                                    style={{
+                                      fontSize: "10px",
+                                      fontWeight: "800",
+                                    }}
+                                    scope="row"
+                                  >
+                                    Color
+                                  </th>
+                                  {item.color.split("/").map((color, index) => (
+                                    <td
+                                      style={{
+                                        fontSize: "8px",
+                                        backgroundColor: color,
+                                        cursor: "pointer",
+                                      }}
+                                      key={index}
+                                    ></td>
+                                  ))}
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        ) : (
+                          <p className="itemTitle">
+                            <strong>Code : </strong>
+                            {item.code}
+                          </p>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                ))}
-            </div>
-          )}
+                  ))}
+              </div>
+            )}
 
-          <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
-            <DialogContent>
-              <IconButton
-                sx={{ position: "absolute", top: 0, right: 0 }}
-                onClick={handleDialogClose}
-              >
-                <CloseIcon />
-              </IconButton>
-              <img
-                className="zoomImage"
-                alt="product-img"
-                src={selectedImage}
-                srcSet={
-                  selectedImage &&
-                  `${selectedImage}?w=500&fit=crop&auto=format&dpr=2 2x`
-                }
-              />
-            </DialogContent>
-          </Dialog>
-        </Row>
-      </Container>
-}
+            <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
+              <DialogContent>
+                <IconButton
+                  sx={{ position: "absolute", top: 0, right: 0 }}
+                  onClick={handleDialogClose}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <img
+                  className="zoomImage"
+                  alt="product-img"
+                  src={selectedImage}
+                  srcSet={
+                    selectedImage &&
+                    `${selectedImage}?w=500&fit=crop&auto=format&dpr=2 2x`
+                  }
+                />
+              </DialogContent>
+            </Dialog>
+          </Row>
+        </Container>
+      )}
     </>
   );
 };
