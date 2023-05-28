@@ -1986,7 +1986,7 @@ const portfolioItems = [
     title: "DRUM BUCKET WITH LID",
     size: "75 Ltr.",
     code: "11465/11466",
-    color: "#2db300/#2db300",
+    color: "#2db300/#006600",
   },
   {
     id: 193,

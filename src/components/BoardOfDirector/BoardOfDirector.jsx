@@ -344,7 +344,7 @@ const BoardOfDirector = () => {
                   <div className="main-text">
                     <h2 style={{fontSize:"12px"}}>Abu Tahmid Md.Mahmud E-Elahi</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                      Manager <br /> (Head of Tender Sales)
+                     Sr. Manager <br /> Head of Tender Sales
                     </p>
                     <p></p>
                   </div>
@@ -400,7 +400,7 @@ const BoardOfDirector = () => {
                   <div className="main-text">
                     <h2>Prince Md. Saiyadina Islam</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Manager <br />  (HR & Admin)
+                    Manager <br />  HR & Admin
                     </p>
                     <p></p>
                   </div>
