@@ -7,7 +7,6 @@ import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-// import AOS from "aos";
 import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner";
@@ -102,14 +101,6 @@ const Portfolio = () => {
                     SCHOOL FURNITURE
                   </button>
                 </div>
-
-                {/* <button
-                value="plastic"
-                onClick={handleCategory}
-                className={isActive("plastic")}
-              >
-                PLASTIC
-              </button> */}
 
                 <div className="dropdown">
                   <button
@@ -242,6 +233,18 @@ const Portfolio = () => {
                             </span>
                           </p>
                         )}
+
+                        {item.title2 && (
+                          <p className="itemCode">
+                            <strong style={{fontWeight:"800"}}>Name : </strong>
+                            <span style={{ textTransform: "uppercase" }}>
+                              {" "}
+                              {item.title2}{" "}
+                            </span>
+                          </p>
+                        )}
+
+
         
                         {item.size && (
                           <p className="itemTitle">
@@ -267,27 +270,13 @@ const Portfolio = () => {
                         )}
 
                         {item.code2 && (
-                          <p style={{width: "100px", fontSize:"10px",overflow:""}}>
-                             <strong>Code : </strong>
+                          <p className="itemCode">
+                             <strong style={{fontWeight:"800"}}>Code : </strong>
                              {/*  <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}> */}
-                              {item.code2}{" "}
+                              {item.code2}
                             {/* </span> */}
                           </p>
                         )}
-                          
-
-                        {/* 
-                        {item.longCode && (
-                          <div className="itemTitle">
-                            <strong>Code : </strong>
-                            <p style={{ fontSize: "8px" }}>
-                              {" "}
-                              11240,11245,11251,11255,11258,11261{" "}
-                            </p>
-                            <br />
-                            <p>1455, 4645</p>
-                          </div>
-                        )} */}
 
                         {item.color && item.code ? (
                           <div className="table-responsive">
@@ -339,12 +328,17 @@ const Portfolio = () => {
                               </tbody>
                             </table>
                           </div>
-                        ) : (
+                        ) : 
+
+
+                        item.code ? (
                           <p className="itemTitle">
+                            
                             <strong>Code : </strong>
-                            {item.code}
-                          </p>
-                        )}
+                            {item.code}</p>
+                        ) : (
+                          ""
+                        )}  
                       </div>
                     </div>
                   ))}
