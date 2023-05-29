@@ -293,7 +293,7 @@ const Portfolio = () => {
                                     style={{
                                       fontSize: "10px",
                                       fontWeight: "800",
-                                      width: "10px"
+                                      width: "20px"
                                     }}
                                     scope="row"
                                   >
@@ -318,7 +318,7 @@ const Portfolio = () => {
                                     style={{
                                       fontSize: "10px",
                                       fontWeight: "800",
-                                      width: "10px"
+                                      width: "20px"
                                     }}
                                     scope="row"
                                   >

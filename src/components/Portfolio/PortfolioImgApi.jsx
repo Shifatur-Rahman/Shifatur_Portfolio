@@ -1940,7 +1940,7 @@ const portfolioItems = [
     title: "SPOUT BUCKET",
     size: "16/20 Ltr.",
     code: "11350/11351/11356/11357",
-    color: "	 #0033cc/#cc00cc/#0033cc/#cc00cc"
+    color: "#0033cc/#cc00cc/#0033cc/#cc00cc"
   },
   {
     id: 207,
@@ -1958,7 +1958,7 @@ const portfolioItems = [
     imgSrc: plastic104,
     title: "DELUX BUCKET(STEEL handle)",
     code: "11241/11246/11252/11256/11259/11262/11265/11268/11271",
-    color: "blue",
+    color: "blue/blue/blue/blue/blue/blue/blue/blue/blue",
     size: "4,8,12,15,18,20,22,25,30 Ltr.",
   },
 
@@ -1969,7 +1969,7 @@ const portfolioItems = [
     title: "DESIGN BUCKET(PLASTIC HANDLE)",
     code: "11305/11307/11310/11316/11320/11325/11330",
     color: "RED/RED/RED/RED/RED/RED/RED",
-    size: " 5/8/10/16/20/25/30 Ltr.",
+    size: " 5,8,10,16,20,25,30 Ltr.",
   },
 
   {
@@ -1979,7 +1979,7 @@ const portfolioItems = [
     title: "DELUX BUCKET(PLASTIC HANDLE)",
     code: "11141/11147/11150/11153/11157/11162/11170",
     color: "blue/blue/blue/blue/blue/blue/blue",
-    size: " 8/12/15/20/22/25/30 Ltr.",
+    size: " 8,12,15,20,22,25,30 Ltr.",
   },
   {
     id: 135,
@@ -2015,7 +2015,7 @@ const portfolioItems = [
     imgSrc: plastic96,
     title: "Design Bucket (With Lid)",
     code: "11105/11106/11107/11108/11110/11111/11116/11117/11120/11121/11125/11126/11130/11131",
-    color: "RED/blue",
+    color: "RED/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue",
     size: "5,8,10,16,20,25,30 Ltr.",
   },
 
@@ -2348,7 +2348,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: plastic66,
     title: "DELUX BOWL",
-    color: "RED/Blue",
+    color2: "RED/Blue",
     code2: "12165,12168,12171,12175,12180,12185,12188,12191,12195,12166,12169,12172,12176,12181,12186,12189,12192,12196",
     size: "3,5,8,10,15,20,25,30,35 Ltr.",
   },

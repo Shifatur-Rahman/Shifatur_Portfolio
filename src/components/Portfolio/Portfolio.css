@@ -41,10 +41,10 @@
         margin-bottom: 20px;
         box-sizing: border-box;
 
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: center; /* Center horizontally */
-        justify-content: center;
+        align-items: center;
+        justify-content: center; */
       }
 
 
@@ -83,12 +83,11 @@
 
       .itemCode {
         font-size: 10px;
-        width: 90%; /* Adjust the width as needed */
-        /* word-break: break-word; */
-        word-break: break-all;
-        
-        margin: 0;
-        padding: 0;
+        width: 85%;
+        word-break: break-word;
+        /* word-break: break-all; */
+        /* margin: 0;
+        padding: 0; */
       }
       
       @media only screen and (max-width: 1020px) and (min-width: 768px)  {
