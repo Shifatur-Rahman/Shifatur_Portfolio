@@ -31,10 +31,10 @@
         gap: 5px;
       }
       
-      .portfolio-item img {
+      /* .portfolio-item img {
         width: 100%;
         height: auto;
-      }
+      } */
       
       .portfolio-item {
         width: calc(25% - 10px);
@@ -49,7 +49,7 @@
 
       .portfolio-item img{
         height: 150px;
-        width: 150px;
+        width: 180px;
       }
 
       .itemTitle{
@@ -77,9 +77,12 @@
 
       .itemCode {
         font-size: 10px;
-        width: 150px; /* Adjust the width as needed */
-        word-break: break-word;
+        width: 90%; /* Adjust the width as needed */
+        /* word-break: break-word; */
+        word-break: break-all;
+        
         margin: 0;
+        padding: 0;
       }
       
       @media only screen and (max-width: 1020px) and (min-width: 768px)  {

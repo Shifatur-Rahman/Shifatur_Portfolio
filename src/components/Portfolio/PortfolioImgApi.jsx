@@ -1931,6 +1931,7 @@ const portfolioItems = [
     title: "SPOUT BUCKET",
     size: "16/20 Ltr.",
     code: "11350/11351/11356/11357",
+    color2: "	 #0033cc/#cc00cc"
   },
   {
     id: 122,
@@ -1939,6 +1940,7 @@ const portfolioItems = [
     title: "SPOUT BUCKET",
     size: "16/20 Ltr.",
     code: "11350/11351/11356/11357",
+    color2: "	 #0033cc/#cc00cc"
   },
   {
     id: 207,
@@ -2037,7 +2039,7 @@ const portfolioItems = [
     size: "16, 20 Ltr.",
   },
 
-  ///                                BUCKET END
+  ///                                BUCKET END      
 
   {
     id: 123,

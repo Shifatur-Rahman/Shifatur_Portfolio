@@ -304,6 +304,7 @@ const Portfolio = () => {
                                     style={{
                                       fontSize: "10px",
                                       fontWeight: "800",
+                                      width: "10px"
                                     }}
                                     scope="row"
                                   >
@@ -314,6 +315,9 @@ const Portfolio = () => {
                                       style={{
                                         fontSize: "8px",
                                         textAlign: "center",
+                                        width:"5px",
+                                        margin:"0",
+                                        padding:"5px 0 0 0 "
                                       }}
                                       key={index}
                                     >
@@ -326,6 +330,7 @@ const Portfolio = () => {
                                     style={{
                                       fontSize: "10px",
                                       fontWeight: "800",
+                                      width: "10px"
                                     }}
                                     scope="row"
                                   >
@@ -334,9 +339,10 @@ const Portfolio = () => {
                                   {item.color.split("/").map((color, index) => (
                                     <td
                                       style={{
-                                        fontSize: "8px",
+                                        //fontSize: "8px",
                                         backgroundColor: color,
                                         cursor: "pointer",
+                                        width: "5px"
                                       }}
                                       key={index}
                                     ></td>
@@ -367,6 +373,7 @@ const Portfolio = () => {
                                     style={{
                                       fontSize: "10px",
                                       fontWeight: "800",
+                                      width: "10px"
                                     }}
                                     scope="row"
                                   >
