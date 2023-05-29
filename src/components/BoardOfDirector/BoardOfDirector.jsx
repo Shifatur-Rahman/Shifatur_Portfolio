@@ -288,9 +288,9 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>Abdullah Al Momin</h2>
+                    <h2>Md. Monjur</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Manager <br /> (Head of SCM)
+                      Sr. Manager <br />
                     </p>
                     <p></p>
                   </div>
@@ -303,6 +303,7 @@ const BoardOfDirector = () => {
                   </div>
                 </div>
               </Col>
+
 
               <Col lg={3} md={6} sm={12}>
                 <div className="card">
@@ -360,6 +361,36 @@ const BoardOfDirector = () => {
             </Row>
 
             <Row style={{ marginTop: "25px" }}>
+
+            <Col lg={3} md={6} sm={12}>
+                <div className="card">
+                  <div className="img1">
+                    <img src={profile1Img} alt="one img" />
+                  </div>
+
+                  <div className="img2">
+                    <img src={profile2Img} alt="two img" />
+                  </div>
+
+                  <div className="main-text">
+                    <h2>Abdullah Al Momin</h2>
+                    <p style={{ fontSize: "12px" }} className="main-text-p">
+                    Manager <br /> (Head of SCM)
+                    </p>
+                    <p></p>
+                  </div>
+
+                  <div className="socials" style={{ fontSize: "25px" }}>
+                    <BsFacebook style={{ marginRight: "5px" }} />
+                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                    <GrPinterest style={{ marginRight: "5px" }} />
+                    <AiFillGooglePlusCircle />
+                  </div>
+                </div>
+              </Col>
+
+
+
               <Col lg={3} md={6} sm={12}>
                 <div className="card">
                   <div className="img1">
@@ -414,33 +445,7 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-              <Col lg={3} md={6} sm={12}>
-                <div className="card">
-                  <div className="img1">
-                    <img src={profile1Img} alt="one img" />
-                  </div>
-
-                  <div className="img2">
-                    <img src={profile2Img} alt="two img" />
-                  </div>
-
-                  <div className="main-text">
-                    <h2>Md. Monjur</h2>
-                    <p style={{ fontSize: "12px" }} className="main-text-p">
-                      Sr. Manager <br />
-                    </p>
-                    <p></p>
-                  </div>
-
-                  <div className="socials" style={{ fontSize: "25px" }}>
-                    <BsFacebook style={{ marginRight: "5px" }} />
-                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
-                    <GrPinterest style={{ marginRight: "5px" }} />
-                    <AiFillGooglePlusCircle />
-                  </div>
-                </div>
-              </Col>
-
+           
               <Col lg={3} md={6} sm={12}>
                 <div className="card">
                   <div className="img1">
