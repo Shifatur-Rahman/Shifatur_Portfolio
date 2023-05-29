@@ -278,11 +278,22 @@ const Portfolio = () => {
                           </p>
                         )}
 
-                       {item.color2 && (
+                       {/* {item.color2 && (
                           <p className="itemCode">
                               {item.code2}
                           </p>
-                        )}
+                        )} */}
+
+                 
+
+
+
+
+
+
+
+
+
 
                         {item.color && item.code ? (
                           <div className="table-responsive">
@@ -345,6 +356,42 @@ const Portfolio = () => {
                         ) : (
                           ""
                         )}  
+
+
+                         {item.color2 && (
+                          <div className="table-responsive">
+                            <table className="table table-bordered table-sm custom-table">
+                              <tbody>
+                                <tr>
+                                  <th
+                                    style={{
+                                      fontSize: "10px",
+                                      fontWeight: "800",
+                                    }}
+                                    scope="row"
+                                  >
+                                    Color
+                                  </th>
+                                  {item.color2.split("/").map((color2, index) => (
+                                    <td
+                                      style={{
+                                        fontSize: "8px",
+                                        backgroundColor: color2,
+                                        cursor: "pointer",
+                                      }}
+                                      key={index}
+                                    ></td>
+                                  ))}
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                         )}
+
+
+
+
+
                       </div>
                     </div>
                   ))}

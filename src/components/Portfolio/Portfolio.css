@@ -90,6 +90,12 @@
         font-size: 8px !important;
       }
       }
+
+      @media only screen and (max-width: 1200px){
+        .portfolio-item {
+          width: calc(30% - 10px);
+        }
+      }
        
       @media screen and (max-width: 1000px) {
         .filter-buttons {
@@ -130,7 +136,7 @@
           }
       } */
       
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 600px) {
         .filter-buttons {
             flex-direction: column;
             align-items: center;
