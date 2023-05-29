@@ -284,17 +284,6 @@ const Portfolio = () => {
                           </p>
                         )} */}
 
-                 
-
-
-
-
-
-
-
-
-
-
                         {item.color && item.code ? (
                           <div className="table-responsive">
                             <table className="table table-bordered table-sm custom-table">
@@ -315,9 +304,8 @@ const Portfolio = () => {
                                       style={{
                                         fontSize: "8px",
                                         textAlign: "center",
-                                        width:"5px",
                                         margin:"0",
-                                        padding:"5px 0 0 0 "
+                                        padding:"5px 0 0 0"
                                       }}
                                       key={index}
                                     >

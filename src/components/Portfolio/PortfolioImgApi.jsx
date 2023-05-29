@@ -1931,7 +1931,7 @@ const portfolioItems = [
     title: "SPOUT BUCKET",
     size: "16/20 Ltr.",
     code: "11350/11351/11356/11357",
-    color2: "	 #0033cc/#cc00cc"
+    color: "	 #0033cc/#cc00cc/#0033cc/#cc00cc"
   },
   {
     id: 122,
@@ -1940,15 +1940,15 @@ const portfolioItems = [
     title: "SPOUT BUCKET",
     size: "16/20 Ltr.",
     code: "11350/11351/11356/11357",
-    color2: "	 #0033cc/#cc00cc"
+    color: "	 #0033cc/#cc00cc/#0033cc/#cc00cc"
   },
   {
     id: 207,
     category: "PLASTIC HOUSEHOLD",
     imgSrc: plastic99,
     title: "DESIGN BUCKET(PLASTIC HANDLE)",
-    code2: "11306,11308,11311,11317,11321,11326,11331",
-    color2: "BLUE",
+    code: "11306/11308/11311/11317/11321/11326/11331",
+    color: "BLUE/BLUE/BLUE/BLUE/BLUE/BLUE/BLUE",
     size: "5,8,10,16,20,25,30 Ltr.",
   },
 
