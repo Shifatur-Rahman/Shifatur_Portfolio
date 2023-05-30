@@ -179,9 +179,7 @@ const BoardOfDirector = () => {
                     <p style={{ fontSize: "12px" }} className="main-text-p">
                     Assistant General Manager <br />
                     Head of Production (Fabrication)
-
-                    </p>
-                    <p></p>
+                    </p>                   
                   </div>
 
                   <div className="socials" style={{ fontSize: "25px" }}>

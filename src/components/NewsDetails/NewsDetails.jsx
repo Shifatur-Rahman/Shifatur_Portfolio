@@ -125,7 +125,7 @@ const newsItems = [
     imageSrc: news2,
     title:
       "Talukder Group of Industries recently held a meeting to encourage collaboration and open communication with our employees.",
-    date: "April 05, 2021",
+    date: "July 05, 2020",
     description:
       "Throughout the meeting, we encouraged open and honest communication among all participants.",
   },
@@ -143,7 +143,7 @@ const newsItems = [
     imageSrc: news4,
     title:
       "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
-    date: "December 26, 2022",
+    date: "April 18, 2022",
     description:
       "The event was held at a prestigious venue and was attended by senior executives, department heads, and representatives.",
   },
