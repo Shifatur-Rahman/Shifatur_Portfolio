@@ -2684,8 +2684,8 @@ const portfolioItems = [
   {
     id: 251,
     title: "Low Bench",
-    code: "TFETO-031",
-    color2: "#ba5645/#013220/#05014a",
+    code: "40103/40034/40104",
+    color: "#ba5645/#013220/#05014a",
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged8,
@@ -2694,8 +2694,8 @@ const portfolioItems = [
   {
     id: 252,
     title: "High Bench",
-    code: "TFETO-032",
-    color2: "#ba5645/#013220/#05014a",
+    code: "40100/40031/40101",
+    color: "#ba5645/#013220/#05014a",
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged7,
@@ -2704,8 +2704,8 @@ const portfolioItems = [
   {
     id: 253,
     title: "Bench Set",
-    code: "TFETO-031",
-    color2: "#ba5645/#013220/#05014a",
+    code: "40001/40002/40003",
+    color: "#ba5645/#013220/#05014a",
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged1,
@@ -2753,8 +2753,8 @@ const portfolioItems = [
   {
     id: 254,
     title: "Teacher Table",
-    code: "TFETO-031",
-    color2: "#ba5645/#05014a/orange/#000",
+    code: "40106/40107/40010/40004",
+    color: "#ba5645/#05014a/orange/#000",
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged10,
@@ -2763,8 +2763,8 @@ const portfolioItems = [
   {
     id: 255,
     title: "Teacher Chair",
-    code: "TFETO-031",
-    color2: "#ba5645/#05014a/orange/#000",
+    code: "40108/40005/40006/40007",
+    color: "#ba5645/#05014a/orange/#000",
     size: "550mm(L)X515mm(W)XH850mm(H)",
     category: "lged",
     imgSrc: lged11,
@@ -2815,12 +2815,13 @@ const portfolioItems = [
     title:"Class Pipe",
     code2:"31150,31151,31201,31205,31301,31305,31310,31315,31320,31401,31405,31415,31501,31505,31507,31605,31610,31615,31620,31801,31805"
   },
-  {
-    id: 307,
-    category: "upvc",
-    imgSrc: upvc7,
-    title: "Talukder oring pipe"
-  },
+  //      code is not available
+  // {
+  //   id: 307,
+  //   category: "upvc",
+  //   imgSrc: upvc7,
+  //   title: "Talukder oring pipe"
+  // },
   {
     id: 308,
     category: "upvc",

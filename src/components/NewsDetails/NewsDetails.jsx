@@ -84,12 +84,12 @@ const NewsDetails = () => {
                 <Card.Img className="newsCardImg" variant="top" src={item.imageSrc} />
                 <Card.Body>
                 <h2 className="newsCardTitle">{item.title}</h2>
-                  <p className="newsHeader" style={{ fontSize: "14px" }}>
+                  <p className="newsHeader" style={{ fontSize: "14px", color: "#17a2b8" }}>
                     {" "}
                     <AiOutlineCalendar
-                      style={{ fontSize: "20px", color: "#17a2b8" }}
+                      style={{ fontSize: "20px", color: "#17a2b8",marginBottom:"3px" }}
                     />{" "}
-                    <span className="newsHeader">{item.date}</span>{" "}
+                    <span style={{marginTop:"20px"}}>{item.date}</span>{" "}
                   </p>
                   
                   <p
