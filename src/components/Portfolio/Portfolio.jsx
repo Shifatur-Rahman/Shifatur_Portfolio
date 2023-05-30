@@ -15,7 +15,8 @@ const Portfolio = () => {
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [isDropdown, setDropdown] = useState(false);
+  const [isDropdown, setDropdown] = useState(false);  
+  const[msg,setMsg] = useState("");
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -25,6 +26,7 @@ const Portfolio = () => {
     setCategory(e.target.value);
     setActiveCategory(e.target.value);
     setDropdownOpen(false);
+    setMsg("Our upcoming product......");
   };
 
   const [selectedImage, setSelectedImage] = React.useState("");
@@ -139,7 +141,6 @@ const Portfolio = () => {
                       >
                         TOY
                       </button>
-                      {/* Add more buttons as needed */}
                     </div>
                   )}
                 </div>
@@ -181,20 +182,9 @@ const Portfolio = () => {
                       >
                         INDUSTRIAL FURNITURES
                       </button>
-                      {/* Add more buttons as needed */}
                     </div>
                   )}
                 </div>
-
-                {/* <div className="dropdown">
-                  <button
-                    // value="office furniture"
-                    onClick={handleCategory}
-                    className={isActive("office")}
-                  >
-                    OFFICE
-                  </button>
-                </div> */}
               </div>
             </Col>
 
@@ -212,7 +202,6 @@ const Portfolio = () => {
                   })
 
                   .map((item) => (
-                    // data-aos='zoom-in'
                     <div
                       className="portfolio-item"
                       key={item.id}>
@@ -278,12 +267,6 @@ const Portfolio = () => {
                           </p>
                         )}
 
-                       {/* {item.color2 && (
-                          <p className="itemCode">
-                              {item.code2}
-                          </p>
-                        )} */}
-
                         {item.color && item.code ? (
                           <div className="table-responsive">
                             <table className="table table-bordered table-sm custom-table">
@@ -343,8 +326,7 @@ const Portfolio = () => {
 
 
                         item.code ? (
-                          <p className="itemTitle">
-                            
+                          <p className="itemTitle">                           
                             <strong>Code : </strong>
                             {item.code}</p>
                         ) : (

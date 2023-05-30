@@ -79,6 +79,18 @@ import tbl78 from "../../asset/images/office furniture/tbl78.jpg";
 import tbl79 from "../../asset/images/office furniture/tbl79.jpg";
 import tbl80 from "../../asset/images/office furniture/tbl80.jpg";
 
+
+
+// conference table
+import con_table1 from "../../asset/images/Chair/conference table/conferenceTable01.jpg";
+import con_table3 from "../../asset/images/Chair/conference table/conferenceTable03.jpg";
+import con_table4 from "../../asset/images/Chair/conference table/conferenceTable04.jpg";
+import con_table5 from "../../asset/images/Chair/conference table/conferenceTable05.jpg";
+// import con_table6 from "../../asset/images/Chair/conference table/conferenceTable06.jpg";
+import con_table7 from "../../asset/images/Chair/conference table/conferenceTable07.jpg";
+import con_table8 from "../../asset/images/Chair/conference table/conferenceTable08.jpg";
+
+
 // Chair Image
 import chair3 from "../../asset/images/Chair/chair3.jpg";
 import chair4 from "../../asset/images/Chair/chair4.jpg";
@@ -940,7 +952,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-001",
     size: "L3600 X W1200 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table1,
   },
   {
     id: 402,
@@ -956,7 +968,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-003",
     size: "L6000 X W1500 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table3,
   },
   {
     id: 404,
@@ -964,7 +976,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-004",
     size: "L2400 X W1200 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table4,
   },
   {
     id: 405,
@@ -972,7 +984,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-005",
     size: "L2400 X W1200 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table5,
   },
   {
     id: 406,
@@ -980,7 +992,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-006",
     size: "L3000 X W1200 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table5,
   },
   {
     id: 407,
@@ -988,15 +1000,15 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-007",
     size: "L2400 X W1200 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table7,
   },
   {
     id: 408,
-    title: "conference table",
+    title: "meeting table",
     category: "office furniture",
     code: "TFCON-008",
     size: "L1200 X W1200 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table8,
   },
 
   ///                         SWIVEL CHAIR(501 - )
