@@ -56,14 +56,11 @@ const Advertisement = () => {
     }, 2600);
   }, []);
 
-
   return (
     <>
   {loading ? (
         <Spinner />
       ) : 
-
-
       <Container>
         <Row data-aos="fade-down"
      data-aos-anchor="#example-anchor"
