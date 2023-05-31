@@ -3,7 +3,6 @@
   -o-transition: background-color 400ms linear;
   -moz-transition: background-color 400ms linear;
   -webkit-transition: background-color 400ms linear;
-  /* background-color: rgba(0, 0, 0, 0.1); */
   background-color: rgba(255, 255, 255, 0.7);
   padding: 1rem 3rem;
 }
@@ -13,7 +12,6 @@
   -o-transition: background-color 400ms linear;
   -moz-transition: background-color 400ms linear;
   -webkit-transition: background-color 400ms linear;
-  /* background-color: #f6fff8; */
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem 3rem;
 }
@@ -81,34 +79,6 @@
   transition-duration: 2s;
 }
 
-
-/* svg{
-  stroke: currentcolor;
-  fill: currentcolor;
-  stroke-width: 0;
-  height: 1em;
-  width: 1em;
-}
-
-.navItem:hover svg {
-  transform: rotate(180deg);
-  transition: all ease 500ms;
-} */
-
-
-/* .navItem:hover svg {
-  transform: rotate(180deg);
-  transition: all ease 1s;
-}
-
-.dropdown-content:hover svg{
-  transform: rotate(180deg);
-  transition: all ease 1s;
-} */
-
-
-
-
 .navDropdown:hover {
   background-color: transparent;
 }
@@ -165,6 +135,7 @@
   button.navbar-toggler {
     background-color: #17a2b8;
     border: none;
+    display: block;
   }
 
   /* button.navbar-toggler,   span.navbar-toggler-icon */

@@ -92,9 +92,116 @@ const Achievement = () => {
           </div>
         </Row>
 
+<Row>
+
+{achievementImg.map((item) => (
+      <Col key={item.title} lg={3} md={4} sm={6}>
+        <Card className="ManagementCard">
+          <LazyLoadImage
+            className="achievementCardImg"
+            variant="top"
+            src={item.img}
+            alt={item.title}
+            // effect="blur"
+          />
+        </Card>
+      </Col>
+    ))}
+        </Row>
+
+      </Container>
+}
+    </>
+  );
+};
+
+export default Achievement;
 
 
-          {/* <Col lg={3} md={4} sm={6}>
+const achievementImg = [
+  {
+    img: achievement1Img,
+  },
+  {
+    img: achievement2Img,
+  },
+  {
+    img: achievement3Img,
+  },
+  {
+    img: achievement4Img,
+  },
+  {
+    img: achievement5Img,
+  },
+  {
+    img: awards1Img
+  },
+  {
+    img: awards2Img
+  },
+  {
+    img: awards3Img
+  },
+  {
+    img: awards4Img
+  },
+  {
+    img: awards5Img
+  },
+  {
+    img: awards6Img
+  },
+  {
+    img: awards7Img
+  },
+  {
+    img: awards8Img
+  },
+  {
+    img: awards9Img
+  },
+  {
+    img: awards10Img
+  },
+  {
+    img: awards11Img
+  },
+  {
+    img: awards12Img
+  },
+  {
+    img: awards13Img
+  },
+  {
+    img: awards14Img
+  },
+  {
+    img: awards15Img
+  },
+  {
+    img: awards16Img
+  },
+  // {
+  //   img: awards17Img
+  // },
+  {
+    img: awards18Img
+  },
+  {
+    img: awards19Img
+  },
+  {
+    img: awards20Img
+  },
+
+
+]
+
+
+
+
+ {/* <Col lg={3} md={4} sm={6}>
             <Card className="ManagementCard">
               <Card.Img
                 className="achievementCardImg"
@@ -333,111 +440,3 @@ const Achievement = () => {
               />
             </Card>
           </Col> */}
-
-
-
-<Row>
-
-{achievementImg.map((item) => (
-      <Col key={item.title} lg={3} md={4} sm={6}>
-        <Card className="ManagementCard">
-          <LazyLoadImage
-            className="achievementCardImg"
-            variant="top"
-            src={item.img}
-            alt={item.title}
-            // effect="blur"
-          />
-        </Card>
-      </Col>
-    ))}
-        </Row>
-        
-      </Container>
-}
-    </>
-  );
-};
-
-export default Achievement;
-
-
-const achievementImg = [
-  {
-    img: achievement1Img,
-  },
-  {
-    img: achievement2Img,
-  },
-  {
-    img: achievement3Img,
-  },
-  {
-    img: achievement4Img,
-  },
-  {
-    img: achievement5Img,
-  },
-  {
-    img: awards1Img
-  },
-  {
-    img: awards2Img
-  },
-  {
-    img: awards3Img
-  },
-  {
-    img: awards4Img
-  },
-  {
-    img: awards5Img
-  },
-  {
-    img: awards6Img
-  },
-  {
-    img: awards7Img
-  },
-  {
-    img: awards8Img
-  },
-  {
-    img: awards9Img
-  },
-  {
-    img: awards10Img
-  },
-  {
-    img: awards11Img
-  },
-  {
-    img: awards12Img
-  },
-  {
-    img: awards13Img
-  },
-  {
-    img: awards14Img
-  },
-  {
-    img: awards15Img
-  },
-  {
-    img: awards16Img
-  },
-  // {
-  //   img: awards17Img
-  // },
-  {
-    img: awards18Img
-  },
-  {
-    img: awards19Img
-  },
-  {
-    img: awards20Img
-  },
-
-
-]

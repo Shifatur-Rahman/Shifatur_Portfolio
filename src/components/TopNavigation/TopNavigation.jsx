@@ -7,6 +7,7 @@ import talukderLogo from "../../asset/images/Logo/talukderLogo.png";
 //import Card from "react-bootstrap/Card";
 import { AiOutlineCaretDown } from "react-icons/ai";
 
+
 class TopNavigation extends Component {
   constructor(props) {
     super(props);
@@ -19,6 +20,8 @@ class TopNavigation extends Component {
       portfolioDropdownOpen: false,
     };
   }
+
+
 
   onScroll = () => {
     if (window.scrollY > 100) {
@@ -55,7 +58,7 @@ class TopNavigation extends Component {
         >
           <Link to="/">
             <Navbar.Brand className={this.state.navTitle} href="#home">
-              <img
+              <img alt="logo"
                 data-aos="fade-down"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="100"
@@ -66,11 +69,11 @@ class TopNavigation extends Component {
             </Navbar.Brand>
           </Link>
 
-          <Navbar.Toggle
-            data-aos="fade-down"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="1000"
+          <Navbar.Toggle 
+           // data-aos="fade-down"
+           // data-aos-anchor="#example-anchor"
+           // data-aos-offset="500"
+           // data-aos-duration="1000"
             aria-controls="responsive-navbar-nav"
           />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -98,7 +101,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                  <a
+                  <button style={{border:"none", background:"none"}}
                     className={this.state.navbarItem}
                     to="#"
                     activeClassName="active to-empty"
@@ -110,7 +113,7 @@ class TopNavigation extends Component {
                   >
                     Portfolio
                     <AiOutlineCaretDown />
-                  </a>
+                  </button>
                   <div className="dropdown-content">
                     <NavLink className="navDropdown" to="/portfolio/gallery">
                       Gallery
@@ -129,14 +132,14 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                  <a
+                <button style={{border:"none", background:"none"}}
                     className={this.state.navbarItem}
                     to=""
                     activeClassName="active to-empty"
                   >
                     Product & services
                     <AiOutlineCaretDown />
-                  </a>
+                  </button>
                   <div className="dropdown-content">
                     <NavLink
                       className="navDropdown"
@@ -155,7 +158,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                  <a
+                  <button style={{border:"none", background:"none"}}
                     className={this.state.navbarItem}
                     to=""
                     activeClassName="active to-empty"
@@ -167,7 +170,7 @@ class TopNavigation extends Component {
                   >
                     Our Clients
                     <AiOutlineCaretDown />
-                  </a>
+                  </button>
 
                   <div className="dropdown-content">
                     <NavLink
@@ -203,7 +206,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                  <a
+                  <button style={{border:"none", background:"none"}}
                     className={this.state.navbarItem}
                     to=""
                     activeClassName="active to-empty"
@@ -213,9 +216,9 @@ class TopNavigation extends Component {
                       }))
                     }
                   >
-                    About Us
+                    About Us   
                     <AiOutlineCaretDown />
-                  </a>
+                  </button>
                   <div className="dropdown-content">
                     <NavLink className="navDropdown" to="/about/director">
                       {" "}
