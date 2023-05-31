@@ -92,7 +92,8 @@ const Achievement = () => {
           </div>
         </Row>
 
-        <Row>
+
+
           {/* <Col lg={3} md={4} sm={6}>
             <Card className="ManagementCard">
               <Card.Img
@@ -335,7 +336,7 @@ const Achievement = () => {
 
 
 
-
+<Row>
 
 {achievementImg.map((item) => (
       <Col key={item.title} lg={3} md={4} sm={6}>
@@ -350,9 +351,8 @@ const Achievement = () => {
         </Card>
       </Col>
     ))}
-
-
         </Row>
+        
       </Container>
 }
     </>
