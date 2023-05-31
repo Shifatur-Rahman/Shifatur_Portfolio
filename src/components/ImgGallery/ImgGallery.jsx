@@ -25,6 +25,8 @@ import gallery17 from "../../asset/images/gallery/gallery17.jpg";
 import gallery18 from "../../asset/images/gallery/gallery18.jpg";
 import "./ImgGallery.css";
 import Spinner from "../Spinner/Spinner.jsx";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const ImgGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -49,8 +51,6 @@ const ImgGallery = () => {
         <Spinner />
       ) : (
         <Container style={{ marginTop: "5rem" }}>
-          {/* <h2 className="mainTitle">Recent and Upcoming Events</h2> */}
-
           <ImageList
             className="ImageGallery"
             sx={{ width: "100%", height: "auto", overflow: "hidden" }}
@@ -67,7 +67,7 @@ const ImgGallery = () => {
                   // data-aos-duration="500"
                   className="galleryImg"
                 >
-                  <img
+                  <LazyLoadImage
                     src={`${item.img}?w=161&fit=crop&auto=format`}
                     srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
                     alt={item.title}
