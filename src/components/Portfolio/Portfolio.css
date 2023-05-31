@@ -90,6 +90,11 @@
         padding: 0; */
       }
 
+      .dropdown-content{
+        width: 180px !important;
+        z-index: 1;
+      }
+
       @media only screen and (max-width: 1020px) and (min-width: 768px)  {
       .itemSize{
         font-size: 8px !important;
@@ -111,16 +116,12 @@
         }
       }
 
-      /* @media screen and (max-width: 1000px) {
-        .filter-buttons {
-          justify-content: flex-start;
-          flex-wrap: wrap;
+      @media only screen and (max-width: 1000px){
+        .filter-buttons button {
+          flex-direction: column;
+          align-items: center;
         }
-
-        .portfolio-grid {
-          gap: 0px;
-        }
-      } */
+      }
 
       @media screen and (max-width: 900px) {
         .portfolio-item {
@@ -134,6 +135,12 @@
             font-size: 11px;
           }
       }
+
+      /* @media screen and (max-width: 1000px) {
+.dropdown{
+width: 200px;
+}
+      } */
 
       /* @media screen and (max-width: 768px) {
         .portfolio-item {

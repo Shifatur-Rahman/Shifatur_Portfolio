@@ -145,7 +145,7 @@ const Portfolio = () => {
                   )}
                 </div>
 
-                <div className="dropdown">
+                <div className="dropdown" style={{ flexDirection: "column" }}>
                   <button
                     className={isActive("WOODfURNITURE")}
                     onClick={toggleDropdown}
