@@ -180,7 +180,7 @@ const Portfolio = () => {
                         className={isActive("INDUSTRIAL FURNITURE")}
                         style={{ fontSize: "10px" }}
                       >
-                        INDUSTRIAL FURNITURES
+                        INDUSTRIAL FURNITURE
                       </button>
                     </div>
                   )}
@@ -228,12 +228,10 @@ const Portfolio = () => {
                             <strong style={{fontWeight:"800"}}>Name : </strong>
                             <span style={{ textTransform: "uppercase" }}>
                               {" "}
-                              {item.title2}{" "}
+                              {item.title2}
                             </span>
                           </p>
                         )}
-
-
         
                         {item.size && (
                           <p className="itemTitle">
@@ -324,7 +322,6 @@ const Portfolio = () => {
                           </div>
                         ) : 
 
-
                         item.code ? (
                           <p className="itemTitle">                           
                             <strong>Code : </strong>
@@ -332,7 +329,6 @@ const Portfolio = () => {
                         ) : (
                           ""
                         )}  
-
 
                          {item.color2 && (
                           <div className="table-responsive">
