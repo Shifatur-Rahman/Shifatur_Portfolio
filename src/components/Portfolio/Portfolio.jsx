@@ -196,7 +196,11 @@ const Portfolio = () => {
                   .filter((item) => {
                     if (category === "all") {
                       return true;
-                    } else {
+                    } else if(item.category != category){
+                     {(<h1>products are coming...</h1>)}
+                    }
+
+                    else {
                       return item.category === category;
                     }
                   })
@@ -330,7 +334,7 @@ const Portfolio = () => {
                           ""
                         )}  
 
-                         {item.color2 && (
+                         {/* {item.color2 && (
                           <div className="table-responsive">
                             <table className="table table-bordered table-sm custom-table">
                               <tbody>
@@ -359,18 +363,14 @@ const Portfolio = () => {
                               </tbody>
                             </table>
                           </div>
-                         )}
-
-
-
-
+                         )} */}
 
                       </div>
                     </div>
                   ))}
               </div>
             )}
-
+      
             <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
               <DialogContent>
                 <IconButton

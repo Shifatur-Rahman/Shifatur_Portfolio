@@ -4,7 +4,6 @@
   background-color: #f2f2f2;
   border: none;
   overflow: hidden;
-  /* height: 650px; */
   border: 1px solid #92cce9;
 }
 
@@ -26,7 +25,7 @@
 }
 
 /* .managementTeamBio{
-  height: 200px;
+ height: 200px;
 } */
 
 .managementDesignation {
@@ -50,7 +49,7 @@
 .profileBtn:hover {
   background-color: darkcyan;
   color: #f2f2f2;
-  border: 2px solid darkcyan;
+  /* border: 2px solid darkcyan; */
   transition: all ease 1s;
 }
 

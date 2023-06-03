@@ -28,7 +28,7 @@ const BoardOfDirector = () => {
           <Container style={{ marginTop: "3rem" }}>
             <Row>
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -54,7 +54,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -81,7 +81,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -108,7 +108,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -137,7 +137,7 @@ const BoardOfDirector = () => {
 
             <Row style={{ marginTop: "25px" }}>
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -165,7 +165,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -192,7 +192,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -219,7 +219,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -249,7 +249,7 @@ const BoardOfDirector = () => {
 
             <Row style={{ marginTop: "25px" }}>
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -276,7 +276,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -286,7 +286,7 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>Md. Monjur</h2>
+                    <h2>Md. Monjurul Rowshon</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
                       Sr. Manager <br />
                     </p>
@@ -304,7 +304,7 @@ const BoardOfDirector = () => {
 
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -331,7 +331,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -361,7 +361,7 @@ const BoardOfDirector = () => {
             <Row style={{ marginTop: "25px" }}>
 
             <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -390,7 +390,7 @@ const BoardOfDirector = () => {
 
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -417,7 +417,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -445,7 +445,7 @@ const BoardOfDirector = () => {
 
            
               <Col lg={3} md={6} sm={12}>
-                <div className="card">
+                <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>

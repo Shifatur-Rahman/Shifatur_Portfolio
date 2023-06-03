@@ -50,7 +50,7 @@ const ManagementTeam = () => {
                   </Link>
                 </div>
 
-                <div className="socials" style={{ fontSize: "25px" }}>
+                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
                   <BsFacebook style={{ marginRight: "5px" }} />
                   <AiFillTwitterCircle style={{ marginRight: "5px" }} />
                   <GrPinterest style={{ marginRight: "5px" }} />
@@ -79,7 +79,7 @@ const ManagementTeam = () => {
                   </Link>
                 </div>
 
-                <div className="socials" style={{ fontSize: "25px" }}>
+                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
                   <BsFacebook style={{ marginRight: "5px" }} />
                   <AiFillTwitterCircle style={{ marginRight: "5px" }} />
                   <GrPinterest style={{ marginRight: "5px" }} />
@@ -117,7 +117,7 @@ const ManagementTeam = () => {
                   </Link>
                 </div>
 
-                <div className="socials" style={{ fontSize: "25px" }}>
+                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
                   <BsFacebook style={{ marginRight: "5px" }} />
                   <AiFillTwitterCircle style={{ marginRight: "5px" }} />
                   <GrPinterest style={{ marginRight: "5px" }} />
@@ -148,7 +148,7 @@ const ManagementTeam = () => {
                   </Link>
                 </div>
 
-                <div className="socials" style={{ fontSize: "25px" }}>
+                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
                   <BsFacebook style={{ marginRight: "5px" }} />
                   <AiFillTwitterCircle style={{ marginRight: "5px" }} />
                   <GrPinterest style={{ marginRight: "5px" }} />
@@ -181,7 +181,7 @@ const ManagementTeam = () => {
                   </Link>
                 </div>
 
-                <div className="socials" style={{ fontSize: "25px" }}>
+                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
                   <BsFacebook style={{ marginRight: "5px" }} />
                   <AiFillTwitterCircle style={{ marginRight: "5px" }} />
                   <GrPinterest style={{ marginRight: "5px" }} />
@@ -212,7 +212,7 @@ const ManagementTeam = () => {
                   </Link>
                 </div>
 
-                <div className="socials" style={{ fontSize: "25px" }}>
+                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
                   <BsFacebook style={{ marginRight: "5px" }} />
                   <AiFillTwitterCircle style={{ marginRight: "5px" }} />
                   <GrPinterest style={{ marginRight: "5px" }} />
