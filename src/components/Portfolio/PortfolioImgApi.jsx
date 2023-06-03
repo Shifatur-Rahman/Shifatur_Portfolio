@@ -1011,7 +1011,7 @@ const portfolioItems = [
     imgSrc: con_table8,
   },
 
-  ///                         SWIVEL CHAIR(501 - )
+  ///                         SWIVEL CHAIR(501 - 5 )
 
   {
     id: 501,
