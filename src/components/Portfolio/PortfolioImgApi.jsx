@@ -1983,7 +1983,6 @@ const portfolioItems = [
     color: "RED/RED/RED/RED/RED/RED/RED",
     size: " 5,8,10,16,20,25,30 Ltr.",
   },
-
   {
     id: 134,
     category: "PLASTIC HOUSEHOLD",
@@ -2021,6 +2020,7 @@ const portfolioItems = [
     sameColor: "RED",
     size: "4,8,12,15,18,20,22,25,30 Ltr.",
   },
+  
   {
     id: 195,
     category: "PLASTIC HOUSEHOLD",
