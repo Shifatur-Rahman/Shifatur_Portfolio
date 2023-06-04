@@ -33,7 +33,7 @@ const Portfolio = () => {
 
   const handleImageClick = (item) => {
     setSelectedImage(item);
-    console.log(item);
+    // console.log(item);
   };
 
   const handleDialogClose = () => {

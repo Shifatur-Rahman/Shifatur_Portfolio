@@ -18,11 +18,6 @@ class PortfolioPage extends Component {
   
   render() {
     return (
-      // <motion.div
-      //   initial={{ width: 0 }}
-      //   animate={{ width: "100%" }}
-      //   exit={{ x: window.innerWidth, transition: { duration: 0.6 } }}
-      // >
         <>
         <TopNavigation title="Talukder Group of Industries" />
         <PageTop pageTitle="Our Product" />
@@ -30,7 +25,6 @@ class PortfolioPage extends Component {
         <Footer />
         <BackToTopButton />
         </>
-      // </motion.div>
     );
   }
 }
