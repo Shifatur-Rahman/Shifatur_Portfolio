@@ -65,17 +65,17 @@ const Slider = () => {
 
   useEffect(() => {
     AOS.init({
-      offset: 120, // offset (in px) from the original trigger point
-      delay: 0, // values from 0 to 3000, with step 50ms
-      easing: "ease", // default easing for AOS animations
-      duration: 1500, // values from 0 to 3000, with step 50ms
-       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-       once: false, // whether animation should happen only once - while scrolling down
-       mirror: false, // whether elements should animate out while scrolling past them
-       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-       animatedClassName: 'aos-animate', // class applied on animation
-       initClassName: 'aos-init', // class applied after initialization
-       useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      offset: 120,
+      delay: 0,
+      easing: "ease", 
+      duration: 1500, 
+       disable: false,
+       once: false,
+       mirror: false,
+       startEvent: 'DOMContentLoaded',
+       animatedClassName: 'aos-animate',
+       initClassName: 'aos-init',
+       useClassNames: false,
     });
   }, []);
 
@@ -102,7 +102,7 @@ const Slider = () => {
                     data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
                     data-aos-duration="1500" className="topBannerTitle">{image.alt}</h3>
-                <p  data-aos="fade-down"
+                <p data-aos="fade-down"
                     data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
                     data-aos-duration="1500" className="topBannerSubTitle">{image.para}</p>

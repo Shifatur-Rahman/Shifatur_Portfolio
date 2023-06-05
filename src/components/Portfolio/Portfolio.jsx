@@ -16,7 +16,7 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isDropdown, setDropdown] = useState(false);  
-  const[msg,setMsg] = useState("");
+  //const[msg,setMsg] = useState(false);
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -26,14 +26,12 @@ const Portfolio = () => {
     setCategory(e.target.value);
     setActiveCategory(e.target.value);
     setDropdownOpen(false);
-    setMsg("Our upcoming product......");
   };
 
   const [selectedImage, setSelectedImage] = React.useState("");
 
   const handleImageClick = (item) => {
     setSelectedImage(item);
-    // console.log(item);
   };
 
   const handleDialogClose = () => {
@@ -196,10 +194,11 @@ const Portfolio = () => {
                   .filter((item) => {
                     if (category === "all") {
                       return true;
-                    } else if(item.category != category){
-                     {(<h1>products are coming...</h1>)}
-                    }
-
+                    } 
+                    // else if(item.category !== category){
+                    //  {(<h1>products are coming...</h1>)}
+               
+                    // }
                     else {
                       return item.category === category;
                     }
@@ -216,6 +215,7 @@ const Portfolio = () => {
                         style={{ cursor: "pointer" }}
                         onClick={() => handleImageClick(item.imgSrc)}
                       />
+
                       <div style={{ marginTop: "12px", width:"100%" }}>
                         {item.title && (
                           <p className="itemTitle">
@@ -236,7 +236,7 @@ const Portfolio = () => {
                             </span>
                           </p>
                         )}
-        
+
                         {item.size && (
                           <p className="itemTitle">
                             <strong>Size : </strong>
@@ -244,6 +244,7 @@ const Portfolio = () => {
                           </p>
                         )}
 
+                        
                         {item.size2 && (
                           <p className="itemTitle">
                             <strong>Size : </strong>
@@ -370,14 +371,16 @@ const Portfolio = () => {
                   ))}
               </div>
             )}
-      
-            <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
+
+                                    {/* Image in big Size       */}
+
+          <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
               <DialogContent>
                 <IconButton
                   sx={{ position: "absolute", top: 0, right: 0 }}
                   onClick={handleDialogClose}
                 >
-                  <CloseIcon />
+                <CloseIcon />
                 </IconButton>
                 <img
                   className="zoomImage"
@@ -390,6 +393,9 @@ const Portfolio = () => {
                 />
               </DialogContent>
             </Dialog>
+
+
+
           </Row>
         </Container>
       )}

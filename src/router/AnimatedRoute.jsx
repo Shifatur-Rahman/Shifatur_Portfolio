@@ -18,7 +18,7 @@ import TeamMemberMessagePage from "../pages/TeamMemberMessagePage";
 import CorporateClientPage from "../pages/CorporateClientPage";
 import NewsDetailsPage from "../pages/NewsDetailsPgae";
 import PlasticPage from "../pages/PlasticPage";
-import FoundryPage from "../pages/FoundryPage";
+// import FoundryPage from "../pages/FoundryPage";
 import UpvcPage from "../pages/UpvcPage";
 import DistriibutionPage from "../pages/DistriibutionPage";
 import FurniturePage from "../pages/FurniturePage";
@@ -71,7 +71,6 @@ function AnimatedRoute() {
         />
         <Route path="/news/newsDetails" element={<NewsDetailsPage />} />
         <Route path="/concern/plastic" element={<PlasticPage />} />
-        <Route path="/concern/foundry" element={<FoundryPage />} />
         <Route path="/concern/upvc" element={<UpvcPage />} />
         <Route path="/concern/distribution" element={<DistriibutionPage />} />
         <Route path="/concern/furniture" element={<FurniturePage />} />
