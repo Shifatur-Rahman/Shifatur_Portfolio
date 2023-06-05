@@ -93,7 +93,6 @@ const Achievement = () => {
         </Row>
 
 <Row>
-
 {achievementImg.map((item) => (
       <Col key={item.title} lg={3} md={4} sm={6}>
         <Card className="ManagementCard">
@@ -116,7 +115,6 @@ const Achievement = () => {
 };
 
 export default Achievement;
-
 
 const achievementImg = [
   {

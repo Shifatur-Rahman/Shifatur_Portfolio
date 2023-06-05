@@ -243,8 +243,7 @@ const Portfolio = () => {
                             <span className="itemSize"> {item.size} </span>
                           </p>
                         )}
-
-                        
+                      
                         {item.size2 && (
                           <p className="itemTitle">
                             <strong>Size : </strong>
