@@ -1,3 +1,4 @@
+// import tbl1 from "../../asset/images/office furniture/tbl1.jpg";
 import tbl1 from "../../asset/images/office furniture/tbl1.jpg";
 import tbl2 from "../../asset/images/office furniture/tbl2.jpg";
 import tbl3 from "../../asset/images/office furniture/tbl3.jpg";
