@@ -80,41 +80,60 @@ import tbl78 from "../../asset/images/office furniture/tbl78.jpg";
 import tbl79 from "../../asset/images/office furniture/tbl79.jpg";
 import tbl80 from "../../asset/images/office furniture/tbl80.jpg";
 
-
-
 // conference table
+
 import con_table1 from "../../asset/images/Chair/conference table/conferenceTable01.jpg";
+import con_table2 from "../../asset/images/Chair/conference table/conferenceTable02.jpg";
 import con_table3 from "../../asset/images/Chair/conference table/conferenceTable03.jpg";
 import con_table4 from "../../asset/images/Chair/conference table/conferenceTable04.jpg";
 import con_table5 from "../../asset/images/Chair/conference table/conferenceTable05.jpg";
-// import con_table6 from "../../asset/images/Chair/conference table/conferenceTable06.jpg";
+import con_table6 from "../../asset/images/Chair/conference table/conferenceTable06.jpg";
 import con_table7 from "../../asset/images/Chair/conference table/conferenceTable07.jpg";
 import con_table8 from "../../asset/images/Chair/conference table/conferenceTable08.jpg";
 
 
 // Chair Image
-import chair3 from "../../asset/images/Chair/chair3.jpg";
-import chair4 from "../../asset/images/Chair/chair4.jpg";
-import chair5 from "../../asset/images/Chair/chair5.jpg";
-import chair7 from "../../asset/images/Chair/chair7.jpg";
-import chair10 from "../../asset/images/Chair/chair10.jpg";
-import chair16 from "../../asset/images/Chair/chair16.jpg";
-import chair18 from "../../asset/images/Chair/chair18.jpg";
-import chair19 from "../../asset/images/Chair/chair19.jpg";
-import chair20 from "../../asset/images/Chair/chair20.jpg";
-import chair27 from "../../asset/images/Chair/chair27.jpg";
-import chair30 from "../../asset/images/Chair/chair30.jpg";
-import chair31 from "../../asset/images/Chair/chair31.jpg";
-import chair33 from "../../asset/images/Chair/chair33.jpg";
-import chair42 from "../../asset/images/Chair/chair42.jpg";
-import chair50 from "../../asset/images/Chair/chair50.jpg";
-import chair51 from "../../asset/images/Chair/chair51.jpg";
-import chair53 from "../../asset/images/Chair/chair53.jpg";
-import chair54 from "../../asset/images/Chair/chair54.jpg";
-import chair55 from "../../asset/images/Chair/chair55.jpg";
-import chair61 from "../../asset/images/Chair/chair61.jpg";
-import chair62 from "../../asset/images/Chair/chair62.jpg";
-import chair65 from "../../asset/images/Chair/chair65.jpg";
+import chair1 from "../../asset/images/Chair/01.jpg";
+import chair2 from "../../asset/images/Chair/02.jpg";
+import chair3 from "../../asset/images/Chair/03.jpg";
+import chair4 from "../../asset/images/Chair/04.jpg";
+import chair5 from "../../asset/images/Chair/05.jpg";
+import chair6 from "../../asset/images/Chair/06.jpg";
+import chair7 from "../../asset/images/Chair/07.jpg";
+import chair8 from "../../asset/images/Chair/08.jpg";
+import chair9 from "../../asset/images/Chair/09.jpg";
+import chair10 from "../../asset/images/Chair/10.jpg";
+import chair11 from "../../asset/images/Chair/11.jpg";
+import chair12 from "../../asset/images/Chair/12.jpg";
+import chair13 from "../../asset/images/Chair/13.jpg";
+import chair14 from "../../asset/images/Chair/14.jpg";
+import chair15 from "../../asset/images/Chair/15.jpg";
+import chair16 from "../../asset/images/Chair/16.jpg";
+import chair17 from "../../asset/images/Chair/17.jpg";
+import chair18 from "../../asset/images/Chair/18.jpg";
+import chair19 from "../../asset/images/Chair/19.jpg";
+import chair20 from "../../asset/images/Chair/20.jpg";
+import chair21 from "../../asset/images/Chair/21.jpg";
+import chair22 from "../../asset/images/Chair/22.jpg";
+import chair23 from "../../asset/images/Chair/23.jpg";
+import chair24 from "../../asset/images/Chair/24.jpg";
+import chair25 from "../../asset/images/Chair/25.jpg";
+import chair26 from "../../asset/images/Chair/26.jpg";
+import chair27 from "../../asset/images/Chair/27.jpg";
+import chair28 from "../../asset/images/Chair/28.jpg";
+import chair29 from "../../asset/images/Chair/29.jpg";
+import chair30 from "../../asset/images/Chair/30.jpg";
+import chair31 from "../../asset/images/Chair/31.jpg";
+import chair33 from "../../asset/images/Chair/33.jpg";
+import chair42 from "../../asset/images/Chair/42.jpg";
+import chair50 from "../../asset/images/Chair/50.jpg";
+import chair51 from "../../asset/images/Chair/51.jpg";
+import chair53 from "../../asset/images/Chair/53.jpg";
+import chair54 from "../../asset/images/Chair/54.jpg";
+import chair55 from "../../asset/images/Chair/55.jpg";
+import chair61 from "../../asset/images/Chair/61.jpg";
+import chair62 from "../../asset/images/Chair/62.jpg";
+import chair65 from "../../asset/images/Chair/65.jpg";
 
 // Plastic image
 
@@ -961,7 +980,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-002",
     size: "L3600 X W1200 X H750mm",
-    imgSrc: chair4,
+    imgSrc: con_table2,
   },
   {
     id: 403,
@@ -993,7 +1012,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-006",
     size: "L3000 X W1200 X H750mm",
-    imgSrc: con_table5,
+    imgSrc: con_table6,
   },
   {
     id: 407,
