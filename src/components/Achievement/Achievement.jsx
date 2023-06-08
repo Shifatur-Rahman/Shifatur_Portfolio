@@ -55,6 +55,7 @@ const Achievement = () => {
                 Talukder Group of Industries has won numerous awards for its
                 contributions to Bangladesh's industrial sector.
               </li>
+
               <li>
                 Talukder Group of Industries has been recognized for its
                 contributions to social development.
@@ -101,7 +102,6 @@ const Achievement = () => {
             variant="top"
             src={item.img}
             alt={item.title}
-            // effect="blur"
           />
         </Card>
       </Col>
