@@ -1689,7 +1689,7 @@ const portfolioItems = [
     id: 582,
     title: "OFFICE LOCKER",
     category: "office furniture",
-    code: "TFSOl-077",
+    code: "TFSOL-077",
     imgSrc: chair077,
     size: "L900 X W500 X H1850MM",
   },
@@ -1697,11 +1697,10 @@ const portfolioItems = [
     id: 583,
     title: "OFFICE LOCKER",
     category: "office furniture",
-    code: "TFSOl-078",
+    code: "TFSOL-078",
     imgSrc: chair078,
     size: "L350 X W500 X H1930MM",
   },
-
   // office sofa
   {
     id: 584,
@@ -1829,7 +1828,6 @@ const portfolioItems = [
     imgSrc: chair93,
     size: "L600~900 X H2080MM",
   },
-
   ///       SOLID WOODEN DOOR
   {
     id: 599,
