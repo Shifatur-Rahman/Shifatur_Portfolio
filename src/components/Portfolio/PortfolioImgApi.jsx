@@ -1752,7 +1752,6 @@ const portfolioItems = [
     size: "L600 X W700 X H750MM(SINGLE SEATER)",
     size2: "L1350 X W700 X H750MM(DOUBLE SEATER)",
   },
-
   /////                        WORK STATION
   {
     id: 590,
