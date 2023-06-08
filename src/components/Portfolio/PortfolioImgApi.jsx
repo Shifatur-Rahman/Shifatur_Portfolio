@@ -124,16 +124,52 @@ import chair28 from "../../asset/images/Chair/28.jpg";
 import chair29 from "../../asset/images/Chair/29.jpg";
 import chair30 from "../../asset/images/Chair/30.jpg";
 import chair31 from "../../asset/images/Chair/31.jpg";
+import chair32 from "../../asset/images/Chair/32.jpg";
 import chair33 from "../../asset/images/Chair/33.jpg";
+import chair34 from "../../asset/images/Chair/34.jpg";
+import chair35 from "../../asset/images/Chair/35.jpg";
+import chair36 from "../../asset/images/Chair/36.jpg";
+import chair37 from "../../asset/images/Chair/37.jpg";
+import chair38 from "../../asset/images/Chair/38.jpg";
+import chair39 from "../../asset/images/Chair/39.jpg";
+import chair40 from "../../asset/images/Chair/40.jpg";
+import chair41 from "../../asset/images/Chair/41.jpg";
 import chair42 from "../../asset/images/Chair/42.jpg";
+import chair43 from "../../asset/images/Chair/43.jpg";
+import chair44 from "../../asset/images/Chair/44.jpg";
+import chair45 from "../../asset/images/Chair/45.jpg";
+import chair46 from "../../asset/images/Chair/46.jpg";
+import chair47 from "../../asset/images/Chair/47.jpg";
+import chair48 from "../../asset/images/Chair/48.jpg";
+import chair49 from "../../asset/images/Chair/49.jpg";
 import chair50 from "../../asset/images/Chair/50.jpg";
 import chair51 from "../../asset/images/Chair/51.jpg";
+import chair52 from "../../asset/images/Chair/52.jpg";
 import chair53 from "../../asset/images/Chair/53.jpg";
 import chair54 from "../../asset/images/Chair/54.jpg";
 import chair55 from "../../asset/images/Chair/55.jpg";
+import chair56 from "../../asset/images/Chair/56.jpg";
+import chair57 from "../../asset/images/Chair/57.jpg";
+import chair58 from "../../asset/images/Chair/58.jpg";
+import chair59 from "../../asset/images/Chair/59.jpg";
+import chair60 from "../../asset/images/Chair/60.jpg";
 import chair61 from "../../asset/images/Chair/61.jpg";
 import chair62 from "../../asset/images/Chair/62.jpg";
+import chair63 from "../../asset/images/Chair/63.jpg";
+import chair64 from "../../asset/images/Chair/64.jpg";
 import chair65 from "../../asset/images/Chair/65.jpg";
+import chair66 from "../../asset/images/Chair/66.jpg";
+import chair67 from "../../asset/images/Chair/67.jpg";
+import chair68 from "../../asset/images/Chair/68.jpg";
+import chair69 from "../../asset/images/Chair/69.jpg";
+import chair70 from "../../asset/images/Chair/70.jpg";
+import chair71 from "../../asset/images/Chair/71.jpg";
+import chair72 from "../../asset/images/Chair/72.jpg";
+import chair73 from "../../asset/images/Chair/73.jpg";
+import chair74 from "../../asset/images/Chair/74.jpg";
+import chair75 from "../../asset/images/Chair/75.jpg";
+import chair76 from "../../asset/images/Chair/76.jpg";
+import chair77 from "../../asset/images/Chair/77.jpg";
 
 // Plastic image
 
@@ -1255,7 +1291,7 @@ const portfolioItems = [
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFOCO-032",
-    imgSrc: chair4,
+    imgSrc: chair32,
   },
   {
     id: 533,
@@ -1269,49 +1305,49 @@ const portfolioItems = [
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFCCO-034",
-    imgSrc: chair4,
+    imgSrc: chair34,
   },
   {
     id: 535,
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFCCO-035",
-    imgSrc: chair4,
+    imgSrc: chair35,
   },
   {
     id: 536,
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFCCO-036",
-    imgSrc: chair4,
+    imgSrc: chair36,
   },
   {
     id: 537,
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFCCO-037",
-    imgSrc: chair4,
+    imgSrc: chair37,
   },
   {
     id: 538,
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFCCO-038",
-    imgSrc: chair4,
+    imgSrc: chair38,
   },
   {
     id: 539,
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFCCO-039",
-    imgSrc: chair4,
+    imgSrc: chair39,
   },
   {
     id: 540,
     title: "SWIVEL CHAIR",
     category: "office furniture",
     code: "TFCCO-040",
-    imgSrc: chair4,
+    imgSrc: chair40,
   },
 
   {
@@ -1319,7 +1355,7 @@ const portfolioItems = [
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-041",
-    imgSrc: chair4,
+    imgSrc: chair41,
   },
   {
     id: 542,
@@ -1333,49 +1369,49 @@ const portfolioItems = [
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-043",
-    imgSrc: chair4,
+    imgSrc: chair43,
   },
   {
     id: 544,
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-044",
-    imgSrc: chair4,
+    imgSrc: chair44,
   },
   {
     id: 545,
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-045",
-    imgSrc: chair4,
+    imgSrc: chair45,
   },
   {
     id: 546,
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-046",
-    imgSrc: chair4,
+    imgSrc: chair46,
   },
   {
     id: 547,
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-047",
-    imgSrc: chair4,
+    imgSrc: chair47,
   },
   {
     id: 548,
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-048",
-    imgSrc: chair4,
+    imgSrc: chair48,
   },
   {
     id: 549,
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-049",
-    imgSrc: chair4,
+    imgSrc: chair49,
   },
   {
     id: 550,
@@ -1396,7 +1432,7 @@ const portfolioItems = [
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-052",
-    imgSrc: chair51,
+    imgSrc: chair52,
   },
   {
     id: 553,
@@ -1424,35 +1460,35 @@ const portfolioItems = [
     title: "FIXED CHAIR",
     category: "office furniture",
     code: "TFVCO-056",
-    imgSrc: chair4,
+    imgSrc: chair56,
   },
   {
     id: 557,
     title: "AUDITORIUM CHAIR",
     category: "office furniture",
     code: "TFACO-057",
-    imgSrc: chair4,
+    imgSrc: chair57,
   },
   {
     id: 558,
     title: "AUDITORIUM CHAIR",
     category: "office furniture",
     code: "TFACO-058",
-    imgSrc: chair4,
+    imgSrc: chair58,
   },
   {
     id: 559,
     title: "GROUP CHAIR",
     category: "office furniture",
     code: "TFGCO-059",
-    imgSrc: chair4,
+    imgSrc: chair59,
   },
   {
     id: 560,
     title: "GROUP CHAIR",
     category: "office furniture",
     code: "TFGCO-060",
-    imgSrc: chair4,
+    imgSrc: chair60,
   },
   {
     id: 561,
@@ -1473,14 +1509,14 @@ const portfolioItems = [
     title: "CLASSROOM CHAIR",
     category: "lged",
     code: "TFCRC-063",
-    imgSrc: chair61,
+    imgSrc: chair63,
   },
   {
     id: 564,
     title: "CLASSROOM CHAIR",
     category: "lged",
     code: "TFCRC-064",
-    imgSrc: chair62,
+    imgSrc: chair64,
   },
   {
     id: 565,
@@ -1494,7 +1530,7 @@ const portfolioItems = [
     title: "CLASSROOM TABLE WITH BENCH",
     category: "lged",
     code: "TFHLB-066",
-    imgSrc: chair61,
+    imgSrc: chair66,
     size: "L1800 X W400 X H730MM(HIGH BENCH)",
     size2: "L1800 X W300 X H400MM(LOW BENCH)",
   },
@@ -1503,7 +1539,7 @@ const portfolioItems = [
     title: "CLASSROOM TABLE WITH BENCH",
     category: "lged",
     code: "TFHLB-067",
-    imgSrc: chair61,
+    imgSrc: chair67,
     size: "L1500 X W450 X H750MM(HIGH BENCH)",
     size2: "L1500 X W300 X H400MM(LOW BENCH)",
   },
@@ -1515,7 +1551,7 @@ const portfolioItems = [
     title: "TEACHERS TABLE",
     category: "lged",
     code: "TFTTS-069",
-    imgSrc: chair61,
+    imgSrc: chair69,
     size: "L900 X W500 X H750MM",
   },
   {
@@ -1523,7 +1559,7 @@ const portfolioItems = [
     title: "PODIUM",
     category: "lged",
     code: "TFPOD-070",
-    imgSrc: chair61,
+    imgSrc: chair70,
     size: "L750 X W550 X H1250MM",
   },
   {
@@ -1531,7 +1567,7 @@ const portfolioItems = [
     title: "PODIUM",
     category: "lged",
     code: "TFPOD-071",
-    imgSrc: chair61,
+    imgSrc: chair71,
     size: "L850 X W600 X H1250MM",
   },
 
@@ -1542,7 +1578,7 @@ const portfolioItems = [
     title: "FILE CABINET",
     category: "lged",
     code: "TFSFC-072",
-    imgSrc: chair61,
+    imgSrc: chair72,
     size: "L482 X W550 X H720MM",
   },
   {
@@ -1550,18 +1586,18 @@ const portfolioItems = [
     title: "FILE CABINET",
     category: "lged",
     code: "TFSFC-073",
-    imgSrc: chair61,
+    imgSrc: chair73,
     size: "L482 X W550 X H1040MM",
   },
   // 573 & 574 CODE ARE SAME COZ I FOLLOW THE BUSHIER & SIR SUGGEST ME
-  // {
-  //   id: 574,
-  //   title: "FILE CABINET",
-  //   category: "lged",
-  //   code : "TFSFC-073",
-  //   imgSrc: chair61,
-  //   size: "L482 X W550 X H1370MM",
-  // },
+  {
+    id: 574,
+    title: "FILE CABINET",
+    category: "lged",
+    code : "TFSCC-074",
+    imgSrc: chair74,
+    size: "L482 X W550 X H1370MM",
+  },
 
   ///         COMBINED CABINET
 
@@ -1569,8 +1605,8 @@ const portfolioItems = [
     id: 575,
     title: "COMBINED CABINET",
     category: "lged",
-    code: "TFSCC-074",
-    imgSrc: chair61,
+    code: "TFSOA-075",
+    imgSrc: chair75,
     size: "L900 X W550 X H1200MM",
   },
 
@@ -1580,7 +1616,7 @@ const portfolioItems = [
     title: "STEEL ALMIRAH",
     category: "lged",
     code: "TFSOA-075",
-    imgSrc: chair61,
+    imgSrc: chair76,
     size: "L900 X W500 X H1850MM",
   },
   {
@@ -1588,7 +1624,7 @@ const portfolioItems = [
     title: "STEEL ALMIRAH",
     category: "lged",
     code: "TFSOA-076",
-    imgSrc: chair61,
+    imgSrc: chair77,
     size: "L910 X W480 X H1930MM",
   },
   {
