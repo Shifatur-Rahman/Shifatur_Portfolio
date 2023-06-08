@@ -39,7 +39,7 @@ const Achievement = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2600);
+    }, 2500);
   }, []);
   return (
     <>
