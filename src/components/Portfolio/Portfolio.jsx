@@ -217,6 +217,7 @@ const Portfolio = () => {
                       />
 
                       <div style={{ marginTop: "12px", width:"100%" }}>
+
                         {item.title && (
                           <p className="itemTitle">
                             <strong>Name : </strong>
@@ -262,7 +263,7 @@ const Portfolio = () => {
 
                         {item.code2 && (
                           <p className="itemCode">
-                             <strong style={{fontWeight:"800", textAlign:"left"}}>Code : </strong>
+                             <strong style={{fontWeight:"800"}}>Code : </strong>
                              {/*  <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}> */}
                               {item.code2}
                           </p>
@@ -332,37 +333,6 @@ const Portfolio = () => {
                         ) : (
                           ""
                         )}  
-
-                         {/* {item.color2 && (
-                          <div className="table-responsive">
-                            <table className="table table-bordered table-sm custom-table">
-                              <tbody>
-                                <tr>
-                                  <th
-                                    style={{
-                                      fontSize: "10px",
-                                      fontWeight: "800",
-                                      width: "10px"
-                                    }}
-                                    scope="row"
-                                  >
-                                    Color
-                                  </th>
-                                  {item.color2.split("/").map((color2, index) => (
-                                    <td
-                                      style={{
-                                        fontSize: "8px",
-                                        backgroundColor: color2,
-                                        cursor: "pointer",
-                                      }}
-                                      key={index}
-                                    ></td>
-                                  ))}
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                         )} */}
 
                       </div>
                     </div>
