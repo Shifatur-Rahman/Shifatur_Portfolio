@@ -29,7 +29,6 @@ import awards20Img from "../../asset/images/achievements/awards20.png";
 import awards21Img from "../../asset/images/achievements/awards21.png";
 import { Col, Container, Row } from "react-bootstrap";
 import Spinner from "../Spinner/Spinner";
-
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -41,6 +40,7 @@ const Achievement = () => {
       setLoading(false);
     }, 2500);
   }, []);
+
   return (
     <>
         {loading ? (

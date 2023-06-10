@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./NewsDetails.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import { Col, Container, Card } from "react-bootstrap";
 import news1 from "../../asset/images/news/news1.jpg";
 import news2 from "../../asset/images/news/news2.jpg";
 import news3 from "../../asset/images/news/news3.jpg";

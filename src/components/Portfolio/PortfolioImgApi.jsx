@@ -251,20 +251,20 @@ import plastic51 from "../../asset/images/plastic/plastic51.png";
 import plastic52 from "../../asset/images/plastic/plastic52.png";
 import plastic53 from "../../asset/images/plastic/plastic53.png";
 // import plastic54 from "../../asset/images/plastic/plastic54.png"
-import plastic55 from "../../asset/images/Corporate plastic/plastic55.png";
+// import plastic55 from "../../asset/images/Corporate plastic/plastic55.png";
 import plastic56 from "../../asset/images/Corporate plastic/plastic56.png";
 import plastic57 from "../../asset/images/plastic/plastic57.png";
 // import plastic58 from "../../asset/images/plastic/plastic58.png"
-import plastic59 from "../../asset/images/Corporate plastic/plastic59.png";
-import plastic60 from "../../asset/images/plastic/plastic60.png";
-import plastic61 from "../../asset/images/plastic/plastic61.png";
+// import plastic59 from "../../asset/images/Corporate plastic/plastic59.png";
+// import plastic60 from "../../asset/images/plastic/plastic60.png";
+// import plastic61 from "../../asset/images/plastic/plastic61.png";
 import plastic62 from "../../asset/images/plastic/plastic62.png";
 import plastic63 from "../../asset/images/plastic/plastic63.png";
 import plastic64 from "../../asset/images/plastic/plastic64.png";
 import plastic65 from "../../asset/images/plastic/plastic65.png";
 import plastic66 from "../../asset/images/plastic/plastic66.png";
 import plastic67 from "../../asset/images/plastic/plastic67.png";
-import plastic68 from "../../asset/images/plastic/plastic68.png";
+// import plastic68 from "../../asset/images/plastic/plastic68.png";
 import plastic69 from "../../asset/images/plastic/plastic69.png";
 import plastic70 from "../../asset/images/plastic/plastic70.png";
 import plastic71 from "../../asset/images/plastic/plastic71.png";
@@ -327,7 +327,7 @@ import upvc3 from "../../asset/images/upvc/upvc3.JPG";
 import upvc4 from "../../asset/images/upvc/upvc4.JPG";
 import upvc5 from "../../asset/images/upvc/upvc5.JPG";
 import upvc6 from "../../asset/images/upvc/upvc6.JPG"
-import upvc7 from "../../asset/images/upvc/upvc7.JPG";
+// import upvc7 from "../../asset/images/upvc/upvc7.JPG";
 import upvc8 from "../../asset/images/upvc/upvc8.JPG";
 import upvc9 from "../../asset/images/upvc/upvc9.JPG";
 import upvc10 from "../../asset/images/upvc/upvc10.JPG";

@@ -262,10 +262,9 @@ const Portfolio = () => {
 
                         {item.code2 && (
                           <p className="itemCode">
-                             <strong style={{fontWeight:"800"}}>Code : </strong>
+                             <strong style={{fontWeight:"800", textAlign:"left"}}>Code : </strong>
                              {/*  <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}> */}
                               {item.code2}
-                      
                           </p>
                         )}
 
