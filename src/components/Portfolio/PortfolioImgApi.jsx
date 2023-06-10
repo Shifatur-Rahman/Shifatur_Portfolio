@@ -159,7 +159,7 @@ import chair64 from "../../asset/images/Chair/64.jpg";
 import chair65 from "../../asset/images/Chair/65.jpg";
 import chair66 from "../../asset/images/Chair/66.jpg";
 import chair67 from "../../asset/images/Chair/67.jpg";
-// import chair68 from "../../asset/images/Chair/68.jpg";
+import chair68 from "../../asset/images/Chair/68.jpg";
 import chair69 from "../../asset/images/Chair/69.jpg";
 import chair70 from "../../asset/images/Chair/70.jpg";
 import chair71 from "../../asset/images/Chair/71.jpg";
@@ -1567,9 +1567,16 @@ const portfolioItems = [
     size: "L1500 X W450 X H750MM(HIGH BENCH)",
     size2: "L1500 X W300 X H400MM(LOW BENCH)",
   },
-  // {
-  //   //68 already done
-  // }
+
+  {
+    id: 568,
+    title: "TEACHERS TABLE",
+    category: "lged",
+    code: "TFTTS-068",
+    imgSrc: chair68,
+    size: "L850 X W540 X H780MM",
+  },
+
   {
     id: 569,
     title: "TEACHERS TABLE",
@@ -1627,7 +1634,7 @@ const portfolioItems = [
   {
     id: 575,
     title: "COMBINED CABINET",
-    category: "lged",
+    category: "office furniture",
     code: "TFSCC-074",
     imgSrc: chair74,
     size: "L900 X W550 X H1200MM",
