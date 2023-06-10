@@ -216,60 +216,9 @@ const Portfolio = () => {
                         onClick={() => handleImageClick(item.imgSrc)}
                       />
 
-                      <div style={{ marginTop: "12px", width:"100%" }}>
+                      <div style={{ marginTop: "15px", width:"100%" }}>
 
-                        {item.title && (
-                          <p className="itemTitle">
-                            <strong>Name : </strong>
-                            <span style={{ textTransform: "uppercase" }}>
-                              {" "}
-                              {item.title}{" "}
-                            </span>
-                          </p>
-                        )}
-
-                        {item.title2 && (
-                          <p className="itemCode">
-                            <strong style={{fontWeight:"800"}}>Name : </strong>
-                            <span style={{ textTransform: "uppercase" }}>
-                              {" "}
-                              {item.title2}
-                            </span>
-                          </p>
-                        )}
-
-                        {item.size && (
-                          <p className="itemTitle">
-                            <strong>Size : </strong>
-                            <span className="itemSize"> {item.size} </span>
-                          </p>
-                        )}
-                      
-                        {item.size2 && (
-                          <p className="itemTitle">
-                            <strong>Size : </strong>
-                            <span className="itemSize"> {item.size2} </span>
-                          </p>
-                        )}
-
-                        {item.product && (
-                          <p className="itemTitle">
-                            <span style={{ fontSize: "8px" }}>
-                              {" "}
-                              {item.product}{" "}
-                            </span>
-                          </p>
-                        )}
-
-                        {item.code2 && (
-                          <p className="itemCode">
-                             <strong style={{fontWeight:"800"}}>Code : </strong>
-                             {/*  <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}> */}
-                              {item.code2}
-                          </p>
-                        )}
-
-                        {item.color && item.code ? (
+                      {item.color && item.code ? (
                           <div className="table-responsive">
                             <table className="table table-bordered table-sm custom-table">
                               <tbody>
@@ -278,7 +227,7 @@ const Portfolio = () => {
                                     style={{
                                       fontSize: "10px",
                                       fontWeight: "800",
-                                      width: "20px"
+                                      width: "20px",                                     
                                     }}
                                     scope="row"
                                   >
@@ -332,7 +281,60 @@ const Portfolio = () => {
                             {item.code}</p>
                         ) : (
                           ""
-                        )}  
+                        )}
+
+                        {item.title && (
+                          <p className="itemTitle">
+                            <strong>Name : </strong>
+                            <span style={{ textTransform: "uppercase" }}>
+                              {" "}
+                              {item.title}{" "}
+                            </span>
+                          </p>
+                        )}
+
+                        {item.title2 && (
+                          <p className="itemCode">
+                            <strong style={{fontWeight:"800"}}>Name : </strong>
+                            <span style={{ textTransform: "uppercase" }}>
+                              {" "}
+                              {item.title2}
+                            </span>
+                          </p>
+                        )}
+
+                        {item.size && (
+                          <p className="itemTitle">
+                            <strong>Size : </strong>
+                            <span className="itemSize"> {item.size} </span>
+                          </p>
+                        )}
+                      
+                        {item.size2 && (
+                          <p className="itemTitle">
+                            <strong>Size : </strong>
+                            <span className="itemSize"> {item.size2} </span>
+                          </p>
+                        )}
+
+                        {item.product && (
+                          <p className="itemTitle">
+                            <span style={{ fontSize: "8px" }}>
+                              {" "}
+                              {item.product}{" "}
+                            </span>
+                          </p>
+                        )}
+
+                        {item.code2 && (
+                          <p className="itemCode">
+                             <strong style={{fontWeight:"800"}}>Code : </strong>
+                             {/*  <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}> */}
+                              {item.code2}
+                          </p>
+                        )}
+
+                      
 
                       </div>
                     </div>
