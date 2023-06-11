@@ -50,6 +50,14 @@
   /* margin-left: 5rem; */
 }
 
+.mainTitle{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #526D82;
+}
+
+
 @media (max-width: 780px) {
   .topPageSubTitle {
     font-size: 20px;

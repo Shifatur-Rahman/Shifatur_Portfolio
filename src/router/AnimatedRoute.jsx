@@ -16,7 +16,6 @@ import MdMsgPage from "../pages/MdMsgPage";
 import TeamMemberMessagePage from "../pages/TeamMemberMessagePage";
 import CorporateClientPage from "../pages/CorporateClientPage";
 import NewsDetailsPage from "../pages/NewsDetailsPgae";
-import PlasticPage from "../pages/PlasticPage";
 import ConcernPage from "../pages/ConcernPage";
 import GovtClientPage from "../pages/GovtClientPage";
 
@@ -58,7 +57,6 @@ function AnimatedRoute() {
             element={<TeamMemberMessagePage />}
           />
           <Route path="/news/newsDetails" element={<NewsDetailsPage />} />
-          <Route path="/concern/plastic" element={<PlasticPage />} />
         </Routes>
       </AnimatePresence>
     </>
