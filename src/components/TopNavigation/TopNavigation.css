@@ -131,11 +131,14 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   button.navbar-toggler {
     background-color: #17a2b8;
     border: none;
     display: block;
+  }
+  .navigation{
+    background-color: none;
   }
 
   /* button.navbar-toggler,   span.navbar-toggler-icon */
@@ -215,7 +218,7 @@
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
   .dropdown:hover .dropdown-content {
     position: static;
   }
