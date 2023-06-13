@@ -9,15 +9,15 @@ import news2 from "../../asset/images/news/news2.jpg";
 import news3 from "../../asset/images/news/news3.jpg";
 import news4 from "../../asset/images/news/news4.jpg";
 import news5 from "../../asset/images/news/news5.jpg";
+import news6 from "../../asset/images/news/news6.jpg";
 import { AiOutlineCalendar } from "react-icons/ai";
-// import AOS from "aos";
 import "aos/dist/aos.css";
 
 const NewsDetails = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
@@ -125,7 +125,7 @@ const newsItems = [
     imageSrc: news2,
     title:
       "Talukder Group of Industries recently held a meeting to encourage collaboration and open communication with our employees.",
-    date: "July 05, 2020",
+    date: "January 05, 2023",
     description:
       "Throughout the meeting, we encouraged open and honest communication among all participants.",
   },
@@ -152,8 +152,18 @@ const newsItems = [
     imageSrc: news5,
     title:
       "The meeting was aimed at improving communication and collaboration between management and employees.",
-    date: "December 26, 2022",
+    date: "May 13, 2023",
     description:
       "The employees were given the opportunity to ask questions and provide feedback on various aspects of their work, including working conditions, benefits, and opportunities for career growth and development.",
   },
+  {
+    id: 6,
+    imageSrc: news6,
+    title:
+      "Talukder Group of Industries recently organized an event to celebrate the achievements of our company.",
+      date: "May 13, 2023",
+    description:
+      "Throughout the meeting, we encouraged open and honest communication among all participants.",
+  },
 ];
+
