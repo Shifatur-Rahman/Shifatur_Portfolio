@@ -15,7 +15,6 @@ import ChairmanMsgPage from "../pages/ChairmanMsgPage";
 import MdMsgPage from "../pages/MdMsgPage";
 import TeamMemberMessagePage from "../pages/TeamMemberMessagePage";
 import CorporateClientPage from "../pages/CorporateClientPage";
-import NewsDetailsPage from "../pages/NewsDetailsPgae";
 import ConcernPage from "../pages/ConcernPage";
 import GovtClientPage from "../pages/GovtClientPage";
 
@@ -31,7 +30,6 @@ function AnimatedRoute() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/concern" element={<ConcernPage />} />
-          {/* <Route path="/client" element={<ClientPage />} /> */}
           <Route path="/career" element={<CareerPage />} />
           <Route path="/portfolio/gallery" element={<Gallery />} />
           <Route path="/portfolio/achievement" element={<AchievementPage />} />
@@ -56,7 +54,6 @@ function AnimatedRoute() {
             path="/about/Message/Details"
             element={<TeamMemberMessagePage />}
           />
-          <Route path="/news/newsDetails" element={<NewsDetailsPage />} />
         </Routes>
       </AnimatePresence>
     </>
