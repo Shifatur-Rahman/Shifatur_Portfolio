@@ -14,6 +14,7 @@ const Gallery = () => {
       smooth: "easeInOutQuart",
     });
   }, []);
+  
   return (
     <>
       <TopNavigation title="Talukder Group" />

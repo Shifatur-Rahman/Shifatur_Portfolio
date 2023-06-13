@@ -7,9 +7,6 @@ import { useEffect } from "react";
 import BackToTopButton from '../components/BackToTopButton/BackToTopButton';
 import ClientReview from '../components/ClientReview/ClientReview';
 
-
-
-
 const CorporateClientPage = () => {
   useEffect(() => {
     animateScroll.scrollToTop({
