@@ -40,6 +40,7 @@
         width: calc(25% - 10px);
         margin-bottom: 20px;
         box-sizing: border-box;
+        margin: auto;
       }
 
         /* display: flex;
@@ -150,6 +151,11 @@
         .portfolio-item img{
             height: 200px;
             width: 200px;
+        }
+
+        .zoomImage{
+          width: 250px;
+          height: 300px;
         }
 
         /* upvc code title */
