@@ -109,10 +109,16 @@
       }
 
       @media only screen and (max-width: 1000px){
-        .filter-buttons button {
+
+        .filter-buttons {
           flex-direction: column;
           align-items: center;
         }
+        /* .filter-buttons button {
+          flex-direction: column;
+          align-items: center;
+        } */
+
         .dropdown-content{
           width: 200px !important;
           z-index: -1;
