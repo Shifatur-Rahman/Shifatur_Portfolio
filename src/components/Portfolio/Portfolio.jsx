@@ -92,15 +92,6 @@ const Portfolio = () => {
                   </button>
                 </div>
 
-                <div className="dropdown">
-                  <button
-                    value="lged"
-                    onClick={handleCategory}
-                    className={isActive("lged")}
-                  >
-                    SCHOOL FURNITURE
-                  </button>
-                </div>
 
                 <div className="dropdown">
                   <button
@@ -142,6 +133,18 @@ const Portfolio = () => {
                     </div>
                   )}
                 </div>
+
+                <div className="dropdown">
+                  <button
+                    value="lged"
+                    onClick={handleCategory}
+                    className={isActive("lged")}
+                  >
+                    SCHOOL FURNITURE
+                  </button>
+                </div>
+
+                
 
                 <div className="dropdown" style={{ flexDirection: "column" }}>
                   <button
