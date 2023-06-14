@@ -28,50 +28,49 @@ const Concern = () => {
       <ul>
             <li>
               {" "}
-              <a>
+              <span>
                 <BsArrowRight className="concernIcon" />
                 Talukder Plastic Co. Ltd.
-              </a>
+              </span>
             </li>
   
             <li>
-              <a>
+              <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> Talukder Foundry Ltd.
-              </a>
+              </span>
             </li>
             <li>
-              <a>
+              <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> Talukder uPVC Fittings
                 Ind. Ltd.
-              </a>
+              </span>
             </li>
             <li>
-              <a>
+              <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> Talukder Distribution Co.
                 Ltd.
-              </a>
+              </span>
             </li>
             <li>
-              <a>
+              <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> Talukder Furniture Ltd.
-              </a>
+              </span>
             </li>
             <li>
-              <a>
+              <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> J & J Enterprise Ltd.
-              </a>
+              </span>
             </li>
           </ul>
       </ul>
       </div>
   
       </Col>
-  
     </Row>
   </Container>
 }
