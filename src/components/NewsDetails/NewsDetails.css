@@ -97,9 +97,7 @@
     margin-top: 3px;
     /* margin-bottom: 5px; */
   }
-  .newsHeader{
 
-  }
 .slick-arrow.slick-prev{
   display: none !important;
 }
@@ -114,9 +112,9 @@
 .newsHeaderSpan{
   font-size: 11px;
 }
-/* .newsHeader{
-  margin-bottom: 0;
-} */
+.newsHeader{
+  margin-bottom: 2px;
+}
 }
 
 
