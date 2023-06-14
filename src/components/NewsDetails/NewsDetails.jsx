@@ -85,12 +85,13 @@ const NewsDetails = () => {
                 <Card.Img className="newsCardImg" variant="top" src={item.imageSrc} />
                 <Card.Body>
                 <h2 className="newsCardTitle">{item.title}</h2>
+
                   <p className="newsHeader" style={{ fontSize: "14px", color: "#17a2b8" }}>
                     {" "}
-                    <AiOutlineCalendar
-                      style={{ fontSize: "20px", color: "#17a2b8",marginBottom:"3px" }}
+                    <AiOutlineCalendar className="newsHeaderIcon"
+                      // style={{ fontSize: "20px", color: "#17a2b8",marginBottom:"3px" }}
                     />{" "}
-                    <span style={{marginTop:"20px"}}>{item.date}</span>{" "}
+                    <span className="newsHeaderSpan">{item.date}</span>{" "}
                   </p>
                   
                   <p
