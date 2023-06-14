@@ -34,6 +34,10 @@
   color: #2c3e50;
 }
 
+.newsPara{
+    font-size: 8px;
+}
+
 @media (max-width: 1200px) {
   .newsCard {
      height: 550px;
@@ -52,19 +56,27 @@
   }
 }
 @media (max-width: 768px) {
+ 
   .newsCard img{
     height: 300px !important;
   }
   }
 @media (max-width: 600px) {
   .newsCard{
-    width: 350px;
+    height: 450px;
   }
-  .newsCard {
+  .newsCardImg{
+    height: 120px;
+  }
+  .newsCard{
+    width: 350px;
     margin: 0 auto;
     float: none;
   }
-
+  .newsCardTitle {
+    font-size: 11px;
+    margin-top: 0;
+  }
 .slick-arrow.slick-prev{
   display: none !important;
 }

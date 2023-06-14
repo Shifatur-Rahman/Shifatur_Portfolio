@@ -75,7 +75,8 @@ const NewsDetails = () => {
         <h1 className="knowusTitle">Recent News & Events</h1>
         <Slider {...settings}>
           {newsItems.map((item, index) => (
-            <Col sm={12} md={6} lg={4} key={item.id}>
+            <Col className="" sm={12} md={6} lg={4} key={item.id}>
+              <div className="news">
               <Card
                 className={`newsCard ${
                   index === newsItems.length - 1 ? "lastCard" : ""
@@ -94,12 +95,13 @@ const NewsDetails = () => {
                   
                   <p
                     className="newsPara"
-                    style={{ textAlign: "justify", fontSize: "14px" }}
+                    style={{ textAlign: "justify", fontSize: "12px" }}
                   >
                     {item.description}
                   </p>
                 </Card.Body>
               </Card>
+              </div>
             </Col>
           ))}
         </Slider>
