@@ -2859,7 +2859,8 @@ const portfolioItems = [
     category: "upvc",
     title: "110mm Fittings",
     imgSrc: upvc1,
-    code2: "33490,33450,33451,33491,33492,33493,33400,33401,33402,33403,33405,33406,33408,33409,33411,33412,33413,33414",
+    // code2: "33490,33450,33451,33491,33492,33493,33400,33401,33402,33403,33405,33406,33408,33409,33411,33412,33413,33414",
+    button: "Details"
     // size: "4/5/6/67/8"
   },
   {
@@ -2867,37 +2868,42 @@ const portfolioItems = [
     category: "upvc",
     title: "Soap case",
     imgSrc: upvc2,
-    code: "34280/34281",
-    color: "white/pink",
+    button: "Details"
+    // code: "34280/34281",
+    // color: "white/pink",
   },
   {
     id: 303,
     category: "upvc",
     imgSrc: upvc3,
-    code: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
-    color: "gray/green/gray/green/gray/green/gray/green/gray/green/gray/green",
-    title: "Thread Pipe"
+    // code: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
+    // color: "gray/green/gray/green/gray/green/gray/green/gray/green/gray/green",
+    title: "Thread Pipe",
+    button: "Details"
   },
   {
     id: 304,
     category: "upvc",
     imgSrc: upvc16,
-    title: "iso standard swr pipe",
-    code2: "34100,34101,34111,34112,34121,34122,34151,34152,34161,34162,34171,34172,34181,34182,34186,34187,34191,34192,34200,34201,34221,34222,34231,34232"
+    title: "Iso standard swr pipe",
+    button: "Details"
+    // code2: "34100,34101,34111,34112,34121,34122,34151,34152,34161,34162,34171,34172,34181,34182,34186,34187,34191,34192,34200,34201,34221,34222,34231,34232"
   },
   {
     id: 305,
     category: "upvc",
     imgSrc: upvc5,
     title: "Class pipe(continue)",
-    code2: "31810,31815,32100,32105,32120,32125,32126,32140,32145,32160,32165,32180,32185"
+    // code2: "31810,31815,32100,32105,32120,32125,32126,32140,32145,32160,32165,32180,32185"
+    button: "Details"
   },
   {
     id: 306,
     category: "upvc",
     imgSrc: upvc6,
     title:"Class Pipe",
-    code2:"31150,31151,31201,31205,31301,31305,31310,31315,31320,31401,31405,31415,31501,31505,31507,31605,31610,31615,31620,31801,31805"
+    button: "Details"
+    // code2:"31150,31151,31201,31205,31301,31305,31310,31315,31320,31401,31405,31415,31501,31505,31507,31605,31610,31615,31620,31801,31805"
   },
   //      code is not available
   // {
@@ -2910,64 +2916,73 @@ const portfolioItems = [
     id: 308,
     category: "upvc",
     imgSrc: upvc8,
-    code2: "30216,30305,30300,30420,30425,30426,30430,30435,30510,30620",
-    title: "Pipe cutting filter"
+    // code2: "30216,30305,30300,30420,30425,30426,30430,30435,30510,30620",
+    title: "Pipe cutting filter",
+    button: "Details"
   },
   {
     id: 309,
     category: "upvc",
     imgSrc: upvc9,
-    code2: "36340,36341,36452,36453,36455,36456,36458,36459,36540,31425,31426,31542,36823",
-    title: "gold series pipe"
+    // code2: "36340,36341,36452,36453,36455,36456,36458,36459,36540,31425,31426,31542,36823",
+    title: "gold series pipe",
+    button: "Details"
   },
   {
     id: 310,
     category: "upvc",
     imgSrc: upvc10,
-    code2:"37315,37316,37432,37433,37436,37437,37509,30424",
-    title:"gold series filter"
+    // code2:"37315,37316,37432,37433,37436,37437,37509,30424",
+    title:"gold series filter",
+    button: "Details"
   },
   {
     id: 311,
     category: "upvc",
     imgSrc: upvc11,
-    code2:"30150,30155,30160,30165,30170,30175,30180,37150,37155,37160",
-    title2: "Small Dia rib & robo filter"
+    // code2:"30150,30155,30160,30165,30170,30175,30180,37150,37155,37160",
+    title: "Small Dia rib & robo filter",
+    button: "Details"
   },
   {
     id: 312,
     category: "upvc",
     imgSrc: upvc12,
-    code2: "30205,30210,30310,30315,30320,30325,30400,30405",
-    title2: "pipe cutting class filter(bigger dia)"
+    // code2: "30205,30210,30310,30315,30320,30325,30400,30405",
+    title: "pipe cutting class filter(bigger dia)",
+    button: "Details"
   },
   {
     id: 313,
     category: "upvc",
     imgSrc: upvc13,
-    title2: "pipe cutting class filter(continue)",
-    code2: "30410,30415,30500,30505,30508,30600,30605,30610,30615,30800,30801,30805,30806,30810,30815,30100,30103,30105,30106,30120,30125,30140,30145"
+    title: "pipe cutting class filter(continue)",
+    // code2: "30410,30415,30500,30505,30508,30600,30605,30610,30615,30800,30801,30805,30806,30810,30815,30100,30103,30105,30106,30120,30125,30140,30145",
+    button: "Details"
   },
   {
     id: 314,
     category: "upvc",
     imgSrc: upvc14,
     title: "standard pipe",
-    code2: "31156,31161,31165,31166,31167,31175,31215,31216,31325,31330,31331,31335,31336,31420,31510,31525,31350"
+    // code2: "31156,31161,31165,31166,31167,31175,31215,31216,31325,31330,31331,31335,31336,31420,31510,31525,31350",
+    button: "Details"
   },
   {
     id: 315,
     category: "upvc",
     imgSrc: upvc15,
     title: "Sanitary pipe",
-    code2: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212"
+    // code2: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
+    button: "Details"
   },
   {
     id: 316,
     category: "upvc",
     imgSrc: upvc4,
     title: "Tubewell",
-    code2: "83101,83102,83103,83105,83107,83109,83110,83141,83112,83114,83115,83117,83124,83125"
+    // code2: "83101,83102,83103,83105,83107,83109,83110,83141,83112,83114,83115,83117,83124,83125"
+    button: "Details"
   
   },
 ];

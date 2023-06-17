@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Portfolio.css";
 import portfolioItems from "./PortfolioImgApi";
 import { Container } from "@mui/material";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import IconButton from "@mui/material/IconButton";
@@ -10,6 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner";
+import { NavLink } from "react-router-dom";
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
@@ -231,6 +232,13 @@ const Portfolio = () => {
                           </p>
                         )}
 
+                       {item.button && (
+                        <div> 
+                            <NavLink className="knowMore" to="/upvc1">
+                            <Button className="upvcBtn" size="sm">Product description</Button>
+                            </NavLink>
+                            </div>
+                        )}
 
                       {item.color && item.code ? (
                           <div className="table-responsive">
@@ -298,7 +306,7 @@ const Portfolio = () => {
                         )}
 
                     
-                        {item.title2 && (
+                        {/* {item.title2 && (
                           <p className="itemCode">
                             <strong style={{fontWeight:"800"}}>Name : </strong>
                             <span style={{ textTransform: "uppercase" }}>
@@ -306,7 +314,7 @@ const Portfolio = () => {
                               {item.title2}
                             </span>
                           </p>
-                        )}
+                        )} */}
 
                         {item.size && (
                           <p className="itemTitle">

@@ -17,6 +17,7 @@ import TeamMemberMessagePage from "../pages/TeamMemberMessagePage";
 import CorporateClientPage from "../pages/CorporateClientPage";
 import ConcernPage from "../pages/ConcernPage";
 import GovtClientPage from "../pages/GovtClientPage";
+import Upvc1Page from "../pages/Upvc1Page";
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -53,6 +54,10 @@ function AnimatedRoute() {
           <Route
             path="/about/Message/Details"
             element={<TeamMemberMessagePage />}
+          />
+            <Route
+            path="/upvc1"
+            element={<Upvc1Page />}
           />
         </Routes>
       </AnimatePresence>
