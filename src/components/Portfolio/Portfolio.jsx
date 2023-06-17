@@ -221,6 +221,17 @@ const Portfolio = () => {
 
                       <div style={{ marginTop: "15px", width:"100%" }}>
 
+                      {item.title && (
+                          <p className="itemTitle">
+                            <strong>Name : </strong>
+                            <span style={{ textTransform: "uppercase" }}>
+                              {" "}
+                              {item.title}{" "}
+                            </span>
+                          </p>
+                        )}
+
+
                       {item.color && item.code ? (
                           <div className="table-responsive">
                             <table className="table table-bordered table-sm custom-table">
@@ -286,16 +297,7 @@ const Portfolio = () => {
                           ""
                         )}
 
-                        {item.title && (
-                          <p className="itemTitle">
-                            <strong>Name : </strong>
-                            <span style={{ textTransform: "uppercase" }}>
-                              {" "}
-                              {item.title}{" "}
-                            </span>
-                          </p>
-                        )}
-
+                    
                         {item.title2 && (
                           <p className="itemCode">
                             <strong style={{fontWeight:"800"}}>Name : </strong>
