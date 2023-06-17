@@ -2864,9 +2864,10 @@ const portfolioItems = [
   {
     id: 302,
     category: "upvc",
+    title: "Soap case",
     imgSrc: upvc2,
-    code2: "34280,34281",
-    title: "Soap case"
+    code: "34280/34281",
+    color: "white/pink",
   },
   {
     id: 303,
