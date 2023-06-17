@@ -14,24 +14,24 @@ const Upvc1 = () => {
           
           <th>Code</th>
           <th>Nominal Diameter X Length</th>
-        
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>33490</td>
           <td>4" Plain Bend 90° FF</td>
-          
-         
         </tr>
         <tr>
-          <td>2</td>
-          <td>Jacob</td>
-         
+          <td>33450</td>
+          <td>4" Plain Bend 45° FF</td>
         </tr>
         <tr>
-          <td>3</td>
-          <td>Larry the Bird</td>
+          <td>33451</td>
+          <td>4" Plain Bend 45° MF</td>
+        </tr>
+        <tr>
+          <td>33491</td>
+          <td>4" Black Door Bend 90°</td>
         </tr>
       </tbody>
     </Table>
