@@ -18,8 +18,8 @@ const UpvcModal1 = (props) => {
 
   return (
     <>
-     {values.map((v, idx) => (
 
+     {values.map((v, idx) => (
     <Button  key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
     Product description
     {typeof v === 'string' && `below ${v.split('-')[0]}`}
@@ -28,16 +28,20 @@ const UpvcModal1 = (props) => {
 
       <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
-          <h4>Name: {props.title}</h4>
-          <br />
-          <h5>Category : {props.category}</h5>
+          <h4 style={{textTransform:"uppercase"}}>{title}</h4>
+          {/* <br />
+          <h5>{category}</h5> */}
         </Modal.Header>
-        <Modal.Body>Modal body content</Modal.Body>
+        <Modal.Body>
+
+         
+          
+           
+
+        </Modal.Body>
       </Modal>
-    
-    
     </>
   )
 }
 
-export default UpvcModal1
+export default UpvcModal1;
