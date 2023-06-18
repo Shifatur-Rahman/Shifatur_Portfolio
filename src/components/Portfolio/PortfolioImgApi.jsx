@@ -2860,7 +2860,7 @@ const portfolioItems = [
     title: "110mm Fittings",
     imgSrc: upvc1,
     // code2: "33490,33450,33451,33491,33492,33493,33400,33401,33402,33403,33405,33406,33408,33409,33411,33412,33413,33414",
-    button: "Details"
+    button1: "Details"
     // size: "4/5/6/67/8"
   },
   {
@@ -2968,7 +2968,14 @@ const portfolioItems = [
     // code2: "31156,31161,31165,31166,31167,31175,31215,31216,31325,31330,31331,31335,31336,31420,31510,31525,31350",
     button: "Details"
   },
-
+  {
+    id: 315,
+    category: "upvc",
+    imgSrc: upvc15,
+    title: "Sanitary pipe",
+    // code2: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
+    button: "Details"
+  },
   {
     id: 316,
     category: "upvc",
@@ -2978,14 +2985,7 @@ const portfolioItems = [
     button: "Details"
   
   },
-  {
-    id: 315,
-    category: "upvc",
-    imgSrc: upvc15,
-    title: "Sanitary pipe",
-    // code2: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
-    button: "Details"
-  },
+ 
 ];
 
 export default portfolioItems;
