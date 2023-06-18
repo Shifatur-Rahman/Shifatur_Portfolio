@@ -3,7 +3,9 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-const UpvcModal1 = () => {
+const UpvcModal1 = (props) => {
+
+    const { title, category } = props;
 
     const values = [true];
     const [fullscreen, setFullscreen] = useState(true);
@@ -26,11 +28,12 @@ const UpvcModal1 = () => {
 
       <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal</Modal.Title>
+          <h4>Name: {props.title}</h4>
+          <br />
+          <h5>Category : {props.category}</h5>
         </Modal.Header>
         <Modal.Body>Modal body content</Modal.Body>
       </Modal>
-    
     
     
     </>

@@ -59,14 +59,14 @@ const Portfolio = () => {
 
 
   //  upvc modal 1
-  const values = [true];
-  const [fullscreen, setFullscreen] = useState(true);
-  const [show, setShow] = useState(false);
+  // const values = [true];
+  // const [fullscreen, setFullscreen] = useState(true);
+  // const [show, setShow] = useState(false);
 
-  function handleShow(breakpoint) {
-    setFullscreen(breakpoint);
-    setShow(true);
-  }
+  // function handleShow(breakpoint) {
+  //   setFullscreen(breakpoint);
+  //   setShow(true);
+  // }
 
   
   return (
@@ -246,30 +246,46 @@ const Portfolio = () => {
                           </p>
                         )}
 
+
+
+
+                            {/* upvc pipe 1 */}
+
                           {/* <NavLink className="knowMore" to="/upvc1"> */}
                             {/* <Button className="upvcBtn" size="sm">Product description</Button> */}
                             {/* <UpvcModal1 /> */}
-                            {/* </NavLink> */}
+                            {/* </NavLink> */} 
+                            {/* <NavLink className="knowMore" to="/upvc1">   </NavLink>  */}
 
-                       {item.button && (
-                        <div>
 
+
+                            {item.button && (   
+                             <div>
+                             {/* <Button className="upvcBtn" size="sm">Product description</Button>  */}
+                             <UpvcModal1 title={item.title} category={item.category}  /> 
+                            </div>
+
+                            )
+}
+
+                       {/* {item.button && (
+                        <>
                             {values.map((v, idx) => (
-
                   <Button  key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
                             Product description
-                           {/* {typeof v === 'string' && `below ${v.split('-')[0]}`} */}
+                           
                     </Button>
                         ))}
 
                        <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
                            <Modal.Header closeButton>
                            <h3>{item.title}</h3>
+                           <p>{item.id}</p>
                            </Modal.Header>
                            <Modal.Body>Modal body content</Modal.Body>
                         </Modal>
-                            </div>
-                        )}
+                            </>
+                        )} */}
 
                       {item.color && item.code ? (
                           <div className="table-responsive">

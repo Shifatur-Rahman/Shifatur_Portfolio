@@ -2794,45 +2794,6 @@ const portfolioItems = [
     imgSrc: lged1,
   },
 
-  // {
-  //   id: 202,
-  //   category: "lged",
-  //   imgSrc: lged2,
-  // },
-
-  // {
-  //   id: 203,
-  //   category: "lged",
-  //   imgSrc: lged3,
-  // },
-
-  // {
-  //   id: 204,
-  //   category: "lged",
-  //   imgSrc: lged4,
-  // },
-
-  // {
-  //   id: 205,
-  //   category: "lged",
-  //   imgSrc: lged5,
-  // },
-
-  // {
-  //   id: 206,
-  //   category: "lged",
-  //   imgSrc: lged6,
-  // },
-
-  // {
-  //   id: 31,
-  //   title: "EXECUTIVE TABLE",
-  //   category: "office furniture",
-  //   code : "TFETO-031",
-  //   size: "L1350 X W600 X H750mm",
-  //   imgSrc: tbl31,
-  // },
-
   {
     id: 254,
     title: "Teacher Table",
@@ -2852,7 +2813,6 @@ const portfolioItems = [
     category: "lged",
     imgSrc: lged11,
   },
-
    //   ///                                            upvc
   {
     id: 301,
@@ -2860,7 +2820,7 @@ const portfolioItems = [
     title: "110mm Fittings",
     imgSrc: upvc1,
     // code2: "33490,33450,33451,33491,33492,33493,33400,33401,33402,33403,33405,33406,33408,33409,33411,33412,33413,33414",
-    button1: "Details"
+    button: "Details"
     // size: "4/5/6/67/8"
   },
   {
