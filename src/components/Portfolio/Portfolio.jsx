@@ -268,9 +268,6 @@ const Portfolio = () => {
                            </Modal.Header>
                            <Modal.Body>Modal body content</Modal.Body>
                         </Modal>
-
-
-
                             </div>
                         )}
 
