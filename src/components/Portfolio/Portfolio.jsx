@@ -11,6 +11,8 @@ import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner";
 import { NavLink } from "react-router-dom";
+import UpvcModal1 from "../UpvcModal1/UpvcModal1";
+import Modal from 'react-bootstrap/Modal';
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
@@ -54,6 +56,18 @@ const Portfolio = () => {
   const toggleDropdownPlastic = () => {
     setDropdown(!isDropdown);
   };
+
+
+  //  upvc modal 1
+  const values = [true];
+  const [fullscreen, setFullscreen] = useState(true);
+  const [show, setShow] = useState(false);
+
+  function handleShow(breakpoint) {
+    setFullscreen(breakpoint);
+    setShow(true);
+  }
+
   
   return (
     <>
@@ -232,11 +246,31 @@ const Portfolio = () => {
                           </p>
                         )}
 
+                          {/* <NavLink className="knowMore" to="/upvc1"> */}
+                            {/* <Button className="upvcBtn" size="sm">Product description</Button> */}
+                            {/* <UpvcModal1 /> */}
+                            {/* </NavLink> */}
+
                        {item.button && (
                         <div> 
-                            <NavLink className="knowMore" to="/upvc1">
-                            <Button className="upvcBtn" size="sm">Product description</Button>
-                            </NavLink>
+
+                            {values.map((v, idx) => (
+
+                  <Button  key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
+                            Product description
+                           {typeof v === 'string' && `below ${v.split('-')[0]}`}
+                    </Button>
+                        ))}
+
+                       <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
+                           <Modal.Header closeButton>
+                           <h3>{item.title}</h3>
+                           </Modal.Header>
+                           <Modal.Body>Modal body content</Modal.Body>
+                        </Modal>
+
+
+
                             </div>
                         )}
 

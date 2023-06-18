@@ -2968,14 +2968,7 @@ const portfolioItems = [
     // code2: "31156,31161,31165,31166,31167,31175,31215,31216,31325,31330,31331,31335,31336,31420,31510,31525,31350",
     button: "Details"
   },
-  {
-    id: 315,
-    category: "upvc",
-    imgSrc: upvc15,
-    title: "Sanitary pipe",
-    // code2: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
-    button: "Details"
-  },
+
   {
     id: 316,
     category: "upvc",
@@ -2984,6 +2977,14 @@ const portfolioItems = [
     // code2: "83101,83102,83103,83105,83107,83109,83110,83141,83112,83114,83115,83117,83124,83125"
     button: "Details"
   
+  },
+  {
+    id: 315,
+    category: "upvc",
+    imgSrc: upvc15,
+    title: "Sanitary pipe",
+    // code2: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
+    button: "Details"
   },
 ];
 
