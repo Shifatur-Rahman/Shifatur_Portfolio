@@ -4,7 +4,7 @@ import {Button, Table, Modal} from 'react-bootstrap';
 
 const UpvcModal1 = (props) => {
 
-    const { title, category } = props;
+    const { title, category, code, size  } = props;
 
     const values = [true];
     const [lgShow, setLgShow] = useState(true);
@@ -14,6 +14,8 @@ const UpvcModal1 = (props) => {
         setLgShow(breakpoint);
       setShow(true);
     }
+
+    console.log(code);
 
   return (
     <>
@@ -25,7 +27,46 @@ const UpvcModal1 = (props) => {
     </Button>
       ))}
 {/* size="lg" */}
-      <Modal show={show} lgShow={lgShow} onHide={() => setShow(false)}>
+
+
+<Modal show={show} lgShow={lgShow} onHide={() => setShow(false)}>
+        <Modal.Header closeButton>
+          <h4 style={{textTransform:"uppercase"}}>{title}</h4>
+        </Modal.Header>
+        <Modal.Body>
+        
+
+                <Table striped bordered hover variant="dark">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Nominal Diameter X Length</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+      <td>
+        {
+            code.split("/").map((color, index) => (
+                 <td> {code} </td>
+            ))
+        }
+          
+      </td>
+      <td>Mark</td>
+      </tr>
+      </tbody>
+
+      </Table>
+          
+        </Modal.Body>
+      </Modal>
+
+
+
+
+      {/* <Modal show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
           <h4 style={{textTransform:"uppercase"}}>{title}</h4>
         </Modal.Header>
@@ -37,19 +78,37 @@ const UpvcModal1 = (props) => {
           <th>Code</th>
           <th>Nominal Diameter X Length</th>
         </tr>
-      </thead>
+      </thead> */}
 
-      <tbody>
+      {/* {item.color.split("/").map((color, index) => (
+                                    <td
+                                      style={{
+                                        //fontSize: "8px",
+                                        backgroundColor: color,
+                                        cursor: "pointer",
+                                        width: "5px"
+                                      }}
+                                      key={index}
+                                    ></td>
+                                  ))} */}
+
+      {/* <tbody>
         <tr>
-          <td>1</td>
+          
+            {
+            code.map(item=>{
+                <td> {item.longCode} </td>
+            })
+            }
+           
           <td>Mark</td>
         </tr>
-      </tbody>
-      
-    </Table>
+      </tbody> */}
+
+    {/* </Table>
           
         </Modal.Body>
-      </Modal>
+      </Modal> */}
     </>
   )
 }

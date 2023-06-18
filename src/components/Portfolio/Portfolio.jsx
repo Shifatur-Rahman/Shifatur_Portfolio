@@ -370,16 +370,13 @@ const Portfolio = () => {
                           </p>
                         )}
 
-                        {item.code2 && (
+                        {/* {item.code2 && (
                           <p className="itemCode">
                              <strong style={{fontWeight:"800"}}>Code : </strong>
-                             {/*  <span style={{ fontSize: "8px", display: "inline-block", overflow:"hidden"}}> */}
                               {item.code2}
                           </p>
-                        )}
-
-                      
-
+                        )} */}                      
+                        
                       </div>
                     </div>
                   ))}
