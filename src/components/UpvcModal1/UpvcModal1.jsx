@@ -7,7 +7,6 @@ const UpvcModal1 = (props) => {
     const { title, category } = props;
 
     const values = [true];
-    // const [fullscreen, setFullscreen] = useState(true);
     const [lgShow, setLgShow] = useState(true);
     const [show, setShow] = useState(false);
   
@@ -25,37 +24,30 @@ const UpvcModal1 = (props) => {
     {typeof v === 'string' && `below ${v.split('-')[0]}`}
     </Button>
       ))}
-
+{/* size="lg" */}
       <Modal show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
           <h4 style={{textTransform:"uppercase"}}>{title}</h4>
-          {/* <br />
-          <h5>{category}</h5> */}
         </Modal.Header>
         <Modal.Body>
 
         <Table striped bordered hover variant="dark">
       <thead>
         <tr>
-          <th>code</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>Code</th>
+          <th>Nominal Diameter X Length</th>
         </tr>
       </thead>
+
       <tbody>
         <tr>
           <td>1</td>
           <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
         </tr>
-       
       </tbody>
+      
     </Table>
           
-           
-
         </Modal.Body>
       </Modal>
     </>

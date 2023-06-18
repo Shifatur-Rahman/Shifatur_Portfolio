@@ -2813,15 +2813,15 @@ const portfolioItems = [
     category: "lged",
     imgSrc: lged11,
   },
-   //   ///                                            upvc
+   //   ///       //                                      upvc
   {
     id: 301,
     category: "upvc",
     title: "110mm Fittings",
     imgSrc: upvc1,
-    // code2: "33490,33450,33451,33491,33492,33493,33400,33401,33402,33403,33405,33406,33408,33409,33411,33412,33413,33414",
-    button: "Details"
-    // size: "4/5/6/67/8"
+    button: "Details",
+    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+    longSize: '4" Plain Bend 90 FF/4" Plain Bend 45 FF/4" Plain Bend 45 MF'
   },
   {
     id: 302,
@@ -2836,10 +2836,12 @@ const portfolioItems = [
     id: 303,
     category: "upvc",
     imgSrc: upvc3,
-    // code: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
-    // color: "gray/green/gray/green/gray/green/gray/green/gray/green/gray/green",
     title: "Thread Pipe",
-    button: "Details"
+    button: "Details",
+    longCode: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
+    longSize: `0.5"X10' Thread Pipe/0.5"X10' Thread Pipe/0.5"X10' Thread Pipe/0.5"X10' Thread Pipe `,
+    longColor: "gray/green/gray/green/gray/green/gray/green/gray/green/gray/green",
+    longThickness: "3.1~3.4/3.1~3.4/3.2~3.5/3.8~4.2/3.8~4.2/4.2~4.5/4.2~4.5/4.0~4.4/4.0~4.4/4.4~4.8/4.4~4.8",
   },
   {
     id: 304,
@@ -2943,7 +2945,6 @@ const portfolioItems = [
     title: "Tubewell",
     // code2: "83101,83102,83103,83105,83107,83109,83110,83141,83112,83114,83115,83117,83124,83125"
     button: "Details"
-  
   },
  
 ];
