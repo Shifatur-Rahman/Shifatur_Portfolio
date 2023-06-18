@@ -1,18 +1,18 @@
 import React from 'react'
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import {Button, Table, Modal} from 'react-bootstrap';
 
 const UpvcModal1 = (props) => {
 
     const { title, category } = props;
 
     const values = [true];
-    const [fullscreen, setFullscreen] = useState(true);
+    // const [fullscreen, setFullscreen] = useState(true);
+    const [lgShow, setLgShow] = useState(true);
     const [show, setShow] = useState(false);
   
     function handleShow(breakpoint) {
-      setFullscreen(breakpoint);
+        setLgShow(breakpoint);
       setShow(true);
     }
 
@@ -26,7 +26,7 @@ const UpvcModal1 = (props) => {
     </Button>
       ))}
 
-      <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
+      <Modal show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
           <h4 style={{textTransform:"uppercase"}}>{title}</h4>
           {/* <br />
@@ -34,7 +34,25 @@ const UpvcModal1 = (props) => {
         </Modal.Header>
         <Modal.Body>
 
-         
+        <Table striped bordered hover variant="dark">
+      <thead>
+        <tr>
+          <th>code</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+       
+      </tbody>
+    </Table>
           
            
 
