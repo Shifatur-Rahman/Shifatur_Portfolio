@@ -259,7 +259,7 @@ const Portfolio = () => {
 
                             {item.button && (   
                              <div>
-                             <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.size}  />
+                             <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} />
                             </div> 
                             ) 
                             } 

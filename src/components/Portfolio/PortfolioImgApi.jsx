@@ -2813,7 +2813,7 @@ const portfolioItems = [
     category: "lged",
     imgSrc: lged11,
   },
-   //   ///       //                                      upvc
+   //   //    //                                      upvc
   {
     id: 301,
     category: "upvc",
@@ -2821,16 +2821,16 @@ const portfolioItems = [
     imgSrc: upvc1,
     button: "Details",
     longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90 FF/4" Plain Bend 45 FF/4" Plain Bend 45 MF'
+    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush '
   },
   {
     id: 302,
     category: "upvc",
     title: "Soap case",
     imgSrc: upvc2,
-    button: "Details"
-    // code: "34280/34281",
-    // color: "white/pink",
+    button: "Details",
+    longCode: "34280/34281",
+    longSize: "Wall Soap Case (White)/Wall Soap Case (Pink)",
   },
   {
     id: 303,
@@ -2943,7 +2943,8 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: upvc4,
     title: "Tubewell",
-    // code2: "83101,83102,83103,83105,83107,83109,83110,83141,83112,83114,83115,83117,83124,83125"
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Tikader TubeWell (25.5-26kg)/BRDB | Tikader TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
  
