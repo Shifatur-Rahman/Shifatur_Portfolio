@@ -2839,33 +2839,37 @@ const portfolioItems = [
     title: "Thread Pipe",
     button: "Details",
     longCode: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
-    longSize: `0.5"X10' Thread Pipe/0.5"X10' Thread Pipe/0.5"X10' Thread Pipe/0.5"X10' Thread Pipe `,
-    longColor: "gray/green/gray/green/gray/green/gray/green/gray/green/gray/green",
-    longThickness: "3.1~3.4/3.1~3.4/3.2~3.5/3.8~4.2/3.8~4.2/4.2~4.5/4.2~4.5/4.0~4.4/4.0~4.4/4.4~4.8/4.4~4.8",
+    longSize: `0.5"X10' Thread Pipe (Gray)/0.5"X10' Thread Pipe (Green)/0.75"X10' Thread Pipe (Gray)/0.75"X10' Thread Pipe (Green)/1"X10' Thread Pipe (Gray)/1"X10' Thread Pipe (Green)/1.25"X10' Thread Pipe (Gray)/1.25"X10' Thread Pipe (Green)/1.5"X10' Thread Pipe (Gray)/1.5"X10' Thread Pipe (Green)/2"X10' Thread Pipe (Gray)/2"X10' Thread Pipe (Green) `,
+    longThickness: "3.1~3.4/3.1~3.4/3.2~3.5/3.2~3.5/3.8~4.2/3.8~4.2/4.2~4.5/4.2~4.5/4.0~4.4/4.0~4.4/4.4~4.8/4.4~4.8",
   },
   {
     id: 304,
     category: "upvc",
     imgSrc: upvc16,
     title: "Iso standard swr pipe",
-    button: "Details"
-    // code2: "34100,34101,34111,34112,34121,34122,34151,34152,34161,34162,34171,34172,34181,34182,34186,34187,34191,34192,34200,34201,34221,34222,34231,34232"
+    button: "Details",
+    longCode: "34100/34101/34111/34112/34121/34122/34151/34152/34161/34162/34171/34172/34181/34182/34186/34187/34191/34192/34200/34201/34221/34222/34231/34232",
+    longSize: `32mm x 3mtr SWR Pipe (Gray)/32mm x 3mtr SWR Pipe (White)/40mm x 3mtr SWR Pipe (Gray)/ 40mm x 3mtr SWR Pipe (White)/ 50mm x 3mtr SWR Pipe (Gray)/50mm x 3mtr SWR Pipe (White)/100mm x 6mtr SWR Pipe (Gray)/100mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)//110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)//160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White) `,
+    longThickness: `1.6~1.9/1.6~1.9/1.6~1.9/1.6~1.9/2.0~2.4/2.0~2.4/2.4~2.7/2.4~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4/3.4~3.8/3.4~3.8/3.0~3.4/3.0~3.4/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0`
+  
   },
   {
     id: 305,
     category: "upvc",
     imgSrc: upvc5,
     title: "Class pipe(continue)",
-    // code2: "31810,31815,32100,32105,32120,32125,32126,32140,32145,32160,32165,32180,32185"
-    button: "Details"
+    button: "Details",
+    longCode: "31810/31815/32100/32105/32120/32125/32126/32140/32145/32160/32165/32180/32185",
+    longSize: `8"x6 mtr BS Class D Pipe (Gray)/ 8"x6 mtr BS Class E Pipe (Gray)/10"x6 mtr BS Class B Pipe (Gray)/10"x6 mtr BS Class C Pipe (Gray)/12"x6 mtr BS Class B Pipe (Gray)/12"x6 mtr BS Class C Pipe (Gray)/12"x3 mtr BS Class C Pipe (Gray)/14"x6 mtr BS Class B Pipe (Gray)/14"x6 mtr BS Class C Pipe (Gray)/16"x6 mtr BS Class B Pipe (Gray)/16"x6 mtr BS Class C Pipe (Gray)/18"x6 mtr BS Class B Pipe (Gray)/18"x6 mtr BS Class C Pipe (Gray) `,
+    longThickness: `10.2~11.9/12.6~14.5/6.6~7.6/9.7~11.2/7.8~9.0/11.5~13.3/11.5~13.3/18.5~9.8/12.6~14.5/9.7~11.2/14.5~16.7/11.0~12.7/16.3~18.8`
   },
   {
     id: 306,
     category: "upvc",
     imgSrc: upvc6,
     title:"Class Pipe",
-    button: "Details"
-    // code2:"31150,31151,31201,31205,31301,31305,31310,31315,31320,31401,31405,31415,31501,31505,31507,31605,31610,31615,31620,31801,31805"
+    button: "Details",
+    longCode:"31150/31151/31201/31205/31301/31305/31310,31315,31320,31401,31405,31415,31501,31505,31507,31605,31610,31615,31620,31801,31805"
   },
   //      code is not available
   // {
