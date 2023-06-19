@@ -9,13 +9,15 @@ const UpvcModal1 = (props) => {
     const values = [true];
     const [lgShow, setLgShow] = useState(true);
     const [show, setShow] = useState(false);
+    const [pCode, setPCode] = useState("");
   
     function handleShow(breakpoint) {
         setLgShow(breakpoint);
-      setShow(true);
+        setShow(true);
+        setPCode(code);
     }
 
-    console.log(code);
+ 
 
   return (
     <>
@@ -34,7 +36,6 @@ const UpvcModal1 = (props) => {
           <h4 style={{textTransform:"uppercase"}}>{title}</h4>
         </Modal.Header>
         <Modal.Body>
-        
 
                 <Table striped bordered hover variant="dark">
       <thead>
@@ -45,70 +46,18 @@ const UpvcModal1 = (props) => {
       </thead>
 
       <tbody>
-        <tr>
-      <td>
-        {
-            code.split("/").map((color, index) => (
-                 <td> {code} </td>
-            ))
-        }
-          
-      </td>
-      <td>Mark</td>
-      </tr>
+         {pCode.split("/").map((code, index) => (
+          <tr key={index}>
+            <td>{code}</td>
+            <td></td>
+          </tr>
+          ))}
       </tbody>
 
       </Table>
           
         </Modal.Body>
       </Modal>
-
-
-
-
-      {/* <Modal show={show} lgShow={lgShow} onHide={() => setShow(false)}>
-        <Modal.Header closeButton>
-          <h4 style={{textTransform:"uppercase"}}>{title}</h4>
-        </Modal.Header>
-        <Modal.Body>
-
-        <Table striped bordered hover variant="dark">
-      <thead>
-        <tr>
-          <th>Code</th>
-          <th>Nominal Diameter X Length</th>
-        </tr>
-      </thead> */}
-
-      {/* {item.color.split("/").map((color, index) => (
-                                    <td
-                                      style={{
-                                        //fontSize: "8px",
-                                        backgroundColor: color,
-                                        cursor: "pointer",
-                                        width: "5px"
-                                      }}
-                                      key={index}
-                                    ></td>
-                                  ))} */}
-
-      {/* <tbody>
-        <tr>
-          
-            {
-            code.map(item=>{
-                <td> {item.longCode} </td>
-            })
-            }
-           
-          <td>Mark</td>
-        </tr>
-      </tbody> */}
-
-    {/* </Table>
-          
-        </Modal.Body>
-      </Modal> */}
     </>
   )
 }

@@ -314,7 +314,6 @@ const Portfolio = () => {
                                   {item.color.split("/").map((color, index) => (
                                     <td
                                       style={{
-                                        //fontSize: "8px",
                                         backgroundColor: color,
                                         cursor: "pointer",
                                         width: "5px"
