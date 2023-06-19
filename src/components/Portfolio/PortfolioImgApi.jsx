@@ -2883,10 +2883,12 @@ const portfolioItems = [
   {
     id: 308,
     category: "upvc",
-    imgSrc: upvc8,
-    // code2: "30216,30305,30300,30420,30425,30426,30430,30435,30510,30620",
     title: "Pipe cutting filter",
-    button: "Details"
+    button: "Details",
+    imgSrc: upvc8,
+    longCode: "30216/30305/30300/30420/30425/30426/30430/30435/30510/30620",
+    longSize: `2"x3 mtr Regular Super Filter (Gray)/3"x3 mtr Regular Super Filter (Firoza)/3"x3 mtr Shallow Filter (Firoza)/4"x3 mtr Shallow Filter (Firoza)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/5"x3 mtr Regular Super Filter (Gray)/160mm x 3mtr SWR Filter (Gray) `,
+    longThickness: `2.2~2.5/2.4~2.6/2.0~2.2/2.5~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.4~3.8/3.4~3.7/4.0~4.5`
   },
   {
     id: 309,
