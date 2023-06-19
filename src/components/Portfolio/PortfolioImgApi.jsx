@@ -2869,7 +2869,9 @@ const portfolioItems = [
     imgSrc: upvc6,
     title:"Class Pipe",
     button: "Details",
-    longCode:"31150/31151/31201/31205/31301/31305/31310,31315,31320,31401,31405,31415,31501,31505,31507,31605,31610,31615,31620,31801,31805"
+    longCode:"31150/31151/31201/31205/31301/31305/31310/31315/31320/31401/31405/31410/31415/31501/31505/31507/31605/31610/31615/31620/31801/31805",
+    longSize: `1.5"x15' BS Class D Pipe (Gray)/1.5"x15' BS Class D Pipe (White)/2"x15' BS Class C Pipe (Gray)/2"x15' BS Class D Pipe (Gray)/3"x6' BS Class B Pipe (Gray)/3"x3' BS Class B Pipe (White)/3"x6' BS Class C Pipe (Gray)/3"x6' BS Class D Pipe (Gray)/3"x6' BS Class E Pipe (Gray)/4"x6' BS Class B Pipe (Gray)/4"x6' BS Class C Pipe (Gray)/4"x6' BS Class D Pipe (Gray)/4"x6' BS Class E Pipe (Gray)/5"x6' BS Class B Pipe (Gray)/5"x6' BS Class C Pipe (Gray)/5"x6' BS Class D Pipe (Gray)/6"x6' BS Class B Pipe (Gray)/6"x6' BS Class C Pipe (Gray)/6"x6' BS Class D Pipe (Gray)/6"x6' BS Class E Pipe (Gray)/8"x6' BS Class B Pipe (Gray)/8"x6' BS Class C Pipe (Gray)`,
+    longThickness: `2.5~3.0/2.5~3.0/2.5~3.0/3.1~3.7/2.9~3.4/2.9~3.4/3.5~4.1/4.6~5.3/5.7~6.6/3.4~4.0/4.5~5.2/6.0~6.9/7.3~8.4/3.8~4.4/5.5~6.4/7.3~8.0/4.5~5.2/6.6~7.6/6.8~10.2/10.8~12.5/5.3~6.1/7.3~8.0`
   },
   //      code is not available
   // {
