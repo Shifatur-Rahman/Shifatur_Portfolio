@@ -2894,8 +2894,10 @@ const portfolioItems = [
     id: 309,
     category: "upvc",
     imgSrc: upvc9,
-    longCode: "36340,36341,36452,36453,36455,36456,36458,36459,36540,31425,31426,31542,36823",
     title: "gold series pipe",
+    longCode: "36340/36341/36452/36453/36455/36456/36458/36459/36540/31425/31426/31542/36823",
+    longSize: `3"x6 mtr Gold Pipe (Gray)/3"x6 mtr Gold Pipe (White)/110mmx6 mtr Gold Pipe (Gray)/110mmx6 mtr Gold Pipe (White)/110mmx6 mtr Gold Super Pipe (Gray)/110mmx6 mtr Gold Super Pipe (White)/110mmx6 mtr Gold Economic Pipe (Gray)/110mmx6 mtr Gold Economic Pipe (Gray)/5"x6 mtr Gold Pipe (Gray)/4"x6 mtr Popular Pipe (Gray)/4"x6 mtr Popular Pipe (White)/5"x6 mtr Popular Pipe (Gray)/200mmx6 mtr Gold Pipe (Gray)`,
+    longThickness: `2.2~2.5/2.2~2.5/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/1.9~2.0/1.9~2.0/3.2~3.5/2.8~3.0/2.7/3.5/2.8~3.0 `,
     button: "Details"
   },
   {
