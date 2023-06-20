@@ -2904,7 +2904,9 @@ const portfolioItems = [
     id: 310,
     category: "upvc",
     imgSrc: upvc10,
-    longCode:"37315,37316,37432,37433,37436,37437,37509,30424",
+    longCode:"37315/37316/37432/37433/37436/37437/37509/30424",
+    longSize: `3"x3 mtr Gold Filter (Gray)/3"x3 mtr Gold Filter (White)/110mmx3mtr Gold Filter (Gray)/110mmx3mtr Gold Filter (White)/110mmx3mtr Gold Super Filter (Gray)/110mmx3mtr Gold Super Filter (White)/5"x3 mtr Gold Filter (Gray)/ 4"x3mtr Popular Filter (Gray) `,
+    longThickness: `2.2~2.5/2.2~2.5/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/3.2~3.5/2.8~3.0`,
     title:"gold series filter",
     button: "Details"
   },
@@ -2912,7 +2914,9 @@ const portfolioItems = [
     id: 311,
     category: "upvc",
     imgSrc: upvc11,
-    longCode:"30150,30155,30160,30165,30170,30175,30180,37150,37155,37160",
+    longCode:"30150/30155/30160/30165/30170/30175/30180/37150/37155/37160",
+    longSize: `1.5" Filter #4 (6ft) Pink/1.5" Filter #4 (8ft) Pink/1.5" Filter #4 (10ft) Pink/1.5" Filter #6 (10ft) Pest/1.5" Filter #8 (10ft) Pest/1.5" Filter #10 (10ft) gray/1.5" Filter Robo(6.5ft) Gray/1.5" T-7 Filter (6ft) Off White//1.5" T-7 Filter (8ft) Off White//1.5" T-7 Filter (9ft) Off White`,
+    longThickness: `1.3~1.5/1.3~1.5/1.3~1.5/1.9~2.1/2.4~2.6/2.7~3.0/2.5~3.0/1.2~1.4/1.2~1.4/1.2~1.4`,
     title: "Small Dia rib & robo filter",
     button: "Details"
   },
@@ -2920,7 +2924,9 @@ const portfolioItems = [
     id: 312,
     category: "upvc",
     imgSrc: upvc12,
-    longCode: "30205,30210,30310,30315,30320,30325,30400,30405",
+    longCode: "30205/30210/30310/30315/30320/30325/30400/30405",
+    longSize: ``,
+    longThickness: ``,
     title: "pipe cutting class filter(bigger dia)",
     button: "Details"
   },
