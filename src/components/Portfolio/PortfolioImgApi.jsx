@@ -2888,13 +2888,13 @@ const portfolioItems = [
     imgSrc: upvc8,
     longCode: "30216/30305/30300/30420/30425/30426/30430/30435/30510/30620",
     longSize: `2"x3 mtr Regular Super Filter (Gray)/3"x3 mtr Regular Super Filter (Firoza)/3"x3 mtr Shallow Filter (Firoza)/4"x3 mtr Shallow Filter (Firoza)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/5"x3 mtr Regular Super Filter (Gray)/160mm x 3mtr SWR Filter (Gray) `,
-    longThickness: `2.2~2.5/2.4~2.6/2.0~2.2/2.5~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.4~3.8/3.4~3.7/4.0~4.5`
+    longThickness: `2.2~2.5/2.4~2.6/2.0~2.2/2.5~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.4~3.8/3.4~3.7/4.0~4.5npm startr`
   },
   {
     id: 309,
     category: "upvc",
     imgSrc: upvc9,
-    // code2: "36340,36341,36452,36453,36455,36456,36458,36459,36540,31425,31426,31542,36823",
+    longCode: "36340,36341,36452,36453,36455,36456,36458,36459,36540,31425,31426,31542,36823",
     title: "gold series pipe",
     button: "Details"
   },
@@ -2902,7 +2902,7 @@ const portfolioItems = [
     id: 310,
     category: "upvc",
     imgSrc: upvc10,
-    // code2:"37315,37316,37432,37433,37436,37437,37509,30424",
+    longCode:"37315,37316,37432,37433,37436,37437,37509,30424",
     title:"gold series filter",
     button: "Details"
   },
@@ -2910,7 +2910,7 @@ const portfolioItems = [
     id: 311,
     category: "upvc",
     imgSrc: upvc11,
-    // code2:"30150,30155,30160,30165,30170,30175,30180,37150,37155,37160",
+    longCode:"30150,30155,30160,30165,30170,30175,30180,37150,37155,37160",
     title: "Small Dia rib & robo filter",
     button: "Details"
   },
@@ -2918,7 +2918,7 @@ const portfolioItems = [
     id: 312,
     category: "upvc",
     imgSrc: upvc12,
-    // code2: "30205,30210,30310,30315,30320,30325,30400,30405",
+    longCode: "30205,30210,30310,30315,30320,30325,30400,30405",
     title: "pipe cutting class filter(bigger dia)",
     button: "Details"
   },
@@ -2927,7 +2927,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: upvc13,
     title: "pipe cutting class filter(continue)",
-    // code2: "30410,30415,30500,30505,30508,30600,30605,30610,30615,30800,30801,30805,30806,30810,30815,30100,30103,30105,30106,30120,30125,30140,30145",
+    longCode: "30410,30415,30500,30505,30508,30600,30605,30610,30615,30800,30801,30805,30806,30810,30815,30100,30103,30105,30106,30120,30125,30140,30145",
     button: "Details"
   },
   {
@@ -2935,7 +2935,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: upvc14,
     title: "standard pipe",
-    // code2: "31156,31161,31165,31166,31167,31175,31215,31216,31325,31330,31331,31335,31336,31420,31510,31525,31350",
+    longCode: "31156,31161,31165,31166,31167,31175,31215,31216,31325,31330,31331,31335,31336,31420,31510,31525,31350",
     button: "Details"
   },
   {
@@ -2943,7 +2943,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: upvc15,
     title: "Sanitary pipe",
-    // code2: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
+    longCode: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
     button: "Details"
   },
   {

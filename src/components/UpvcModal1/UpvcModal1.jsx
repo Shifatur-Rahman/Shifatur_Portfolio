@@ -1,11 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
 import {Button, Table, Modal} from 'react-bootstrap';
+import "./UpvcModal1.css"
 
 const UpvcModal1 = (props) => {
 
     const { title, category, code, size, thickness } = props;
-
     const values = [true];
     const [lgShow, setLgShow] = useState(true);
     const [show, setShow] = useState(false);
@@ -33,18 +33,18 @@ const UpvcModal1 = (props) => {
     {typeof v === 'string' && `below ${v.split('-')[0]}`}
     </Button>
       ))}
+
 {/* size="lg" */}
 
-
-<Modal show={show} lgShow={lgShow} onHide={() => setShow(false)}>
+<Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
-          <h4 style={{textTransform:"uppercase"}}>{title}</h4>
+          <h4 className='upvcModalTitle'>{title}</h4>
         </Modal.Header>
         <Modal.Body>
 
-                <Table striped bordered hover variant="dark">
+                <Table striped bordered hover  className='upvcTable table-info'>
       <thead>
-        <tr>
+        <tr className='upvcTableTr'>
           <th>Code</th>
           <th>Nominal Diameter X Length</th>
           {
@@ -53,7 +53,7 @@ const UpvcModal1 = (props) => {
         </tr>
       </thead>
 
-<tbody>
+<tbody className='upvcTableBody'>
           <tr>
 <td>
           {pCode.split("/").map((code, index) => (

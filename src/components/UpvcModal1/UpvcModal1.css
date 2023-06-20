@@ -1,0 +1,31 @@
+/* .upvcModal{
+    background-color: red;
+} */
+
+.upvcModalTitle{
+ font-family: "Montserrat", sans-serif;
+ font-size: 18px;
+ text-transform: uppercase;
+ font-weight: 600;
+ margin-top: 10px;
+}
+
+.upvcTable{
+    border-radius: 10px !important;
+}
+
+.upvcTableTr{
+    color:  #333333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upvcTableBody{
+    color: red;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
