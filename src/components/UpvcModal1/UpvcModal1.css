@@ -10,10 +10,6 @@
  margin-top: 10px;
 }
 
-.upvcTable{
-    border-radius: 10px !important;
-}
-
 .upvcTableTr{
     color:  #333333;
     font-size: 16px;
@@ -27,5 +23,21 @@
     
 }
 
+.upvcBtn{
+    background-color: #f2f2f2;
+    font-size: 11px;
+    padding: 5px;
+    color: #000;
+    font-family: "Barlow",sans-serif;
+    font-weight: 600;
+    border: 1px solid #54B4DE;
+    
+  }
+
+  .upvcBtn:hover, .upvcBtn:focus {
+    background-color: #54B4DE;
+    color: #fff;
+    border: 1px solid #54B4DE;
+  }
 
 

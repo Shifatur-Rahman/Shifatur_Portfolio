@@ -42,7 +42,7 @@ const UpvcModal1 = (props) => {
         </Modal.Header>
         <Modal.Body>
 
-                <Table striped bordered hover  className='upvcTable table-info'>
+                <Table striped bordered hover className='table-info'>
       <thead>
         <tr className='upvcTableTr'>
           <th>Code</th>
