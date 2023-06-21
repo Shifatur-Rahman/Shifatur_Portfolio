@@ -2888,7 +2888,7 @@ const portfolioItems = [
     imgSrc: upvc8,
     longCode: "30216/30305/30300/30420/30425/30426/30430/30435/30510/30620",
     longSize: `2"x3 mtr Regular Super Filter (Gray)/3"x3 mtr Regular Super Filter (Firoza)/3"x3 mtr Shallow Filter (Firoza)/4"x3 mtr Shallow Filter (Firoza)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/5"x3 mtr Regular Super Filter (Gray)/160mm x 3mtr SWR Filter (Gray) `,
-    longThickness: `2.2~2.5/2.4~2.6/2.0~2.2/2.5~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.4~3.8/3.4~3.7/4.0~4.5npm startr`
+    longThickness: `2.2~2.5/2.4~2.6/2.0~2.2/2.5~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.4~3.8/3.4~3.7/4.0~4.5`
   },
   {
     id: 309,
@@ -2915,7 +2915,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: upvc11,
     longCode:"30150/30155/30160/30165/30170/30175/30180/37150/37155/37160",
-    longSize: `1.5" Filter #4 (6ft) Pink/1.5" Filter #4 (8ft) Pink/1.5" Filter #4 (10ft) Pink/1.5" Filter #6 (10ft) Pest/1.5" Filter #8 (10ft) Pest/1.5" Filter #10 (10ft) gray/1.5" Filter Robo(6.5ft) Gray/1.5" T-7 Filter (6ft) Off White//1.5" T-7 Filter (8ft) Off White//1.5" T-7 Filter (9ft) Off White`,
+    longSize: `1.5" Filter #4 (6ft) Pink/1.5" Filter #4 (8ft) Pink/1.5" Filter #4 (10ft) Pink/1.5" Filter #6 (10ft) Pest/1.5" Filter #8 (10ft) Pest/1.5" Filter #10 (10ft) Gray/1.5" Filter Robo(6.5ft) Gray/1.5" T-7 Filter (6ft) Off White//1.5" T-7 Filter (8ft) Off White//1.5" T-7 Filter (9ft) Off White`,
     longThickness: `1.3~1.5/1.3~1.5/1.3~1.5/1.9~2.1/2.4~2.6/2.7~3.0/2.5~3.0/1.2~1.4/1.2~1.4/1.2~1.4`,
     title: "Small Dia rib & robo filter",
     button: "Details"
@@ -2945,7 +2945,9 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: upvc14,
     title: "standard pipe",
-    longCode: "31156,31161,31165,31166,31167,31175,31215,31216,31325,31330,31331,31335,31336,31420,31510,31525,31350",
+    longCode: "31156/31161/31165/31166/31167/31175/31215/31216/31325/31330/31331/31335/31336/31420/31510/31525/31350",
+    longSize: `1.5"x15' TFL D Pipe (Gray)/1.5"x15' TFL D Pipe (White)/1.5"x15' Regular Super Pipe (Gray)/1.5"x15' Regular Super Pipe (White)/1.5"x15' Regular Super Pipe (Blue)/1.5"x15' Regular Super Pipe (Firoza)/2"x15' Regular Super Pipe (Gray)/2"x15' Regular Super Pipe (White)/3"x6mtr Regular Special Pipe (Firoza)/3"x6mtr Shallow Pipe (Firoza)/3"x15mtr Shallow Pipe (Firoza)/3"x6mtr Regular Super Pipe (Gray)/3"x6mtr Regular Super Pipe (White)/4"x6 mtr Shallow Pipe(Firoza)/5"x6 mtr Regular Super Pipe(Gray)/6"x6 mtr Shallow Pipe(Gray)/8"x6 mtr Regular Super Pipe(Gray)`,
+    longThickness: `2.2~2.4/2.2~2.4/1.4~1.6/1.4~1.6/1.4~1.6/1.4~1.6/2.2~2.5/2.2~2.5/2.4~2.6/2.0~2.2/2.0~2.2/2.4~2.6/2.4~2.6/2.5~2.7/3.5~3.7/4.0~4.3/2.8~3.1`,
     button: "Details"
   },
   {
@@ -2953,7 +2955,9 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: upvc15,
     title: "Sanitary pipe",
-    longCode: "34123,34124,34131,34132,34141,34142,34184,34185,34211,34212",
+    longCode: "34123/34124/34131/34132/34141/34142/34184/34185/34211/34212",
+    longSize: `86mmx6mtr Sanitary Pipe (Gray)/86mmx6mtr Sanitary Pipe (White)/110mmx6mtr Economic Sanitary Pipe (Gray)/110mmx6mtr Economic Sanitary Pipe (White)/110mmx6mtr Sanitary Pipe (Gray)/110mmx6mtr Sanitary Pipe (White)/160mmx6mtr Sanitary Pipe (Gray)/160mmx6mtr Sanitary Pipe (White)/200mmx6mtr Sanitary Pipe (Gray)/200mmx6mtr Sanitary Pipe (White)`,
+    longThickness: `1.6~1.8/1.6~1.8/1.6~1.8/1.6~1.8/2.6~2.4/2.6~2.4/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4 `,
     button: "Details"
   },
   {

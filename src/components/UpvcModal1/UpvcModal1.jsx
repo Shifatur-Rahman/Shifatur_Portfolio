@@ -21,9 +21,6 @@ const UpvcModal1 = (props) => {
         setPThickness(thickness);
     }
 
-    console.log(size);
- 
-
   return (
     <>
 
@@ -40,46 +37,51 @@ const UpvcModal1 = (props) => {
         <Modal.Header closeButton>
           <h4 className='upvcModalTitle'>{title}</h4>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body>          
 
-                <Table striped bordered hover className='table-info'>
-      <thead>
-        <tr className='upvcTableTr'>
-          <th>Code</th>
-          <th>Nominal Diameter X Length</th>
-          {
-            thickness ? <th>Thickness(mm)</th> : ""
-          }
-        </tr>
-      </thead>
+<div className="table-responsive-lg">
+  <Table responsive="sm" className="table-info">
+    <thead>
+      <tr className="upvcTableTr">
+        <th>Code</th>
+        <th>Nominal Diameter X Length</th>
+        {thickness && <th>Thickness(mm)</th>}
+      </tr>
+    </thead>
 
-<tbody className='upvcTableBody'>
-          <tr>
-<td>
+
+    <tbody className="upvcTableBody">
+      <tr>
+    
+        <td>
           {pCode.split("/").map((code, index) => (
             <p key={index}>{code}</p>
-            ))}
-</td>
-
-<td>
+          ))}
+        </td>
+       
+        <td>
           {pSize.split("/").map((size, index) => (
             <p key={index}>{size}</p>
+          ))}
+        </td>
+     
+        {thickness && (
+          <td>
+            {pThickness.split("/").map((thickness, index) => (
+              <p key={index}>{thickness}</p>
             ))}
-</td>
-{
-  thickness ?   <td>
-  {pThickness.split("/").map((thickness, index) => (
-    <p key={index}>{thickness}</p>
-    ))}
-</td>       : ""
-}
-   
-          </tr>
-        
-      </tbody>
+          </td>
+        )}
+      </tr>
 
-      </Table>
-          
+    </tbody>
+
+
+
+  </Table>
+
+</div>
+       
         </Modal.Body>
       </Modal>
     </>
