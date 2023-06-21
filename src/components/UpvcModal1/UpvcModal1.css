@@ -17,7 +17,7 @@
 }
 
 .upvcTableBody{
-    color: red;
+    color: #000;
     font-size: 13px;
     font-family: 'Poppins', sans-serif; 
 }
@@ -54,5 +54,16 @@
   overflow-x: auto;
 }
 
+@media (max-width: 1000px) {
+  .upvcTableBody{
+    font-size: 11px;
+  }
 
+  }
 
+  @media (max-width: 600px) {
+    .upvcTableBody{
+      font-size: 9px;
+    }
+   
+    }

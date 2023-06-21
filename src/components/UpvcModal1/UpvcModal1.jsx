@@ -39,7 +39,7 @@ const UpvcModal1 = (props) => {
         </Modal.Header>
         <Modal.Body>          
 
-<div className="table-responsive-lg">
+<div className="">
   <Table responsive="sm" className="table-info">
     <thead>
       <tr className="upvcTableTr">
@@ -49,10 +49,8 @@ const UpvcModal1 = (props) => {
       </tr>
     </thead>
 
-
     <tbody className="upvcTableBody">
       <tr>
-    
         <td>
           {pCode.split("/").map((code, index) => (
             <p key={index}>{code}</p>
