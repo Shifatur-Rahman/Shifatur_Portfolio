@@ -58,12 +58,10 @@
   .upvcTableBody{
     font-size: 11px;
   }
-
   }
 
   @media (max-width: 600px) {
     .upvcTableBody{
       font-size: 9px;
     }
-   
     }
