@@ -154,14 +154,9 @@
         }
 
         .zoomImage{
-          width: 250px;
-          height: 300px;
+          width: 250px !important;
+          height: 200px !important;
         }
-
-        /* upvc code title */
-          .itemCode{
-                    
-          }
           
       }
         
