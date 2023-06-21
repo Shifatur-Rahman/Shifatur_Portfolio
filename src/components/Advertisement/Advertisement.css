@@ -34,6 +34,7 @@
 .serviceCard{
   margin-bottom: 1rem;
   padding: 15px;
-  border: 1px solid #17a2b8;
+  box-shadow: -5px 6px 18px -10px rgba(0,0,0,0.67);
+  -webkit-box-shadow: -5px 6px 18px -10px rgba(0,0,0,0.67);
+  -moz-box-shadow: -5px 6px 18px -10px rgba(0,0,0,0.67);
 }
-
