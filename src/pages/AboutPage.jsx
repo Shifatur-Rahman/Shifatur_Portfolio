@@ -17,11 +17,6 @@ class AboutPage extends Component {
 
   render() {
     return (
-      // <motion.div
-      //   initial={{ width: 0 }}
-      //   animate={{ width: "100%" }}
-      //   exit={{ x: window.innerWidth, transition: { duration: 0.6 } }}
-      // >
       <>
         <TopNavigation title="Talukder Group" />
         <PageTop pageTitle="About Us" />
@@ -29,7 +24,6 @@ class AboutPage extends Component {
         <Footer />
         <BackToTopButton />
       </>
-      // </motion.div>
     );
   }
 }
