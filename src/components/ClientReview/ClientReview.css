@@ -4,10 +4,23 @@
   float: none;
 }
 
+.newsCardImg{
+  width: "80%" !important;
+  height: "80%" !important;
+  padding: "20px 10px" !important;
+}
+
+@media(max-width:600px){
+  .newsCardImg{
+    width: "80%" !important;
+    height: "80%" !important;
+    padding: "20px 10px" !important;
+  }
+}
+
+
 @media(max-width:480px){
   .clientReviewImgCard {
-    /* margin: 0 auto;
-    float: none; */
     margin-right: 30px !important;
   }
 }
