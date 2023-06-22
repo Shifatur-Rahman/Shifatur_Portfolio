@@ -10,16 +10,15 @@ import CloseIcon from "@mui/icons-material/Close";
 import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import UpvcModal1 from "../UpvcModal1/UpvcModal1";
-import Modal from 'react-bootstrap/Modal';
+// import Modal from 'react-bootstrap/Modal';
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isDropdown, setDropdown] = useState(false);  
-  //const[msg,setMsg] = useState(false);
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -56,18 +55,6 @@ const Portfolio = () => {
   const toggleDropdownPlastic = () => {
     setDropdown(!isDropdown);
   };
-
-
-  //  upvc modal 1
-  // const values = [true];
-  // const [fullscreen, setFullscreen] = useState(true);
-  // const [show, setShow] = useState(false);
-
-  // function handleShow(breakpoint) {
-  //   setFullscreen(breakpoint);
-  //   setShow(true);
-  // }
-
   
   return (
     <>
@@ -81,8 +68,7 @@ const Portfolio = () => {
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
               data-aos-duration="2000"
-              className="w-100"
-              // xs={12}
+              xs={12}
               md={12}
               lg={12}
             >

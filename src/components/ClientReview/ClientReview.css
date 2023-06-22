@@ -4,19 +4,10 @@
   float: none;
 }
 
-/* .clientReviewImgCard img{
-  width: "80%";
-  height: "80%";
-  padding: "20px 10px";
-
-} */
-
-/* @media(max-width:600px){
-  .clientReviewImgCard img{
-    width: "80%" !important;
-    height: "80%" !important;
-    padding: "20px 10px" !important;
-  }
+/* .clientCardImg{
+  width: "90%" !important;
+  height: "90%" !important;
+  padding: "20px 10px" !important;
 } */
 
 

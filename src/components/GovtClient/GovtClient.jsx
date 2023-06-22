@@ -82,7 +82,7 @@ const GovtClient = () => {
       },
     ],
   };
-  
+
   return (
     <>
       {loading ? (
@@ -109,10 +109,10 @@ const GovtClient = () => {
                 >
                   <Card.Img
                     style={{
-                      width: "80%",
-                      height: "80%",
-                      padding: "20px 10px",
-                    }}
+                       width: "90%",
+                       height: "90%",
+                       padding: "20px 10px",
+                     }}
                     className="newsCardImg"
                     variant="top"
                     src={item.img}
