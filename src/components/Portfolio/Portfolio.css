@@ -161,8 +161,8 @@
 
       @media screen and (max-width: 300px) {
         .zoomImage{
-          width: 150px !important;
-          height: 100px !important;
+          width: 160px !important;
+          height: 180px !important;
         }
 
       }
