@@ -113,7 +113,7 @@ const GovtClient = () => {
                        height: "90%",
                        padding: "20px 10px",
                      }}
-                    className="newsCardImg"
+                    // className="newsCardImg"
                     variant="top"
                     src={item.img}
                   />
