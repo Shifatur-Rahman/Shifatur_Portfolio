@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Col, Container, Card } from "react-bootstrap";
 import Slider from "react-slick";
-// Govt. client
 import client18 from "../../asset/images/Client_logo/lged.jpg";
 import client19 from "../../asset/images/Client_logo/public_health.jpg";
 import client22 from "../../asset/images/Client_logo/dphe.jpg";
@@ -14,6 +13,8 @@ import client30 from "../../asset/images/Client_logo/EED.jpg";
 import client24 from "../../asset/images/Client_logo/jica.jpg";
 import client31 from "../../asset/images/Client_logo/bmda.jpg";
 import Spinner from "../Spinner/Spinner.jsx";
+
+    // Govt. client
 
 const GovtClient = () => {
   const [loading, setLoading] = useState(true);
