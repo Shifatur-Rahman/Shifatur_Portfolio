@@ -81,7 +81,8 @@ const Portfolio = () => {
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
               data-aos-duration="2000"
-              xs={12}
+              className="w-100"
+              // xs={12}
               md={12}
               lg={12}
             >
@@ -203,6 +204,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </Col>
+  
 
             {loading ? (
               <PageLoader />
@@ -245,17 +247,6 @@ const Portfolio = () => {
                             </span>
                           </p>
                         )}
-
-
-
-
-                            {/* upvc pipe 1 */}
-
-                          {/* <NavLink className="knowMore" to="/upvc1"> */}
-                            {/* <Button className="upvcBtn" size="sm">Product description</Button> */}
-                            {/* <UpvcModal1 /> */}
-                            {/* </NavLink> */} 
-                            {/* <NavLink className="knowMore" to="/upvc1">   </NavLink>  */}
 
                             {item.button && (   
                              <div>

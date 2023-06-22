@@ -4,19 +4,20 @@
   float: none;
 }
 
-.newsCardImg{
-  width: "80%" !important;
-  height: "80%" !important;
-  padding: "20px 10px" !important;
-}
+/* .clientReviewImgCard img{
+  width: "80%";
+  height: "80%";
+  padding: "20px 10px";
 
-@media(max-width:600px){
-  .newsCardImg{
+} */
+
+/* @media(max-width:600px){
+  .clientReviewImgCard img{
     width: "80%" !important;
     height: "80%" !important;
     padding: "20px 10px" !important;
   }
-}
+} */
 
 
 @media(max-width:480px){

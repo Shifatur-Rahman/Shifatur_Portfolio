@@ -118,11 +118,11 @@ const ClientReview = () => {
                   className="clientReviewImgCard"
                 >
                   <Card.Img
-                    style={{
-                      width: "80%",
-                      height: "80%",
-                      padding: "20px 10px",
-                    }}
+                    // style={{
+                    //   width: "80%",
+                    //   height: "80%",
+                    //   padding: "20px 10px",
+                    // }}
                     className="newsCardImg"
                     variant="top"
                     src={item.img}
