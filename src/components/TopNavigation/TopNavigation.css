@@ -3,7 +3,7 @@
   -o-transition: background-color 400ms linear;
   -moz-transition: background-color 400ms linear;
   -webkit-transition: background-color 400ms linear;
-  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.7); */
   padding: 1rem 3rem;
 }
 
@@ -22,7 +22,8 @@
   font-size: 15px !important;
   font-weight: 500;
   margin-right: 1rem;
-  color: #2e4f4f;
+  /* color: #2e4f4f; */
+  color: #fff;
   letter-spacing: 0.3px;
 }
 
@@ -33,6 +34,7 @@
   font-weight: 500;
   margin-right: 1rem;
   color: #17a2b8;
+  /* color: #fff; */
   letter-spacing: 0.3px;
 }
 
