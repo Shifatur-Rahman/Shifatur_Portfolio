@@ -6,7 +6,9 @@
   overflow: hidden;
   border: 1px solid #92cce9;
 }
-
+.card{
+  margin-bottom: 15px;
+}
 .imageCard .card-img-top {
   transition: transform 0.2s ease-in-out;
 }

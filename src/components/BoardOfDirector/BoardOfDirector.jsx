@@ -19,6 +19,7 @@ const BoardOfDirector = () => {
       setLoading(false);
     }, 2600);
   }, []);
+
   return (
     <>
       {loading ? (
@@ -137,7 +138,7 @@ const BoardOfDirector = () => {
               </Col>
             </Row>
 
-            <Row style={{ marginTop: "5px" }}>
+            <Row>
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -249,7 +250,7 @@ const BoardOfDirector = () => {
               </Col>
             </Row>
 
-            <Row style={{ marginTop: "5px" }}>
+            <Row>
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -360,7 +361,7 @@ const BoardOfDirector = () => {
               </Col>
             </Row>
 
-            <Row style={{ marginTop: "5px" }}>
+            <Row>
             <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
