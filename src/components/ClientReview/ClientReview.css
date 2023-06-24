@@ -1,15 +1,12 @@
-
 .clientReviewImgCard {
   margin: 0 auto;
   float: none;
 }
 
-/* .clientCardImg{
-  width: "90%" !important;
-  height: "90%" !important;
-  padding: "20px 10px" !important;
-} */
-
+.clientReviewImgCard:hover{
+  cursor: pointer;
+  padding: 5px;
+}
 
 @media(max-width:480px){
   .clientReviewImgCard {
