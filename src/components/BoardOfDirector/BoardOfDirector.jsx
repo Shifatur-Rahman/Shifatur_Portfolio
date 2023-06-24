@@ -137,7 +137,7 @@ const BoardOfDirector = () => {
               </Col>
             </Row>
 
-            <Row style={{ marginTop: "0px" }}>
+            <Row style={{ marginTop: "5px" }}>
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -249,7 +249,7 @@ const BoardOfDirector = () => {
               </Col>
             </Row>
 
-            <Row style={{ marginTop: "0px" }}>
+            <Row style={{ marginTop: "5px" }}>
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -360,8 +360,7 @@ const BoardOfDirector = () => {
               </Col>
             </Row>
 
-            <Row style={{ marginTop: "0px" }}>
-
+            <Row style={{ marginTop: "5px" }}>
             <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
