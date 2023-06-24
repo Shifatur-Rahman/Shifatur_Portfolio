@@ -91,8 +91,7 @@ const ManagementTeam = () => {
         </Container>
       </div>
 
-
-      <div className="profile-area">
+      <div>
         <Container>
           <Row>
             <Col lg={3} md={6} sm={12}>
