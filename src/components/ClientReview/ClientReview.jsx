@@ -101,7 +101,7 @@ const ClientReview = () => {
         <Container style={{ marginTop: "5rem" }}>
           <Slider {...settings}>
             {corporateClientData.map((item, index) => (
-              <Col sm={12} md={6} lg={4} key={item.id}>
+              <Col className="clientCard" sm={12} md={6} lg={4} key={item.id}>
                 <Card
                   data-aos="fade-down"
                   style={{

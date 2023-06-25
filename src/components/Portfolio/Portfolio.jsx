@@ -241,13 +241,6 @@ const Portfolio = () => {
                             ) 
                             } 
 
-                            {/* {(item.button && item.longCode && item.longSize) || item.longColor || item.longThickness && (   
-                             <div>
-                             <UpvcModal1 title={item.title} category={item.category}  />
-                            </div>
-                            )
-                            } */}
-
                       {item.color && item.code ? (
                           <div className="table-responsive">
                             <table className="table table-bordered table-sm custom-table">
@@ -312,17 +305,6 @@ const Portfolio = () => {
                           ""
                         )}
 
-                    
-                        {/* {item.title2 && (
-                          <p className="itemCode">
-                            <strong style={{fontWeight:"800"}}>Name : </strong>
-                            <span style={{ textTransform: "uppercase" }}>
-                              {" "}
-                              {item.title2}
-                            </span>
-                          </p>
-                        )} */}
-
                         {item.size && (
                           <p className="itemTitle">
                             <strong>Size : </strong>
@@ -344,14 +326,7 @@ const Portfolio = () => {
                               {item.product}{" "}
                             </span>
                           </p>
-                        )}
-
-                        {/* {item.code2 && (
-                          <p className="itemCode">
-                             <strong style={{fontWeight:"800"}}>Code : </strong>
-                              {item.code2}
-                          </p>
-                        )} */}                      
+                        )}                          
                         
                       </div>
                     </div>

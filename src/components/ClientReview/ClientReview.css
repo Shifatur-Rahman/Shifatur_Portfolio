@@ -3,10 +3,16 @@
   float: none;
 }
 
-.clientReviewImgCard:hover{
+/* .clientCard:hover{
   cursor: pointer;
-  padding: 5px;
-}
+  margin-bottom: 5px;
+} */
+
+/* .clientReviewImgCard:hover{
+  height: 165px;
+  width: 145px;
+  cursor: pointer;
+} */
 
 @media(max-width:480px){
   .clientReviewImgCard {
