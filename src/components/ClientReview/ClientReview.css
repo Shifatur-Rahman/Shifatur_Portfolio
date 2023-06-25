@@ -9,9 +9,11 @@
 } */
 
 /* .clientReviewImgCard:hover{
-  height: 165px;
-  width: 145px;
+  height: 165px !important;
+  width: 145px !important;
   cursor: pointer;
+  overflow: hidden !important;
+  z-index: 2;
 } */
 
 @media(max-width:480px){

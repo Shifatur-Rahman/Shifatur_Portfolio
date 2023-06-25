@@ -36,7 +36,7 @@ const ClientReview = () => {
   }, []);
 
   const settings = {
-    dots: true,
+   // dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 6,
@@ -53,7 +53,7 @@ const ClientReview = () => {
           slidesToScroll: 1,
           swipeToSlide: true,
           infinite: true,
-          dots: true,
+         // dots: true,
         },
       },
       {
