@@ -82,12 +82,6 @@
         text-decoration: none;
       }
 
-      .itemCode {
-        font-size: 10px;
-        width: 85%;
-        word-break: break-word;
-      } 
-
       @media only screen and (max-width: 1020px) and (min-width: 768px)  {
       .itemSize{
         font-size: 8px !important;
@@ -122,10 +116,6 @@
           flex-direction: column;
           align-items: center;
         }
-        /* .filter-buttons button {
-          flex-direction: column;
-          align-items: center;
-        } */
 
         .dropdown-content{
           width: 200px !important;

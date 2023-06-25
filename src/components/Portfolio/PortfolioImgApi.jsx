@@ -1861,14 +1861,15 @@ const portfolioItems = [
   },
 
   ////                              ------------      PLASTIC  (101- )           --------------
-  {
-    id: 101,
-    title: "RECTANGULAR TABLE PLASTIC",
-    category: "PLASTIC FURNITURE",
-    code: "24106/24107/24108/24109",
-    color: "#ba5645/#336699/#4e2d26/#004d4d",
-    imgSrc: plastic1,
-  },
+  //      Image Valo nah
+  // {
+  //   id: 101,
+  //   title: "RECTANGULAR TABLE PLASTIC",
+  //   category: "PLASTIC FURNITURE",
+  //   code: "24106/24107/24108/24109",
+  //   color: "#ba5645/#336699/#4e2d26/#004d4d",
+  //   imgSrc: plastic1,
+  // },
   {
     id: 102,
     category: "PLASTIC FURNITURE",
@@ -1893,22 +1894,26 @@ const portfolioItems = [
     code: "24143/24144/24145",
     color: "#563933/#8c765a/#425247",
   },
-  {
-    id: 105,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic5,
-    title: "SQUARE DECO TABLE PLASTIC",
-    code: "24116/24117/24118",
-    color: "#ba5645/#336699/#004d4d",
-  },
-  {
-    id: 106,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic6,
-    title: "SQUARE DECO TABLE STEEL",
-    code: "24121/24122/24123/24124/24125",
-    color: "#ba5645/#336699/#4e2d26/#a6976f/#004d4d",
-  },
+  //    image valo nah
+  // {
+  //   id: 105,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic5,
+  //   title: "SQUARE DECO TABLE PLASTIC",
+  //   code: "24116/24117/24118",
+  //   color: "#ba5645/#336699/#004d4d",
+  // },
+
+    //    image valo nah
+  // {
+  //   id: 106,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic6,
+  //   title: "SQUARE DECO TABLE STEEL",
+  //   code: "24121/24122/24123/24124/24125",
+  //   color: "#ba5645/#336699/#4e2d26/#a6976f/#004d4d",
+  // },
+
   {
     id: 107,
     category: "PLASTIC HOUSEHOLD",
@@ -1966,14 +1971,15 @@ const portfolioItems = [
   },
 
   // CHAIR
-  {
-    id: 115,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic15,
-    title: "T CLASSIC",
-    code: "24101/24102/24103",
-    color: "#ba5645/#336699/#9c8363",
-  },
+    //    image valo nah
+  // {
+  //   id: 115,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic15,
+  //   title: "T CLASSIC",
+  //   code: "24101/24102/24103",
+  //   color: "#ba5645/#336699/#9c8363",
+  // },
   {
     id: 118,
     category: "PLASTIC FURNITURE",
