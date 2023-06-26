@@ -42,7 +42,8 @@ const ClientReview = () => {
     slidesToShow: 6,
     slidesToScroll: 2,
     autoplay: true,
-    autoplaySpeed: 900,
+   // autoplaySpeed: 0,
+     autoplaySpeed: 900,
     pauseOnHover: false,
     cssEase: "ease-in-out",
     responsive: [
@@ -123,7 +124,6 @@ const ClientReview = () => {
                        height: "90%",
                        padding: "20px 10px",
                      }}
-                    //  className="newsCardImg"
                     variant="top"
                     src={item.img}
                   />
