@@ -21,17 +21,20 @@ const Slider = () => {
       src: slider1,
       alt: "Talukder Plastic Factory",
       para: "Our Brand is Yours",
+      src2:"https://mdbcdn.b-cdn.net/img/video/Tropical.mp4"
     },
     {
       src: slider2,
       alt: "Talukder Products Best In Quality",
       para: "For Quality Life",
+      src2:"https://mdbcdn.b-cdn.net/img/video/forest.mp4"
     },
     {
       src: slider3,
       // alt: "House Hold Products",
       alt: "Talukder Furniture",
       para: "Better Design & Right Choice For Office",
+      src2:"https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4"
       // para: "Better Design & Right Choice For Kitchen",
     },
   ];
@@ -93,7 +96,7 @@ const Slider = () => {
               timeout={1000}
               classNames="fade"
             >
-              <img className="sliderImg d-block w-100" src={image.src} alt={image.alt} />
+           <img className="sliderImg d-block w-100" src={image.src} alt={image.alt} /> 
             </CSSTransition>
 
             <div className="carousel-overlay">
