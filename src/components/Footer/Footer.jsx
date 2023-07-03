@@ -66,7 +66,7 @@ const Footer = () => {
 
   return (
     <>
-    <div style={{background:"linear-gradient(#fff, #000 )"}}>
+    <div style={{background:"linear-gradient(#f2f2f2, #000 )"}}>
       <Container className="footerSection">
         {/* First footer section */}
         <Row style={{ marginBottom: "2rem", textAlign: "center" }}>
