@@ -1,6 +1,6 @@
 .footerSection {
   margin-top: 5rem;
-  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.4);
+  /* box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.4); */
 }
 
 a {
@@ -8,7 +8,8 @@ a {
 }
 
 .footerTitle {
-  color: #2E4F4F;
+  /* color: #2E4F4F; */
+  color: #17a2b8;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -44,7 +45,8 @@ margin-bottom: 3rem;
 
 .socialLink {
   text-decoration: none;
-  color: #595959;
+  /* color: #595959; */
+  color: #bfbfbf;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -52,7 +54,7 @@ margin-bottom: 3rem;
 
 .socialLink:hover {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   transition: 1s;
 }
 

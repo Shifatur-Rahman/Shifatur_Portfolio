@@ -66,6 +66,7 @@ const Footer = () => {
 
   return (
     <>
+    <div style={{background:"linear-gradient(#fff, #000 )"}}>
       <Container className="footerSection">
         {/* First footer section */}
         <Row style={{ marginBottom: "2rem", textAlign: "center" }}>
@@ -203,6 +204,7 @@ const Footer = () => {
             justifyContent: "center",
             marginTop: "1rem",
             textAlign: "center",
+            
           }}
         >
           <Col sm={12} md={4} lg={4} className="footerTextAlign">
@@ -307,6 +309,7 @@ const Footer = () => {
           Industries Limited {new Date().getFullYear()}
         </a>
       </Container>
+      </div>
     </>
   );
 };
