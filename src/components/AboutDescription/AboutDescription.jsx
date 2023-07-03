@@ -30,8 +30,7 @@ class AboutDescription extends Component {
                 need without having any issue of disatisfaction.
                 <br />
                 2. To create job opportunity for our people and provide right
-                platform to discover their potentiality.Profile of Talukder
-                Group of Industries
+                platform to discover their potentiality.
                 <br />
                 3. To ensure highest level of satisfaction of our employees as
                 we believe and consider human resource is the most important of

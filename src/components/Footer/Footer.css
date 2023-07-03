@@ -1,5 +1,5 @@
 .footerSection {
-  margin-top: 5rem;
+  margin-top: 2rem;
   /* box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.4); */
 }
 
@@ -177,14 +177,12 @@ margin-bottom: 3rem;
   .footerTitle {
     font-size: 18px;
   }
-
   .socialLink {
     font-size: 14px;
   }
   .footerLocation {
     margin-bottom: 3rem;
   }
-
   .copyrightText {
     font-size: 14px;
   }
@@ -192,9 +190,3 @@ margin-bottom: 3rem;
     padding-left: 2rem;
   }
 }
-
-/* @media (max-width: 992px) {
-  .footerSection{
-    margin-top: 2rem;
-  }
-   } */
