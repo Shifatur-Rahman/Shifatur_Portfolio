@@ -188,10 +188,52 @@ class TopNavigation extends Component {
 
               {/* Our Concern */}
 
-              <Nav.Link>
+              {/* <Nav.Link>
                 <NavLink className={this.state.navbarItem} to="/concern">
                   Our Concern
                 </NavLink>
+              </Nav.Link> */}
+
+                <Nav.Link>
+                <div className="dropdown">
+                  <button style={{border:"none", background:"none"}}
+                    className={this.state.navbarItem}
+                    to=""
+                    activeClassName="active to-empty"
+                    onClick={() =>
+                      this.setState((prevState) => ({
+                        portfolioDropdownOpen: !prevState.portfolioDropdownOpen,
+                      }))
+                    }
+                  >
+                    Our Concern
+                    <AiOutlineCaretDown />
+                  </button>
+
+                  <div className="dropdown-content">
+                    <NavLink
+                      className="navDropdown"
+                      to="/concern/plasticItem"
+                    >
+                      Talukder Plastic Co. Ltd.
+                    </NavLink>
+                    <NavLink className="navDropdown" to="/concern/foundry">
+                    Talukder Foundry Ltd.
+                    </NavLink>
+                    <NavLink className="navDropdown" to="/concern/upvc">
+                    Talukder uPVC Fittings Ind. Ltd.
+                    </NavLink>
+                    <NavLink className="navDropdown" to="/concern/distribution">
+                    Talukder Distribution Co. Ltd.                
+                    </NavLink>
+                    <NavLink className="navDropdown" to="/concern/furniture">
+                    Talukder Furniture Ltd.
+                    </NavLink>
+                    <NavLink className="navDropdown" to="/concern/j&j">
+                    J & J Enterprise Ltd.
+                    </NavLink>
+                  </div>
+                </div>
               </Nav.Link>
 
               {/* career */}

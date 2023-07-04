@@ -59,6 +59,7 @@ class AboutDescription extends Component {
               <hr className="AboutMeHr" />
 
               <h1 className="AboutPageTitle">Our Vision</h1>
+              
               <p className="AboutPageDescription">
                 Plastic industry is a fast-growing sector of Bangladesh in terms
                 of employment and production. The main objective of Talukder

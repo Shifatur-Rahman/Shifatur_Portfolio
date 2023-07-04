@@ -216,7 +216,7 @@ const Portfolio = () => {
                       key={item.id}>
                       <img
                         className="portfolio-item-img"
-                        src={item.imgSrc}
+                        src={`${item.imgSrc}`}
                         alt={item.title}
                         style={{ cursor: "pointer" }}
                         onClick={() => handleImageClick(item.imgSrc)}

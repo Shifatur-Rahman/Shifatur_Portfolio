@@ -5,6 +5,7 @@ import Upvc1 from "../components/Upvc1/Upvc1";
 import { animateScroll } from "react-scroll";
 import { useEffect } from "react";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
+import PageTop from '../components/PageTop/PageTop';
 
 const Upvc1Page = () => {
     useEffect(() => {
@@ -15,11 +16,12 @@ const Upvc1Page = () => {
       }, []);
   return (
     <>
-     <TopNavigation title="Talukder Group" />
+
+      <TopNavigation title="Talukder Group" />
+      <PageTop pageTitle="Talukder uPVC" />
       <Upvc1 />
       <Footer />
       <BackToTopButton />
-    
     
     </>
   )

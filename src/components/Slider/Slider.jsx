@@ -21,20 +21,20 @@ const Slider = () => {
       src: slider1,
       alt: "Talukder Plastic Factory",
       para: "Our Brand is Yours",
-      src2:"https://mdbcdn.b-cdn.net/img/video/Tropical.mp4"
+      src2: "https://mdbcdn.b-cdn.net/img/video/Tropical.mp4",
     },
     {
       src: slider2,
       alt: "Talukder Products Best In Quality",
       para: "For Quality Life",
-      src2:"https://mdbcdn.b-cdn.net/img/video/forest.mp4"
+      src2: "https://mdbcdn.b-cdn.net/img/video/forest.mp4",
     },
     {
       src: slider3,
       // alt: "House Hold Products",
       alt: "Talukder Furniture",
       para: "Better Design & Right Choice For Office",
-      src2:"https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4"
+      src2: "https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4",
       // para: "Better Design & Right Choice For Kitchen",
     },
   ];
@@ -56,13 +56,13 @@ const Slider = () => {
 
   let handleClick = () => {
     if (Summaryref.current) {
-      Summaryref.current.scrollIntoView({ behavior: "smooth"});
+      Summaryref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   let handleKnowClick = () => {
     if (LearnMoreref.current) {
-        LearnMoreref.current.scrollIntoView({ behavior: "smooth" });
+      LearnMoreref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -70,15 +70,15 @@ const Slider = () => {
     AOS.init({
       offset: 120,
       delay: 0,
-      easing: "ease", 
-      duration: 1500, 
-       disable: false,
-       once: false,
-       mirror: false,
-       startEvent: 'DOMContentLoaded',
-       animatedClassName: 'aos-animate',
-       initClassName: 'aos-init',
-       useClassNames: false,
+      easing: "ease",
+      duration: 1500,
+      disable: false,
+      once: false,
+      mirror: false,
+      startEvent: "DOMContentLoaded",
+      animatedClassName: "aos-animate",
+      initClassName: "aos-init",
+      useClassNames: false,
     });
   }, []);
 
@@ -96,19 +96,33 @@ const Slider = () => {
               timeout={1000}
               classNames="fade"
             >
-           <img className="sliderImg d-block w-100" src={image.src} alt={image.alt} /> 
+              <img
+                className="sliderImg d-block w-100"
+                src={image.src}
+                alt={image.alt}
+              />
             </CSSTransition>
 
             <div className="carousel-overlay">
               <Carousel.Caption>
-                <h3 data-aos="fade-up"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1500" className="topBannerTitle">{image.alt}</h3>
-                <p data-aos="fade-down"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1500" className="topBannerSubTitle">{image.para}</p>
+                <h3
+                  data-aos="fade-up"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="1500"
+                  className="topBannerTitle"
+                >
+                  {image.alt}
+                </h3>
+                <p
+                  data-aos="fade-down"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="1500"
+                  className="topBannerSubTitle"
+                >
+                  {image.para}
+                </p>
                 <div class="button-container">
                   <Button
                     data-aos="fade-right"

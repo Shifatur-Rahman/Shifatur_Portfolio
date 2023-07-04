@@ -39,7 +39,7 @@ const UpvcModal1 = (props) => {
         </Modal.Header>
         <Modal.Body>          
 
-<div className="">
+<div className="upvcTable">
   <Table responsive="sm" className="table-info">
     <thead>
       <tr className="upvcTableTr">

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import { LazyLoadImage } from "react-lazy-load-image-component"; // lazy component
 import { Container } from "react-bootstrap";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
@@ -25,10 +26,95 @@ import gallery17 from "../../asset/images/gallery/gallery17.jpg";
 import gallery18 from "../../asset/images/gallery/gallery18.jpg";
 import "./ImgGallery.css";
 import Spinner from "../Spinner/Spinner.jsx";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import "react-lazy-load-image-component/src/effects/blur.css";
+import { BlurhashCanvas } from "react-blurhash";
 
 const ImgGallery = () => {
+  const itemData = [
+    {
+      id: 1,
+      img: gallery1,
+      title: "Dhaka International Trade Fair",
+    },
+
+    {
+      id: 2,
+      img: gallery4,
+      title: "Customers Visit Our Showroom ",
+    },
+    {
+      id: 3,
+      img: gallery14,
+      title: "Customer Satisfiction",
+    },
+    {
+      id: 4,
+      img: gallery9,
+      title: "Talukder Plastic",
+    },
+    {
+      id: 5,
+      img: gallery5,
+      title: "uPVC Factory",
+    },
+    {
+      id: 6,
+      img: gallery6,
+      title: "Factory",
+    },
+    {
+      id: 7,
+      img: gallery7,
+      title: "Our Production",
+    },
+    {
+      id: 8,
+      img: gallery8,
+      title: "Goods are ready",
+    },
+
+    {
+      id: 9,
+      img: gallery10,
+      title: "Storage",
+    },
+    {
+      id: 10,
+      img: gallery17,
+      title: "Machine",
+    },
+    {
+      id: 11,
+      img: gallery11,
+      title: "uPVC Machine",
+    },
+    {
+      id: 12,
+      img: gallery12,
+      title: "uPVC Factory",
+    },
+    {
+      id: 13,
+      img: gallery13,
+      title: "Raw Materials",
+    },
+    {
+      id: 14,
+      img: gallery16,
+      title: "Jashore Depot",
+    },
+    {
+      id: 15,
+      img: gallery15,
+      title: "Our Goods",
+    },
+    {
+      id: 16,
+      img: gallery18,
+      title: "Our Benches",
+    },
+  ];
+
   const [selectedImage, setSelectedImage] = React.useState(null);
   const handleImageClick = (item) => {
     setSelectedImage(item);
@@ -58,11 +144,12 @@ const ImgGallery = () => {
             cols={4}
             gap={6}
           >
-            {itemData.map((item) => (
-              <ImageListItem key={item.id} onClick={() => handleImageClick(item)}>
-                <div
-                  className="galleryImg"
-                >
+            {/* {itemData.map((item) => (
+              <ImageListItem
+                key={item.id}
+                onClick={() => handleImageClick(item)}
+              >
+                <div className="galleryImg">
                   <LazyLoadImage
                     src={`${item.img}?w=161&fit=crop&auto=format`}
                     srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
@@ -72,9 +159,31 @@ const ImgGallery = () => {
                   />
                 </div>
               </ImageListItem>
-            ))}
-          </ImageList>
 
+                ))} */}
+
+
+{itemData.map((item) => (
+  <ImageListItem
+    key={item.id}
+    onClick={() => handleImageClick(item)}
+  >
+    <div className="galleryImg">
+      <LazyLoadImage
+         src={`${item.img}?w=161&fit=crop&auto=format`} // Add "/compressed" to the image source URL
+      //  src={`https://ik.imagekit.io/jamesqquick/${item.img}`}
+        srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`} // Add "/compressed" to the image source URL
+       // srcSet={`https://ik.imagekit.io/jamesqquick/${item.img}`}
+       alt={item.title}
+        loading="lazy"
+        style={{ cursor: "pointer" }}
+      />
+    </div>
+  </ImageListItem>
+))}
+
+                </ImageList>
+          
           <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
             <DialogTitle>{selectedImage?.title}</DialogTitle>
             <DialogContent>
@@ -94,93 +203,8 @@ const ImgGallery = () => {
           </Dialog>
         </Container>
       )}
-    </>
+    </> 
   );
 };
 
 export default ImgGallery;
-
-const itemData = [
-  {
-    id:1,
-    img: gallery1,
-    title: "Dhaka International Trade Fair",
-  },
-
-  {
-    id:2,
-    img: gallery4,
-    title: "Customers Visit Our Showroom ",
-  },
-  {
-    id:3,
-    img: gallery14,
-    title: "Customer Satisfiction",
-  },
-  {
-    id:4,
-    img: gallery9,
-    title: "Talukder Plastic",
-  },
-  {
-    id:5,
-    img: gallery5,
-    title: "uPVC Factory",
-  },
-  {
-    id:6,
-    img: gallery6,
-    title: "Factory",
-  },
-  {
-    id:7,
-    img: gallery7,
-    title: "Our Production",
-  },
-  {
-    id:8,
-    img: gallery8,
-    title: "Goods are ready",
-  },
-
-  {
-    id:9,
-    img: gallery10,
-    title: "Storage",
-  },
-  {
-    id:10,
-    img: gallery17,
-    title: "Machine",
-  },
-  {
-    id:11,
-    img: gallery11,
-    title: "uPVC Machine",
-  },
-  {
-    id:12,
-    img: gallery12,
-    title: "uPVC Factory",
-  },
-  {
-    id:13,
-    img: gallery13,
-    title: "Raw Materials",
-  },
-  {
-    id:14,
-    img: gallery16,
-    title: "Jashore Depot",
-  },
-  {
-    id:15,
-    img: gallery15,
-    title: "Our Goods",
-  },
-  {
-    id:16,
-    img: gallery18,
-    title: "Our Benches",
-  },
-];
