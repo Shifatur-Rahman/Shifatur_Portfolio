@@ -21,6 +21,8 @@ import Upvc1Page from "../pages/Upvc1Page";
 import PlasticPage from "../pages/PlasticPage";
 import FoundryPage from "../pages/FoundryPage";
 import DistributionPage from "../pages/DistributionPage";
+import FurniturePage from "../pages/FurniturePage";
+import JEnterprisePage from "../pages/JEnterprisePage";
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -63,19 +65,28 @@ function AnimatedRoute() {
             path="/concern/plasticItem"
             element={<PlasticPage />}
           />
-               <Route
+          <Route
             path="/concern/foundry"
             element={<FoundryPage />}
           />
 
-             <Route
+          <Route
             path="/concern/upvc"
             element={<Upvc1Page />}
           />
 
-               <Route
+          <Route
             path="/concern/distribution"
             element={<DistributionPage />}
+          />
+             <Route
+            path="/concern/furniture"
+            element={<FurniturePage />}
+          />
+
+          <Route
+            path="/concern/j&j"
+            element={<JEnterprisePage />}
           />
 
         </Routes>

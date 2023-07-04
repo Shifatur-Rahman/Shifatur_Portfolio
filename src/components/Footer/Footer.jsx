@@ -194,7 +194,7 @@ const Footer = () => {
           </Col>
         </Row>
 
-        <hr />
+        <hr style={{color:"#fff"}} />
 
         {/* Third footer section */}
 

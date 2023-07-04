@@ -6,8 +6,8 @@ import Footer from '../components/Footer/Footer'
 const FurniturePage = () => {
   return (
     <>
-    <TopNavigation />
-    <PageTop />
+    <TopNavigation title="Talukder Group" />
+    <PageTop pageTitle="Talukder Furniture" />
     <h1>Furniture</h1>
     <Footer />
     </>
