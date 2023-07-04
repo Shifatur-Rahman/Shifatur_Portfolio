@@ -10,22 +10,22 @@ import awards1Img from "../../asset/images/achievements/awards1.jpg";
 import awards2Img from "../../asset/images/achievements/awards2.jpg";
 import awards3Img from "../../asset/images/achievements/awards3.png";
 import awards4Img from "../../asset/images/achievements/awards4.png";
-import awards5Img from "../../asset/images/achievements/awards5.png";
-import awards6Img from "../../asset/images/achievements/awards6.png";
+// import awards5Img from "../../asset/images/achievements/awards5.png";
+// import awards6Img from "../../asset/images/achievements/awards6.png";
 import awards7Img from "../../asset/images/achievements/awards7.png";
-import awards8Img from "../../asset/images/achievements/awards8.png";
-import awards9Img from "../../asset/images/achievements/awards9.png";
-import awards10Img from "../../asset/images/achievements/awards10.png";
+// import awards8Img from "../../asset/images/achievements/awards8.png";
+// import awards9Img from "../../asset/images/achievements/awards9.png";
+// import awards10Img from "../../asset/images/achievements/awards10.png";
 import awards11Img from "../../asset/images/achievements/awards11.png";
-import awards12Img from "../../asset/images/achievements/awards12.png";
+// import awards12Img from "../../asset/images/achievements/awards12.png";
 import awards13Img from "../../asset/images/achievements/awards13.png";
 import awards14Img from "../../asset/images/achievements/awards14.png";
 import awards15Img from "../../asset/images/achievements/awards15.png";
-import awards16Img from "../../asset/images/achievements/awards16.png";
+// import awards16Img from "../../asset/images/achievements/awards16.png";
 //import awards17Img from "../../asset/images/achievements/awards17.png";
-import awards18Img from "../../asset/images/achievements/awards18.png";
-import awards19Img from "../../asset/images/achievements/awards19.png";
-import awards20Img from "../../asset/images/achievements/awards20.png";
+// import awards18Img from "../../asset/images/achievements/awards18.png";
+// import awards19Img from "../../asset/images/achievements/awards19.png";
+// import awards20Img from "../../asset/images/achievements/awards20.png";
 import awards21Img from "../../asset/images/achievements/awards21.png";
 import { Col, Container, Row } from "react-bootstrap";
 import Spinner from "../Spinner/Spinner";
@@ -143,30 +143,30 @@ const achievementImg = [
   {
     img: awards4Img
   },
-  {
-    img: awards5Img
-  },
-  {
-    img: awards6Img
-  },
+  // {
+  //   img: awards5Img
+  // },
+  // {
+  //   img: awards6Img
+  // },
   {
     img: awards7Img
   },
-  {
-    img: awards8Img
-  },
-  {
-    img: awards9Img
-  },
-  {
-    img: awards10Img
-  },
+  // {
+  //   img: awards8Img
+  // },
+  // {
+  //   img: awards9Img
+  // },
+  // {
+  //   img: awards10Img
+  // },
   {
     img: awards11Img
   },
-  {
-    img: awards12Img
-  },
+  // {
+  //   img: awards12Img
+  // },
   {
     img: awards13Img
   },
@@ -176,21 +176,21 @@ const achievementImg = [
   {
     img: awards15Img
   },
-  {
-    img: awards16Img
-  },
+  // {
+  //   img: awards16Img
+  // },
   // {
   //   img: awards17Img
   // },
-  {
-    img: awards18Img
-  },
-  {
-    img: awards19Img
-  },
-  {
-    img: awards20Img
-  },
+  // {
+  //   img: awards18Img
+  // },
+  // {
+  //   img: awards19Img
+  // },
+  // {
+  //   img: awards20Img
+  // },
   {
     img: awards21Img
   },
