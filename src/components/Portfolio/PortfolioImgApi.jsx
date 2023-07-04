@@ -321,7 +321,7 @@ import lged10 from "../../asset/images/lged/lged10.jpg";
 import lged11 from "../../asset/images/lged/lged11.jpg";
 
 //           upvc
-import upvc1 from "../../asset/images/upvc/upvc1.PNG";
+import upvc1 from "../../asset/images/upvc/upvc1.JPG";
 import upvc2 from "../../asset/images/upvc/upvc2.JPG";
 import upvc3 from "../../asset/images/upvc/upvc3.JPG";
 import upvc4 from "../../asset/images/upvc/upvc4.JPG";
