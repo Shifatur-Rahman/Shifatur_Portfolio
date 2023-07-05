@@ -3,6 +3,14 @@ import "./Plastic.css";
 import { Container,Row,Col } from "react-bootstrap";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import plastic1 from "../../asset/images/Concern/Plastics/01.jpg"
+import plastic2 from "../../asset/images/Concern/Plastics/02.jpg"
+import plastic3 from "../../asset/images/Concern/Plastics/03.jpg"
+import plastic4 from "../../asset/images/Concern/Plastics/04.jpg"
+import plastic5 from "../../asset/images/Concern/Plastics/05.jpg"
+import plastic6 from "../../asset/images/Concern/Plastics/06.jpg"
+import plastic7 from "../../asset/images/Concern/Plastics/07.jpg"
+import plastic8 from "../../asset/images/Concern/Plastics/08.jpg"
 
 const Plastic = () => {
   return <>
@@ -33,8 +41,7 @@ const Plastic = () => {
           </p>
         </Col>
 
-
-        <Col sm={12} md={12} lg={12}>
+        <Col style={{marginTop:"3rem"}} sm={12} md={12} lg={12}>
           <ImageList cols={4}>
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
@@ -59,35 +66,27 @@ export default Plastic;
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    img: plastic1,
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
+    img: plastic2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    img: plastic3,
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
+    img: plastic4,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
+    img: plastic5,
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
+    img: plastic6,
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
+    img: plastic7,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
+    img: plastic8,
   },
 ];
