@@ -11,6 +11,7 @@ import plastic5 from "../../asset/images/Concern/Plastics/05.jpg"
 import plastic6 from "../../asset/images/Concern/Plastics/06.jpg"
 import plastic7 from "../../asset/images/Concern/Plastics/07.jpg"
 import plastic8 from "../../asset/images/Concern/Plastics/08.jpg"
+      
 
 const Plastic = () => {
   return <>
