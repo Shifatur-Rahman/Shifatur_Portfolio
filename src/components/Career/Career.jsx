@@ -57,13 +57,13 @@ const Career = () => {
             </Col>
           
             <Col sm={12} md={6} lg={4}>
-                <div>
+              <div>
                 <p data-aos="fade-down"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1500" className='experience'>Choose a job you love, and you will never have to work a day in your life. —Confucius
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="1500" className='experience'>Choose a job you love, and you will never have to work a day in your life. —Confucius
                 </p>
-                </div>
+              </div>
             </Col>
         </Row>
 
