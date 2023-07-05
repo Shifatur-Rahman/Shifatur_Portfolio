@@ -205,7 +205,7 @@ const Portfolio = () => {
                     //  {(<h1>products are coming...</h1>)}
                
                     // }
-                    else {   
+                    else {
                       return item.category === category;
                     }
                   })
