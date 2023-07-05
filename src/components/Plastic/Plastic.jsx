@@ -45,7 +45,7 @@ const Plastic = () => {
           <ImageList cols={4}>
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
-                <img style={{height:"350px"}}
+                <img style={{height:"320px"}}
                   src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
                   srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                   alt={item.title}
