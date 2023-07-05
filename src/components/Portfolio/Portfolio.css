@@ -44,25 +44,27 @@
         /* background-color: red !important; */
       }
 
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-      
-
       .portfolio-item-img{
         border-radius: 5px;
         /* padding: 20px; */
       }
 
+      .portfolio-item {
+        position: relative;
+        overflow: hidden;
+      }
+
       .portfolio-item img{
-        /* height: 150px;
-        width: 180px; */
         height: 180px;
         width: 200px;
         margin: auto;
         border: 1px solid #b3b3b3;
-        padding: 2px;
+        padding: 3px;
+      }
+
+      .portfolio-item img:hover{
+        border: 1px solid #17a2b8;
+        transition: all ease 1s;
       }
 
       .itemTitle{
