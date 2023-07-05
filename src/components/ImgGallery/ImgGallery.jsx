@@ -163,44 +163,44 @@ const ImgGallery = () => {
                 ))} */}
 
 
-{itemData.map((item) => (
-  <ImageListItem
-    key={item.id}
-    onClick={() => handleImageClick(item)}
-  >
-    <div className="galleryImg">
-      <LazyLoadImage
-         src={`${item.img}?w=161&fit=crop&auto=format`} // Add "/compressed" to the image source URL
-      //  src={`https://ik.imagekit.io/jamesqquick/${item.img}`}
-        srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`} // Add "/compressed" to the image source URL
-       // srcSet={`https://ik.imagekit.io/jamesqquick/${item.img}`}
-       alt={item.title}
-        loading="lazy"
-        style={{ cursor: "pointer" }}
-      />
-    </div>
-  </ImageListItem>
-))}
+              {itemData.map((item) => (
+                <ImageListItem
+                  key={item.id}
+                  onClick={() => handleImageClick(item)}
+                >
+                  <div className="galleryImg">
+                    <LazyLoadImage
+                      src={`${item.img}/compressed?w=161&fit=crop&auto=format`} // Add "/compressed" to the image source URL
+                      //  src={`https://ik.imagekit.io/jamesqquick/${item.img}`}
+                      srcSet={`${item.img}/compressed?w=161&fit=crop&auto=format&dpr=2 2x`} // Add "/compressed" to the image source URL
+                      // srcSet={`https://ik.imagekit.io/jamesqquick/${item.img}`}
+                      alt={item.title}
+                      loading="lazy"
+                      style={{ cursor: "pointer" }}
+                    />
+                  </div>
+                </ImageListItem>
+              ))}
 
                 </ImageList>
           
-          <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
-            <DialogTitle>{selectedImage?.title}</DialogTitle>
-            <DialogContent>
-              <IconButton
-                sx={{ position: "absolute", top: 0, right: 0 }}
-                onClick={handleDialogClose}
-              >
-                <CloseIcon />
-              </IconButton>
-              <img
-                className="zoomImage"
-                src={`${selectedImage?.img}?w=500&fit=crop&auto=format`}
-                srcSet={`${selectedImage?.img}?w=500&fit=crop&auto=format&dpr=2 2x`}
-                alt={selectedImage?.title}
-              />
-            </DialogContent>
-          </Dialog>
+            <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
+              <DialogTitle>{selectedImage?.title}</DialogTitle>
+              <DialogContent>
+                <IconButton
+                  sx={{ position: "absolute", top: 0, right: 0 }}
+                  onClick={handleDialogClose}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <img
+                  className="zoomImage"
+                  src={`${selectedImage?.img}?w=500&fit=crop&auto=format`}
+                  srcSet={`${selectedImage?.img}?w=500&fit=crop&auto=format&dpr=2 2x`}
+                  alt={selectedImage?.title}
+                />
+              </DialogContent>
+            </Dialog>
         </Container>
       )}
     </> 
