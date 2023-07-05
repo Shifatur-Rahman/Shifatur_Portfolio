@@ -356,12 +356,10 @@ const Portfolio = () => {
               </DialogContent>
             </Dialog>
 
-
-
           </Row>
         </Container>
       )}
-    </>
+    </>     
   );
 };
 
