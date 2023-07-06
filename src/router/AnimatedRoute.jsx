@@ -61,7 +61,7 @@ function AnimatedRoute() {
             element={<TeamMemberMessagePage />}
           />
 
-            <Route
+          <Route
             path="/concern/plasticItem"
             element={<PlasticPage />}
           />
@@ -79,7 +79,7 @@ function AnimatedRoute() {
             path="/concern/distribution"
             element={<DistributionPage />}
           />
-             <Route
+          <Route
             path="/concern/furniture"
             element={<FurniturePage />}
           />

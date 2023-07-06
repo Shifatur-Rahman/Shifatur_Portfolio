@@ -2,11 +2,8 @@ import React, { Component } from "react";
 import "./TopNavigation.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
-// import talukderLogo from "../../asset/images/talukderLogo.png";
 import talukderLogo from "../../asset/images/Logo/talukderLogo.png";
-//import Card from "react-bootstrap/Card";
 import { AiOutlineCaretDown } from "react-icons/ai";
-
 
 class TopNavigation extends Component {
   constructor(props) {
@@ -20,8 +17,6 @@ class TopNavigation extends Component {
       portfolioDropdownOpen: false,
     };
   }
-
-
 
   onScroll = () => {
     if (window.scrollY > 100) {
@@ -69,11 +64,11 @@ class TopNavigation extends Component {
             </Navbar.Brand>
           </Link>
 
-          <Navbar.Toggle 
-           // data-aos="fade-down"
-           // data-aos-anchor="#example-anchor"
-           // data-aos-offset="500"
-           // data-aos-duration="1000"
+          <Navbar.Toggle
+            // data-aos="fade-down"
+            // data-aos-anchor="#example-anchor"
+            // data-aos-offset="500"
+            // data-aos-duration="1000"
             aria-controls="responsive-navbar-nav"
           />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -101,7 +96,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                  <button style={{border:"none", background:"none"}}
+                  <button style={{ border: "none", background: "none" }}
                     className={this.state.navbarItem}
                     to="#"
                     activeClassName="active to-empty"
@@ -132,7 +127,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                <button style={{border:"none", background:"none"}}
+                  <button style={{ border: "none", background: "none" }}
                     className={this.state.navbarItem}
                     to=""
                     activeClassName="active to-empty"
@@ -158,7 +153,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                  <button style={{border:"none", background:"none"}}
+                  <button style={{ border: "none", background: "none" }}
                     className={this.state.navbarItem}
                     to=""
                     activeClassName="active to-empty"
@@ -194,9 +189,9 @@ class TopNavigation extends Component {
                 </NavLink>
               </Nav.Link> */}
 
-                <Nav.Link>
+              <Nav.Link>
                 <div className="dropdown">
-                  <button style={{border:"none", background:"none"}}
+                  <button style={{ border: "none", background: "none" }}
                     className={this.state.navbarItem}
                     to=""
                     activeClassName="active to-empty"
@@ -218,19 +213,19 @@ class TopNavigation extends Component {
                       Talukder Plastic Co. Ltd.
                     </NavLink>
                     <NavLink className="navDropdown" to="/concern/foundry">
-                    Talukder Foundry Ltd.
+                      Talukder Foundry Ltd.
                     </NavLink>
                     <NavLink className="navDropdown" to="/concern/upvc">
-                    Talukder uPVC Fittings Ind. Ltd.
+                      Talukder uPVC Fittings Ind. Ltd.
                     </NavLink>
                     <NavLink className="navDropdown" to="/concern/distribution">
-                    Talukder Distribution Co. Ltd.                
+                      Talukder Distribution Co. Ltd.
                     </NavLink>
                     <NavLink className="navDropdown" to="/concern/furniture">
-                    Talukder Furniture Ltd.
+                      Talukder Furniture Ltd.
                     </NavLink>
                     <NavLink className="navDropdown" to="/concern/j&j">
-                    J & J Enterprise Ltd.
+                      J & J Enterprise Ltd.
                     </NavLink>
                   </div>
                 </div>
@@ -248,7 +243,7 @@ class TopNavigation extends Component {
 
               <Nav.Link>
                 <div className="dropdown">
-                  <button style={{border:"none", background:"none"}}
+                  <button style={{ border: "none", background: "none" }}
                     className={this.state.navbarItem}
                     to=""
                     activeClassName="active to-empty"
@@ -258,7 +253,7 @@ class TopNavigation extends Component {
                       }))
                     }
                   >
-                    About Us   
+                    About Us
                     <AiOutlineCaretDown />
                   </button>
                   <div className="dropdown-content">

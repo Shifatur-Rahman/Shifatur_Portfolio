@@ -35,25 +35,25 @@ const Upvc1 = () => {
   return (
     <>
    <Container>
-    <Row>
-      <Col sm={12} md={12} lg={12} style={{ marginTop: "4rem", textAlign: "justify" }}>
-      <p>
-      UPVC pipes and fittings are an excellent choice for plumbing 
-requiring high tensile and impact strength. They are made of 
-durable unplasticized plastic material that does not corrode or 
-crack easily under adverse environment and lasts for a long time, even with zero maintenance, compared to that of metal 
-alternatives. Here are some more details on the benefits and features of UPVC pipes:
-<br /> <br />
-<ul>
-  <li><a> <b>High Tensile and Impact Strength: </b> UPVC pipes have impressive tensile and impact strength, making them suitable for both above-ground and underground plumbing systems. They can withstand high pressure and resist damage from external impacts, ensuring reliable performance over an extended period. </a></li>
-  <li><a> <b>Corrosion Resistance:</b> Unlike metal pipes, UPVC pipes are immune to corrosion, rust, and chemical reactions. They are not affected by aggressive substances commonly found in soil, water, or chemicals present in various plumbing applications. This resistance to corrosion ensures the longevity and durability of UPVC pipes, reducing the need for frequent replacements. </a></li>
-  <li><a>  <b>Leak-Free Joints:</b> UPVC pipes come with various jointing techniques that provide secure and leak-free connections. Solvent cement joints are commonly used, which create a strong bond between pipe and fittings, ensuring a reliable and durable plumbing system. </a></li>
-</ul>
+        <Row>
+          <Col sm={12} md={12} lg={12} style={{ marginTop: "4rem", textAlign: "justify" }}>
+            <p>
+              UPVC pipes and fittings are an excellent choice for plumbing
+              requiring high tensile and impact strength. They are made of
+              durable unplasticized plastic material that does not corrode or
+              crack easily under adverse environment and lasts for a long time, even with zero maintenance, compared to that of metal
+              alternatives. Here are some more details on the benefits and features of UPVC pipes:
+              <br /> <br />
+              <ul>
+                <li><a> <b>High Tensile and Impact Strength: </b> UPVC pipes have impressive tensile and impact strength, making them suitable for both above-ground and underground plumbing systems. They can withstand high pressure and resist damage from external impacts, ensuring reliable performance over an extended period. </a></li>
+                <li><a> <b>Corrosion Resistance:</b> Unlike metal pipes, UPVC pipes are immune to corrosion, rust, and chemical reactions. They are not affected by aggressive substances commonly found in soil, water, or chemicals present in various plumbing applications. This resistance to corrosion ensures the longevity and durability of UPVC pipes, reducing the need for frequent replacements. </a></li>
+                <li><a>  <b>Leak-Free Joints:</b> UPVC pipes come with various jointing techniques that provide secure and leak-free connections. Solvent cement joints are commonly used, which create a strong bond between pipe and fittings, ensuring a reliable and durable plumbing system. </a></li>
+              </ul>
 
-      </p>
-      </Col>
+            </p>
+          </Col>
 
-      <Col style={{ marginTop: "3rem" }} sm={12} md={12} lg={12}>
+          <Col style={{ marginTop: "3rem" }} sm={12} md={12} lg={12}>
             <ImageList cols={4}>
               {itemData.map((item) => (
                 <ImageListItem key={item.img}>
@@ -68,8 +68,8 @@ alternatives. Here are some more details on the benefits and features of UPVC pi
                     <div style={{ width: "300px", height: "280px" }}>
                       <Blurhash
                         hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                      //  width={200}
-                      //  height={300}
+                        //  width={200}
+                        //  height={300}
                         resolutionX={32}
                         resolutionY={32}
                         punch={1}
@@ -80,7 +80,7 @@ alternatives. Here are some more details on the benefits and features of UPVC pi
               ))}
             </ImageList>
           </Col>
-    </Row>
+        </Row>
    </Container>
     </>
   )
