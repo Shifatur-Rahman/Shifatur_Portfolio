@@ -104,19 +104,6 @@ import { Blurhash } from "react-blurhash";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 const Plastic = () => {
   const [imgLoad, setImgLoad] = useState(false);
   
@@ -183,18 +170,18 @@ const Plastic = () => {
               {itemData.map((item) => (
                 <ImageListItem key={item.img}>
                   {imgLoad ? (
-                    <img
+                    <img style={{ width: "300px", height: "280px" }}
                       src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
                       srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                       alt={item.title}
                       loading="lazy"
                     />
                   ) : (
-                    <div style={{ width: "200px", height: "300px" }}>
+                    <div style={{ width: "300px", height: "280px" }}>
                       <Blurhash
                         hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                        width={200}
-                        height={300}
+                      //  width={200}
+                      //  height={300}
                         resolutionX={32}
                         resolutionY={32}
                         punch={1}
