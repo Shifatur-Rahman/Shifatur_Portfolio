@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Plastic.css";
 import { Container, Row, Col } from "react-bootstrap";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
 import plastic1 from "../../asset/images/Concern/Plastics/01.jpg";
 import plastic2 from "../../asset/images/Concern/Plastics/02.jpg";
 import plastic3 from "../../asset/images/Concern/Plastics/03.jpg";
@@ -12,6 +10,8 @@ import plastic6 from "../../asset/images/Concern/Plastics/06.jpg";
 import plastic7 from "../../asset/images/Concern/Plastics/07.jpg";
 import plastic8 from "../../asset/images/Concern/Plastics/08.jpg";
 import { Blurhash } from "react-blurhash";
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
 
 // const Plastic = () => {
 //   const [imgLoad, setImgLoad] = useState(false);

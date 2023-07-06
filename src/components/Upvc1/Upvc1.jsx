@@ -1,10 +1,37 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import {Container, Row, Col} from "react-bootstrap";
 import "./Upvc1.css";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import upvc1 from "../../asset/images/Concern/Upvc/01.jpg";
+import upvc2 from "../../asset/images/Concern/Upvc/02.jpg";
+import upvc3 from "../../asset/images/Concern/Upvc/03.jpg";
+import upvc4 from "../../asset/images/Concern/Upvc/04.jpg";
+import upvc5 from "../../asset/images/Concern/Upvc/05.jpg";
+import upvc6 from "../../asset/images/Concern/Upvc/06.jpg";
+import upvc7 from "../../asset/images/Concern/Upvc/07.jpg";
+import upvc8 from "../../asset/images/Concern/Upvc/08.jpg";
+import { Blurhash } from "react-blurhash";
 
 const Upvc1 = () => {
+
+  const [imgLoad, setImgLoad] = useState(false);
+  
+  useEffect(() => {
+    const imgPromises = itemData.map((item) => {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve();
+        img.onerror = () => reject();
+        img.src = item.img;
+      });
+    });
+
+    Promise.all(imgPromises)
+      .then(() => setImgLoad(true))
+      .catch(() => setImgLoad(true));
+  }, []);
+
   return (
     <>
    <Container>
@@ -26,22 +53,33 @@ alternatives. Here are some more details on the benefits and features of UPVC pi
       </p>
       </Col>
 
-      <Col sm={12} md={12} lg={12} style={{ marginTop: "4rem", textAlign: "justify" }}>
-
-      <ImageList cols={3} rowHeight={164}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          <img
-            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-            alt={item.title}
-            loading="lazy"
-          />
-        </ImageListItem>
-      ))}
-    </ImageList>
-      
-      </Col>
+      <Col style={{ marginTop: "3rem" }} sm={12} md={12} lg={12}>
+            <ImageList cols={4}>
+              {itemData.map((item) => (
+                <ImageListItem key={item.img}>
+                  {imgLoad ? (
+                    <img style={{ width: "300px", height: "280px" }}
+                      src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                      srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                      alt={item.title}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div style={{ width: "300px", height: "280px" }}>
+                      <Blurhash
+                        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
+                      //  width={200}
+                      //  height={300}
+                        resolutionX={32}
+                        resolutionY={32}
+                        punch={1}
+                      />
+                    </div>
+                  )}
+                </ImageListItem>
+              ))}
+            </ImageList>
+          </Col>
     </Row>
    </Container>
     </>
@@ -50,53 +88,30 @@ alternatives. Here are some more details on the benefits and features of UPVC pi
 
 export default Upvc1
 
+
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    img: upvc1,
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
+    img: upvc2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    img: upvc3,
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
+    img: upvc4,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
+    img: upvc5,
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
+    img: upvc6,
   },
   {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
+    img: upvc7,
   },
   {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
+    img: upvc8,
   },
 ];

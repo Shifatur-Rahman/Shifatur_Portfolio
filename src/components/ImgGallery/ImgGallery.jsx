@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import { LazyLoadImage } from "react-lazy-load-image-component"; // lazy component
+//import { LazyLoadImage } from "react-lazy-load-image-component"; // lazy component
 import { Container } from "react-bootstrap";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
@@ -36,6 +36,7 @@ const ImgGallery = () => {
   const [imgLoad, setImgLoad] = useState(false);
 
   useEffect(() => {
+
     const imgPromises = itemData.map((item) => {
       return new Promise((resolve, reject) => {
         const img = new Image();
@@ -63,7 +64,7 @@ const ImgGallery = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2600);
+    }, 1500);
   }, []);
 
   return (
@@ -78,14 +79,33 @@ const ImgGallery = () => {
             sx={{ width: "100%", height: "auto", overflow: "hidden" }}
             variant="woven"
             cols={4}
-            gap={6}
+            //gap={6}
           >
               {itemData.map((item) => (
                 <ImageListItem
-                  key={item.id}
+                  key={item.img}
                   onClick={() => handleImageClick(item)}
                 >
-                  <div className="galleryImg">
+                  {imgLoad ? (
+                    <img
+                      src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                      srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                      alt={item.title}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div style={{ width: "100%", height: "100%" }}>
+                      <Blurhash
+                        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
+                      //  width={200}
+                      //  height={300}
+                        resolutionX={32}
+                        resolutionY={32}
+                        punch={1}
+                      />
+                    </div>
+                  )}
+                  {/* <div className="galleryImg">
                     <LazyLoadImage
                       src={`${item.img}?w=161&fit=crop&auto=format`}
                       srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`} 
@@ -93,7 +113,7 @@ const ImgGallery = () => {
                       loading="lazy"
                       style={{ cursor: "pointer" }}
                     />
-                  </div>
+                  </div> */}
                 </ImageListItem>
               ))}
 

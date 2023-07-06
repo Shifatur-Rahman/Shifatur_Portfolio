@@ -1,11 +1,20 @@
 import React from "react";
 import "./Foundry.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Foundry = () => {
   
   return <>
   
-  <h1>Foundry</h1>
+   <Container>
+    <Row>
+      <Col>
+      
+        
+      
+      </Col>
+    </Row>
+   </Container>
   
   </>;
 
