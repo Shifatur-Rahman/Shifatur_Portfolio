@@ -35,72 +35,74 @@ const Furniture = () => {
     
    <Container>
     <Row>
-                  <Col sm={12}
-                      md={12}
-                      lg={12}
-                      style={{ marginTop: "4rem", textAlign: "justify" }}>
-                      <p className='concernBodyText'>
-                          Talukder furniture is extremely resilient and requires very little
-                          maintenance if the woods are seasoned methodically. Wood is a
-                          long-lasting natural material that can withstand constant abuse,
-                          whether it's spills in the kitchen or scratches in the dining room.
-                          Solid wood furniture can last for generations imparting an antique
-                          value. Owing to their below enlisted attributes office furniture made from
-                          wood and particle board, these products are highly appreciated
-                          and accepted by our corporate clients and very coveted in the
-                          markets of entire Bangladesh:
+          <Col sm={12}
+            md={12}
+            lg={12}
+            style={{ marginTop: "4rem", textAlign: "justify" }}>
+            <p className='concernBodyText'>
+              Talukder furniture is extremely resilient and requires very little
+              maintenance if the woods are seasoned methodically. Wood is a
+              long-lasting natural material that can withstand constant abuse,
+              whether it's spills in the kitchen or scratches in the dining room.
+              Solid wood furniture can last for generations imparting an antique
+              value. Owing to their below enlisted attributes office furniture made from
+              wood and particle board, these products are highly appreciated
+              and accepted by our corporate clients and very coveted in the
+              markets of entire Bangladesh:
 
-                          <br /> <br />
+              <br /> <br />
 
-                          <ul>
-                              <li>
-                                  <a>Dimensional accuracy</a>
-                              </li>
-                              <li>
-                                  <a> Rigid construction</a>
-                              </li>
-                              <li>
-                                  <a>  Corrosion resistance </a>
-                              </li>
-                              <li>
-                                  <a> Easy to use, Chemical resistance </a>
-                              </li>
-                              <li>
-                                  <a> Lower weight to space ratio
-                                  </a>
-                              </li>
-                          </ul>
-                      </p>
-                  </Col>
+              <ul>
+                <li>
+                  <a>Dimensional accuracy</a>
+                </li>
+                <li>
+                  <a> Rigid construction</a>
+                </li>
+                <li>
+                  <a>  Corrosion resistance </a>
+                </li>
+                <li>
+                  <a> Easy to use, Chemical resistance </a>
+                </li>
+                <li>
+                  <a> Lower weight to space ratio
+                  </a>
+                </li>
+              </ul>
+            </p>
+          </Col>
 
 
-                  <Col style={{ marginTop: "3rem" }} sm={12} md={12} lg={12}>
-                      <ImageList cols={4}>
-                          {itemData.map((item) => (
-                              <ImageListItem key={item.img}>
-                                  {imgLoad ? (
-                                      <img style={{ width: "300px", height: "280px" }}
-                                          src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                                          srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                                          alt={item.title}
-                                          loading="lazy"
-                                      />
-                                  ) : (
-                                      <div style={{ width: "300px", height: "280px" }}>
-                                          <Blurhash
-                                              hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                                              //  width={200}
-                                              //  height={300}
-                                              resolutionX={32}
-                                              resolutionY={32}
-                                              punch={1}
-                                          />
-                                      </div>
-                                  )}
-                              </ImageListItem>
-                          ))}
-                      </ImageList>
-                  </Col>
+          <Col style={{ marginTop: "3rem" }} sm={12} md={12} lg={12}>
+            <ImageList cols={4}>
+              {itemData.map((item) => (
+                <ImageListItem key={item.img}>
+                  {imgLoad ? (
+                    <img style={{ width: "300px", height: "280px" }}
+                      src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                      srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                      alt={item.title}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div style={{ width: "300px", height: "280px" }}>
+                      <Blurhash
+                        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
+                        //  width={200}
+                        //  height={300}
+                        resolutionX={32}
+                        resolutionY={32}
+                        punch={1}
+                      />
+                    </div>
+                  )}
+                </ImageListItem>
+              ))}
+            </ImageList>
+          </Col>
+
+
     </Row>
    </Container>
     
