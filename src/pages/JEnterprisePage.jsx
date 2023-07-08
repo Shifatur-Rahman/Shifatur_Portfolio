@@ -24,4 +24,5 @@ const JEnterprisePage = () => {
   )
 }
 
-export default JEnterprisePage
+export default JEnterprisePage;
+
