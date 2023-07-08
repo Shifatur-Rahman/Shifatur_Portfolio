@@ -30,7 +30,7 @@ const Plastic = () => {
       .then(() => setImgLoad(true))
       .catch(() => setImgLoad(true));
   }, []);
-  
+
   return (
     <>
       <Container>
@@ -41,7 +41,7 @@ const Plastic = () => {
             lg={12}
             style={{ marginTop: "4rem", textAlign: "justify" }}
           >
-            <p>
+            <p className='concernBodyText'>
               Now a days essence and use of plastic products knows no bound,
               Plastic furniture becomes the first choice of mass people against
               their requirement, whether it is for our home patio, workplace or

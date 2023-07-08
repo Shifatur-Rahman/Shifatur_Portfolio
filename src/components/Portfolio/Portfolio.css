@@ -98,14 +98,7 @@
         font-size: 8px !important;
       }
       }
-
-      @media only screen and (min-width: 2000px){
-        .portfolio-item {
-          width: calc(20% - 10px);
-        }
-      }
       
-
       @media only screen and (max-width: 1500px){
         .portfolio-item {
           width: calc(25% - 10px);
@@ -119,7 +112,6 @@
       }
 
       @media only screen and (max-width: 1000px){
-
         .filter-buttons {
           flex-direction: column;
           align-items: center;
@@ -127,7 +119,6 @@
 
         .dropdown-content{
           width: 200px !important;
-          /* z-index: -1; */
         }
       }
 
@@ -169,6 +160,4 @@
           width: 160px !important;
           height: 180px !important;
         }
-
       }
-        

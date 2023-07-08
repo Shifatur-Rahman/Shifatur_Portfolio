@@ -11,6 +11,7 @@ import furniture8 from "../../asset/images/Concern/Furniture/08.jpg";
 import { Blurhash } from "react-blurhash";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import "./Furniture.css"
 
 const Furniture = () => {
     const [imgLoad, setImgLoad] = useState(false);
@@ -38,7 +39,7 @@ const Furniture = () => {
                       md={12}
                       lg={12}
                       style={{ marginTop: "4rem", textAlign: "justify" }}>
-                      <p>
+                      <p className='concernBodyText'>
                           Talukder furniture is extremely resilient and requires very little
                           maintenance if the woods are seasoned methodically. Wood is a
                           long-lasting natural material that can withstand constant abuse,

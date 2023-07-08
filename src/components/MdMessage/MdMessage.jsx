@@ -2,7 +2,6 @@ import React, {useEffect, useState} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./MdMessage.css";
 import avatarImg from "../../asset/images/About us/avatar.jpg";
-import mdImg from "../../asset/images/management_img/facee.png";
 import Spinner from "../Spinner/Spinner";
 
 const MdMessage = () => {

@@ -292,6 +292,7 @@ const BoardOfDirector = () => {
                     <h2>Md. Monjurul Rowshon</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
                       Sr. Manager <br />
+                      Corporate Sales
                     </p>
                     <p></p>
                   </div>

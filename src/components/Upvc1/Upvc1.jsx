@@ -37,7 +37,7 @@ const Upvc1 = () => {
    <Container>
         <Row>
           <Col sm={12} md={12} lg={12} style={{ marginTop: "4rem", textAlign: "justify" }}>
-            <p>
+            <p className='concernBodyText'>
               UPVC pipes and fittings are an excellent choice for plumbing
               requiring high tensile and impact strength. They are made of
               durable unplasticized plastic material that does not corrode or
