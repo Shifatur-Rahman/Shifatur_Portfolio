@@ -13,6 +13,7 @@ import upvc7 from "../../asset/images/Concern/Upvc/07.jpg";
 import upvc8 from "../../asset/images/Concern/Upvc/08.jpg";
 import { Blurhash } from "react-blurhash";
 
+
 const Upvc1 = () => {
 
   const [imgLoad, setImgLoad] = useState(false);
@@ -36,6 +37,7 @@ const Upvc1 = () => {
     <>
    <Container>
         <Row>
+
           <Col sm={12} md={12} lg={12} style={{ marginTop: "4rem", textAlign: "justify" }}>
             <p className='concernBodyText'>
               UPVC pipes and fittings are an excellent choice for plumbing
@@ -80,6 +82,7 @@ const Upvc1 = () => {
               ))}
             </ImageList>
           </Col>
+
         </Row>
    </Container>
     </>

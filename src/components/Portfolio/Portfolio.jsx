@@ -10,9 +10,8 @@ import CloseIcon from "@mui/icons-material/Close";
 import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner";
-// import { NavLink } from "react-router-dom";
 import UpvcModal1 from "../UpvcModal1/UpvcModal1";
-// import Modal from 'react-bootstrap/Modal';
+import { Blurhash } from "react-blurhash";
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
