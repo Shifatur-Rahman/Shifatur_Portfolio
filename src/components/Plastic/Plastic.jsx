@@ -13,7 +13,6 @@ import { Blurhash } from "react-blurhash";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 
-
 const Plastic = () => {
   const [imgLoad, setImgLoad] = useState(false);
   
@@ -31,6 +30,7 @@ const Plastic = () => {
       .then(() => setImgLoad(true))
       .catch(() => setImgLoad(true));
   }, []);
+  
   return (
     <>
       <Container>
@@ -136,7 +136,6 @@ const itemData = [
     img: plastic8,
   },
 ];
-
 
    {/* <ImageList cols={4}>
               {itemData.map((item) => (

@@ -1,21 +1,18 @@
+
 .galleryImg img {
   width: 100%;
 }
+
 .zoomImage {
   width: 500px;
   height: 400px;
 }
-
 
 .MuiDialogTitle-root {
   font-size: 20px !important;
   font-family: "Raleway", sans-serif !important;
   font-weight: 400;
 }
-
-/* .ImageGallery{
-  margin-right: 3%;
-} */
 
 @media (max-width: 768px) {
   .zoomImage {

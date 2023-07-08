@@ -99,7 +99,7 @@
       }
       }
 
-      @media only screen and (max-width: 2000px){
+      @media only screen and (min-width: 2000px){
         .portfolio-item {
           width: calc(20% - 10px);
         }
