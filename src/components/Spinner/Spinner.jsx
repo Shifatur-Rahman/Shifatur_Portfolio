@@ -16,7 +16,7 @@ const Spinner = () => {
 
   return (
     <>
-    <div className="preLoader">
+    <div className="spinner">
         <img src={TalukderSpinnerImg} alt="spinner" />
     </div>
     </>
