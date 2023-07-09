@@ -108,7 +108,6 @@ const itemData = [
   {
     img: upvc2,
   },
-
   {
     img: upvc4,
   },
