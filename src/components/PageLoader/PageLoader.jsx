@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import {InfinitySpin } from "react-loader-spinner";
 import "./PageLoader.css";
-import pageLoaderImg from "../../asset/images/Reload/loading.svg"
+// import pageLoaderImg1 from "../../asset/images/Reload/loading.svg"
+import pageLoaderImg from "../../asset/images/Reload/talukder.gif"
 
 const PageLoader = () => {
   const [loading, setLoading] = useState(true);
@@ -9,7 +10,7 @@ const PageLoader = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2500);
   }, []);
   return (
     <>

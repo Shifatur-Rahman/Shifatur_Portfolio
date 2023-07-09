@@ -4,3 +4,10 @@
     justify-content: center;
     height: 100vh;
   }
+
+  .page-loader img{
+    width: 300px;
+    height: 200px;
+  }
+
+

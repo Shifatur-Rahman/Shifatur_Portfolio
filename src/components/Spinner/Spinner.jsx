@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Spinner.css"
 import { useState, useEffect } from "react";
-import { ThreeDots } from "react-loader-spinner";
-import TalukderSpinnerImg from "../../asset/images/Reload/loading.svg" 
+// import { ThreeDots } from "react-loader-spinner";
+// import TalukderSpinnerImg1 from "../../asset/images/Reload/loading.svg" 
+import TalukderSpinnerImg from "../../asset/images/Reload/talukder.gif" 
 
 const Spinner = () => {
     const [loading, setLoading] = useState(true);
@@ -10,23 +11,15 @@ const Spinner = () => {
     useEffect(() => {
         setTimeout(() => {
           setLoading(false);
-        }, 500);
+        }, 1500);
       }, []);
 
   return (
     <>
     <div className="preLoader">
-    {/* <ThreeDots 
-height="80" 
-width="80" 
-radius="9"
-color="#4fa94d" 
-ariaLabel="three-dots-loading"
-wrapperStyle={{}}
-wrapperClassName=""
-visible={true}
- /> */}
+
  <img src={TalukderSpinnerImg} alt="spinner" />
+
     </div>
     
     </>

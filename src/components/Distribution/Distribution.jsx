@@ -15,8 +15,7 @@ const Distribution = () => {
           >
             <p className='concernBodyText'>
             Talukder Distribution Co. Ltd. is a significant concern within the Talukder Group of Industries. As part of the group, Talukder Distribution plays a vital role in the distribution and supply chain management of various products and goods.
-
-With a strong network and infrastructure, Talukder Distribution ensures the efficient and timely delivery of products to customers across different regions. They have developed expertise in managing logistics, inventory management, and transportation to ensure seamless distribution operations.
+            With a strong network and infrastructure, Talukder Distribution ensures the efficient and timely delivery of products to customers across different regions. They have developed expertise in managing logistics, inventory management, and transportation to ensure seamless distribution operations.
             The benefits of plastic furniture are given below:
               <br /> <br />
               <ul>
