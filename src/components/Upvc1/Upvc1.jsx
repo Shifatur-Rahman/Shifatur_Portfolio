@@ -61,7 +61,6 @@ const Upvc1 = () => {
                 <li><a> <b>Corrosion Resistance:</b> Unlike metal pipes, UPVC pipes are immune to corrosion, rust, and chemical reactions. They are not affected by aggressive substances commonly found in soil, water, or chemicals present in various plumbing applications. This resistance to corrosion ensures the longevity and durability of UPVC pipes, reducing the need for frequent replacements. </a></li>
                 <li><a>  <b>Leak-Free Joints:</b> UPVC pipes come with various jointing techniques that provide secure and leak-free connections. Solvent cement joints are commonly used, which create a strong bond between pipe and fittings, ensuring a reliable and durable plumbing system. </a></li>
               </ul>
-
             </p>
           </Col>
 
@@ -70,18 +69,16 @@ const Upvc1 = () => {
               {itemData.map((item) => (
                 <ImageListItem key={item.img}>
                   {imgLoad ? (
-                    <img style={{ width: "300px", height: "280px" }}
+                    <img style={{ width: "300px", height: "220px" }}
                       src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
                       srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                       alt={item.title}
                       loading="lazy"
                     />
                   ) : (
-                    <div style={{ width: "300px", height: "280px" }}>
+                    <div style={{ width: "100%", height: "100%" }}>
                       <Blurhash
                         hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                        //  width={200}
-                        //  height={300}
                         resolutionX={32}
                         resolutionY={32}
                         punch={1}
@@ -111,9 +108,7 @@ const itemData = [
   {
     img: upvc2,
   },
-  {
-    img: upvc3,
-  },
+
   {
     img: upvc4,
   },
@@ -122,6 +117,9 @@ const itemData = [
   },
   {
     img: upvc6,
+  },
+  {
+    img: upvc3,
   },
   {
     img: upvc7,

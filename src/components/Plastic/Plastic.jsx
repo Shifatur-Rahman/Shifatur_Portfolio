@@ -94,18 +94,16 @@ const Plastic = () => {
               {itemData.map((item) => (
                 <ImageListItem key={item.img}>
                   {imgLoad ? (
-                    <img style={{ width: "300px", height: "280px" }}
+                    <img style={{ width: "300px", height: "220px" }}
                       src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
                       srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                       alt={item.title}
                       loading="lazy"
                     />
                   ) : (
-                    <div style={{ width: "300px", height: "280px" }}>
+                    <div style={{ width: "100%", height: "100%" }}>
                       <Blurhash
-                        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                      //  width={200}
-                      //  height={300}
+                        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"            
                         resolutionX={32}
                         resolutionY={32}
                         punch={1}
