@@ -12,9 +12,18 @@ import upvc6 from "../../asset/images/Concern/Upvc/06.jpg";
 import upvc7 from "../../asset/images/Concern/Upvc/07.jpg";
 import upvc8 from "../../asset/images/Concern/Upvc/08.jpg";
 import { Blurhash } from "react-blurhash";
+import Spinner from "../Spinner/Spinner.jsx";
 
 
 const Upvc1 = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
 
   const [imgLoad, setImgLoad] = useState(false);
   
@@ -35,6 +44,9 @@ const Upvc1 = () => {
 
   return (
     <>
+
+    {
+      loading ? (<Spinner />): (
    <Container>
         <Row>
 
@@ -85,6 +97,8 @@ const Upvc1 = () => {
 
         </Row>
    </Container>
+   )
+  }
     </>
   )
 }

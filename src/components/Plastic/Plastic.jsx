@@ -12,8 +12,19 @@ import plastic8 from "../../asset/images/Concern/Plastics/08.jpg";
 import { Blurhash } from "react-blurhash";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import Spinner from "../Spinner/Spinner.jsx";
 
 const Plastic = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
+
+
   const [imgLoad, setImgLoad] = useState(false);
   
   useEffect(() => {
@@ -33,6 +44,10 @@ const Plastic = () => {
 
   return (
     <>
+
+{loading ? (
+        <Spinner />
+      ) : (
       <Container>
         <Row>
           <Col
@@ -104,6 +119,7 @@ const Plastic = () => {
           </Col>
         </Row>
       </Container>
+      )}
     </>
   );
 };

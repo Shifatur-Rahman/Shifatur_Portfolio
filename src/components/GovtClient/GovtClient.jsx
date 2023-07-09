@@ -22,7 +22,7 @@ const GovtClient = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2700);
+    }, 4000);
   }, []);
 
   const settings = {

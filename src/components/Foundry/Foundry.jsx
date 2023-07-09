@@ -1,11 +1,23 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "./Foundry.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Spinner from "../Spinner/Spinner.jsx";
 
 const Foundry = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
   
   return <>
   
+{
+  loading ? ( <Spinner />) :
+  (
    <Container>
     <Row>
     <Col
@@ -34,9 +46,11 @@ const Foundry = () => {
             </p>
           </Col>
 
-
     </Row>
    </Container>
+
+)
+}
   
   </>;
 

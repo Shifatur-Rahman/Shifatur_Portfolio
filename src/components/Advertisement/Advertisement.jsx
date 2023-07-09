@@ -53,7 +53,7 @@ const Advertisement = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2600);
+    }, 5000);
   }, []);
 
   return (
