@@ -14,9 +14,7 @@ import upvc8 from "../../asset/images/Concern/Upvc/08.jpg";
 import { Blurhash } from "react-blurhash";
 import Spinner from "../Spinner/Spinner.jsx";
 
-
 const Upvc1 = () => {
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -41,7 +39,7 @@ const Upvc1 = () => {
       .then(() => setImgLoad(true))
       .catch(() => setImgLoad(true));
   }, []);
-
+ 
   return (
     <>
 

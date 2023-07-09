@@ -12,9 +12,6 @@ const PageLoader = () => {
   //   }, 3400);
   // }, []);
 
-
-
-
   const [refreshKey, setRefreshKey] = useState(0);
 
   useEffect(() => {
@@ -53,3 +50,7 @@ const PageLoader = () => {
 };
 
 export default PageLoader;
+
+
+
+

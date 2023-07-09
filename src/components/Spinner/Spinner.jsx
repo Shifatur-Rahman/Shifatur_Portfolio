@@ -14,7 +14,6 @@ const Spinner = () => {
         }, 1500);
       }, []);
 
-
   return (
     <>
     <div className="preLoader">
