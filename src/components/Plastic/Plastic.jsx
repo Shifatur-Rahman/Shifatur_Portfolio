@@ -13,7 +13,6 @@ import { Blurhash } from "react-blurhash";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 
-
 const Plastic = () => {
   const [imgLoad, setImgLoad] = useState(false);
   
