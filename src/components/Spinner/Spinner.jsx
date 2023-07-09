@@ -14,12 +14,12 @@ const Spinner = () => {
         }, 1500);
       }, []);
 
+
   return (
     <>
     <div className="preLoader">
         <img src={TalukderSpinnerImg} alt="spinner" />
     </div>
-    
     </>
   )
 }
