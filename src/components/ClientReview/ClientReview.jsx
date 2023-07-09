@@ -32,7 +32,7 @@ const ClientReview = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3200);
   }, []);
 
   const settings = {

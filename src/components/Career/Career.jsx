@@ -30,7 +30,7 @@ const Career = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2600);
+    }, 3200);
   }, []);
 
   
@@ -56,15 +56,7 @@ const Career = () => {
             </div>
             </Col>
           
-            <Col sm={12} md={6} lg={4}>
-              <div>
-                <p data-aos="fade-down"
-                  data-aos-anchor="#example-anchor"
-                  data-aos-offset="500"
-                  data-aos-duration="1500" className='experience'>Choose a job you love, and you will never have to work a day in your life. —Confucius
-                </p>
-              </div>
-            </Col>
+          
         </Row>
 
         <hr />

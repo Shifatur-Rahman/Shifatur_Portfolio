@@ -1,11 +1,20 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./AboutDescription.css";
+import Spinner from "../Spinner/Spinner";
 
-class AboutDescription extends Component {
-  render() {
+const AboutDescription = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3200);
+  }, []);
     return (
       <>
+      {
+        loading ? (<Spinner />) : ( 
         <Container>
           <Row className="AboutMeMargin">
             <Col sm={12} md={12} lg={12}>
@@ -71,9 +80,10 @@ class AboutDescription extends Component {
             </Col>
           </Row>
         </Container>
+        )
+      }
       </>
     );
   }
-}
 
 export default AboutDescription;

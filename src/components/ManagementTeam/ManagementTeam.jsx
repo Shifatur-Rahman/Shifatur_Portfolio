@@ -17,12 +17,10 @@ const ManagementTeam = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2600);
+    }, 3200);
   }, []);
   return (
     <>
-      {/* <h2 className="mainTitle">Board of Directors</h2> */}
-
       {loading ? (
         <Spinner />
       ) :

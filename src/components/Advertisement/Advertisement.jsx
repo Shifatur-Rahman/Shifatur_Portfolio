@@ -29,7 +29,6 @@ import bucketImg from "../../asset/images/advertisement/bucketposter.jpg";
 import tableImg from "../../asset/images/advertisement/04.jpg";
 import AOS from "aos";
 import Spinner from "../Spinner/Spinner";
-// import { Link } from 'react-scroll';
 
 const Advertisement = () => {
   useEffect(() => {
@@ -53,7 +52,7 @@ const Advertisement = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3200);
   }, []);
 
   return (

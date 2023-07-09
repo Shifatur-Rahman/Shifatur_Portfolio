@@ -13,7 +13,6 @@ import client30 from "../../asset/images/Client_logo/EED.jpg";
 import client24 from "../../asset/images/Client_logo/jica.jpg";
 import client31 from "../../asset/images/Client_logo/bmda.jpg";
 import Spinner from "../Spinner/Spinner.jsx";
-
     // Govt. client
 
 const GovtClient = () => {
@@ -22,11 +21,10 @@ const GovtClient = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3200);
   }, []);
 
   const settings = {
-    // dots: true,
     dots: true,
     infinite: true,
     speed: 1000,
@@ -162,3 +160,5 @@ const govtClientData = [
     img: client31,
   },
 ];
+
+

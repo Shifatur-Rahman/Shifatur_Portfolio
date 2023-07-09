@@ -10,7 +10,7 @@ const ChairmanMessage = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2600);
+    }, 3200);
   }, []);
   return (
     <>

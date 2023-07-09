@@ -1,10 +1,22 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import "./Distribution.css"
 import { Container, Row, Col } from 'react-bootstrap'
+import Spinner from "../Spinner/Spinner.jsx";
 
 const Distribution = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3200);
+  }, []);
+
   return (
     <>
+    {
+loading ? (<Spinner />) : (
   <Container>
     <Row>
     <Col
@@ -31,6 +43,9 @@ const Distribution = () => {
           </Col>
     </Row>
   </Container>
+)
+    }
+  
     </>
   )
 }
