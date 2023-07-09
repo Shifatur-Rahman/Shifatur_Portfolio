@@ -22,7 +22,7 @@ const Upvc1 = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3200);
   }, []);
 
   const [imgLoad, setImgLoad] = useState(false);

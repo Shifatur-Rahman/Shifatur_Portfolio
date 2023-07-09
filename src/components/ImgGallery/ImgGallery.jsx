@@ -28,8 +28,6 @@ import "./ImgGallery.css";
 import Spinner from "../Spinner/Spinner.jsx";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { Blurhash } from "react-blurhash";
-// import { Placeholder } from "react-placeholder";
-// import "react-placeholder/lib/reactPlaceholder.css";
 
 const ImgGallery = () => {
 
@@ -64,7 +62,7 @@ const ImgGallery = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 3700);
   }, []);
 
   return (

@@ -10,13 +10,16 @@ const PageLoader = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2500);
+    }, 2800);
   }, []);
   return (
     <>
       <div className="page-loader">
 {/* <InfinitySpin width="200" color="#17a2b8" /> */}
-<img src={pageLoaderImg} alt ="pre-loader" />
+{
+  loading ? <img src={pageLoaderImg} alt ="pre-loader" /> : ""
+}
+
       </div>
     </>
   );

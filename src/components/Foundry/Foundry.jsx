@@ -10,7 +10,7 @@ const Foundry = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3200);
   }, []);
   
   return <>
