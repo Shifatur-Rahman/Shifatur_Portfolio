@@ -262,4 +262,3 @@ const itemData = [
 // };
 
 // export default Plastic;
-
