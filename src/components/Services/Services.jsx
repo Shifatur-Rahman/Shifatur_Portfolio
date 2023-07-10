@@ -6,18 +6,18 @@ const Services = () => {
   return (
     <>
     
-    <Container>
+      <Container>
         <Row>
-            <Col>
-            
-            </Col>
+          <Col>
 
-            <Col>
-            
-            </Col>
-            
+          </Col>
+
+          <Col>
+
+          </Col>
+
         </Row>
-    </Container>
+      </Container>
     
     </>
   )
