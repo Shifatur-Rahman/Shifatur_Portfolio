@@ -23,7 +23,7 @@ const Plastic = () => {
       setLoading(false);
     }, 3200);
   }, []);
-  
+
   const [imgLoad, setImgLoad] = useState(false);
   
   useEffect(() => {
@@ -117,7 +117,7 @@ const Plastic = () => {
                   ))}
                 </ImageList>
               </Col>
-
+     
         </Row>
       </Container>
       )}

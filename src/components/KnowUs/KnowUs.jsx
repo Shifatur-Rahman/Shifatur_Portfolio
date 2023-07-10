@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { forwardRef } from "react";
+ import serviceVideo from "../../asset/Serevices Video/service.webm"
 
 function KnowUs(props, ref) {
   // useEffect(() => {
@@ -52,6 +53,15 @@ function KnowUs(props, ref) {
               </NavLink>
             </div>
           </Col>
+
+{/* <Col sm={12} md={6} lg={8}>
+<video  style={{width:"350px", height:"400px"}} >
+<source src={serviceVideo} type="video/webm" />
+    <source src={serviceVideo} type="video/mp4" />
+    Sorry, your browser doesn't support videos.
+</video>
+</Col> */}
+
         </Row>
       </Container>
     </>
