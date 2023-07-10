@@ -106,13 +106,13 @@ export default Upvc1
 
 const itemData = [
   {
-    img: upvc1,
+    img: upvc4,
+  },
+  {
+    img: upvc3,
   },
   {
     img: upvc2,
-  },
-  {
-    img: upvc4,
   },
   {
     img: upvc5,
@@ -121,12 +121,13 @@ const itemData = [
     img: upvc6,
   },
   {
-    img: upvc3,
-  },
-  {
-    img: upvc7,
+    img: upvc1,
   },
   {
     img: upvc8,
   },
+  {
+    img: upvc7,
+  },
+ 
 ];
