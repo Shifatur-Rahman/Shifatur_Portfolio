@@ -80,7 +80,7 @@ const ImgGallery = () => {
             //gap={6}
           >
               {itemData.map((item) => (
-                <ImageListItem
+                <ImageListItem style={{cursor:"pointer"}}
                   key={item.img}
                   onClick={() => handleImageClick(item)}
                 >
