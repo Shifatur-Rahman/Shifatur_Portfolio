@@ -89,31 +89,34 @@ const Plastic = () => {
             </p>
           </Col>
 
-          <Col style={{ marginTop: "3rem" }} sm={12} md={12} lg={12}>
-            <ImageList cols={4}>
-              {itemData.map((item) => (
-                <ImageListItem key={item.img}>
-                  {imgLoad ? (
-                    <img style={{ width: "300px", height: "220px" }}
-                      src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                      srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                      alt={item.title}
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div style={{ width: "100%", height: "100%" }}>
-                      <Blurhash
-                        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"            
-                        resolutionX={32}
-                        resolutionY={32}
-                        punch={1}
-                      />
-                    </div>
-                  )}
-                </ImageListItem>
-              ))}
-            </ImageList>
-          </Col>
+              <Col style={{ marginTop: "3rem" }}>
+                <ImageList className="ImageGallery"
+                  sx={{ width: "100%", height: "auto", overflow: "hidden" }}
+                  variant="woven"
+                  cols={4}>
+                  {itemData.map((item) => (
+                    <ImageListItem key={item.img}>
+                      {imgLoad ? (
+                        <img
+                          src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                          srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                          alt={item.title}
+                          loading="lazy"
+                        />
+                      ) : (
+                        <div style={{ width: "100%", height: "100%" }}>
+                          <Blurhash
+                            hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
+                            resolutionX={32}
+                            resolutionY={32}
+                            punch={1}
+                          />
+                        </div>
+                      )}
+                    </ImageListItem>
+                  ))}
+                </ImageList>
+              </Col>
 
         </Row>
       </Container>
