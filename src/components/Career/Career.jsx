@@ -43,7 +43,7 @@ const Career = () => {
       ) :
     <Container>
 
-         <Row style={{marginTop:"3rem"}}>
+         {/* <Row style={{marginTop:"3rem"}}>
             <Col sm={12} md={6} lg={8}>
             <div className='opportunity'>
             <p data-aos="fade-right"
@@ -57,7 +57,33 @@ const Career = () => {
             </Col>
           
           
+        </Row> */}
+
+<Row style={{marginTop:"3rem"}}>
+            <Col sm={12} md={6} lg={8}>
+            <div className='opportunity'>
+            <p data-aos="fade-right"
+    //  data-aos-anchor="#example-anchor"
+    //  data-aos-offset="500"
+    //  data-aos-duration="1000"
+      className='careerHeader'>Find Your <strong>Opportunity</strong></p>
+            <p className='careerText'> Whatever your career goals may be, Talukder group provides the opportunity to work with advanced technologies, global customers, and the most innovative, talented minds in the industry. Your career path with us can encompass diverse, challenging assignments that span product lines, job types, and businesses.</p>
+        
+            </div>
+            </Col>
+          
+            <Col sm={12} md={6} lg={4}>
+              <div>
+                <p data-aos="fade-down"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="1500" className='experience'>Choose a job you love, and you will never have to work a day in your life. <br /> —Confucius
+                </p>
+              </div>
+            </Col>
         </Row>
+
+
 
         <hr />
         <br />

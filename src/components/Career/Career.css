@@ -3,6 +3,8 @@
     font-size: 18px;
     padding: 20px;
     color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
 
 .experience::before {
@@ -11,56 +13,6 @@
     margin-right: 0.25em;
   }
 
-/*   .AccordionHeader{
-    font-size: 35px;
-    color: red !important;
-  }
-
-  .job-description {
-    font-family: Arial, sans-serif;
-    margin: 0 auto;
-    padding: 20px;
-    font-size: 13px !important;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    margin-top: 0;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    font-weight: normal;
-    margin-top: 0;
-  }
-  
-  h3 {
-    font-size: 1.5em;
-    color: #0077be;
-  }
-  
-  h4 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  ul {
-    list-style: disc;
-    margin-left: 1.5em;
-    margin-bottom: 1.5em;
-  }
-  
-  li {
-    margin-bottom: 0.5em;
-  }
-  
-  a {
-    color: #0077be;
-    text-decoration: none;
-  }  */
-  
   .careerText{
     font-family: "Raleway",sans-serif;
     text-align: justify;
