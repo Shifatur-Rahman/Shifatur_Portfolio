@@ -114,6 +114,7 @@ const Plastic = () => {
               ))}
             </ImageList>
           </Col>
+
         </Row>
       </Container>
       )}
