@@ -25,7 +25,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3); 
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,8 +34,8 @@
 }
 
 .carousel-caption {
-  z-index: 1; 
-  color: #fff; 
+  z-index: 1;
+  color: #fff;
 }
 
 .button-container {
@@ -70,28 +70,29 @@
   font-weight: 700;
 }
 
-.learnBtn{
+.learnBtn {
   font-weight: 700;
 }
 
-.serviceBtn:hover, .learnBtn:hover{
-color: #17a2b8 !important;
-/* font-weight: 700 !important; */
+.serviceBtn:hover,
+.learnBtn:hover {
+  color: #17a2b8 !important;
+  /* font-weight: 700 !important; */
 }
 
-.serviceBtn:focus{
+.serviceBtn:focus {
   background-color: #17a2b8;
   color: #fff !important;
-  }
+}
 
-  .learnBtn:focus{
-    color: #17a2b8;
-  }
+.learnBtn:focus {
+  color: #17a2b8;
+}
 
 /* slider down key */
 
 .carousel-indicators .active {
-  background-color:  #60d9eb;
+  background-color: #60d9eb;
   height: 4px !important;
   transform: rotateY(360deg);
   transition: transform 1.5s ease-in-out;
@@ -107,42 +108,59 @@ color: #17a2b8 !important;
   transition: all ease 1s;
 }
 
-.topBannerTitle{
-  font-family: 'Oswald',sans-serif;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-color: #17a2b8;
+  border-radius: 50%;
+  color: red !important;
+}
+
+.topBannerTitle {
+  font-family: 'Oswald', sans-serif;
   font-weight: 800;
   font-size: 38px;
 }
 
-.topBannerSubTitle{
-  font-family: 'Raleway',sans-serif;
+.topBannerSubTitle {
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 25px;
 }
 
 @media screen and (max-width: 1000px) {
-    .topBannerTitle{
-      font-size: 30px;
-    }
-    .topBannerSubTitle{
-      font-size: 20px;
-    }
-    .serviceBtn,
-    .learnBtn {
-   font-size: 16px !important;
-    }
+  .topBannerTitle {
+    font-size: 30px;
+  }
 
+  .topBannerSubTitle {
+    font-size: 20px;
+  }
+
+  .serviceBtn,
+  .learnBtn {
+    font-size: 16px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .topBannerTitle{
+  .topBannerTitle {
     font-size: 26px;
   }
-  .topBannerSubTitle{
+
+  .topBannerSubTitle {
     font-size: 18px;
   }
+
   .button-container button {
     font-size: 14px;
   }
+
   .serviceBtn,
   .learnBtn {
     width: 130px;
@@ -156,27 +174,32 @@ color: #17a2b8 !important;
   .button-container button {
     font-size: 12px;
   }
+
   .serviceBtn,
   .learnBtn {
     width: 130px;
     font-size: 11px !important;
     font-weight: 400 !important;
   }
-  .sliderImg{
+
+  .sliderImg {
     height: 350px;
   }
 }
 
 @media screen and (max-width: 481px) {
-  .topBannerTitle{
+  .topBannerTitle {
     font-size: 18px;
   }
-  .topBannerSubTitle{
+
+  .topBannerSubTitle {
     font-size: 13px;
   }
+
   .button-container button {
     font-size: 10px;
   }
+
   .serviceBtn,
   .learnBtn {
     width: 130px;
@@ -185,7 +208,8 @@ color: #17a2b8 !important;
     width: 90px;
     padding: 6px !important;
   }
-  .sliderImg{
+
+  .sliderImg {
     height: 300px;
   }
 }
