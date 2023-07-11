@@ -46,7 +46,6 @@ const Achievement = () => {
         {loading ? (
         <Spinner />
       ) :
-      // <div className="ach">
       <Container>
         <Row style={{ marginTop: "5rem" }}>
           <div className="award">
@@ -84,7 +83,7 @@ const Achievement = () => {
                 achievement.
               </li>
               <li>
-                Overall Talukder Group of Industries' awards and achievements
+                Overall, Talukder Group of Industries' awards and achievements
                 reflect its commitment to excellence, innovation,
                 sustainability, and social responsibility across a range of
                 sectors, making it one of Bangladesh's most respected and
@@ -94,7 +93,7 @@ const Achievement = () => {
           </div>
         </Row>
         
-          <Row style={{ marginTop: "2rem" }}>
+          <Row style={{ marginTop: "3rem" }}>
             {achievementImg.map((item) => (
               <Col key={item.title} lg={3} md={4} sm={6}>
                 <Card className="ManagementCard">
@@ -110,7 +109,6 @@ const Achievement = () => {
           </Row>
 
       </Container>
-    //  </div>
 }
     </>
   );
@@ -197,4 +195,4 @@ const achievementImg = [
   {
     img: awards21Img
   },
-]
+]     

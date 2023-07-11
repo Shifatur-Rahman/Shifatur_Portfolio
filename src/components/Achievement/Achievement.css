@@ -1,8 +1,7 @@
 .ManagementCard {
-  height: 250px;
+  height: 280px;
   margin-bottom: 20px;
   text-align: center;
-  /* background-color: #8ee4f1; */
   box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
   -webkit-box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
   -moz-box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
@@ -46,7 +45,7 @@ li {
   max-width: 800px;
   margin: 0 auto;
 }
-/* #17a2b8 */
+
 .award {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -79,10 +78,7 @@ li {
 }
 
 .awardList{
-  color: #595959;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
 }
 
 .achievementCardImg {
@@ -112,3 +108,9 @@ li {
     height: 300px;
   }
 }
+
+
+
+  /* box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
+  -webkit-box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
+  -moz-box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67); */
