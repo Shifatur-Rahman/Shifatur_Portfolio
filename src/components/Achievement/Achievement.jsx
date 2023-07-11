@@ -31,6 +31,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Spinner from "../Spinner/Spinner";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import { useMediaQuery } from 'react-responsive';
 
 const Achievement = () => {
   const [loading, setLoading] = useState(true);
@@ -40,6 +41,8 @@ const Achievement = () => {
       setLoading(false);
     }, 2500);
   }, []);
+
+  const isSmallScreen = useMediaQuery({ maxWidth: 576 });
 
   return (
     <>
@@ -96,17 +99,22 @@ const Achievement = () => {
           <Row style={{ marginTop: "3rem" }}>
             {achievementImg.map((item) => (
               <Col key={item.title} lg={3} md={4} sm={6}>
-                <Card className="ManagementCard">
-                  <LazyLoadImage
-                    className="achievementCardImg"
-                    variant="top"
-                    src={item.img}
-                    alt={item.title}
-                  />
-                </Card>
+                <div data-aos="zoom-out"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000">
+                  <Card className="ManagementCard">
+                    <LazyLoadImage
+                      className="achievementCardImg"
+                      variant="top"
+                      src={item.img}
+                      alt={item.title}
+                    />
+                  </Card>
+                </div>
               </Col>
             ))}
           </Row>
+         
 
       </Container>
 }

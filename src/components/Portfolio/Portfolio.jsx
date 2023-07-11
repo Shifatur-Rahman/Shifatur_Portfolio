@@ -189,148 +189,155 @@ const Portfolio = () => {
                 </div>
               </div>
             </Col>
-  
 
             {loading ? (
               <PageLoader />
             ) : (
-              <div className="portfolio-grid">
-                {portfolioItems
-                  .filter((item) => {
-                    if (category === "all") {
-                      return true;
-                    } 
-                    // else if(item.category !== category){
-                    //  {(<h1>products are coming...</h1>)}
-               
-                    // }
-                    else {
-                      return item.category === category;
-                    }
-                  })
+                  <div
+                    data-aos="zoom-out"
+                    data-aos-easing="linear"
+                    data-aos-duration="3000"
+                    className="portfolio-grid">
+                    {portfolioItems
+                      .filter((item) => {
+                        if (category === "all") {
+                          return true;
+                        }
+                        // else if(item.category !== category){
+                        //  {(<h1>products are coming...</h1>)}
 
-                  .map((item) => (
-                    <div
-                      className="portfolio-item"
-                      key={item.id}>
-                      <img
-                        className="portfolio-item-img"
-                        src={`${item.imgSrc}`}
-                        alt={item.title}
-                        style={{ cursor: "pointer" }}
-                        onClick={() => handleImageClick(item.imgSrc)}
-                      />
+                        // }
+                        else {
+                          return item.category === category;
+                        }
+                      })
 
-                      <div style={{ marginTop: "15px", width:"100%" }}>
+                      .map((item) => (
+                        <div
+                          // data-aos="zoom-out"
+                          // data-aos-easing="linear"
+                          // data-aos-duration="1000"
+                          className="portfolio-item"
+                          key={item.id}>
 
-                      {item.title && (
-                          <p className="itemTitle">
-                            <strong>Name : </strong>
-                            <span style={{ textTransform: "uppercase" }}>
-                              {" "}
-                              {item.title}{" "}
-                            </span>
-                          </p>
-                        )}
+                          <img
+                            className="portfolio-item-img"
+                            src={`${item.imgSrc}`}
+                            alt={item.title}
+                            style={{ cursor: "pointer" }}
+                            onClick={() => handleImageClick(item.imgSrc)}
+                          />
 
-                            {item.button && (   
-                             <div>
-                             <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} />
-                            </div> 
-                            ) 
-                            } 
+                          <div style={{ marginTop: "15px", width: "100%" }}>
 
-                      {item.color && item.code ? (
-                          <div className="table-responsive">
-                            <table className="table table-bordered table-sm custom-table">
-                              <tbody>
-                                <tr>
-                                  <th
-                                    style={{
-                                      fontSize: "10px",
-                                      fontWeight: "800",
-                                      width: "20px",                                     
-                                    }}
-                                    scope="row"
-                                  >
-                                    Code
-                                  </th>
-                                  {item.code.split("/").map((code, index) => (
-                                    <td
-                                      style={{
-                                        fontSize: "8px",
-                                        textAlign: "center",
-                                        margin:"0",
-                                        padding:"5px 0 0 0"
-                                      }}
-                                      key={index}
-                                    >
-                                      {code}
-                                    </td>
-                                  ))}
-                                </tr>
-                                <tr>
-                                  <th
-                                    style={{
-                                      fontSize: "10px",
-                                      fontWeight: "800",
-                                      width: "20px"
-                                    }}
-                                    scope="row"
-                                  >
-                                    Color
-                                  </th>
-                                  {item.color.split("/").map((color, index) => (
-                                    <td
-                                      style={{
-                                        backgroundColor: color,
-                                        cursor: "pointer",
-                                        width: "5px"
-                                      }}
-                                      key={index}
-                                    ></td>
-                                  ))}
-                                </tr>
-                              </tbody>
-                            </table>
+                            {item.title && (
+                              <p className="itemTitle">
+                                <strong>Name : </strong>
+                                <span style={{ textTransform: "uppercase" }}>
+                                  {" "}
+                                  {item.title}{" "}
+                                </span>
+                              </p>
+                            )}
+
+                            {item.button && (
+                              <div>
+                                <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} />
+                              </div>
+                            )
+                            }
+
+                            {item.color && item.code ? (
+                              <div className="table-responsive">
+                                <table className="table table-bordered table-sm custom-table">
+                                  <tbody>
+                                    <tr>
+                                      <th
+                                        style={{
+                                          fontSize: "10px",
+                                          fontWeight: "800",
+                                          width: "20px",
+                                        }}
+                                        scope="row"
+                                      >
+                                        Code
+                                      </th>
+                                      {item.code.split("/").map((code, index) => (
+                                        <td
+                                          style={{
+                                            fontSize: "8px",
+                                            textAlign: "center",
+                                            margin: "0",
+                                            padding: "5px 0 0 0"
+                                          }}
+                                          key={index}
+                                        >
+                                          {code}
+                                        </td>
+                                      ))}
+                                    </tr>
+                                    <tr>
+                                      <th
+                                        style={{
+                                          fontSize: "10px",
+                                          fontWeight: "800",
+                                          width: "20px"
+                                        }}
+                                        scope="row"
+                                      >
+                                        Color
+                                      </th>
+                                      {item.color.split("/").map((color, index) => (
+                                        <td
+                                          style={{
+                                            backgroundColor: color,
+                                            cursor: "pointer",
+                                            width: "5px"
+                                          }}
+                                          key={index}
+                                        ></td>
+                                      ))}
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            ) :
+
+                              item.code ? (
+                                <p className="itemTitle">
+                                  <strong>Code : </strong>
+                                  {item.code}</p>
+                              ) : (
+                                ""
+                              )}
+
+                            {item.size && (
+                              <p className="itemTitle">
+                                <strong>Size : </strong>
+                                <span className="itemSize"> {item.size} </span>
+                              </p>
+                            )}
+
+                            {item.size2 && (
+                              <p className="itemTitle">
+                                <strong>Size : </strong>
+                                <span className="itemSize"> {item.size2} </span>
+                              </p>
+                            )}
+
+                            {item.product && (
+                              <p className="itemTitle">
+                                <span style={{ fontSize: "8px" }}>
+                                  {" "}
+                                  {item.product}{" "}
+                                </span>
+                              </p>
+                            )}
+
                           </div>
-                        ) : 
-
-                        item.code ? (
-                          <p className="itemTitle">                           
-                            <strong>Code : </strong>
-                            {item.code}</p>
-                        ) : (
-                          ""
-                        )}
-
-                        {item.size && (
-                          <p className="itemTitle">
-                            <strong>Size : </strong>
-                            <span className="itemSize"> {item.size} </span>
-                          </p>
-                        )}
-                      
-                        {item.size2 && (
-                          <p className="itemTitle">
-                            <strong>Size : </strong>
-                            <span className="itemSize"> {item.size2} </span>
-                          </p>
-                        )}
-
-                        {item.product && (
-                          <p className="itemTitle">
-                            <span style={{ fontSize: "8px" }}>
-                              {" "}
-                              {item.product}{" "}
-                            </span>
-                          </p>
-                        )}                          
-                        
-                      </div>
-                    </div>
-                  ))}
-              </div>
+                        </div>
+                      ))}
+                  </div>
             )}
             
                                     {/* Image in big Size       */}
