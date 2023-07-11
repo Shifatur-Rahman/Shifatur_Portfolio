@@ -39,17 +39,17 @@
 }
 
 .profileBtn {
-  color: #000;
+  color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  background-color: #cccccc;
+  background-color:#17a2b8;
   border: none;
 }
 
 .profileBtn:hover {
   background-color: darkcyan;
-  color: #f2f2f2;
+  color:  #cccccc;
   transition: all ease 1s;
 }
 
@@ -71,11 +71,11 @@
   border-radius: 50%;
   border: 7px solid #fff;
   margin-top: -80px;
-  background-color: darkcyan;
+  background-color: #17a2b8;
 }
 
 .card:hover .img12 img {
-  border-color: darkcyan;
+  border-color: #17a2b8;
   transition: 0.7s;
 }
 
