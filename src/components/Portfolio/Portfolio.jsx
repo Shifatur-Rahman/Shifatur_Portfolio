@@ -196,7 +196,7 @@ const Portfolio = () => {
                   <div
                     data-aos="zoom-out"
                     data-aos-easing="linear"
-                    data-aos-duration="3000"
+                    data-aos-duration="2500"
                     className="portfolio-grid">
                     {portfolioItems
                       .filter((item) => {

@@ -93,6 +93,9 @@ const Furniture = () => {
               </Col>
 
               <Col style={{ marginTop: "3rem" }}>
+              <div data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                 <ImageList className="ImageGallery"
                   sx={{ width: "100%", height: "auto", overflow: "hidden" }}
                   variant="woven"
@@ -119,6 +122,7 @@ const Furniture = () => {
                     </ImageListItem>
                   ))}
                 </ImageList>
+                </div>
               </Col>
 
    </Row>

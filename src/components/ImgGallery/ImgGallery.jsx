@@ -71,39 +71,40 @@ const ImgGallery = () => {
         <Spinner />
       ) : (
         <Container style={{ marginTop: "5rem" }}>
-       
-       <ImageList
-            className="ImageGallery"
-            sx={{ width: "100%", height: "auto", overflow: "hidden" }}
-            variant="woven"
-            cols={4}
-            //gap={6}
-          >
-              {itemData.map((item) => (
-                <ImageListItem style={{cursor:"pointer"}}
-                  key={item.img}
-                  onClick={() => handleImageClick(item)}
-                >
-                  {imgLoad ? (
-                    <img
-                      src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                      srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                      alt={item.title}
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div style={{ width: "100%", height: "100%" }}>
-                      <Blurhash
-                        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                      //  width={200}
-                      //  height={300}
-                        resolutionX={32}
-                        resolutionY={32}
-                        punch={1}
+            <div data-aos="fade-up"
+              data-aos-duration="3000">
+              <ImageList
+                className="ImageGallery"
+                sx={{ width: "100%", height: "auto", overflow: "hidden" }}
+                variant="woven"
+                cols={4}
+              //gap={6}
+              >
+                {itemData.map((item) => (
+                  <ImageListItem style={{ cursor: "pointer" }}
+                    key={item.img}
+                    onClick={() => handleImageClick(item)}
+                  >
+                    {imgLoad ? (
+                      <img
+                        src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                        srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                        alt={item.title}
+                        loading="lazy"
                       />
-                    </div>
-                  )}
-                  {/* <div className="galleryImg">
+                    ) : (
+                      <div style={{ width: "100%", height: "100%" }}>
+                        <Blurhash
+                          hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
+                          //  width={200}
+                          //  height={300}
+                          resolutionX={32}
+                          resolutionY={32}
+                          punch={1}
+                        />
+                      </div>
+                    )}
+                    {/* <div className="galleryImg">
                     <LazyLoadImage
                       src={`${item.img}?w=161&fit=crop&auto=format`}
                       srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`} 
@@ -112,10 +113,11 @@ const ImgGallery = () => {
                       style={{ cursor: "pointer" }}
                     />
                   </div> */}
-                </ImageListItem>
-              ))}
+                  </ImageListItem>
+                ))}
 
-                </ImageList>
+              </ImageList>
+            </div>
      
           
             <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
@@ -135,6 +137,7 @@ const ImgGallery = () => {
                 />
               </DialogContent>
             </Dialog>
+            
         </Container>
       )}
     </>
