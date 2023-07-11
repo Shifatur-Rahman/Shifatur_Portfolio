@@ -46,6 +46,7 @@ const Achievement = () => {
         {loading ? (
         <Spinner />
       ) :
+      // <div className="ach">
       <Container>
         <Row style={{ marginTop: "5rem" }}>
           <div className="award">
@@ -83,7 +84,7 @@ const Achievement = () => {
                 achievement.
               </li>
               <li>
-                Overall, Talukder Group of Industries' awards and achievements
+                Overall Talukder Group of Industries' awards and achievements
                 reflect its commitment to excellence, innovation,
                 sustainability, and social responsibility across a range of
                 sectors, making it one of Bangladesh's most respected and
@@ -93,22 +94,23 @@ const Achievement = () => {
           </div>
         </Row>
         
-<Row>
-{achievementImg.map((item) => (
-      <Col key={item.title} lg={3} md={4} sm={6}>
-        <Card className="ManagementCard">
-          <LazyLoadImage
-            className="achievementCardImg"
-            variant="top"
-            src={item.img}
-            alt={item.title}
-          />
-        </Card>
-      </Col>
-    ))}
-        </Row>
+          <Row style={{ marginTop: "2rem" }}>
+            {achievementImg.map((item) => (
+              <Col key={item.title} lg={3} md={4} sm={6}>
+                <Card className="ManagementCard">
+                  <LazyLoadImage
+                    className="achievementCardImg"
+                    variant="top"
+                    src={item.img}
+                    alt={item.title}
+                  />
+                </Card>
+              </Col>
+            ))}
+          </Row>
 
       </Container>
+    //  </div>
 }
     </>
   );
