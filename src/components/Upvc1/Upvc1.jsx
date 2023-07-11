@@ -43,9 +43,9 @@ const Upvc1 = () => {
   return (
     <>
 
-    {
-      loading ? (<Spinner />): (
-   <Container>
+      {
+        loading ? (<Spinner />) : (
+          <Container>
             <Row>
 
               <Col sm={12} md={12} lg={12} style={{ marginTop: "4rem", textAlign: "justify" }}>
@@ -92,11 +92,10 @@ const Upvc1 = () => {
                   ))}
                 </ImageList>
               </Col>
-
             </Row>
-   </Container>
-   )
-  }
+          </Container>
+        )
+      }
     </>
   )
 }
