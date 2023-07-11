@@ -123,100 +123,100 @@ const ManagementTeam = () => {
               </div>
             </Col>
 
-            <Col lg={3} md={6} sm={12}>
-              <div className="card">
-                <div className="img1">
-                  <img src={profile1Img} alt="one img" />
-                </div>
+                <Col lg={3} md={6} sm={12}>
+                  <div className="card">
+                    <div className="img1">
+                      <img src={profile1Img} alt="one img" />
+                    </div>
 
-                <div className="img2">
-                  <img src={profile2Img} alt="two img" />
-                </div>
+                    <div className="img2">
+                      <img src={profile2Img} alt="two img" />
+                    </div>
 
-                <div className="main-text">
-                  <h2>MR MD SAMSUL SALEHIN</h2>
-                  <p style={{ fontSize: "12px" }}  className="main-text-p">Director</p>
-                  <Link
-                    to={`/about/Message/Details?title=${"MR MD SAMSUL SALEHIN"}&subTitle=${"Director"}`}
-                  >
-                    <Button className="profileBtn" variant="outline-info">
-                      Details
-                    </Button>
-                  </Link>
-                </div>
+                    <div className="main-text">
+                      <h2>MR MD SAMSUL SALEHIN</h2>
+                      <p style={{ fontSize: "12px" }} className="main-text-p">Director</p>
+                      <Link
+                        to={`/about/Message/Details?title=${"MR MD SAMSUL SALEHIN"}&subTitle=${"Director"}`}
+                      >
+                        <Button className="profileBtn" variant="outline-info">
+                          Details
+                        </Button>
+                      </Link>
+                    </div>
 
-                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
-                  <BsFacebook style={{ marginRight: "5px" }} />
-                  <AiFillTwitterCircle style={{ marginRight: "5px" }} />
-                  <GrPinterest style={{ marginRight: "5px" }} />
-                  <AiFillGooglePlusCircle />
-                </div>
-              </div>
-            </Col>
+                    <div className="socials" style={{ fontSize: "25px", marginBottom: "25px" }}>
+                      <BsFacebook style={{ marginRight: "5px" }} />
+                      <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                      <GrPinterest style={{ marginRight: "5px" }} />
+                      <AiFillGooglePlusCircle />
+                    </div>
+                  </div>
+                </Col>
 
-            <Col lg={3} md={6} sm={12}>
-              <div className="card">
-                <div className="img1">
-                  <img src={profile1Img} alt="one img" />
-                </div>
+                <Col lg={3} md={6} sm={12}>
+                  <div className="card">
+                    <div className="img1">
+                      <img src={profile1Img} alt="one img" />
+                    </div>
 
-                <div className="img2">
-                  <img src={profile3Img} alt="two img" />
-                </div>
+                    <div className="img2">
+                      <img src={profile3Img} alt="two img" />
+                    </div>
 
-                <div className="main-text">
-                  <h2>Mrs. Shaila Akter</h2>
-                  <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Chief Executive Officer (CEO)
-                  </p>
-                  <Link
-                    to={`/about/Message/Details?title=${"Mrs. Shaila Akter"}&subTitle=${" Chief Executive Officer (CEO)"}`}
-                  >
-                    <Button className="profileBtn" variant="outline-info">
-                      Details
-                    </Button>
-                  </Link>
-                </div>
+                    <div className="main-text">
+                      <h2>Mrs. Shaila Akter</h2>
+                      <p style={{ fontSize: "12px" }} className="main-text-p">
+                        Chief Executive Officer (CEO)
+                      </p>
+                      <Link
+                        to={`/about/Message/Details?title=${"Mrs. Shaila Akter"}&subTitle=${" Chief Executive Officer (CEO)"}`}
+                      >
+                        <Button className="profileBtn" variant="outline-info">
+                          Details
+                        </Button>
+                      </Link>
+                    </div>
 
-                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
-                  <BsFacebook style={{ marginRight: "5px" }} />
-                  <AiFillTwitterCircle style={{ marginRight: "5px" }} />
-                  <GrPinterest style={{ marginRight: "5px" }} />
-                  <AiFillGooglePlusCircle />
-                </div>
-              </div>
-            </Col>
+                    <div className="socials" style={{ fontSize: "25px", marginBottom: "25px" }}>
+                      <BsFacebook style={{ marginRight: "5px" }} />
+                      <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                      <GrPinterest style={{ marginRight: "5px" }} />
+                      <AiFillGooglePlusCircle />
+                    </div>
+                  </div>
+                </Col>
 
-            <Col lg={3} md={6} sm={12}>
-              <div className="card">
-                <div className="img1">
-                  <img src={profile1Img} alt="one img" />
-                </div>
+                <Col lg={3} md={6} sm={12}>
+                  <div className="card">
+                    <div className="img1">
+                      <img src={profile1Img} alt="one img" />
+                    </div>
 
-                <div className="img2">
-                  <img src={profile3Img} alt="two img" />
-                </div>
+                    <div className="img2">
+                      <img src={profile3Img} alt="two img" />
+                    </div>
 
-                <div className="main-text">
-                  <h2>Mrs. Ferdausi Akter</h2>
-                  <p style={{ fontSize: "12px" }} className="main-text-p"> Deputy Managing Director</p>
-                  <Link
-                    to={`/about/Message/Details?title=${"Mrs.Ferdausi Akter"}&subTitle=${"Deputy Managing Director"}`}
-                  >
-                    <Button className="profileBtn" variant="outline-info">
-                      Details
-                    </Button>
-                  </Link>
-                </div>
+                    <div className="main-text">
+                      <h2>Mrs. Ferdausi Akter</h2>
+                      <p style={{ fontSize: "12px" }} className="main-text-p"> Deputy Managing Director</p>
+                      <Link
+                        to={`/about/Message/Details?title=${"Mrs.Ferdausi Akter"}&subTitle=${"Deputy Managing Director"}`}
+                      >
+                        <Button className="profileBtn" variant="outline-info">
+                          Details
+                        </Button>
+                      </Link>
+                    </div>
 
-                <div className="socials" style={{ fontSize: "25px", marginBottom:"25px" }}>
-                  <BsFacebook style={{ marginRight: "5px" }} />
-                  <AiFillTwitterCircle style={{ marginRight: "5px" }} />
-                  <GrPinterest style={{ marginRight: "5px" }} />
-                  <AiFillGooglePlusCircle />
-                </div>
-              </div>
-            </Col>
+                    <div className="socials" style={{ fontSize: "25px", marginBottom: "25px" }}>
+                      <BsFacebook style={{ marginRight: "5px" }} />
+                      <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                      <GrPinterest style={{ marginRight: "5px" }} />
+                      <AiFillGooglePlusCircle />
+                    </div>
+                  </div>
+                </Col>
           </Row>
         </Container>
       </div>

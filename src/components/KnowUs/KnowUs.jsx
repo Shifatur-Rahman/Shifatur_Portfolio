@@ -6,17 +6,9 @@ import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { forwardRef } from "react";
- import serviceVideo from "../../asset/Serevices Video/service.webm"
+ import serviceVideo from "../../asset/Serevices Video/service.webm";
 
 function KnowUs(props, ref) {
-  // useEffect(() => {
-  //   AOS.init({
-  //     offset: 120, // offset (in px) from the original trigger point
-  //     delay: 0, // values from 0 to 3000, with step 50ms
-  //     easing: "ease", // default easing for AOS animations
-  //     duration: 1000, // values from 0 to 3000, with step 50ms
-  //   });
-  // }, []);
 
   return (
     <>
@@ -24,10 +16,10 @@ function KnowUs(props, ref) {
         <Row>
           <Col>
             {/* data-aos='fade-right' */}
-            <h1  data-aos="fade-left"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1500" className="knowusTitle">Know Us</h1>
+            <h1 data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="1500" className="knowusTitle">Know Us</h1>
             <p className="knowusText">
               {" "}
               Talukder Group of Industries had started its journey since July,
@@ -44,10 +36,10 @@ function KnowUs(props, ref) {
             <div className="text-center">
               <NavLink className="knowMore" to="/about">
                 {/* data-aos='flip-up'  */}
-                <Button  data-aos="fade-left"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1500" className="knowMoreBtn" variant="outline-info">
+                <Button data-aos="fade-left"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="1500" className="knowMoreBtn" variant="outline-info">
                   Know More
                 </Button>{" "}
               </NavLink>

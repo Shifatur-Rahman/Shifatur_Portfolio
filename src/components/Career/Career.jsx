@@ -10,9 +10,9 @@ const Career = () => {
 
   useEffect(() => {
     AOS.init({
-      offset: 120, // offset (in px) from the original trigger point
-      delay: 0, // values from 0 to 3000, with step 50ms
-      easing: "ease", // default easing for AOS animations
+      offset: 120, 
+      delay: 0,
+      easing: "ease",
       duration: 1500, // values from 0 to 3000, with step 50ms
        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or
        once: false, // whether animation should happen only once - while scrolling down

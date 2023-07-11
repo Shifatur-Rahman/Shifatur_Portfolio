@@ -79,31 +79,39 @@
 
 .socials > *:nth-child(1){
   font-size: 22px;
+  color: #1877F2;
+}
+.socials > *:nth-child(2){
+  color: #1DA1F2;
 }
 .socials > *:nth-child(3){
   font-size: 22px;
+  color: #c8232c;
+}
+.socials > *:nth-child(4){
+  color: #dd4b39;
 }
 
 .socials > *:nth-child(1):hover {
-   color: #1877F2;
+   /* color: #1877F2; */
    transform: translateY(-6px);
    transition: all ease 500ms;
 }
 
 .socials > *:nth-child(2):hover {
-  color: #1DA1F2;
+  /* color: #1DA1F2; */
   transform: translateY(-6px);
   transition: all ease 500ms;
 }
 
 .socials > *:nth-child(3):hover {
-  color: #c8232c;
+  /* color: #c8232c; */
   transform: translateY(-6px);
   transition: all ease 500ms;
 }
 
 .socials > *:nth-child(4):hover {
-  color: #dd4b39;
+  /* color: #dd4b39; */
   transform: translateY(-6px);
   transition: all ease 500ms;
 }

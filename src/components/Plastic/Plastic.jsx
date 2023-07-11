@@ -55,7 +55,8 @@ const Plastic = () => {
             lg={12}
             style={{ marginTop: "4rem", textAlign: "justify" }}
           >
-            <p className='concernBodyText'>
+            {/* concernBodyText */}
+            <p className="plasticText">
               Now a days essence and use of plastic products knows no bound,
               Plastic furniture becomes the first choice of mass people against
               their requirement, whether it is for our home patio, workplace or
