@@ -55,7 +55,7 @@ const Foundry = () => {
             lg={12}
             style={{ marginTop: "4rem", textAlign: "justify" }}
           >
-            <p className='concernBodyText'>
+            <p className='plasticText'>
             Talukder Foundry Ltd. is a prominent concern within the Talukder Group of Industries. Established in July 1973 by Mr. Nurul Islam Talukder, the foundry specializes in the manufacturing and production of various metal castings. With a strong vision of large-scale industrialization, Talukder Foundry has grown to become a leading player in the foundry industry.
             
             <br /> 

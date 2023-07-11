@@ -78,12 +78,14 @@ li {
 }
 
 .awardList{
-  font-size: 13px;
+  font-size: 15px;
+  color: #595959;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .achievementCardImg {
   overflow: hidden;
-  cursor: pointer;
 }
 
 .achievementCardImg {

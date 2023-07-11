@@ -47,51 +47,51 @@ const Achievement = () => {
         <Spinner />
       ) :
       <Container>
-        <Row style={{ marginTop: "5rem" }}>
-          <div className="award">
-            {/* <h2 className="awardTitle">Our Awards & Certification</h2> */}
-            <ul className="awardList">
-              <li>
-                Talukder Group of Industries has won numerous awards for its
-                contributions to Bangladesh's industrial sector.
-              </li>
-              <li>
-                Talukder Group of Industries has been recognized for its
-                contributions to social development.
-              </li>
-              <li>
-                Talukder Group of Industries has been recognized for its
-                commitment to quality and innovation.
-              </li>
-              <li>
-                Talukder Group has also been recognized for its contributions to
-                the development of rural communities.
-              </li>
-              <li>
-                The group's plastics division has won awards for its commitment
-                to environmental sustainability, including the recycling of
-                plastic waste and the use of eco-friendly materials.
-              </li>
-              <li>
-                Talukder Group has also been recognized for its contributions to
-                the development of rural communities.
-              </li>
+          <Row style={{ marginTop: "5rem" }}>
+            <div className="award">
+              {/* <h2 className="awardTitle">Our Awards & Certification</h2> */}
+              <ul className="awardList">
+                <li>
+                  Talukder Group of Industries has won numerous awards for its
+                  contributions to Bangladesh's industrial sector.
+                </li>
+                <li>
+                  Talukder Group of Industries has been recognized for its
+                  contributions to social development.
+                </li>
+                <li>
+                  Talukder Group of Industries has been recognized for its
+                  commitment to quality and innovation.
+                </li>
+                <li>
+                  Talukder Group has also been recognized for its contributions to
+                  the development of rural communities.
+                </li>
+                <li>
+                  The group's plastics division has won awards for its commitment
+                  to environmental sustainability, including the recycling of
+                  plastic waste and the use of eco-friendly materials.
+                </li>
+                <li>
+                  Talukder Group has also been recognized for its contributions to
+                  the development of rural communities.
+                </li>
 
-              <li>
-                Now Talukder Group is a successful brand name as well as a
-                flagship corporate name in corporate world with great
-                achievement.
-              </li>
-              <li>
-                Overall, Talukder Group of Industries' awards and achievements
-                reflect its commitment to excellence, innovation,
-                sustainability, and social responsibility across a range of
-                sectors, making it one of Bangladesh's most respected and
-                successful business groups.
-              </li>
-            </ul>
-          </div>
-        </Row>
+                <li>
+                  Now Talukder Group is a successful brand name as well as a
+                  flagship corporate name in corporate world with great
+                  achievement.
+                </li>
+                <li>
+                  Overall, Talukder Group of Industries' awards and achievements
+                  reflect its commitment to excellence, innovation,
+                  sustainability, and social responsibility across a range of
+                  sectors, making it one of Bangladesh's most respected and
+                  successful business groups.
+                </li>
+              </ul>
+            </div>
+          </Row>
         
           <Row style={{ marginTop: "3rem" }}>
             {achievementImg.map((item) => (

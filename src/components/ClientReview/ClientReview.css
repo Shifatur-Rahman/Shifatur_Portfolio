@@ -3,18 +3,11 @@
   float: none;
 }
 
-/* .clientCard:hover{
-  cursor: pointer;
-  margin-bottom: 5px;
-} */
- 
-/* .clientReviewImgCard:hover{
-  height: 165px !important;
-  width: 145px !important;
-  cursor: pointer;
-  overflow: hidden !important;
-  z-index: 2;
-} */
+button.slick-arrow.slick-next::before, button.slick-arrow.slick-prev::before{
+  color: #17a2b8 !important;
+  background-color: #fff !important;
+  border-radius: 50%;
+}
 
 @media(max-width:480px){
   .clientReviewImgCard {
