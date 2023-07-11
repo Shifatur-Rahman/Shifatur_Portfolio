@@ -31,7 +31,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import Spinner from "../Spinner/Spinner";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { useMediaQuery } from 'react-responsive';
 
 const Achievement = () => {
   const [loading, setLoading] = useState(true);
@@ -42,8 +41,6 @@ const Achievement = () => {
     }, 2500);
   }, []);
 
-  const isSmallScreen = useMediaQuery({ maxWidth: 576 });
-
   return (
     <>
         {loading ? (
@@ -51,7 +48,11 @@ const Achievement = () => {
       ) :
       <Container>
           <Row style={{ marginTop: "5rem" }}>
-            <div className="award">
+            <div data-aos="fade-down"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+            className="award">
               {/* <h2 className="awardTitle">Our Awards & Certification</h2> */}
               <ul className="awardList">
                 <li>

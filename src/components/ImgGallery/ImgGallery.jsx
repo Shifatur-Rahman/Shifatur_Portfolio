@@ -71,8 +71,11 @@ const ImgGallery = () => {
         <Spinner />
       ) : (
         <Container style={{ marginTop: "5rem" }}>
-            <div data-aos="fade-up"
-              data-aos-duration="3000">
+            <div   
+            data-aos="fade-down"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000">
               <ImageList
                 className="ImageGallery"
                 sx={{ width: "100%", height: "auto", overflow: "hidden" }}
@@ -137,7 +140,7 @@ const ImgGallery = () => {
                 />
               </DialogContent>
             </Dialog>
-            
+
         </Container>
       )}
     </>
