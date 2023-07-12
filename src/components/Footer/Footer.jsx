@@ -109,13 +109,7 @@ const Footer = () => {
         {/* Second footer section */}
 
         <Row style={{ margin: "3rem" }}>
-          <Col className="footerLocation" sm={12} md={5} lg={5}>
-            <h1 style={{ textAlign: "center" }} className="footerTitle">
-              Our Location
-            </h1>
-            <GoogleMap />
-          </Col>
-          <Col sm={12} lg={2} md={2}></Col>
+         
           <Col sm={12} md={5} lg={5}>
             <h1 style={{ textAlign: "center" }} className="footerTitle">
               Quick connect
@@ -192,6 +186,16 @@ const Footer = () => {
               </div>
             </Form>
           </Col>
+
+          <Col sm={12} lg={2} md={2}></Col>
+          
+          <Col className="footerLocation" sm={12} md={5} lg={5}>
+            <h1 style={{ textAlign: "center" }} className="footerTitle">
+              Our Location
+            </h1>
+            <GoogleMap />
+          </Col>
+         
         </Row>
 
         <hr style={{color:"#fff"}} />
