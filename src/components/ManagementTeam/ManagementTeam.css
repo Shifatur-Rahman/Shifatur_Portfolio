@@ -45,8 +45,8 @@
 }
 
 .profileBtn:hover {
-  background-color: darkcyan;
-  color:  #cccccc;
+  background-color: #17a2b8;;
+  color:  #fff;
   transition: all ease 1s;
 }
 
