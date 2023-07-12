@@ -67,7 +67,7 @@ const Furniture = () => {
                   value. Owing to their below enlisted attributes office furniture made from
                   wood and particle board, these products are highly appreciated
                   and accepted by our corporate clients and very coveted in the
-                  markets of entire Bangladesh:
+                  markets of entire Bangladesh.
 
                   <br /> <br />
 

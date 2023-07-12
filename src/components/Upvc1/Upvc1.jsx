@@ -15,7 +15,8 @@ import { Blurhash } from "react-blurhash";
 import Spinner from "../Spinner/Spinner.jsx";
 
 const Upvc1 = () => {
-  const [loading, setLoading] = useState(true);
+  
+const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -23,7 +24,7 @@ const Upvc1 = () => {
     }, 3200);
   }, []);
 
-  const [imgLoad, setImgLoad] = useState(false);
+const [imgLoad, setImgLoad] = useState(false);
   
   useEffect(() => {
     const imgPromises = itemData.map((item) => {
@@ -39,7 +40,7 @@ const Upvc1 = () => {
       .then(() => setImgLoad(true))
       .catch(() => setImgLoad(true));
   }, []);
- 
+
   return (
     <>
       {
@@ -95,6 +96,7 @@ const Upvc1 = () => {
                   </ImageList>
                 </div>
               </Col>
+              
             </Row>
           </Container>
         )
