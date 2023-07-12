@@ -123,7 +123,7 @@ const Footer = () => {
                   className="formControl"
                   type="text"
                   name="username"
-                  placeholder="Enter your name: "
+                  placeholder="Enter your Name"
                   value={name.username}
                   onChange={(e) => setName(e.target.value)}
                   Value={name}
@@ -134,7 +134,7 @@ const Footer = () => {
                     style={{ width: "350px", fontSize: "11px", height: "50px" }}
                     severity="error"
                   >
-                    Please enter your name!
+                    Enter your name
                   </Alert>
                 ) : (
                   ""
@@ -148,7 +148,7 @@ const Footer = () => {
                   className="formControl"
                   type="email"
                   name="email"
-                  placeholder="Enter your Email: "
+                  placeholder="Enter your Email"
                   value={name.email}
                   onChange={(e) => setEmail(e.target.value)}
                   Value={email}
@@ -173,7 +173,7 @@ const Footer = () => {
                   as="textarea"
                   rows="5"
                   name="message"
-                  placeholder="Write your message here...."
+                  placeholder="Write your message here"
                   value={name.text}
                   onChange={(e) => setMessage(e.target.value)}
                   Value={message}
