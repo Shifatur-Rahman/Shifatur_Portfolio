@@ -46,10 +46,10 @@ margin-bottom: 3rem;
 .socialLink {
   text-decoration: none;
   /* color: #595959; */
-  color: #e6e6e6;
+  color: #d9d9d9;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .socialLink:hover {
@@ -67,7 +67,7 @@ margin-bottom: 3rem;
   font-size: 18px;
   margin-right: 5px;
   /* color: rgb(66, 103, 178); */
-  color: #577bc1;
+  color: #fff;
 }
 
 .socialFontYoutube {
@@ -92,7 +92,8 @@ margin-bottom: 3rem;
 .socialFontInsta {
   font-size: 18px;
   margin-right: 5px;
-  color: #016773;
+  /* color: #016773; */
+  color: #C13584;
 }
 .copyrightSection {
   padding: 20px;
@@ -169,8 +170,21 @@ margin-bottom: 3rem;
 }
 
 .footerLogo{
-  width: 100px;
-  height: 60px;
+  width: 110px;
+  height: 70px;
+}
+
+.footerTgLogo{
+  width: 120px;
+  height: 70px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.logoName{
+  margin-bottom: 0px;
+  width: 200px;
+  height: 50px;
 }
 
 @media (max-width: 768px) {

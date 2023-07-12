@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { BsFacebook } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
 import { BsYoutube, BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
@@ -18,6 +18,8 @@ import GoogleMap from "../GoogleMap/GoogleMap";
 import axios from "axios";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import logo from "../../asset/images/Logo/talukderLogo.png"
+import logoName from "../../asset/images/Logo/talukderName.png"
 
 const Footer = () => {
   let [name, setName] = useState("");
@@ -69,9 +71,10 @@ const Footer = () => {
     {/* <div style={{background:"linear-gradient(#f2f2f2, #45637d )"}}> */}
     <div style={{background:"#45637d"}}>
       <Container className="footerSection">
+
         {/* First footer section */}
 
-          <Row style={{ marginBottom: "2rem", textAlign: "center" }}>
+          <Row style={{ marginBottom: "1rem", textAlign: "center" }}>
           {/* <h2 className="knowusTitle">Contact us</h2> */}
          
           <Col style={{marginTop:"3rem"}} sm={12} md={6} lg={4}>
@@ -173,7 +176,7 @@ const Footer = () => {
                   as="textarea"
                   rows="5"
                   name="message"
-                  placeholder="Write your message here"
+                  placeholder="Write your Message here"
                   value={name.text}
                   onChange={(e) => setMessage(e.target.value)}
                   Value={message}
@@ -211,14 +214,21 @@ const Footer = () => {
             
           }}
         >
-          <Col sm={12} md={4} lg={4} className="footerTextAlign">
+          <Col sm={12} md={4} lg={5} className="footerTextAlign">
+           
+            <div>
+              {/* <img className="footerTgLogo" src={logo} alt="logo" /> */}
+               <img className="logoName" src={logoName} alt="logoName" />
+            </div>
+
             <h1 className="footerTitle">Head Office</h1>
 
             <AiFillHome className="socialFontPhone" />
             <a className="socialLink">
               {" "}
-              Talukder Group of Industries House #39, Lake Drive Road,
-              Nikunja-1, Dhaka-1229.Bangladesh
+              Talukder Group of Industries, House #39, Lake Drive Road,
+              <br />
+              Nikunja-1, Dhaka-1229, Bangladesh
             </a>
             <br />
 
@@ -234,9 +244,9 @@ const Footer = () => {
             <a className="socialLink"> +88-02-48955604</a>
           </Col>
 
-          <Col sm={12} md={4} lg={4} className="footerTextAlign">
+          <Col sm={12} md={4} lg={3} className="footerTextAlign">
             <h1 className="footerTitle">Get to touch</h1>
-            <BsFacebook className="socialFontFacebook" />
+            <FaFacebookF className="socialFontFacebook" />
             <a
               className="socialLink"
               href="https://www.facebook.com/"
@@ -282,7 +292,7 @@ const Footer = () => {
             <AiFillHome className="socialFontPhone" />
             <a className="socialLink">
               {" "}
-              Talukder uPVC Factory, Baniargati, Bashundia, Jessore
+              Talukder uPVC Factory, Baniargati, Bashundia, Jashore
             </a>
             <br />
 
