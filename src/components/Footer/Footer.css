@@ -216,23 +216,18 @@ margin-bottom: 3rem;
 
 
 @media (max-width: 600px) {
-
   .logoName{
     margin-bottom: 0px;
     width: 160px;
     height: 40px;
   }
-
   .contactIcon{
     font-size: 25px;
   }
-
   .contactFormHeader {
     font-size: 13px !important;
   }
-
   .footerTitle {
     font-size: 16px;
   }
-
 }
