@@ -66,15 +66,15 @@ const Footer = () => {
 
   return (
     <>
-    <div style={{background:"linear-gradient(#f2f2f2, #000 )"}}>
+    {/* <div style={{background:"linear-gradient(#f2f2f2, #45637d )"}}> */}
+    <div style={{background:"#45637d"}}>
       <Container className="footerSection">
         {/* First footer section */}
-        <Row style={{ marginBottom: "2rem", textAlign: "center" }}>
-          {/* data-aos='fade-up' */}
-          <h2 className="knowusTitle">Contact us</h2>
 
+          <Row style={{ marginBottom: "2rem", textAlign: "center" }}>
+          <h2 className="knowusTitle">Contact us</h2>
           <Col sm={12} md={6} lg={4}>
-            <MdPhoneIphone className="contactIcon" />
+             <MdPhoneIphone className="contactIcon" />
             <p className="contactIconName">
               <strong>Cell:</strong> +88-01966-333355
             </p>
@@ -118,7 +118,6 @@ const Footer = () => {
             <Form onSubmit={submitHandle}>
               <Form.Group className="mb-3">
                 <Form.Label className="contactFormHeader">Name</Form.Label>
-
                 <Form.Control
                   className="formControl"
                   type="text"
@@ -188,7 +187,7 @@ const Footer = () => {
           </Col>
 
           <Col sm={12} lg={2} md={2}></Col>
-          
+
           <Col className="footerLocation" sm={12} md={5} lg={5}>
             <h1 style={{ textAlign: "center" }} className="footerTitle">
               Our Location
