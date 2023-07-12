@@ -72,8 +72,9 @@ const Footer = () => {
         {/* First footer section */}
 
           <Row style={{ marginBottom: "2rem", textAlign: "center" }}>
-          <h2 className="knowusTitle">Contact us</h2>
-          <Col sm={12} md={6} lg={4}>
+          {/* <h2 className="knowusTitle">Contact us</h2> */}
+         
+          <Col style={{marginTop:"3rem"}} sm={12} md={6} lg={4}>
              <MdPhoneIphone className="contactIcon" />
             <p className="contactIconName">
               <strong>Cell:</strong> +88-01966-333355
@@ -83,7 +84,7 @@ const Footer = () => {
             </p>
           </Col>
 
-          <Col sm={12} md={6} lg={4}>
+          <Col style={{marginTop:"3rem"}} sm={12} md={6} lg={4}>
             <AiOutlineMail className="contactIcon" />
             <p className="contactIconName">
               <strong>Email:</strong> info@talukder-group.com.bd
@@ -93,7 +94,7 @@ const Footer = () => {
             </p>
           </Col>
 
-          <Col sm={12} md={6} lg={4}>
+          <Col style={{marginTop:"3rem"}} sm={12} md={6} lg={4}>
             <GoLocation className="contactIcon" />
             <p className="contactIconName" style={{ fontSize: "13px" }}>
               <strong>Location:</strong> House #39, Lake Drive Road, Nikunja-1

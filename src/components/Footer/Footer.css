@@ -1,5 +1,5 @@
 .footerSection {
-  margin-top: 2rem;
+  margin-top: 5rem;
   /* box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.4); */
 }
 
@@ -8,8 +8,8 @@ a {
 }
 
 .footerTitle {
-  /* color: #2E4F4F; */
-  color: #17a2b8;
+  color: #fff;
+  /* color: #17a2b8; */
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -120,10 +120,12 @@ margin-bottom: 3rem;
   font-size: 25px;
   border-radius: 50%;
   margin-bottom: 10px;
-  color: #016773;
+  /* color: #016773; */
+  color: #fff;
 }
 
 .contactIconName {
+  color: #cccccc;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
@@ -162,6 +164,11 @@ margin-bottom: 3rem;
 
 .rightContact {
   padding: 0 0 0 5rem;
+}
+
+.footerLogo{
+  width: 100px;
+  height: 60px;
 }
 
 @media (max-width: 768px) {
