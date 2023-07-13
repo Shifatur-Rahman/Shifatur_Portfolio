@@ -10,9 +10,9 @@ import foundry5 from "../../asset/images/Concern/Foundry/05.jpg";
 import foundry6 from "../../asset/images/Concern/Foundry/06.jpg";
 import foundry7 from "../../asset/images/Concern/Foundry/07.jpg";
 import foundry8 from "../../asset/images/Concern/Foundry/08.jpg";
-import { Blurhash } from "react-blurhash";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
+// import { Blurhash } from "react-blurhash";
+// import ImageList from "@mui/material/ImageList";
+// import ImageListItem from "@mui/material/ImageListItem";
 import Spinner from "../Spinner/Spinner.jsx";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -25,22 +25,22 @@ const Foundry = () => {
     }, 3200);
   }, []);
 
-  const [imgLoad, setImgLoad] = useState(false);
+  // const [imgLoad, setImgLoad] = useState(false);
   
-  useEffect(() => {
-    const imgPromises = itemData.map((item) => {
-      return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.onload = () => resolve();
-        img.onerror = () => reject();
-        img.src = item.img;
-      });
-    });
+  // useEffect(() => {
+  //   const imgPromises = itemData.map((item) => {
+  //     return new Promise((resolve, reject) => {
+  //       const img = new Image();
+  //       img.onload = () => resolve();
+  //       img.onerror = () => reject();
+  //       img.src = item.img;
+  //     });
+  //   });
 
-    Promise.all(imgPromises)
-      .then(() => setImgLoad(true))
-      .catch(() => setImgLoad(true));
-  }, []);
+  //   Promise.all(imgPromises)
+  //     .then(() => setImgLoad(true))
+  //     .catch(() => setImgLoad(true));
+  // }, []);
 
   
   return <>
@@ -86,52 +86,18 @@ const Foundry = () => {
                   // data-aos-easing="linear"
                   // data-aos-duration="1000"
                   >
-                  <Card className="ManagementCard">
-                    <LazyLoadImage
-                      className="achievementCardImg"
-                      variant="top"
-                      src={item.img}
-                      alt={item.title}
-                    />
-                  </Card>
+                  <Card className="concernCard">
+                      <LazyLoadImage
+                        className="concernCardImg"
+                        variant="top"
+                        src={item.img}
+                        alt={item.title}
+                      />
+                    </Card>
                 </div>
               </Col>
             ))}
-            </Row>
-
-              {/* <Col style={{ marginTop: "3rem" }}>
-                <div data-aos="zoom-in"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500">
-                  <ImageList className="ImageGallery"
-                    sx={{ width: "100%", height: "auto", overflow: "hidden" }}
-                    variant="woven"
-                    cols={4}>
-                    {itemData.map((item) => (
-                      <ImageListItem key={item.img}>
-                        {imgLoad ? (
-                          <img
-                            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                            alt={item.title}
-                            loading="lazy"
-                          />
-                        ) : (
-                          <div style={{ width: "100%", height: "100%" }}>
-                            <Blurhash
-                              hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                              resolutionX={32}
-                              resolutionY={32}
-                              punch={1}
-                            />
-                          </div>
-                        )}
-                      </ImageListItem>
-                    ))}
-                  </ImageList>
-                </div>
-              </Col> */}
-
+            </Row>         
 
    </Container>
 

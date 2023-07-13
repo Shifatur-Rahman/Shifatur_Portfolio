@@ -101,9 +101,9 @@ const Plastic = () => {
                   // data-aos-easing="linear"
                   // data-aos-duration="1000"
                   >
-                    <Card className="ManagementCard">
+                    <Card className="concernCard">
                       <LazyLoadImage
-                        className="achievementCardImg"
+                        className="concernCardImg"
                         variant="top"
                         src={item.img}
                         alt={item.title}

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Card } from 'react-bootstrap'
 import furniture1 from "../../asset/images/Concern/Furniture/01.jpg";
 import furniture2 from "../../asset/images/Concern/Furniture/02.jpg";
 import furniture3 from "../../asset/images/Concern/Furniture/03.jpg";
@@ -8,11 +8,12 @@ import furniture5 from "../../asset/images/Concern/Furniture/05.jpg";
 import furniture6 from "../../asset/images/Concern/Furniture/06.jpg";
 import furniture7 from "../../asset/images/Concern/Furniture/07.jpg";
 import furniture8 from "../../asset/images/Concern/Furniture/08.jpg";
-import { Blurhash } from "react-blurhash";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
+// import { Blurhash } from "react-blurhash";
+// import ImageList from "@mui/material/ImageList";
+// import ImageListItem from "@mui/material/ImageListItem";
 import "./Furniture.css"
 import Spinner from "../Spinner/Spinner.jsx";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Furniture = () => {
     const [imgLoad, setImgLoad] = useState(false);
@@ -91,41 +92,34 @@ const Furniture = () => {
                   </ul>
                 </p>
               </Col>
-
-              <Col style={{ marginTop: "3rem" }}>
-              <div data-aos="zoom-in"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500">
-                <ImageList className="ImageGallery"
-                  sx={{ width: "100%", height: "auto", overflow: "hidden" }}
-                  variant="woven"
-                  cols={4}>
-                  {itemData.map((item) => (
-                    <ImageListItem key={item.img}>
-                      {imgLoad ? (
-                        <img
-                          src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                          srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                          alt={item.title}
-                          loading="lazy"
-                        />
-                      ) : (
-                        <div style={{ width: "100%", height: "100%" }}>
-                          <Blurhash
-                            hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                            resolutionX={32}
-                            resolutionY={32}
-                            punch={1}
-                          />
-                        </div>
-                      )}
-                    </ImageListItem>
-                  ))}
-                </ImageList>
-                </div>
-              </Col>
-
+              
    </Row>
+
+   <Row style={{ marginTop: "3rem" }}>
+              {/* <Col style={{ marginTop: "3rem" }}> */}
+              {itemData.map((item) => (
+                <Col key={item.title} lg={3} md={4} sm={6}>
+                  <div
+                  // data-aos="zoom-out"
+                  // data-aos-easing="linear"
+                  // data-aos-duration="1000"
+                  >
+                   <Card className="concernCard">
+                      <LazyLoadImage
+                        className="concernCardImg"
+                        variant="top"
+                        src={item.img}
+                        alt={item.title}
+                      />
+                    </Card>
+                  </div>
+                </Col>
+              ))}
+            </Row>
+
+
+
+
   </Container>
       )
     }
