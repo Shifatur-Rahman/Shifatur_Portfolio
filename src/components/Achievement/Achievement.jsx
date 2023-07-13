@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Achievement.css";
-import Card from "react-bootstrap/Card";
 import achievement1Img from "../../asset/images/achievements/01.jpg";
 import achievement2Img from "../../asset/images/achievements/02.jpg";
 import achievement3Img from "../../asset/images/achievements/03.jpg";
@@ -27,7 +26,7 @@ import awards15Img from "../../asset/images/achievements/awards15.jpg";
 // import awards19Img from "../../asset/images/achievements/awards19.png";
 // import awards20Img from "../../asset/images/achievements/awards20.png";
 import awards21Img from "../../asset/images/achievements/awards21.jpg";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Card } from "react-bootstrap";
 import Spinner from "../Spinner/Spinner";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -100,9 +99,11 @@ const Achievement = () => {
           <Row style={{ marginTop: "3rem" }}>
             {achievementImg.map((item) => (
               <Col key={item.title} lg={3} md={4} sm={6}>
-                <div data-aos="zoom-out"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000">
+                <div 
+                  // data-aos="zoom-out"
+                  // data-aos-easing="linear"
+                  // data-aos-duration="1000"
+                  >
                   <Card className="ManagementCard">
                     <LazyLoadImage
                       className="achievementCardImg"
@@ -116,7 +117,6 @@ const Achievement = () => {
             ))}
           </Row>
          
-
       </Container>
 }
     </>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Plastic.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import plastic1 from "../../asset/images/Concern/Plastics/01.jpg";
 import plastic2 from "../../asset/images/Concern/Plastics/02.jpg";
 import plastic3 from "../../asset/images/Concern/Plastics/03.jpg";
@@ -9,10 +9,11 @@ import plastic5 from "../../asset/images/Concern/Plastics/05.jpg";
 import plastic6 from "../../asset/images/Concern/Plastics/06.jpg";
 import plastic7 from "../../asset/images/Concern/Plastics/07.jpg";
 import plastic8 from "../../asset/images/Concern/Plastics/08.jpg";
-import { Blurhash } from "react-blurhash";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
+// import { Blurhash } from "react-blurhash";
+// import ImageList from "@mui/material/ImageList";
+// import ImageListItem from "@mui/material/ImageListItem";
 import Spinner from "../Spinner/Spinner.jsx";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Plastic = () => {
 
@@ -89,11 +90,42 @@ const Plastic = () => {
               </ul>
             </p>
           </Col>
+     </Row>
 
-              <Col style={{ marginTop: "3rem" }}>
-                <div data-aos="zoom-in"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500">
+            <Row style={{ marginTop: "3rem" }}>
+              {/* <Col style={{ marginTop: "3rem" }}> */}
+              {itemData.map((item) => (
+                <Col key={item.title} lg={3} md={4} sm={6}>
+                  <div
+                  // data-aos="zoom-out"
+                  // data-aos-easing="linear"
+                  // data-aos-duration="1000"
+                  >
+                    <Card className="ManagementCard">
+                      <LazyLoadImage
+                        className="achievementCardImg"
+                        variant="top"
+                        src={item.img}
+                        alt={item.title}
+                      />
+                    </Card>
+                  </div>
+                </Col>
+              ))}
+            </Row>
+
+
+
+
+
+
+
+
+
+
+
+
+                {/* <div>
                   <ImageList className="ImageGallery"
                     sx={{ width: "100%", height: "auto", overflow: "hidden" }}
                     variant="woven"
@@ -120,10 +152,8 @@ const Plastic = () => {
                       </ImageListItem>
                     ))}
                   </ImageList>
-                </div>
-              </Col>
-     
-        </Row>
+                </div> */}
+         
       </Container>
       )}
     </>

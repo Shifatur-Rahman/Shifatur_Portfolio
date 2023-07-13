@@ -4,7 +4,7 @@
 }
 
 button.slick-arrow.slick-next::before, button.slick-arrow.slick-prev::before{
-  color: #17a2b8 !important;
+  color: #45637d !important;
   background-color: #fff !important;
   border-radius: 50%;
 }

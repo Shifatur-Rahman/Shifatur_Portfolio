@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 //import { LazyLoadImage } from "react-lazy-load-image-component"; // lazy component
-import { Container } from "react-bootstrap";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
@@ -28,6 +27,8 @@ import "./ImgGallery.css";
 import Spinner from "../Spinner/Spinner.jsx";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { Blurhash } from "react-blurhash";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Col, Container, Row, Card } from "react-bootstrap";
 
 const ImgGallery = () => {
 
@@ -81,7 +82,6 @@ const ImgGallery = () => {
                 sx={{ width: "100%", height: "auto", overflow: "hidden" }}
                 variant="woven"
                 cols={4}
-              //gap={6}
               >
                 {itemData.map((item) => (
                   <ImageListItem style={{ cursor: "pointer" }}
@@ -107,22 +107,11 @@ const ImgGallery = () => {
                         />
                       </div>
                     )}
-                    {/* <div className="galleryImg">
-                    <LazyLoadImage
-                      src={`${item.img}?w=161&fit=crop&auto=format`}
-                      srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`} 
-                      alt={item.title}
-                      loading="lazy"
-                      style={{ cursor: "pointer" }}
-                    />
-                  </div> */}
                   </ImageListItem>
                 ))}
-
               </ImageList>
             </div>
      
-          
             <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
               <DialogTitle>{selectedImage?.title}</DialogTitle>
               <DialogContent>

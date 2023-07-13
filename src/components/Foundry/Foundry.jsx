@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Foundry.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import foundry1 from "../../asset/images/Concern/Foundry/01.jpg";
 import foundry2 from "../../asset/images/Concern/Foundry/02.jpg";
 import foundry3 from "../../asset/images/Concern/Foundry/03.jpg";
@@ -14,6 +14,7 @@ import { Blurhash } from "react-blurhash";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import Spinner from "../Spinner/Spinner.jsx";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Foundry = () => {
   const [loading, setLoading] = useState(true);
@@ -74,8 +75,31 @@ const Foundry = () => {
               </ul>
             </p>
           </Col>
+          </Row>
 
-              <Col style={{ marginTop: "3rem" }}>
+          <Row style={{ marginTop: "3rem" }}>
+              {/* <Col style={{ marginTop: "3rem" }}> */}
+              {itemData.map((item) => (
+              <Col key={item.title} lg={3} md={4} sm={6}>
+                <div 
+                  // data-aos="zoom-out"
+                  // data-aos-easing="linear"
+                  // data-aos-duration="1000"
+                  >
+                  <Card className="ManagementCard">
+                    <LazyLoadImage
+                      className="achievementCardImg"
+                      variant="top"
+                      src={item.img}
+                      alt={item.title}
+                    />
+                  </Card>
+                </div>
+              </Col>
+            ))}
+            </Row>
+
+              {/* <Col style={{ marginTop: "3rem" }}>
                 <div data-aos="zoom-in"
                   data-aos-easing="linear"
                   data-aos-duration="1500">
@@ -106,9 +130,9 @@ const Foundry = () => {
                     ))}
                   </ImageList>
                 </div>
-              </Col>
+              </Col> */}
 
-    </Row>
+
    </Container>
 
 )
