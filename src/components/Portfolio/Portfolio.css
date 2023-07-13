@@ -63,8 +63,8 @@
       }
 
       .portfolio-item img:hover{
-        border: 1px solid #17a2b8;
-        transition: all ease 1s;
+        border: 3px solid #45637d;
+        /* transition: all ease 1s; */
       }
 
       .itemTitle{
