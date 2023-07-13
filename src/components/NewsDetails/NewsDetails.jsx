@@ -11,6 +11,7 @@ import news4 from "../../asset/images/news/news4.jpg";
 import news5 from "../../asset/images/news/news5.jpg";
 import news6 from "../../asset/images/news/news6.jpg";
 import { AiOutlineCalendar } from "react-icons/ai";
+import {FaUser} from "react-icons/fa";
 import "aos/dist/aos.css";
 
 const NewsDetails = () => {
@@ -92,6 +93,8 @@ const NewsDetails = () => {
                       // style={{ fontSize: "20px", color: "#17a2b8",marginBottom:"3px" }}
                     />{" "}
                     <span className="newsHeaderSpan">{item.date}</span>{" "}
+                    <FaUser className="adminUser" /> 
+                    <span className="adminSpan"> Posted by Admin</span>
                   </p>
                   
                   <p

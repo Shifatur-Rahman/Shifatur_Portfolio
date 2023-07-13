@@ -47,6 +47,19 @@
   font-size: 13px;
 }
 
+.adminUser{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.adminSpan{
+  
+}
+
+.adminUser{
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1200px) {
   .newsCard {
      height: 500px;

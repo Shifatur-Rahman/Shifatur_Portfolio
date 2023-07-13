@@ -5,7 +5,7 @@ html {
 .knowusTitle {
   font-size: 35px;
   /* color: #17a2b8; */
-  color: #45637d;
+  color: #17a2b8;
   text-align: center;
   margin: 3rem 0;
   font-family: "Montserrat", sans-serif;
@@ -25,6 +25,7 @@ html {
   margin-top: 15px;
   font-weight: 700;
   border: 1px solid #17a2b8;
+  color: #17a2b8;
 }
 
 .knowMoreBtn:hover {
@@ -32,6 +33,7 @@ html {
   color: #fff !important;
   border-radius: 5px;
   transition: all ease 1.5s;
+  border: 1px solid #45637d;
 }
 
 
