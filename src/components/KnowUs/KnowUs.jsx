@@ -16,10 +16,7 @@ function KnowUs(props, ref) {
         <Row>
           <Col>
             {/* data-aos='fade-right' */}
-            <h1 data-aos="fade-left"
-              data-aos-anchor="#example-anchor"
-              data-aos-offset="500"
-              data-aos-duration="1500" className="knowusTitle">Know Us</h1>
+            <h1 className="knowusTitle">Know Us</h1>
             <p className="knowusText">
               {" "}
               Talukder Group of Industries had started its journey since July,

@@ -4,11 +4,12 @@ html {
 
 .knowusTitle {
   font-size: 35px;
-  color: #17a2b8;
+  /* color: #17a2b8; */
+  color: #45637d;
   text-align: center;
   margin: 3rem 0;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .knowusText {

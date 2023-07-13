@@ -66,8 +66,9 @@
 
 .serviceBtn {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #45637d;
   font-weight: 700;
+  border: 1px solid #45637d;
 }
 
 .learnBtn {
@@ -76,23 +77,24 @@
 
 .serviceBtn:hover,
 .learnBtn:hover {
-  color: #17a2b8 !important;
+  color: #45637d !important;
   /* font-weight: 700 !important; */
 }
 
 .serviceBtn:focus {
-  background-color: #17a2b8;
+  background-color: #45637d;
   color: #fff !important;
+  border: 1px solid #45637d;
 }
 
 .learnBtn:focus {
-  color: #17a2b8;
+  color: #45637d;
 }
 
 /* slider down key */
 
 .carousel-indicators .active {
-  background-color: #60d9eb;
+  background-color: #45637d;
   height: 4px !important;
   transform: rotateY(360deg);
   transition: transform 1.5s ease-in-out;
@@ -116,9 +118,9 @@
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
-  background-color: #17a2b8;
+  /* background-color: #45637d;
   border-radius: 50%;
-  color: red !important;
+  color: red !important; */
 }
 
 .topBannerTitle {
@@ -167,7 +169,6 @@
     font-size: 13px !important;
     font-weight: 400 !important;
   }
-
 }
 
 @media screen and (max-width: 600px) {
