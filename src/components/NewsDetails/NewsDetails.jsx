@@ -93,8 +93,8 @@ const NewsDetails = () => {
                       // style={{ fontSize: "20px", color: "#17a2b8",marginBottom:"3px" }}
                     />{" "}
                     <span className="newsHeaderSpan">{item.date}</span>{" "}
-                    <FaUser className="adminUser" /> 
-                    <span className="adminSpan"> Posted by Admin</span>
+                    
+                    <span className="adminSpan"> <FaUser className="adminUser" />Posted by Admin</span>
                   </p>
                   
                   <p
@@ -103,6 +103,7 @@ const NewsDetails = () => {
                   >
                     {item.description}
                   </p>
+
                 </Card.Body>
               </Card>
               </div>
